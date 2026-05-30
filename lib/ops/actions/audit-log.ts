@@ -26,7 +26,6 @@ function ensureDir(): void {
 }
 
 function readLog(): ActionAuditLog {
-  ensureDir()
   if (!existsSync(LOG_PATH)) return { updatedAt: '', entries: [] }
   try {
     return JSON.parse(readFileSync(LOG_PATH, 'utf8')) as ActionAuditLog

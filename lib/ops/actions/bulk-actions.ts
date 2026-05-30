@@ -42,7 +42,6 @@ function ensureDir(): void {
 }
 
 function readQueue(): ActionQueue {
-  ensureDir()
   if (!existsSync(QUEUE_PATH)) return { updatedAt: '', items: [] }
   try {
     return JSON.parse(readFileSync(QUEUE_PATH, 'utf8')) as ActionQueue

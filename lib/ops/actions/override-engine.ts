@@ -36,7 +36,6 @@ function ensureDir(): void {
 }
 
 function readStore(): OverrideStore {
-  ensureDir()
   if (!existsSync(STORE_PATH)) return { updatedAt: '', overrides: {} }
   try {
     return JSON.parse(readFileSync(STORE_PATH, 'utf8')) as OverrideStore

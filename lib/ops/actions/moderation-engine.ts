@@ -32,7 +32,6 @@ function ensureDir(): void {
 }
 
 function readStore(): ModerationStore {
-  ensureDir()
   if (!existsSync(STORE_PATH)) return { updatedAt: '', entries: {} }
   try {
     return JSON.parse(readFileSync(STORE_PATH, 'utf8')) as ModerationStore
