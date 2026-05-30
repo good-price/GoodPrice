@@ -1,103 +1,42 @@
+/**
+ * middleware.ts
+ *
+ * Session-cookie guard for all /admin/* routes.
+ *
+ * Replaces the previous HTTP Basic Auth implementation.
+ * Cookie: gp-admin — HttpOnly, Secure, SameSite=Lax, Path=/admin, 8h TTL
+ * Token:  stateless HMAC-SHA256 signed payload (see lib/admin/session.ts)
+ *
+ * Login page (/admin/login) is always accessible — it is the auth entry point.
+ * Unauthenticated requests are redirected to /admin/login?next=<original-path>.
+ *
+ * Required env var:
+ *   ADMIN_SESSION_SECRET  — random string ≥ 32 chars (set in Vercel dashboard)
+ *
+ * Edge Runtime safe: Web Crypto API only (no Node.js).
+ */
+
 import { NextRequest, NextResponse } from 'next/server'
+import { verifyToken, COOKIE_NAME }  from '@/lib/admin/session'
 
-/**
- * Middleware — HTTP Basic Auth guard for /admin routes.
- *
- * Credential system:
- *   Username  : good_price  (fixed)
- *   Password  : GPddmmaaD   (daily-rotating, Bogota time)
- *
- *   Format examples:
- *     29 May 2026  → GP290526D
- *     01 Jan 2027  → GP010127D
- *
- * Development fallback (NODE_ENV === 'development'):
- *   username: dev  /  password: dev
- *
- * No env vars required — the password is derived from the current
- * Bogota date at authentication time (computed on every request).
- *
- * Edge Runtime safe: uses Intl.DateTimeFormat + atob() (Web APIs only).
- */
-
-const ADMIN_USERNAME = 'good_price'
-const ADMIN_REALM    = 'GOODPRICE Ops'
-
-// ── Dynamic password ──────────────────────────────────────────────────────────
-
-/**
- * Computes the valid admin password for the current Bogota calendar date.
- *
- * Format: GP{dd}{mm}{yy}D
- *   dd = zero-padded day
- *   mm = zero-padded month
- *   yy = 2-digit year
- *
- * Uses Intl.DateTimeFormat with timeZone: 'America/Bogota' so the password
- * rotates at midnight Colombia time regardless of where the server runs.
- */
-function computeDynamicPassword(): string {
-  const now = new Date()
-  const fmt = new Intl.DateTimeFormat('es-CO', {
-    timeZone: 'America/Bogota',
-    day:      '2-digit',
-    month:    '2-digit',
-    year:     '2-digit',
-  })
-  const parts = fmt.formatToParts(now)
-  const get   = (type: string) => parts.find(p => p.type === type)?.value ?? '01'
-  return `GP${get('day')}${get('month')}${get('year')}D`
-}
-
-// ── Auth validation ───────────────────────────────────────────────────────────
-
-function isAuthorised(authHeader: string): boolean {
-  if (!authHeader.startsWith('Basic ')) return false
-
-  let username: string
-  let password: string
-  try {
-    const decoded  = atob(authHeader.slice(6))
-    const colonIdx = decoded.indexOf(':')
-    username = colonIdx >= 0 ? decoded.slice(0, colonIdx)      : decoded
-    password = colonIdx >= 0 ? decoded.slice(colonIdx + 1)     : ''
-  } catch {
-    return false // invalid base64
-  }
-
-  // Development convenience: dev / dev
-  if (process.env.NODE_ENV === 'development') {
-    if (username === 'dev' && password === 'dev') return true
-  }
-
-  // Production: fixed username + daily-rotating Bogota-time password
-  return username === ADMIN_USERNAME && password === computeDynamicPassword()
-}
-
-// ── Route handler ─────────────────────────────────────────────────────────────
-
-export function middleware(req: NextRequest) {
+export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
 
-  // Only guard /admin/ops and its sub-routes
-  if (!pathname.startsWith('/admin/ops')) {
-    return NextResponse.next()
-  }
+  // Login page is always accessible — never gate the gate itself
+  if (pathname === '/admin/login') return NextResponse.next()
 
-  if (isAuthorised(req.headers.get('authorization') ?? '')) {
-    return NextResponse.next()
-  }
+  // Verify the session cookie
+  const token   = req.cookies.get(COOKIE_NAME)?.value ?? ''
+  const session = token ? await verifyToken(token) : null
 
-  // Prompt the browser's native Basic Auth dialog
-  return new NextResponse('Acceso denegado — GOODPRICE Ops requiere autenticación.', {
-    status: 401,
-    headers: {
-      'WWW-Authenticate': `Basic realm="${ADMIN_REALM}", charset="UTF-8"`,
-      'Content-Type':     'text/plain; charset=utf-8',
-    },
-  })
+  if (session) return NextResponse.next()
+
+  // No valid session → redirect to login, preserving the target URL
+  const loginUrl = new URL('/admin/login', req.url)
+  loginUrl.searchParams.set('next', pathname)
+  return NextResponse.redirect(loginUrl)
 }
 
 export const config = {
-  matcher: ['/admin/ops', '/admin/ops/:path*'],
+  matcher: ['/admin', '/admin/:path*'],
 }

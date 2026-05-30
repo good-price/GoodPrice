@@ -15,7 +15,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { usePathname }    from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import Link               from 'next/link'
 import { CommandPalette }    from '@/components/ops/CommandPalette'
 import { LiveExecutionFeed } from '@/components/ops/LiveExecutionFeed'
@@ -88,8 +88,14 @@ export function AdminShell({
   initialEvents = [],
 }: Props) {
   const pathname = usePathname()
+  const router   = useRouter()
   const [paletteOpen, setPaletteOpen] = useState(false)
   const [sidebarOpen, setSidebarOpen] = useState(true)
+
+  const handleLogout = useCallback(async () => {
+    await fetch('/api/admin/auth', { method: 'DELETE' })
+    router.push('/admin/login')
+  }, [router])
 
   const segment      = pathname.replace('/admin', '').replace('/', '') || ''
   const currentLabel = BREADCRUMB_LABELS[segment] ?? segment
@@ -236,6 +242,15 @@ export function AdminShell({
               title="Command palette (Ctrl+K)"
             >
               <span>⌘</span><span>K</span>
+            </button>
+
+            {/* Logout */}
+            <button
+              onClick={handleLogout}
+              className="px-2.5 py-1.5 rounded-lg text-xs text-gray-400 hover:text-red-600 hover:bg-red-50 border border-transparent hover:border-red-100 transition-all"
+              title="Cerrar sesión"
+            >
+              Salir
             </button>
           </div>
         </header>
