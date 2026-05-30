@@ -45,7 +45,8 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
+import { dataPath } from '@/lib/data-path'
 import type { Product } from '@/types'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -102,7 +103,7 @@ export interface CatalogLinkHealthReport {
 // ── File path ─────────────────────────────────────────────────────────────────
 
 function getCachePath(): string {
-  return join(process.cwd(), 'data', 'catalog', 'link-health.json')
+  return dataPath('data', 'catalog', 'link-health.json')
 }
 
 // ── Disk I/O ──────────────────────────────────────────────────────────────────

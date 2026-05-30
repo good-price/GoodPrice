@@ -18,7 +18,8 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
+import { dataPath } from '@/lib/data-path'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 
@@ -37,7 +38,7 @@ export interface SuppressedStore {
 
 // ── Path ──────────────────────────────────────────────────────────────────────
 
-const SUPPRESSED_PATH = join(process.cwd(), 'data', 'catalog', 'live-truth', 'suppressed.json')
+const SUPPRESSED_PATH = dataPath('data', 'catalog', 'live-truth', 'suppressed.json')
 
 // ── Module-level cache ────────────────────────────────────────────────────────
 

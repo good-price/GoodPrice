@@ -20,13 +20,14 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { ProductOverride, OverrideStore, OverrideTier } from './types'
 import type { VisibilityResult } from '@/lib/catalog/trust/types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Path ───────────────────────────────────────────────────────────────────────
 
-const STORE_PATH = join(process.cwd(), 'data', 'ops', 'actions', 'overrides.json')
+const STORE_PATH = dataPath('data', 'ops', 'actions', 'overrides.json')
 
 // ── I/O ────────────────────────────────────────────────────────────────────────
 

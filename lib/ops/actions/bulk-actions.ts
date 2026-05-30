@@ -18,7 +18,7 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import { executeProductAction }    from './product-actions'
 import type {
   ProductAction,
@@ -27,10 +27,11 @@ import type {
   ActionQueue,
   QueuedActionType,
 } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Queue path ─────────────────────────────────────────────────────────────────
 
-const QUEUE_PATH = join(process.cwd(), 'data', 'ops', 'actions', 'queue.json')
+const QUEUE_PATH = dataPath('data', 'ops', 'actions', 'queue.json')
 const MAX_QUEUE  = 500
 const MAX_BULK   = 100
 

@@ -11,13 +11,14 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { ActivityEvent, ActivityEventType, ActivitySubsystem, EventSeverity } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
 const MAX_EVENTS = 500
-const EVENTS_PATH = join(process.cwd(), 'data', 'ops', 'events.json')
+const EVENTS_PATH = dataPath('data', 'ops', 'events.json')
 
 // ── I/O helpers ───────────────────────────────────────────────────────────────
 

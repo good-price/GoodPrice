@@ -10,12 +10,13 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { ExecLogEntry, ExecJob } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
-const LOG_PATH   = join(process.cwd(), 'data', 'ops', 'execution', 'execution-log.json')
+const LOG_PATH   = dataPath('data', 'ops', 'execution', 'execution-log.json')
 const MAX_ENTRIES = 200
 
 // ── I/O ───────────────────────────────────────────────────────────────────────

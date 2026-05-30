@@ -17,7 +17,8 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync, renameSync } from 'fs'
-import { join, dirname }                      from 'path'
+import { dirname }                      from 'path'
+import { dataPath } from '@/lib/data-path'
 import { getAllProducts }                      from '@/data/catalog'
 import type { TrustReport } from './types'
 import { computeCatalogVisibility, buildVisibilityContext } from './visibility-engine'
@@ -25,7 +26,7 @@ import { findRecoveryCandidates }             from './recovery-engine'
 
 // ── Path ──────────────────────────────────────────────────────────────────────
 
-const REPORT_PATH = join(process.cwd(), 'data', 'catalog', 'trust', 'trust-report.json')
+const REPORT_PATH = dataPath('data', 'catalog', 'trust', 'trust-report.json')
 
 // ── Persistence ───────────────────────────────────────────────────────────────
 

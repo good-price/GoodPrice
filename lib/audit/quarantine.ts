@@ -18,10 +18,11 @@
 import fs   from 'fs'
 import path from 'path'
 import type { QuarantineEntry, QuarantineStore } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── File path ─────────────────────────────────────────────────────────────────
 
-const QUARANTINE_PATH = path.join(process.cwd(), 'data', 'audit', 'quarantine.json')
+const QUARANTINE_PATH = dataPath('data', 'audit', 'quarantine.json')
 
 // ── Read ──────────────────────────────────────────────────────────────────────
 

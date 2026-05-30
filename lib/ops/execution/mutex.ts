@@ -11,12 +11,13 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { ExecJobType } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
-const LOCK_PATH      = join(process.cwd(), 'data', 'ops', 'execution', 'locks.json')
+const LOCK_PATH      = dataPath('data', 'ops', 'execution', 'locks.json')
 /** Locks older than this are considered stale (process crashed). */
 const MAX_LOCK_AGE_MS = 30 * 60 * 1_000   // 30 minutes
 

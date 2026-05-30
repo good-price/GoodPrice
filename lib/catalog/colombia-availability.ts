@@ -50,7 +50,8 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
+import { dataPath } from '@/lib/data-path'
 import type { Product } from '@/types'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -157,7 +158,7 @@ const NEGATIVE_SIGNALS: readonly string[] = [
 // ── File path ─────────────────────────────────────────────────────────────────
 
 function getCachePath(): string {
-  return join(process.cwd(), 'data', 'catalog', 'colombia-availability.json')
+  return dataPath('data', 'catalog', 'colombia-availability.json')
 }
 
 // ── Disk I/O ──────────────────────────────────────────────────────────────────

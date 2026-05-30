@@ -16,6 +16,7 @@
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'fs'
 import { join, dirname } from 'path'
+import { dataPath } from '@/lib/data-path'
 import type {
   LiveTruthResult,
   TruthResultStore,
@@ -25,7 +26,7 @@ import type {
 
 // ── Paths ─────────────────────────────────────────────────────────────────────
 
-const DATA_DIR    = join(process.cwd(), 'data', 'catalog', 'live-truth')
+const DATA_DIR    = dataPath('data', 'catalog', 'live-truth')
 const RESULTS_FILE = join(DATA_DIR, 'results.json')
 const REPORT_FILE  = join(DATA_DIR, 'report.json')
 const QUEUE_FILE   = join(DATA_DIR, 'queue.json')

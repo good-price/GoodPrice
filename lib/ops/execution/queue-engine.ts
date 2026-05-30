@@ -10,12 +10,13 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { ExecJob, ExecJobType, ExecJobStatus, ExecJobProgress, ExecPipelineRun, ExecStore } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
-const STORE_PATH = join(process.cwd(), 'data', 'ops', 'execution', 'store.json')
+const STORE_PATH = dataPath('data', 'ops', 'execution', 'store.json')
 const MAX_JOBS   = 50
 const MAX_PIPES  = 10
 

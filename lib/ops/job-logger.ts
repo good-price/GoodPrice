@@ -24,10 +24,11 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs'
 import { join } from 'path'
 import { logger } from './logger'
+import { dataPath } from '@/lib/data-path'
 
 // ── Config ─────────────────────────────────────────────────────────────────────
 
-const OPS_DIR      = join(process.cwd(), 'data', 'ops')
+const OPS_DIR      = dataPath('data', 'ops')
 const JOBS_FILE    = join(OPS_DIR, 'jobs.json')
 const MAX_PER_JOB  = 20   // keep last 20 executions per job
 

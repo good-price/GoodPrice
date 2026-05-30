@@ -18,8 +18,9 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { StoredRate, RateProvider } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -35,7 +36,7 @@ export const DISK_TTL_HOURS = 25
 // ── File path ──────────────────────────────────────────────────────────────────
 
 function getRatePath(): string {
-  return join(process.cwd(), 'data', 'currency', 'usd-cop.json')
+  return dataPath('data', 'currency', 'usd-cop.json')
 }
 
 // ── Disk I/O ───────────────────────────────────────────────────────────────────

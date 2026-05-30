@@ -10,12 +10,13 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { ActionAuditEntry, ActionAuditLog, ProductAction } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Path ───────────────────────────────────────────────────────────────────────
 
-const LOG_PATH = join(process.cwd(), 'data', 'ops', 'actions', 'audit-log.json')
+const LOG_PATH = dataPath('data', 'ops', 'actions', 'audit-log.json')
 const MAX_ENTRIES = 1000
 
 // ── Helpers ────────────────────────────────────────────────────────────────────

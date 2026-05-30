@@ -14,10 +14,11 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync, renameSync } from 'fs'
 import { join, dirname } from 'path'
 import type { SelfHealingReport, HealingEvent } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Paths ─────────────────────────────────────────────────────────────────────
 
-const BASE_DIR   = join(process.cwd(), 'data', 'catalog', 'live-truth')
+const BASE_DIR   = dataPath('data', 'catalog', 'live-truth')
 const REPORT_PATH = join(BASE_DIR, 'healing-report.json')
 const LOG_PATH    = join(BASE_DIR, 'healing-log.json')
 

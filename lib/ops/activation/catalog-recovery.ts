@@ -15,14 +15,15 @@
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync, renameSync } from 'fs'
-import { join, dirname }        from 'path'
+import { dirname }        from 'path'
 import { runPipeline, RECOVERY_PIPELINE } from '@/lib/ops/execution/pipeline-engine'
 import { captureVisibilitySnapshot }       from './recovery-metrics'
 import type { RecoveryRun, RecoveryStageInfo, RecoveryStage } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── State persistence ─────────────────────────────────────────────────────────
 
-const STATE_PATH = join(process.cwd(), 'data', 'ops', 'activation', 'recovery.json')
+const STATE_PATH = dataPath('data', 'ops', 'activation', 'recovery.json')
 
 function ensureDir(): void {
   const dir = dirname(STATE_PATH)

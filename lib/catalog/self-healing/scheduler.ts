@@ -9,8 +9,9 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync, renameSync } from 'fs'
-import { join, dirname } from 'path'
+import { dirname } from 'path'
 import type { HealingSchedule } from './types'
+import { dataPath } from '@/lib/data-path'
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
@@ -19,10 +20,7 @@ const MIN_CYCLE_INTERVAL_MS = 60 * 60 * 1_000
 
 // ── Path ──────────────────────────────────────────────────────────────────────
 
-const SCHEDULE_PATH = join(
-  process.cwd(),
-  'data', 'catalog', 'live-truth', 'healing-schedule.json',
-)
+const SCHEDULE_PATH = dataPath('data', 'catalog', 'live-truth', 'healing-schedule.json')
 
 // ── File I/O ──────────────────────────────────────────────────────────────────
 

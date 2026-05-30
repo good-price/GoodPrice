@@ -9,7 +9,8 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync, renameSync } from 'fs'
-import { join, dirname }              from 'path'
+import { dirname }              from 'path'
+import { dataPath } from '@/lib/data-path'
 import { buildActivityLog }           from './activity-log'
 import { generateAlerts }             from './alert-engine'
 import { detectAnomalies }            from './anomaly-engine'
@@ -20,7 +21,7 @@ import type { OpsReport }             from './types'
 
 // ── Path ──────────────────────────────────────────────────────────────────────
 
-const REPORT_PATH = join(process.cwd(), 'data', 'ops', 'ops-report.json')
+const REPORT_PATH = dataPath('data', 'ops', 'ops-report.json')
 
 // ── I/O ───────────────────────────────────────────────────────────────────────
 
