@@ -1,8 +1,7 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
-import { Star, ExternalLink, ChevronLeft } from 'lucide-react'
-import { Button } from '@/components/ui/button'
+import { Star, ChevronLeft } from 'lucide-react'
 import { getPublicProducts, getPublicProductByAsin } from '@/lib/catalog/public'
 import { buildAsinUrl } from '@/lib/affiliate'
 import { buildProductMetadata, SITE_URL } from '@/lib/seo'
@@ -15,6 +14,9 @@ import { getProductImageSrc } from '@/lib/catalog/placeholders'
 import { getCachedSnapshot, getSnapshotRelatedProducts } from '@/lib/catalog/intelligence/snapshot'
 import { ProductCard } from '@/components/ProductCard'
 import { buildCopPriceMap, formatCOP, getCachedRate } from '@/lib/currency'
+import { ProductDetailCTA } from '@/components/tracking/ProductDetailCTA'
+import { TrackPageView }    from '@/components/TrackPageView'
+import { TrackSession }     from '@/components/TrackSession'
 
 // Revalidate every hour — matches the hourly price-check cron job
 export const revalidate = 3600
@@ -102,6 +104,17 @@ export default async function ProductoPage({ params }: PageProps) {
 
   return (
     <>
+      {/* ── Analytics tracking ──────────────────────────────────────────── */}
+      {/* Server-side: product_view event → /api/track (engagement signal) */}
+      <TrackPageView
+        event="product_view"
+        productId={product.id ?? ''}
+        asin={product.asin ?? ''}
+        category={product.category}
+      />
+      {/* Client-side: product_view + category signal → localStorage session */}
+      <TrackSession productId={product.id ?? ''} category={product.category} />
+
       {/* ── Structured data ─────────────────────────────────────────────── */}
       <script
         type="application/ld+json"
@@ -225,22 +238,15 @@ export default async function ProductoPage({ params }: PageProps) {
                 </div>
               )}
 
-              {/* CTA */}
-              <Button
-                size="lg"
-                className="bg-[#F7A823] hover:bg-[#e8961a] text-black font-bold gap-2 w-full md:w-auto"
-                asChild
-              >
-                <a
-                  href={affiliateUrl}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  aria-label={`Comprar ${product.title} en Amazon`}
-                >
-                  <ExternalLink className="h-4 w-4" />
-                  {product.isOffer ? 'Ver oferta en Amazon' : 'Ver en Amazon'}
-                </a>
-              </Button>
+              {/* CTA — client component: fires trackProductClick() on every click */}
+              <ProductDetailCTA
+                affiliateUrl={affiliateUrl}
+                productId={product.id ?? ''}
+                asin={product.asin!}
+                category={product.category}
+                isOffer={product.isOffer ?? false}
+                title={product.title}
+              />
 
               {/* Watch / alert button */}
               <WatchButton

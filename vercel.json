@@ -1,24 +1,24 @@
 {
   "crons": [
     {
-      "path":     "/api/pricing/check",
-      "schedule": "0 * * * *",
-      "comment":  "Pricing check — hourly (MercadoLibre prices)"
+      "path": "/api/pricing/check",
+      "schedule": "0 6 * * *"
     },
     {
-      "path":     "/api/alerts/detect",
-      "schedule": "30 * * * *",
-      "comment":  "Alert detection — hourly at :30, staggered after pricing check"
+      "path": "/api/alerts/detect",
+      "schedule": "0 7 * * *"
     },
     {
-      "path":     "/api/audit/run",
-      "schedule": "0 9 1 * *",
-      "comment":  "Monthly catalog audit — 1st of each month at 09:00 UTC"
+      "path": "/api/audit/run",
+      "schedule": "0 9 1 * *"
     },
     {
-      "path":     "/api/paapi/sync",
-      "schedule": "0 9 * * 1",
-      "comment":  "Weekly PA-API image sync — every Monday at 09:00 UTC"
+      "path": "/api/paapi/sync",
+      "schedule": "0 9 * * 1"
+    },
+    {
+      "path": "/api/currency/update",
+      "schedule": "0 8 * * *"
     }
   ]
 }

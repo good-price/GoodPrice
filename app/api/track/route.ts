@@ -10,6 +10,11 @@ export const dynamic = 'force-dynamic'
  * This endpoint is internal — called only by useTrack() hook in the browser.
  * It returns immediately (fire-and-forget from the client's perspective).
  *
+ * Supported events (see TrackEventType in types/index.ts):
+ *   product_click — user clicked Amazon affiliate CTA (stored as click)
+ *   category_view — user loaded a category page (stored as category view)
+ *   product_view  — user loaded a product detail page (stored as product view)
+ *
  * Body: TrackEvent (see types/index.ts)
  */
 export async function POST(req: NextRequest) {
@@ -31,6 +36,16 @@ export async function POST(req: NextRequest) {
       case 'category_view':
         if (category) {
           await recordCategoryView(String(category))
+        }
+        break
+
+      case 'product_view':
+        // Product page view — recorded as a product engagement signal.
+        // Uses the same click counter so that views surface products in analytics.
+        // This intentionally shares the click counter for MVP; separate view
+        // counters can be added to the adapter when dedicated dashboards are built.
+        if (productId) {
+          await recordProductClick(String(productId), String(asin ?? ''))
         }
         break
 

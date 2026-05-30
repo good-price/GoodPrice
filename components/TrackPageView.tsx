@@ -15,15 +15,17 @@ import { useTrack } from '@/hooks/useTrack'
 import type { TrackEventType } from '@/types'
 
 interface TrackPageViewProps {
-  event: TrackEventType
-  category?: string
+  event:      TrackEventType
+  category?:  string
+  productId?: string   // for product_view events
+  asin?:      string   // for product_view events
 }
 
-export function TrackPageView({ event, category }: TrackPageViewProps) {
+export function TrackPageView({ event, category, productId, asin }: TrackPageViewProps) {
   const { track } = useTrack()
 
   useEffect(() => {
-    track({ event, category })
+    track({ event, category, productId, asin })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []) // Fire once on mount only — deps intentionally omitted
 

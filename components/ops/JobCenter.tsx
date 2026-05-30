@@ -1,8 +1,7 @@
 /**
  * components/ops/JobCenter.tsx
  *
- * Unified job monitoring panel — merges ActiveJobsPanel + PipelineCard
- * + JobProgressCard into a single polling client component.
+ * Unified job monitoring panel — polling client component.
  *
  * Polls /api/ops/jobs every 5s.
  * Tabs: Running | Completed | Failed | All + Pipeline runs

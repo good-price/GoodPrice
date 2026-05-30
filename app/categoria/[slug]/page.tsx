@@ -7,11 +7,13 @@ import { getCategoryPage, getAllCategoryPageSlugs } from '@/data/category-pages'
 import { getGuide } from '@/data/guides'
 import { getPublicProducts } from '@/lib/catalog/public'
 
-import { ProductCard } from '@/components/ProductCard'
-import { CategoryHero } from '@/components/category/CategoryHero'
-import { FAQAccordion } from '@/components/category/FAQAccordion'
-import { RelatedGuides } from '@/components/category/RelatedGuides'
+import { ProductCard }      from '@/components/ProductCard'
+import { CategoryHero }     from '@/components/category/CategoryHero'
+import { FAQAccordion }     from '@/components/category/FAQAccordion'
+import { RelatedGuides }    from '@/components/category/RelatedGuides'
 import { RelatedCategories } from '@/components/category/RelatedCategories'
+import { TrackPageView }    from '@/components/TrackPageView'
+import { TrackSession }     from '@/components/TrackSession'
 
 import {
   buildCategoryPageMetadata,
@@ -96,6 +98,12 @@ export default function CategoriaPage({ params }: PageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+
+      {/* ── Analytics tracking (mirrors /categorias/[slug] pattern) ─── */}
+      {/* Server-side: category_view event → /api/track → analytics store */}
+      <TrackPageView event="category_view" category={params.slug} />
+      {/* Client-side: category_view signal → localStorage session profile */}
+      <TrackSession category={params.slug} />
 
       <article>
         {/* ── Breadcrumb ───────────────────────────────────────────────── */}

@@ -4,7 +4,7 @@
  * GET /api/ops/live
  *
  * Returns a fresh OpsSnapshot for polling by the workspace chrome
- * (PinnedMetrics polls every 10s, LiveExecutionFeed polls every 5s).
+ * (LiveExecutionFeed polls every 5s).
  *
  * Fast — buildOpsSnapshot() reads only from disk/memory, no network calls.
  */

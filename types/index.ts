@@ -28,13 +28,16 @@ export interface Product {
 
 // ── Analytics / tracking types ────────────────────────────────────────────────
 
-export type TrackEventType = 'product_click' | 'category_view'
+export type TrackEventType =
+  | 'product_click'   // user clicked Amazon affiliate CTA
+  | 'category_view'   // user loaded a category page
+  | 'product_view'    // user loaded a product detail page
 
 export interface TrackEvent {
   event: TrackEventType
-  productId?: string  // for product_click
+  productId?: string  // for product_click, product_view
   asin?: string       // for product_click
-  category?: string   // for product_click + category_view
+  category?: string   // for product_click + category_view + product_view
   path: string        // window.location.pathname at event time
   ts: number          // Date.now()
 }
