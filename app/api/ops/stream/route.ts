@@ -11,12 +11,17 @@
  *   limit  — max events to return (default 20, max 50)
  */
 
-import { NextResponse }        from 'next/server'
+import { type NextRequest, NextResponse } from 'next/server'
 import { getEventsSince, getWorkspaceLiveEvents } from '@/lib/ops/workspace/live-events'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 
-export async function GET(request: Request) {
+export async function GET(request: NextRequest) {
+  if (!(await isAdminRequest(request))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
+
   try {
     const url   = new URL(request.url)
     const since = url.searchParams.get('since')

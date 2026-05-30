@@ -9,13 +9,18 @@
  *   isActive — whether a recovery is in progress
  */
 
-import { NextResponse }                                        from 'next/server'
+import { type NextRequest, NextResponse }                      from 'next/server'
 import { loadRecoveryRun }                                     from '@/lib/ops/activation/catalog-recovery'
 import { computeVisibilityAudit }                              from '@/lib/ops/activation/visibility-audit'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
+
   try {
     const run      = loadRecoveryRun()
     const isActive = run?.status === 'running'

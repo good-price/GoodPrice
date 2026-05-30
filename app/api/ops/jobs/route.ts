@@ -23,20 +23,13 @@ import {
   getJobStaleness,
   getRecoveryStatus,
 } from '@/lib/ops/execution'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 export const runtime = 'nodejs'
 
-function isAuthorised(req: NextRequest): boolean {
-  const secret = process.env.AUDIT_SECRET
-  if (!secret) return true
-  const bearer = req.headers.get('authorization')?.replace('Bearer ', '')
-  const query  = req.nextUrl.searchParams.get('secret')
-  return bearer === secret || query === secret
-}
-
-export function GET(req: NextRequest) {
-  if (!isAuthorised(req)) {
+export async function GET(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
   }
 

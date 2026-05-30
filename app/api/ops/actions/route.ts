@@ -28,18 +28,11 @@
 
 import { type NextRequest, NextResponse } from 'next/server'
 import { executeAction, getAvailableActions } from '@/lib/ops'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic    = 'force-dynamic'
 export const runtime    = 'nodejs'
 export const maxDuration = 120
-
-function isAuthorised(req: NextRequest): boolean {
-  const secret = process.env.AUDIT_SECRET
-  if (!secret) return true
-  const bearer = req.headers.get('authorization')?.replace('Bearer ', '')
-  const query  = req.nextUrl.searchParams.get('secret')
-  return bearer === secret || query === secret
-}
 
 // ── GET — list available actions ──────────────────────────────────────────────
 
@@ -53,7 +46,7 @@ export function GET() {
 // ── POST — execute action ─────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
-  if (!isAuthorised(req)) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
   }
 

@@ -10,12 +10,17 @@
 
 import { type NextRequest, NextResponse }   from 'next/server'
 import { runCatalogRecovery, loadRecoveryRun } from '@/lib/ops/activation/catalog-recovery'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic    = 'force-dynamic'
 export const runtime    = 'nodejs'
 export const maxDuration = 300
 
 export async function POST(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
+
   // Check if already running
   try {
     const current = loadRecoveryRun()
@@ -49,7 +54,10 @@ export async function POST(req: NextRequest) {
   }
 }
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
   try {
     const run = loadRecoveryRun()
     return NextResponse.json({ ok: true, run })

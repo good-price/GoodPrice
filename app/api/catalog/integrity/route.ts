@@ -19,21 +19,14 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import { runCatalogIntegrity, saveIntegritySnapshot } from '@/lib/catalog/integrity'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 export const runtime = 'nodejs'
 
 export async function GET(req: NextRequest) {
-  // Optional secret gate — reuses AUDIT_SECRET
-  const secret = process.env.AUDIT_SECRET
-  if (secret) {
-    const authHeader = req.headers.get('authorization')
-    const bearerToken = authHeader?.startsWith('Bearer ') ? authHeader.slice(7) : null
-    const querySecret = req.nextUrl.searchParams.get('secret')
-
-    if (bearerToken !== secret && querySecret !== secret) {
-      return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
-    }
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
   }
 
   try {

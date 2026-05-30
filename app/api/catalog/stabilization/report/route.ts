@@ -23,25 +23,16 @@ import {
   saveStabilizationReport,
   loadStabilizationReport,
 } from '@/lib/catalog/stabilization'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic    = 'force-dynamic'
 export const runtime    = 'nodejs'
 export const maxDuration = 60
 
-// ── Auth ───────────────────────────────────────────────────────────────────────
-
-function isAuthorised(req: NextRequest): boolean {
-  const secret = process.env.AUDIT_SECRET
-  if (!secret) return true
-  const bearer = req.headers.get('authorization')?.replace('Bearer ', '')
-  const query  = req.nextUrl.searchParams.get('secret')
-  return bearer === secret || query === secret
-}
-
 // ── GET handler ────────────────────────────────────────────────────────────────
 
 export async function GET(req: NextRequest) {
-  if (!isAuthorised(req)) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
   }
 

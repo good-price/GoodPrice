@@ -9,12 +9,17 @@
  * Fast — buildOpsSnapshot() reads only from disk/memory, no network calls.
  */
 
-import { NextResponse }      from 'next/server'
+import { type NextRequest, NextResponse } from 'next/server'
 import { buildOpsSnapshot }  from '@/lib/ops/workspace/realtime-engine'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
+
   try {
     const snapshot = buildOpsSnapshot()
     return NextResponse.json({ ok: true, snapshot })

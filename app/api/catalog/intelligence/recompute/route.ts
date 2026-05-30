@@ -18,20 +18,14 @@
 
 import { NextRequest, NextResponse } from 'next/server'
 import { generateIntelligenceReport } from '@/lib/catalog/intelligence'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 export const runtime = 'nodejs'
 
 export async function POST(req: NextRequest) {
-  // ── Auth ───────────────────────────────────────────────────────────────────
-  const secret = process.env.AUDIT_SECRET
-  if (secret) {
-    const auth  = req.headers.get('authorization')
-    const token = auth?.startsWith('Bearer ') ? auth.slice(7) : null
-    const q     = req.nextUrl.searchParams.get('secret')
-    if (token !== secret && q !== secret) {
-      return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
-    }
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
   }
 
   let includeDiscovery = true

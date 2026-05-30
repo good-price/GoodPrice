@@ -6,12 +6,17 @@
  * Fast — reads from disk caches only.
  */
 
-import { NextResponse }            from 'next/server'
+import { type NextRequest, NextResponse } from 'next/server'
 import { buildActivationReport }   from '@/lib/ops/activation/reports'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
+
   try {
     const report = buildActivationReport()
     return NextResponse.json({ ok: true, report })

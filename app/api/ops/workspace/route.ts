@@ -9,14 +9,19 @@
  * This endpoint provides the static configuration the client needs on load.
  */
 
-import { NextResponse }    from 'next/server'
+import { type NextRequest, NextResponse } from 'next/server'
 import { SECTION_DEFS }    from '@/lib/ops/workspace/navigation'
 import { METRIC_DEFS }     from '@/lib/ops/workspace/pinned-views'
 import { COMMAND_DEFS }    from '@/lib/ops/workspace/command-palette'
+import { isAdminRequest } from '@/lib/admin/auth'
 
 export const dynamic = 'force-dynamic'
 
-export async function GET() {
+export async function GET(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
+
   return NextResponse.json({
     ok: true,
     workspace: {
@@ -28,6 +33,10 @@ export async function GET() {
 }
 
 // Workspace state is client-side only — this endpoint acknowledges but does nothing
-export async function POST() {
+export async function POST(req: NextRequest) {
+  if (!(await isAdminRequest(req))) {
+    return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
+  }
+
   return NextResponse.json({ ok: true, message: 'Workspace state is client-side only.' })
 }

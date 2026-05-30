@@ -31,17 +31,7 @@ import {
   quarantineProduct,
   unquarantineProduct,
 } from '@/lib/audit/quarantine'
-
-const SECRET = process.env.AUDIT_SECRET ?? process.env.CATALOG_VALIDATE_SECRET
-
-function isAuthorized(req: NextRequest): boolean {
-  if (!SECRET) return true
-  const provided =
-    req.headers.get('x-audit-secret') ??
-    req.headers.get('x-catalog-secret') ??
-    req.headers.get('authorization')?.replace('Bearer ', '')
-  return provided === SECRET
-}
+import { isAdminRequest } from '@/lib/admin/auth'
 
 // ── GET: list all quarantined products ────────────────────────────────────────
 
@@ -58,7 +48,7 @@ export async function GET() {
 // ── POST: add to quarantine ───────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
-  if (!isAuthorized(req)) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
@@ -105,7 +95,7 @@ export async function POST(req: NextRequest) {
 // ── DELETE: remove from quarantine ────────────────────────────────────────────
 
 export async function DELETE(req: NextRequest) {
-  if (!isAuthorized(req)) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 

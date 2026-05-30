@@ -29,6 +29,7 @@
  */
 
 import { type NextRequest, NextResponse } from 'next/server'
+import { isAdminRequest } from '@/lib/admin/auth'
 import { getPublicProducts } from '@/lib/catalog/public'
 import { getCachedSnapshot } from '@/lib/catalog/intelligence/snapshot'
 import {
@@ -49,16 +50,6 @@ export const runtime = 'nodejs'
 // Longer timeout — fetching Amazon pages takes time
 export const maxDuration = 300   // 5 minutes (Vercel Pro / self-hosted)
 
-// ── Auth helper ───────────────────────────────────────────────────────────────
-
-function isAuthorised(req: NextRequest): boolean {
-  const secret = process.env.AUDIT_SECRET
-  if (!secret) return true   // open in dev when secret not set
-  const bearer = req.headers.get('authorization')?.replace('Bearer ', '')
-  const query  = req.nextUrl.searchParams.get('secret')
-  return bearer === secret || query === secret
-}
-
 // ── Delay utility ─────────────────────────────────────────────────────────────
 
 function sleep(ms: number): Promise<void> {
@@ -68,7 +59,7 @@ function sleep(ms: number): Promise<void> {
 // ── Handler ───────────────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest) {
-  if (!isAuthorised(req)) {
+  if (!(await isAdminRequest(req))) {
     return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
   }
 

@@ -42,6 +42,7 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server'
+import { isAdminRequest } from '@/lib/admin/auth'
 import { getColombiaProducts } from '@/data/catalog'
 import { isValidAsinFormat } from '@/lib/catalog/validator'
 import {
@@ -84,13 +85,12 @@ async function runBatched<T, R>(
 
 export async function POST(request: NextRequest): Promise<NextResponse> {
   // ── Auth ──────────────────────────────────────────────────────────────────
-  let body: Record<string, unknown> = {}
-  try { body = await request.json() } catch { /* no body */ }
-
-  const secret = process.env.AUDIT_SECRET
-  if (secret && body.secret !== secret) {
+  if (!(await isAdminRequest(request))) {
     return NextResponse.json({ ok: false, error: 'Unauthorized' }, { status: 401 })
   }
+
+  let body: Record<string, unknown> = {}
+  try { body = await request.json() } catch { /* no body */ }
 
   // ── Options ───────────────────────────────────────────────────────────────
   const maxProducts = typeof body.maxProducts === 'number' ? Math.max(1, Math.min(body.maxProducts, 50)) : 20
