@@ -1,0 +1,48 @@
+{
+  "updatedAt": "2026-05-27T05:56:49.167Z",
+  "entries": {
+    "ofic-016": {
+      "productId": "ofic-016",
+      "asin": "B09V2JYSYJ",
+      "title": "HP LaserJet M110we",
+      "category": "oficina",
+      "reason": "Impresora láser bloqueada para Colombia (keyword laserjet) + HTTP 405 en ASIN check. Status → inactive.",
+      "quarantinedBy": "audit",
+      "score": 65,
+      "issues": [
+        "Colombia bloqueado: keyword laserjet",
+        "HTTP 405 en ASIN check",
+        "Imagen CDN 404"
+      ],
+      "quarantinedAt": "2026-05-27T05:56:49.164Z"
+    },
+    "hogar-005": {
+      "productId": "hogar-005",
+      "asin": "B09T57FNF9",
+      "title": "iRobot Roomba i3+ EVO",
+      "category": "hogar",
+      "reason": "iRobot en Chapter 11 — soporte cloud incierto. Marca bloqueada para Colombia. Status → inactive.",
+      "quarantinedBy": "audit",
+      "score": 72,
+      "issues": [
+        "Colombia bloqueado: brand iRobot (Chapter 11)",
+        "Imagen CDN 404"
+      ],
+      "quarantinedAt": "2026-05-27T05:56:49.166Z"
+    },
+    "dep-012": {
+      "productId": "dep-012",
+      "asin": "B001ARYU58",
+      "title": "Bowflex SelectTech 552",
+      "category": "deporte",
+      "reason": "RECALL CPSC activo jun. 2025 — 3.8M unidades retiradas por riesgo de lesión. Riesgo legal de promoción. Status → inactive.",
+      "quarantinedBy": "audit",
+      "score": 72,
+      "issues": [
+        "RECALL CPSC activo jun. 2025 (3.8M unidades)",
+        "Colombia bloqueado: ASIN en lista de excepción"
+      ],
+      "quarantinedAt": "2026-05-27T05:56:49.167Z"
+    }
+  }
+}

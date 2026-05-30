@@ -1,0 +1,1066 @@
+{
+  "jpeg": [
+    {
+      "asin": "B001ARYU58",
+      "productId": "dep-012",
+      "category": "deporte",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B001ARYU58.01._SL500_.jpg",
+      "cl": 3099
+    },
+    {
+      "asin": "B07K3FN5MR",
+      "productId": "game-015",
+      "category": "gaming",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07K3FN5MR.01._SL500_.jpg",
+      "cl": 2396
+    },
+    {
+      "asin": "B09WZBPX7K",
+      "productId": "hogar-011",
+      "category": "hogar",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B09WZBPX7K.01._SL500_.jpg",
+      "cl": 1151
+    },
+    {
+      "asin": "B002IASYA8",
+      "productId": "coci-006",
+      "category": "cocina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B002IASYA8.01._SL500_.jpg",
+      "cl": 5275
+    },
+    {
+      "asin": "B07THHQMHM",
+      "productId": "coci-018",
+      "category": "cocina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07THHQMHM.01._SL500_.jpg",
+      "cl": 2335
+    },
+    {
+      "asin": "B07KMVJJK7",
+      "productId": "herr-007",
+      "category": "herramientas",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07KMVJJK7.01._SL500_.jpg",
+      "cl": 5211
+    },
+    {
+      "asin": "B0B2SFVRC2",
+      "productId": "elec-002",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0B2SFVRC2.01._SL500_.jpg",
+      "cl": 1686
+    },
+    {
+      "asin": "B09TMN58KL",
+      "productId": "elec-003",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B09TMN58KL.01._SL500_.jpg",
+      "cl": 3312
+    },
+    {
+      "asin": "B082WD5TY8",
+      "productId": "elec-004",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B082WD5TY8.01._SL500_.jpg",
+      "cl": 2968
+    },
+    {
+      "asin": "B09XS7JWHH",
+      "productId": "elec-006",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B09XS7JWHH.01._SL500_.jpg",
+      "cl": 2425
+    },
+    {
+      "asin": "B098FKXT8L",
+      "productId": "elec-007",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B098FKXT8L.01._SL500_.jpg",
+      "cl": 3913
+    },
+    {
+      "asin": "B0C33XXS56",
+      "productId": "elec-008",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0C33XXS56.01._SL500_.jpg",
+      "cl": 2103
+    },
+    {
+      "asin": "B099TJGJ91",
+      "productId": "elec-009",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B099TJGJ91.01._SL500_.jpg",
+      "cl": 2017
+    },
+    {
+      "asin": "B0874YJP92",
+      "productId": "elec-013",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0874YJP92.01._SL500_.jpg",
+      "cl": 2232
+    },
+    {
+      "asin": "B078211KBB",
+      "productId": "elec-014",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B078211KBB.01._SL500_.jpg",
+      "cl": 5250
+    },
+    {
+      "asin": "B06VVS7S94",
+      "productId": "elec-015",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B06VVS7S94.01._SL500_.jpg",
+      "cl": 1724
+    },
+    {
+      "asin": "B0932QJ2JZ",
+      "productId": "elec-020",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0932QJ2JZ.01._SL500_.jpg",
+      "cl": 2881
+    },
+    {
+      "asin": "B07K3FN5MR",
+      "productId": "elec-024",
+      "category": "electronica",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07K3FN5MR.01._SL500_.jpg",
+      "cl": 2396
+    },
+    {
+      "asin": "B0CQKLS4RP",
+      "productId": "game-001",
+      "category": "gaming",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0CQKLS4RP.01._SL500_.jpg",
+      "cl": 1872
+    },
+    {
+      "asin": "B08DF248LD",
+      "productId": "game-002",
+      "category": "gaming",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B08DF248LD.01._SL500_.jpg",
+      "cl": 3471
+    },
+    {
+      "asin": "B086PKMZ21",
+      "productId": "game-003",
+      "category": "gaming",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B086PKMZ21.01._SL500_.jpg",
+      "cl": 4674
+    },
+    {
+      "asin": "B09C13PZX7",
+      "productId": "game-008",
+      "category": "gaming",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B09C13PZX7.01._SL500_.jpg",
+      "cl": 3311
+    },
+    {
+      "asin": "B085RMD5TP",
+      "productId": "game-019",
+      "category": "gaming",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B085RMD5TP.01._SL500_.jpg",
+      "cl": 3801
+    },
+    {
+      "asin": "B07QWB3H1Q",
+      "productId": "hogar-002",
+      "category": "hogar",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07QWB3H1Q.01._SL500_.jpg",
+      "cl": 2703
+    },
+    {
+      "asin": "B08GH9KL4M",
+      "productId": "hogar-003",
+      "category": "hogar",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B08GH9KL4M.01._SL500_.jpg",
+      "cl": 2579
+    },
+    {
+      "asin": "B09B8V1LZ3",
+      "productId": "hogar-004",
+      "category": "hogar",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B09B8V1LZ3.01._SL500_.jpg",
+      "cl": 1416
+    },
+    {
+      "asin": "B07VVK39F7",
+      "productId": "hogar-007",
+      "category": "hogar",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07VVK39F7.01._SL500_.jpg",
+      "cl": 3513
+    },
+    {
+      "asin": "B00FLYWNYQ",
+      "productId": "hogar-015",
+      "category": "hogar",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B00FLYWNYQ.01._SL500_.jpg",
+      "cl": 4779
+    },
+    {
+      "asin": "B06Y1YD5W7",
+      "productId": "coci-001",
+      "category": "cocina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B06Y1YD5W7.01._SL500_.jpg",
+      "cl": 4557
+    },
+    {
+      "asin": "B00006JSUA",
+      "productId": "coci-011",
+      "category": "cocina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B00006JSUA.01._SL500_.jpg",
+      "cl": 4169
+    },
+    {
+      "asin": "B07FDJMC9Q",
+      "productId": "coci-015",
+      "category": "cocina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07FDJMC9Q.01._SL500_.jpg",
+      "cl": 3589
+    },
+    {
+      "asin": "B007TIE0GQ",
+      "productId": "coci-019",
+      "category": "cocina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B007TIE0GQ.01._SL500_.jpg",
+      "cl": 2949
+    },
+    {
+      "asin": "B09WTP57Z5",
+      "productId": "dep-001",
+      "category": "deporte",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B09WTP57Z5.01._SL500_.jpg",
+      "cl": 4995
+    },
+    {
+      "asin": "B0040EGNIU",
+      "productId": "dep-007",
+      "category": "deporte",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0040EGNIU.01._SL500_.jpg",
+      "cl": 2503
+    },
+    {
+      "asin": "B07S92QBCJ",
+      "productId": "ofic-004",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07S92QBCJ.01._SL500_.jpg",
+      "cl": 4394
+    },
+    {
+      "asin": "B0148NPH9I",
+      "productId": "ofic-005",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0148NPH9I.01._SL500_.jpg",
+      "cl": 4452
+    },
+    {
+      "asin": "B00N1YPXW2",
+      "productId": "ofic-006",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B00N1YPXW2.01._SL500_.jpg",
+      "cl": 2934
+    },
+    {
+      "asin": "B000UXZQ42",
+      "productId": "ofic-008",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B000UXZQ42.01._SL500_.jpg",
+      "cl": 3540
+    },
+    {
+      "asin": "B085TFF7M1",
+      "productId": "ofic-009",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B085TFF7M1.01._SL500_.jpg",
+      "cl": 3193
+    },
+    {
+      "asin": "B082QHRZFW",
+      "productId": "ofic-011",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B082QHRZFW.01._SL500_.jpg",
+      "cl": 1475
+    },
+    {
+      "asin": "B08KTZ8249",
+      "productId": "ofic-015",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B08KTZ8249.01._SL500_.jpg",
+      "cl": 3312
+    },
+    {
+      "asin": "B00MIBN16O",
+      "productId": "ofic-018",
+      "category": "oficina",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B00MIBN16O.01._SL500_.jpg",
+      "cl": 3372
+    },
+    {
+      "asin": "B0B61XH5YT",
+      "productId": "bell-001",
+      "category": "belleza",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0B61XH5YT.01._SL500_.jpg",
+      "cl": 2702
+    },
+    {
+      "asin": "B01MXMJKDP",
+      "productId": "bell-003",
+      "category": "belleza",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B01MXMJKDP.01._SL500_.jpg",
+      "cl": 3119
+    },
+    {
+      "asin": "B01LSUQSB0",
+      "productId": "bell-004",
+      "category": "belleza",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B01LSUQSB0.01._SL500_.jpg",
+      "cl": 2709
+    },
+    {
+      "asin": "B07MZMLZZ3",
+      "productId": "masc-001",
+      "category": "mascotas",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B07MZMLZZ3.01._SL500_.jpg",
+      "cl": 2534
+    },
+    {
+      "asin": "B0002AR0II",
+      "productId": "masc-005",
+      "category": "mascotas",
+      "url": "https://images-na.ssl-images-amazon.com/images/P/B0002AR0II.01._SL500_.jpg",
+      "cl": 2132
+    }
+  ],
+  "gif": [
+    {
+      "asin": "B09V2JYSYJ",
+      "productId": "ofic-016",
+      "category": "oficina"
+    },
+    {
+      "asin": "B08CKNLGL2",
+      "productId": "game-016",
+      "category": "gaming"
+    },
+    {
+      "asin": "B07PRPPHW7",
+      "productId": "game-020",
+      "category": "gaming"
+    },
+    {
+      "asin": "B09T57FNF9",
+      "productId": "hogar-005",
+      "category": "hogar"
+    },
+    {
+      "asin": "B01CUKUSUE",
+      "productId": "hogar-017",
+      "category": "hogar"
+    },
+    {
+      "asin": "B0CHX8W35Y",
+      "productId": "elec-026",
+      "category": "electronica"
+    },
+    {
+      "asin": "B0BKHNT24B",
+      "productId": "elec-027",
+      "category": "electronica"
+    },
+    {
+      "asin": "B09MK3Q25H",
+      "productId": "elec-028",
+      "category": "electronica"
+    },
+    {
+      "asin": "B09B2L8R4M",
+      "productId": "elec-029",
+      "category": "electronica"
+    },
+    {
+      "asin": "B0BZFWQMMG",
+      "productId": "game-007",
+      "category": "gaming"
+    },
+    {
+      "asin": "B0BYV6CNPT",
+      "productId": "game-009",
+      "category": "gaming"
+    },
+    {
+      "asin": "B09FDF9GR4",
+      "productId": "game-010",
+      "category": "gaming"
+    },
+    {
+      "asin": "B09C3ZHJY8",
+      "productId": "game-011",
+      "category": "gaming"
+    },
+    {
+      "asin": "B09FPWJPZZ",
+      "productId": "game-012",
+      "category": "gaming"
+    },
+    {
+      "asin": "B09VXHNCTH",
+      "productId": "game-013",
+      "category": "gaming"
+    },
+    {
+      "asin": "B0BN3X6LHQ",
+      "productId": "game-018",
+      "category": "gaming"
+    },
+    {
+      "asin": "B07L9977K8",
+      "productId": "game-021",
+      "category": "gaming"
+    },
+    {
+      "asin": "B09G9QDVNZ",
+      "productId": "game-024",
+      "category": "gaming"
+    },
+    {
+      "asin": "B0CMGH5ZPP",
+      "productId": "game-025",
+      "category": "gaming"
+    },
+    {
+      "asin": "B09QJFQH3L",
+      "productId": "hogar-006",
+      "category": "hogar"
+    },
+    {
+      "asin": "B0BXDN7CX4",
+      "productId": "hogar-010",
+      "category": "hogar"
+    },
+    {
+      "asin": "B09ZMMGNL6",
+      "productId": "hogar-013",
+      "category": "hogar"
+    },
+    {
+      "asin": "B07WFPMH4T",
+      "productId": "hogar-016",
+      "category": "hogar"
+    },
+    {
+      "asin": "B07Q3YBFLB",
+      "productId": "hogar-018",
+      "category": "hogar"
+    },
+    {
+      "asin": "B07GKWXZMX",
+      "productId": "hogar-019",
+      "category": "hogar"
+    },
+    {
+      "asin": "B001WTYKBE",
+      "productId": "hogar-020",
+      "category": "hogar"
+    },
+    {
+      "asin": "B08NZJ8QPN",
+      "productId": "hogar-021",
+      "category": "hogar"
+    },
+    {
+      "asin": "B08F67ZM14",
+      "productId": "hogar-022",
+      "category": "hogar"
+    },
+    {
+      "asin": "B07Y4FSNQM",
+      "productId": "hogar-023",
+      "category": "hogar"
+    },
+    {
+      "asin": "B07B3VP79V",
+      "productId": "coci-005",
+      "category": "cocina"
+    },
+    {
+      "asin": "B07XYXP5B5",
+      "productId": "coci-012",
+      "category": "cocina"
+    },
+    {
+      "asin": "B001CH0BTI",
+      "productId": "coci-020",
+      "category": "cocina"
+    },
+    {
+      "asin": "B0B255BVQY",
+      "productId": "dep-008",
+      "category": "deporte"
+    },
+    {
+      "asin": "B0714JX7TS",
+      "productId": "dep-013",
+      "category": "deporte"
+    },
+    {
+      "asin": "B086RWLVS9",
+      "productId": "dep-015",
+      "category": "deporte"
+    },
+    {
+      "asin": "B08MHZPFBT",
+      "productId": "dep-016",
+      "category": "deporte"
+    },
+    {
+      "asin": "B09SQN3MC5",
+      "productId": "dep-019",
+      "category": "deporte"
+    },
+    {
+      "asin": "B07GYRWGJY",
+      "productId": "dep-020",
+      "category": "deporte"
+    },
+    {
+      "asin": "B07VH8HQ3B",
+      "productId": "ofic-010",
+      "category": "oficina"
+    },
+    {
+      "asin": "B07BVTJB9K",
+      "productId": "ofic-014",
+      "category": "oficina"
+    },
+    {
+      "asin": "B08MWZKY2G",
+      "productId": "ofic-017",
+      "category": "oficina"
+    },
+    {
+      "asin": "B010AY6KNM",
+      "productId": "ofic-019",
+      "category": "oficina"
+    },
+    {
+      "asin": "B08NQFR6VP",
+      "productId": "ofic-020",
+      "category": "oficina"
+    },
+    {
+      "asin": "B07QDSP9TH",
+      "productId": "bell-008",
+      "category": "belleza"
+    },
+    {
+      "asin": "B084VTF79P",
+      "productId": "bell-009",
+      "category": "belleza"
+    },
+    {
+      "asin": "B07SNFYVJV",
+      "productId": "bell-011",
+      "category": "belleza"
+    },
+    {
+      "asin": "B00ZYEBM5A",
+      "productId": "bell-012",
+      "category": "belleza"
+    },
+    {
+      "asin": "B06XZ9FCKJ",
+      "productId": "masc-011",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B0892JKPNS",
+      "productId": "masc-014",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B0979SDKG8",
+      "productId": "bebe-001",
+      "category": "bebes"
+    },
+    {
+      "asin": "B087L3Z4JX",
+      "productId": "bebe-003",
+      "category": "bebes"
+    },
+    {
+      "asin": "B09HG3YW2C",
+      "productId": "bebe-004",
+      "category": "bebes"
+    },
+    {
+      "asin": "B07K4T3YPR",
+      "productId": "bebe-006",
+      "category": "bebes"
+    },
+    {
+      "asin": "B07PHTXBCH",
+      "productId": "bebe-008",
+      "category": "bebes"
+    },
+    {
+      "asin": "B07V42V61L",
+      "productId": "bebe-012",
+      "category": "bebes"
+    },
+    {
+      "asin": "B07VFTH5CJ",
+      "productId": "bebe-013",
+      "category": "bebes"
+    },
+    {
+      "asin": "B01M9JV2KZ",
+      "productId": "bebe-014",
+      "category": "bebes"
+    },
+    {
+      "asin": "B09MDR1Z4L",
+      "productId": "bebe-015",
+      "category": "bebes"
+    },
+    {
+      "asin": "B01N5AIZIM",
+      "productId": "herr-001",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B07N3W3F8F",
+      "productId": "herr-005",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B08C9D7W8F",
+      "productId": "herr-008",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B07NQPYM2R",
+      "productId": "herr-009",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B01M9JRJ12",
+      "productId": "herr-010",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B07DX5BS6G",
+      "productId": "herr-011",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B000MVCKPA",
+      "productId": "herr-012",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B07HBGJK7F",
+      "productId": "herr-014",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B096KZNL2W",
+      "productId": "elec-010",
+      "category": "electronica"
+    },
+    {
+      "asin": "B08DMLB5NJ",
+      "productId": "elec-011",
+      "category": "electronica"
+    },
+    {
+      "asin": "B08PJ7ZGQV",
+      "productId": "elec-012",
+      "category": "electronica"
+    },
+    {
+      "asin": "B09W2H45S5",
+      "productId": "elec-016",
+      "category": "electronica"
+    },
+    {
+      "asin": "B09KQDPXH2",
+      "productId": "elec-017",
+      "category": "electronica"
+    },
+    {
+      "asin": "B09B2XKGG7",
+      "productId": "elec-018",
+      "category": "electronica"
+    },
+    {
+      "asin": "B09MDR1Z4L",
+      "productId": "elec-019",
+      "category": "electronica"
+    },
+    {
+      "asin": "B08F6B1LRS",
+      "productId": "elec-022",
+      "category": "electronica"
+    },
+    {
+      "asin": "B0B5HR3DDQ",
+      "productId": "elec-023",
+      "category": "electronica"
+    },
+    {
+      "asin": "B0BXFQTHKB",
+      "productId": "elec-025",
+      "category": "electronica"
+    },
+    {
+      "asin": "B07D29QNMJ",
+      "productId": "elec-030",
+      "category": "electronica"
+    },
+    {
+      "asin": "B09BT4QDHL",
+      "productId": "game-006",
+      "category": "gaming"
+    },
+    {
+      "asin": "B07RZQHB5H",
+      "productId": "game-014",
+      "category": "gaming"
+    },
+    {
+      "asin": "B08GLR1V5D",
+      "productId": "game-017",
+      "category": "gaming"
+    },
+    {
+      "asin": "B07NJBHKLL",
+      "productId": "game-022",
+      "category": "gaming"
+    },
+    {
+      "asin": "B0917MN3S4",
+      "productId": "game-023",
+      "category": "gaming"
+    },
+    {
+      "asin": "B07R295MLS",
+      "productId": "hogar-001",
+      "category": "hogar"
+    },
+    {
+      "asin": "B082ZD6Y7C",
+      "productId": "hogar-008",
+      "category": "hogar"
+    },
+    {
+      "asin": "B07Q14LBNG",
+      "productId": "hogar-009",
+      "category": "hogar"
+    },
+    {
+      "asin": "B08CRVQZM6",
+      "productId": "hogar-012",
+      "category": "hogar"
+    },
+    {
+      "asin": "B09JLPF9PL",
+      "productId": "hogar-014",
+      "category": "hogar"
+    },
+    {
+      "asin": "B07NLNMFLB",
+      "productId": "hogar-024",
+      "category": "hogar"
+    },
+    {
+      "asin": "B09MCVQRM3",
+      "productId": "hogar-025",
+      "category": "hogar"
+    },
+    {
+      "asin": "B0047BIWSK",
+      "productId": "coci-002",
+      "category": "cocina"
+    },
+    {
+      "asin": "B01LXZXMJ4",
+      "productId": "coci-003",
+      "category": "cocina"
+    },
+    {
+      "asin": "B07SL3TLGL",
+      "productId": "coci-004",
+      "category": "cocina"
+    },
+    {
+      "asin": "B074Z5RD79",
+      "productId": "coci-007",
+      "category": "cocina"
+    },
+    {
+      "asin": "B085GGK7Q5",
+      "productId": "coci-008",
+      "category": "cocina"
+    },
+    {
+      "asin": "B00INAXSZU",
+      "productId": "coci-009",
+      "category": "cocina"
+    },
+    {
+      "asin": "B001WU0NH2",
+      "productId": "coci-010",
+      "category": "cocina"
+    },
+    {
+      "asin": "B07S9XGXBQ",
+      "productId": "coci-013",
+      "category": "cocina"
+    },
+    {
+      "asin": "B01IHHLB3W",
+      "productId": "coci-014",
+      "category": "cocina"
+    },
+    {
+      "asin": "B0000CFNBR",
+      "productId": "coci-016",
+      "category": "cocina"
+    },
+    {
+      "asin": "B00JGFQTD2",
+      "productId": "coci-017",
+      "category": "cocina"
+    },
+    {
+      "asin": "B01AVDVHTI",
+      "productId": "dep-002",
+      "category": "deporte"
+    },
+    {
+      "asin": "B01LW4UGJB",
+      "productId": "dep-003",
+      "category": "deporte"
+    },
+    {
+      "asin": "B01ACAH2XI",
+      "productId": "dep-004",
+      "category": "deporte"
+    },
+    {
+      "asin": "B08B5J7ND3",
+      "productId": "dep-005",
+      "category": "deporte"
+    },
+    {
+      "asin": "B08KH4ZHVN",
+      "productId": "dep-006",
+      "category": "deporte"
+    },
+    {
+      "asin": "B07L4Q2FP7",
+      "productId": "dep-009",
+      "category": "deporte"
+    },
+    {
+      "asin": "B000YBFMRI",
+      "productId": "dep-010",
+      "category": "deporte"
+    },
+    {
+      "asin": "B07DXB5N3P",
+      "productId": "dep-011",
+      "category": "deporte"
+    },
+    {
+      "asin": "B001DUZY8G",
+      "productId": "dep-014",
+      "category": "deporte"
+    },
+    {
+      "asin": "B07VMS2QWK",
+      "productId": "dep-017",
+      "category": "deporte"
+    },
+    {
+      "asin": "B01LW7MQ9Y",
+      "productId": "dep-018",
+      "category": "deporte"
+    },
+    {
+      "asin": "B07CZPKJTZ",
+      "productId": "ofic-002",
+      "category": "oficina"
+    },
+    {
+      "asin": "B07BWRN2QQ",
+      "productId": "ofic-003",
+      "category": "oficina"
+    },
+    {
+      "asin": "B08G7RND4J",
+      "productId": "ofic-007",
+      "category": "oficina"
+    },
+    {
+      "asin": "B00B21TLQU",
+      "productId": "ofic-012",
+      "category": "oficina"
+    },
+    {
+      "asin": "B00AQUO6QM",
+      "productId": "ofic-013",
+      "category": "oficina"
+    },
+    {
+      "asin": "B004I2JUB6",
+      "productId": "bell-005",
+      "category": "belleza"
+    },
+    {
+      "asin": "B00ER81VH4",
+      "productId": "bell-006",
+      "category": "belleza"
+    },
+    {
+      "asin": "B07838DM11",
+      "productId": "bell-007",
+      "category": "belleza"
+    },
+    {
+      "asin": "B003PXFZH4",
+      "productId": "bell-010",
+      "category": "belleza"
+    },
+    {
+      "asin": "B00C6WE8N0",
+      "productId": "bell-013",
+      "category": "belleza"
+    },
+    {
+      "asin": "B001U49OD2",
+      "productId": "bell-014",
+      "category": "belleza"
+    },
+    {
+      "asin": "B07BW8QHCK",
+      "productId": "bell-015",
+      "category": "belleza"
+    },
+    {
+      "asin": "B001CNFQ38",
+      "productId": "masc-002",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B094GL6B7N",
+      "productId": "masc-003",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B00UTFS9LC",
+      "productId": "masc-004",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B001NWX0FU",
+      "productId": "masc-006",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B00N5A4BEA",
+      "productId": "masc-007",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B01N0YFHAV",
+      "productId": "masc-008",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B078NMF41X",
+      "productId": "masc-009",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B07CKYSJYF",
+      "productId": "masc-010",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B00HFQQ0VO",
+      "productId": "masc-012",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B000CQFZLM",
+      "productId": "masc-013",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B00095TQHA",
+      "productId": "masc-015",
+      "category": "mascotas"
+    },
+    {
+      "asin": "B073NFSXLH",
+      "productId": "bebe-002",
+      "category": "bebes"
+    },
+    {
+      "asin": "B07D9P7MLY",
+      "productId": "bebe-005",
+      "category": "bebes"
+    },
+    {
+      "asin": "B00N7E1LT8",
+      "productId": "bebe-007",
+      "category": "bebes"
+    },
+    {
+      "asin": "B01J4EL7F0",
+      "productId": "bebe-009",
+      "category": "bebes"
+    },
+    {
+      "asin": "B00KLBR5EC",
+      "productId": "bebe-010",
+      "category": "bebes"
+    },
+    {
+      "asin": "B00J8IGASG",
+      "productId": "bebe-011",
+      "category": "bebes"
+    },
+    {
+      "asin": "B00OJ6DSDI",
+      "productId": "herr-002",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B00LUD0E78",
+      "productId": "herr-003",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B07C7RQWMP",
+      "productId": "herr-004",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B000E3AEBM",
+      "productId": "herr-006",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B000BQNTLQ",
+      "productId": "herr-013",
+      "category": "herramientas"
+    },
+    {
+      "asin": "B004ZMKPIM",
+      "productId": "herr-015",
+      "category": "herramientas"
+    }
+  ],
+  "error": []
+}

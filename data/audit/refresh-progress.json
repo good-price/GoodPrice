@@ -1,0 +1,978 @@
+{
+  "startedAt": "2026-05-27T05:38:22.755Z",
+  "updatedAt": "2026-05-27T05:59:05.229Z",
+  "done": {
+    "coci-016": {
+      "asin": "B0000CFNBR",
+      "oldUrl": "https://images-na.ssl-images-amazon.com/images/I/81CLVPfO5sL._AC_SL1500_.jpg",
+      "newUrl": "https://m.media-amazon.com/images/I/5173XsDU-WL._AC_SL1000_.jpg",
+      "updatedAt": "2026-05-27T05:52:21.590Z"
+    },
+    "coci-017": {
+      "asin": "B00JGFQTD2",
+      "oldUrl": "https://images-na.ssl-images-amazon.com/images/I/71gOy3b1aaL._AC_SL1500_.jpg",
+      "newUrl": "https://m.media-amazon.com/images/I/719MP-zzPBL._AC_SL1500_.jpg",
+      "updatedAt": "2026-05-27T05:52:29.050Z"
+    },
+    "coci-019": {
+      "asin": "B007TIE0GQ",
+      "oldUrl": "https://images-na.ssl-images-amazon.com/images/I/71mxSBimXFL._AC_SL1500_.jpg",
+      "newUrl": "https://m.media-amazon.com/images/I/71swiEqWKxL._AC_SL1500_.jpg",
+      "updatedAt": "2026-05-27T05:52:36.089Z"
+    },
+    "ofic-011": {
+      "asin": "B082QHRZFW",
+      "oldUrl": "https://images-na.ssl-images-amazon.com/images/I/71HCQkzGnaL._AC_SL1500_.jpg",
+      "newUrl": "https://m.media-amazon.com/images/I/61o8RbJMX6L._AC_SL1500_.jpg",
+      "updatedAt": "2026-05-27T05:54:56.707Z"
+    },
+    "ofic-012": {
+      "asin": "B00B21TLQU",
+      "oldUrl": "https://images-na.ssl-images-amazon.com/images/I/61HpqJnNkgL._AC_SL1500_.jpg",
+      "newUrl": "https://m.media-amazon.com/images/I/61s2OB8mVjL._AC_SL1500_.jpg",
+      "updatedAt": "2026-05-27T05:55:03.770Z"
+    }
+  },
+  "failed": {
+    "ofic-016": {
+      "asin": "B09V2JYSYJ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-016": {
+      "asin": "B08CKNLGL2",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-020": {
+      "asin": "B07PRPPHW7",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-005": {
+      "asin": "B09T57FNF9",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-017": {
+      "asin": "B01CUKUSUE",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-012": {
+      "asin": "B001ARYU58",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-026": {
+      "asin": "B0CHX8W35Y",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-027": {
+      "asin": "B0BKHNT24B",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-028": {
+      "asin": "B09MK3Q25H",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-029": {
+      "asin": "B09B2L8R4M",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-007": {
+      "asin": "B0BZFWQMMG",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-009": {
+      "asin": "B0BYV6CNPT",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-010": {
+      "asin": "B09FDF9GR4",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-011": {
+      "asin": "B09C3ZHJY8",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-012": {
+      "asin": "B09FPWJPZZ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-013": {
+      "asin": "B09VXHNCTH",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-015": {
+      "asin": "B07K3FN5MR",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-018": {
+      "asin": "B0BN3X6LHQ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-021": {
+      "asin": "B07L9977K8",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-024": {
+      "asin": "B09G9QDVNZ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-025": {
+      "asin": "B0CMGH5ZPP",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-006": {
+      "asin": "B09QJFQH3L",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-010": {
+      "asin": "B0BXDN7CX4",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-011": {
+      "asin": "B09WZBPX7K",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-013": {
+      "asin": "B09ZMMGNL6",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-016": {
+      "asin": "B07WFPMH4T",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-018": {
+      "asin": "B07Q3YBFLB",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-019": {
+      "asin": "B07GKWXZMX",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-020": {
+      "asin": "B001WTYKBE",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-021": {
+      "asin": "B08NZJ8QPN",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-022": {
+      "asin": "B08F67ZM14",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-023": {
+      "asin": "B07Y4FSNQM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-005": {
+      "asin": "B07B3VP79V",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-006": {
+      "asin": "B002IASYA8",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-012": {
+      "asin": "B07XYXP5B5",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-018": {
+      "asin": "B07THHQMHM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-020": {
+      "asin": "B001CH0BTI",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-008": {
+      "asin": "B0B255BVQY",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-013": {
+      "asin": "B0714JX7TS",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-015": {
+      "asin": "B086RWLVS9",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-016": {
+      "asin": "B08MHZPFBT",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-019": {
+      "asin": "B09SQN3MC5",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-020": {
+      "asin": "B07GYRWGJY",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-010": {
+      "asin": "B07VH8HQ3B",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-014": {
+      "asin": "B07BVTJB9K",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-017": {
+      "asin": "B08MWZKY2G",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-019": {
+      "asin": "B010AY6KNM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-020": {
+      "asin": "B08NQFR6VP",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-008": {
+      "asin": "B07QDSP9TH",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-009": {
+      "asin": "B084VTF79P",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-011": {
+      "asin": "B07SNFYVJV",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-012": {
+      "asin": "B00ZYEBM5A",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-011": {
+      "asin": "B06XZ9FCKJ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-014": {
+      "asin": "B0892JKPNS",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-001": {
+      "asin": "B0979SDKG8",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-003": {
+      "asin": "B087L3Z4JX",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-004": {
+      "asin": "B09HG3YW2C",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-006": {
+      "asin": "B07K4T3YPR",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-008": {
+      "asin": "B07PHTXBCH",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-012": {
+      "asin": "B07V42V61L",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-013": {
+      "asin": "B07VFTH5CJ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-014": {
+      "asin": "B01M9JV2KZ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-015": {
+      "asin": "B09MDR1Z4L",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-001": {
+      "asin": "B01N5AIZIM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-005": {
+      "asin": "B07N3W3F8F",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-007": {
+      "asin": "B07KMVJJK7",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-008": {
+      "asin": "B08C9D7W8F",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-009": {
+      "asin": "B07NQPYM2R",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-010": {
+      "asin": "B01M9JRJ12",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-011": {
+      "asin": "B07DX5BS6G",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-012": {
+      "asin": "B000MVCKPA",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-014": {
+      "asin": "B07HBGJK7F",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-002": {
+      "asin": "B0B2SFVRC2",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-003": {
+      "asin": "B09TMN58KL",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-004": {
+      "asin": "B082WD5TY8",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-006": {
+      "asin": "B09XS7JWHH",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-007": {
+      "asin": "B098FKXT8L",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-008": {
+      "asin": "B0C33XXS56",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-009": {
+      "asin": "B099TJGJ91",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-010": {
+      "asin": "B096KZNL2W",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-011": {
+      "asin": "B08DMLB5NJ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-012": {
+      "asin": "B08PJ7ZGQV",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-013": {
+      "asin": "B0874YJP92",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-014": {
+      "asin": "B078211KBB",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-015": {
+      "asin": "B06VVS7S94",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-016": {
+      "asin": "B09W2H45S5",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-017": {
+      "asin": "B09KQDPXH2",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-018": {
+      "asin": "B09B2XKGG7",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-019": {
+      "asin": "B09MDR1Z4L",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-020": {
+      "asin": "B0932QJ2JZ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-022": {
+      "asin": "B08F6B1LRS",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-023": {
+      "asin": "B0B5HR3DDQ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-024": {
+      "asin": "B07K3FN5MR",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-025": {
+      "asin": "B0BXFQTHKB",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "elec-030": {
+      "asin": "B07D29QNMJ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-001": {
+      "asin": "B0CQKLS4RP",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-002": {
+      "asin": "B08DF248LD",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-003": {
+      "asin": "B086PKMZ21",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-006": {
+      "asin": "B09BT4QDHL",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-008": {
+      "asin": "B09C13PZX7",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-014": {
+      "asin": "B07RZQHB5H",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-017": {
+      "asin": "B08GLR1V5D",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-019": {
+      "asin": "B085RMD5TP",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-022": {
+      "asin": "B07NJBHKLL",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "game-023": {
+      "asin": "B0917MN3S4",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-001": {
+      "asin": "B07R295MLS",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-002": {
+      "asin": "B07QWB3H1Q",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-003": {
+      "asin": "B08GH9KL4M",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-004": {
+      "asin": "B09B8V1LZ3",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-007": {
+      "asin": "B07VVK39F7",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-008": {
+      "asin": "B082ZD6Y7C",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-009": {
+      "asin": "B07Q14LBNG",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-012": {
+      "asin": "B08CRVQZM6",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-014": {
+      "asin": "B09JLPF9PL",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-015": {
+      "asin": "B00FLYWNYQ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-024": {
+      "asin": "B07NLNMFLB",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "hogar-025": {
+      "asin": "B09MCVQRM3",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-001": {
+      "asin": "B06Y1YD5W7",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-002": {
+      "asin": "B0047BIWSK",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-003": {
+      "asin": "B01LXZXMJ4",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-004": {
+      "asin": "B07SL3TLGL",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-007": {
+      "asin": "B074Z5RD79",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-008": {
+      "asin": "B085GGK7Q5",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-009": {
+      "asin": "B00INAXSZU",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-010": {
+      "asin": "B001WU0NH2",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-011": {
+      "asin": "B00006JSUA",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-013": {
+      "asin": "B07S9XGXBQ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-014": {
+      "asin": "B01IHHLB3W",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "coci-015": {
+      "asin": "B07FDJMC9Q",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-001": {
+      "asin": "B09WTP57Z5",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-002": {
+      "asin": "B01AVDVHTI",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-003": {
+      "asin": "B01LW4UGJB",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-004": {
+      "asin": "B01ACAH2XI",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-005": {
+      "asin": "B08B5J7ND3",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-006": {
+      "asin": "B08KH4ZHVN",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-007": {
+      "asin": "B0040EGNIU",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-009": {
+      "asin": "B07L4Q2FP7",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-010": {
+      "asin": "B000YBFMRI",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-011": {
+      "asin": "B07DXB5N3P",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-014": {
+      "asin": "B001DUZY8G",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-017": {
+      "asin": "B07VMS2QWK",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "dep-018": {
+      "asin": "B01LW7MQ9Y",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-002": {
+      "asin": "B07CZPKJTZ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-003": {
+      "asin": "B07BWRN2QQ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-004": {
+      "asin": "B07S92QBCJ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-005": {
+      "asin": "B0148NPH9I",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-006": {
+      "asin": "B00N1YPXW2",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-007": {
+      "asin": "B08G7RND4J",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-008": {
+      "asin": "B000UXZQ42",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-009": {
+      "asin": "B085TFF7M1",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-013": {
+      "asin": "B00AQUO6QM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-015": {
+      "asin": "B08KTZ8249",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "ofic-018": {
+      "asin": "B00MIBN16O",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-001": {
+      "asin": "B0B61XH5YT",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-003": {
+      "asin": "B01MXMJKDP",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-004": {
+      "asin": "B01LSUQSB0",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-005": {
+      "asin": "B004I2JUB6",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-006": {
+      "asin": "B00ER81VH4",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-007": {
+      "asin": "B07838DM11",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-010": {
+      "asin": "B003PXFZH4",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-013": {
+      "asin": "B00C6WE8N0",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-014": {
+      "asin": "B001U49OD2",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bell-015": {
+      "asin": "B07BW8QHCK",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-001": {
+      "asin": "B07MZMLZZ3",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-002": {
+      "asin": "B001CNFQ38",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-003": {
+      "asin": "B094GL6B7N",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-004": {
+      "asin": "B00UTFS9LC",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-005": {
+      "asin": "B0002AR0II",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-006": {
+      "asin": "B001NWX0FU",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-007": {
+      "asin": "B00N5A4BEA",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-008": {
+      "asin": "B01N0YFHAV",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-009": {
+      "asin": "B078NMF41X",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-010": {
+      "asin": "B07CKYSJYF",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-012": {
+      "asin": "B00HFQQ0VO",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-013": {
+      "asin": "B000CQFZLM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "masc-015": {
+      "asin": "B00095TQHA",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-002": {
+      "asin": "B073NFSXLH",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-005": {
+      "asin": "B07D9P7MLY",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-007": {
+      "asin": "B00N7E1LT8",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-009": {
+      "asin": "B01J4EL7F0",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-010": {
+      "asin": "B00KLBR5EC",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "bebe-011": {
+      "asin": "B00J8IGASG",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-002": {
+      "asin": "B00OJ6DSDI",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-003": {
+      "asin": "B00LUD0E78",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-004": {
+      "asin": "B07C7RQWMP",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-006": {
+      "asin": "B000E3AEBM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-013": {
+      "asin": "B000BQNTLQ",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    },
+    "herr-015": {
+      "asin": "B004ZMKPIM",
+      "reason": "No hiRes URL found in page",
+      "attempts": 1
+    }
+  }
+}

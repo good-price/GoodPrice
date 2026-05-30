@@ -1,0 +1,529 @@
+[
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777249481",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 635882,
+    "currency": "COP",
+    "priceUSD": 153.15,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-04-27T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777335881",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 626781,
+    "currency": "COP",
+    "priceUSD": 150.96,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-04-28T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777422281",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 632067,
+    "currency": "COP",
+    "priceUSD": 152.23,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-04-29T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777508681",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 618797,
+    "currency": "COP",
+    "priceUSD": 149.04,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-04-30T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777595081",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 621664,
+    "currency": "COP",
+    "priceUSD": 149.73,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-01T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777681481",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 622111,
+    "currency": "COP",
+    "priceUSD": 149.83,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-02T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777767881",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 610583,
+    "currency": "COP",
+    "priceUSD": 147.06,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-03T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777854281",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 619103,
+    "currency": "COP",
+    "priceUSD": 149.11,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-04T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1777940681",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 608920,
+    "currency": "COP",
+    "priceUSD": 146.66,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-05T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778027081",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 612203,
+    "currency": "COP",
+    "priceUSD": 147.45,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-06T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778113481",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 601622,
+    "currency": "COP",
+    "priceUSD": 144.9,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-07T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778199881",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 601483,
+    "currency": "COP",
+    "priceUSD": 144.87,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-08T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778286281",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 605218,
+    "currency": "COP",
+    "priceUSD": 145.77,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-09T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778372681",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 596798,
+    "currency": "COP",
+    "priceUSD": 143.74,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-10T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778459081",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 594593,
+    "currency": "COP",
+    "priceUSD": 143.21,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-11T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778545481",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 594443,
+    "currency": "COP",
+    "priceUSD": 143.17,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-12T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778631881",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 591253,
+    "currency": "COP",
+    "priceUSD": 142.4,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-13T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778718281",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 587368,
+    "currency": "COP",
+    "priceUSD": 141.47,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-14T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778804681",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 587579,
+    "currency": "COP",
+    "priceUSD": 141.52,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-15T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778891081",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 579965,
+    "currency": "COP",
+    "priceUSD": 139.68,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-16T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1778977481",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 580394,
+    "currency": "COP",
+    "priceUSD": 139.79,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-17T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779063881",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 569248,
+    "currency": "COP",
+    "priceUSD": 137.1,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-18T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779150281",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 573738,
+    "currency": "COP",
+    "priceUSD": 138.18,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-19T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779236681",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 564713,
+    "currency": "COP",
+    "priceUSD": 136.01,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-20T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779323081",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 566834,
+    "currency": "COP",
+    "priceUSD": 136.52,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-21T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779409481",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 560464,
+    "currency": "COP",
+    "priceUSD": 134.99,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-22T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779495881",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 559903,
+    "currency": "COP",
+    "priceUSD": 134.85,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-23T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779582281",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 556233,
+    "currency": "COP",
+    "priceUSD": 133.97,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-24T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779668681",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 554401,
+    "currency": "COP",
+    "priceUSD": 133.53,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-25T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779755081",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 550871,
+    "currency": "COP",
+    "priceUSD": 132.68,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-26T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": false,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  },
+  {
+    "id": "snap_mercadolibre_MCO3456789012_1779841481",
+    "productId": "ofic-001",
+    "retailerId": "mercadolibre",
+    "price": 551313,
+    "currency": "COP",
+    "priceUSD": 132.78,
+    "exchangeRateUsed": 4152,
+    "availability": "in_stock",
+    "recordedAt": "2026-05-27T00:24:41.775Z",
+    "source": "retailer_api",
+    "wasAllTimeLow": true,
+    "metadata": {
+      "mlItemId": "MCO3456789012",
+      "seeded": true
+    }
+  }
+]
