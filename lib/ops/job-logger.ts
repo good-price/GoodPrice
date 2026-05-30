@@ -64,7 +64,6 @@ function ensureDir(): void {
 }
 
 function readStore(): JobStore {
-  ensureDir()
   if (!existsSync(JOBS_FILE)) return { updatedAt: new Date().toISOString(), jobs: {} }
   try {
     return JSON.parse(readFileSync(JOBS_FILE, 'utf-8')) as JobStore

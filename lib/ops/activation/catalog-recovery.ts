@@ -30,7 +30,6 @@ function ensureDir(): void {
 }
 
 export function loadRecoveryRun(): RecoveryRun | null {
-  ensureDir()
   if (!existsSync(STATE_PATH)) return null
   try {
     return JSON.parse(readFileSync(STATE_PATH, 'utf8')) as RecoveryRun
