@@ -28,7 +28,7 @@ export default async function PricingPage() {
   const activationReport = buildActivationReport()
   const truthReport      = loadTruthReport()
 
-  const { trmStatus, pricingHealth } = stabilization
+  const { pricingHealth } = stabilization
   const pricingScore    = Math.round(100 - pricingHealth.unreliablePct)
   const totalChecked    = truthReport?.totalChecked ?? 0
   const needsRevalCount = pricingHealth.needsRevalidation.length

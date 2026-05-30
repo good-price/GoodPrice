@@ -19,8 +19,7 @@ import { usePathname }    from 'next/navigation'
 import Link               from 'next/link'
 import { CommandPalette }    from '@/components/ops/CommandPalette'
 import { LiveExecutionFeed } from '@/components/ops/LiveExecutionFeed'
-import type { WorkspaceSection } from '@/lib/ops/workspace/types'
-import type { LiveEvent }        from '@/lib/ops/workspace/types'
+import type { LiveEvent } from '@/lib/ops/workspace/types'
 
 // ── Nav groups ────────────────────────────────────────────────────────────────
 
@@ -105,7 +104,7 @@ export function AdminShell({
     return () => document.removeEventListener('keydown', handleKey)
   }, [paletteOpen])
 
-  const navigateSection = useCallback((_section: WorkspaceSection) => {
+  const navigateSection = useCallback(() => {
     setPaletteOpen(false)
   }, [])
 

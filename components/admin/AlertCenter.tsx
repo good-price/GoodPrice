@@ -15,7 +15,6 @@
  */
 
 import Link from 'next/link'
-import { Card } from './shared'
 
 // ── Types ─────────────────────────────────────────────────────────────────────
 

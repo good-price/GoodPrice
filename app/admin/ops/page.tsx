@@ -37,10 +37,9 @@ export default function OpsPage() {
   const snapshot         = buildOpsSnapshot()
   const healingReport    = loadHealingReport()
 
-  const criticalCount   = opsReport.alerts.filter(a => a.severity === 'critical').length
-  const stalledQueues   = opsReport.queues.filter(q => q.isStalled).length
-  const suppressedCount = healingReport?.suppressedCount ?? 0
-  const hasActiveRun    = lastRecoveryRun?.status === 'running'
+  const criticalCount = opsReport.alerts.filter(a => a.severity === 'critical').length
+  const stalledQueues = opsReport.queues.filter(q => q.isStalled).length
+  const hasActiveRun  = lastRecoveryRun?.status === 'running'
 
   const tabs = [
     {
