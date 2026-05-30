@@ -79,8 +79,8 @@ function isAuthorised(authHeader: string): boolean {
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
 
-  // Only guard /admin and its sub-routes
-  if (!pathname.startsWith('/admin')) {
+  // Only guard /admin/ops and its sub-routes
+  if (!pathname.startsWith('/admin/ops')) {
     return NextResponse.next()
   }
 
@@ -99,5 +99,5 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ['/admin', '/admin/:path*'],
+  matcher: ['/admin/ops', '/admin/ops/:path*'],
 }
