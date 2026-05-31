@@ -17,6 +17,8 @@
  */
 
 import { getAllProducts }                    from '@/data/catalog'
+import { isInvalidImageUrl }                from '@/lib/catalog/placeholders'
+import { isImageSuppressible }              from '@/lib/catalog/image-health'
 import { computeCatalogVisibility }          from '@/lib/catalog/trust/visibility-engine'
 import { loadAllOverrides, applyOverrideToResult } from './override-engine'
 import { loadAllModerationEntries }          from './moderation-engine'
@@ -86,7 +88,9 @@ export function buildCatalogTableRows(): CatalogTableRow[] {
     const colombiaOk: boolean | null =
       colEntry == null ? null : colEntry.status === 'available'
 
-    const tier = quarantined ? 'quarantined' : result.tier
+    // Detect archived: protected suppress override whose reason was set by the archive action
+    const isArchived = !!override && override.protected && override.reason.startsWith('ARCHIVED:')
+    const tier = quarantined ? 'quarantined' : isArchived ? 'archived' : result.tier
 
     return {
       productId:         id,
@@ -103,14 +107,15 @@ export function buildCatalogTableRows(): CatalogTableRow[] {
       pricingTruthScore: truth?.pricing?.score ?? null,
       hasFakeDiscount:   truth?.hasFakeDiscount ?? false,
       productStatus:     product.status ?? 'unknown',
-      hasOverride:       !!override && !quarantined,
-      overrideTier:      override?.tier ?? null,
-      overrideOperator:  override?.operator ?? null,
+      hasOverride:       !!override && !quarantined && !isArchived,
+      overrideTier:      isArchived ? null : (override?.tier ?? null),
+      overrideOperator:  isArchived ? null : (override?.operator ?? null),
       riskLevel:         mod?.riskLevel ?? null,
       hasNote:           (mod?.notes.length ?? 0) > 0,
       pendingAction:     getPendingActionForProduct(id),
       lastActionAt:      lastActionMap.get(id) ?? null,
       clickCount:        -1,   // enriched in admin page from analytics after build
+      imageIssue:        isInvalidImageUrl(product.image) || isImageSuppressible(product.image),
     } satisfies CatalogTableRow
   })
 }

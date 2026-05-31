@@ -9,8 +9,9 @@
 
 'use client'
 
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import type { ProductAction, CatalogTableRow } from '@/lib/ops/actions/types'
+import { getAvailableActionsForTier } from '@/lib/ops/actions/lifecycle-transitions'
 
 interface BulkActionDef {
   action:   ProductAction
@@ -75,6 +76,19 @@ export function BulkActionBar({
   const [loading,     setLoading]     = useState(false)
   const [feedback,    setFeedback]    = useState<{ ok: boolean; msg: string } | null>(null)
 
+  // Intersection of valid actions across all selected tiers
+  const availableActions = useMemo(() => {
+    if (selectedRows.length === 0) return new Set<ProductAction>()
+    const sets = selectedRows.map(r => {
+      const tier =
+        r.hasOverride && r.tier === 'active'     ? 'override-active'     :
+        r.hasOverride && r.tier === 'suppressed' ? 'override-suppressed' :
+        r.tier
+      return new Set(getAvailableActionsForTier(tier))
+    })
+    return sets.reduce((acc, s) => new Set(Array.from(acc).filter(a => s.has(a))), sets[0])
+  }, [selectedRows])
+
   const count = selectedIds.length
   if (count === 0) return null
 
@@ -96,7 +110,7 @@ export function BulkActionBar({
   }
 
   async function execute() {
-    if (!active || reason.trim().length < 5) return
+    if (!active) return
     setLoading(true)
     try {
       const res  = await fetch('/api/ops/products/bulk', {
@@ -105,7 +119,7 @@ export function BulkActionBar({
         body:    JSON.stringify({
           productIds: selectedIds,
           action:     active,
-          reason:     reason.trim(),
+          reason:     reason.trim() || 'admin-action',
           operator:   'admin',
         }),
       })
@@ -218,7 +232,7 @@ export function BulkActionBar({
               />
               <button
                 onClick={execute}
-                disabled={loading || reason.trim().length < 5}
+                disabled={loading}
                 className="text-sm bg-blue-600 hover:bg-blue-500 disabled:opacity-50 text-white px-4 py-1.5 rounded-lg transition-colors font-medium"
               >
                 {loading ? '…' : 'Confirmar'}
@@ -233,10 +247,10 @@ export function BulkActionBar({
           </div>
         )}
 
-        {/* Action chips */}
+        {/* Action chips — only show valid transitions for the current selection */}
         {!feedback && (
           <div className="flex flex-wrap gap-2 px-4 py-3">
-            {BULK_ACTIONS.map(({ action, label, danger }) => (
+            {BULK_ACTIONS.filter(({ action }) => availableActions.has(action)).map(({ action, label, danger }) => (
               <button
                 key={action}
                 onClick={() => handleActionClick({ action, label, danger, confirm: BULK_ACTIONS.find(a => a.action === action)?.confirm })}

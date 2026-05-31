@@ -183,6 +183,10 @@ export function RecoveryCenter({ initialRun = null, initialAudit = null }: Props
     setLaunching(true)
     setError(null)
 
+    // Start polling immediately so stage dots and progress bar update
+    // while the synchronous pipeline runs server-side writing to recovery.json
+    setIsActive(true)
+
     try {
       const res  = await fetch('/api/ops/recovery', {
         method:  'POST',
@@ -193,14 +197,18 @@ export function RecoveryCenter({ initialRun = null, initialAudit = null }: Props
 
       if (!data.ok) {
         setError(data.error ?? 'Error al iniciar recovery')
+        setIsActive(false)   // abort polling — recovery did not start
         setLaunching(false)
         return
       }
 
       if (data.run) setRun(data.run)
+      // Pipeline is synchronous — response arrives with 'completed'/'failed',
+      // not 'running'. Stop the polling that was already running.
       setIsActive(data.run?.status === 'running')
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Error de red')
+      setIsActive(false)   // abort polling on network error
     } finally {
       setLaunching(false)
     }

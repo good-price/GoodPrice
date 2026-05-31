@@ -132,7 +132,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     group:       'Ejecutar',
     shortcut:    '⌘R',
     actionType:  'api_call',
-    actionValue: '/api/ops/run',
+    actionValue: '/api/ops/recovery',   // accepts { operator } — /api/ops/run requires { type }
     tags:        ['recovery', 'pipeline', 'recuperar', 'run'],
   },
   {

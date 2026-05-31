@@ -165,16 +165,17 @@ const POLL_INTERVAL = 5_000
 
 export function ExecutionConsole({ initialActiveJobs, initialRecentJobs = [] }: Props) {
   const [activeJobs,  setActiveJobs]  = useState<WorkspaceJob[]>(initialActiveJobs)
-  const [recentJobs,  setRecentJobs]  = useState<WorkspaceJob[]>(initialRecentJobs)
+  const [recentJobs]                  = useState<WorkspaceJob[]>(initialRecentJobs)
   const [tab,         setTab]         = useState<'active' | 'recent'>('active')
 
   const fetchJobs = useCallback(async () => {
     try {
-      const res  = await fetch('/api/ops/jobs', { cache: 'no-store' })
-      const data = await res.json() as { ok: boolean; active: WorkspaceJob[]; recent: WorkspaceJob[] }
-      if (data.ok) {
-        setActiveJobs(data.active ?? [])
-        setRecentJobs(data.recent ?? [])
+      // /api/ops/live returns snapshot.activeJobs already in WorkspaceJob format
+      // (converted by getWorkspaceActiveJobs → toWorkspaceJob in execution-stream.ts)
+      const res  = await fetch('/api/ops/live', { cache: 'no-store' })
+      const data = await res.json() as { ok: boolean; snapshot: { activeJobs: WorkspaceJob[] } }
+      if (data.ok && data.snapshot) {
+        setActiveJobs(data.snapshot.activeJobs ?? [])
       }
     } catch { /* fail silently */ }
   }, [])

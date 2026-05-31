@@ -182,6 +182,8 @@ export interface CatalogTableRow {
   lastActionAt:     string | null
   /** 0 = no clicks tracked; >0 = known click count. -1 = data unavailable. */
   clickCount:       number
+  /** True when the product image URL is structurally invalid or a dead-ASIN pattern (gate-5/5e) */
+  imageIssue:       boolean
 }
 
 // ── Action history entry (per-product timeline) ───────────────────────────────

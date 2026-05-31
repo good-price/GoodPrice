@@ -14,6 +14,7 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import type { CatalogTableRow, ProductAction, ProductHistoryEntry } from '@/lib/ops/actions/types'
+import { isTransitionAllowed } from '@/lib/ops/actions/lifecycle-transitions'
 
 // ── Tier colours ──────────────────────────────────────────────────────────────
 
@@ -223,7 +224,7 @@ export function ProductDrawer({ row, onClose }: Props) {
   }, [onClose])
 
   const execute = useCallback(async () => {
-    if (!row || !activeAction || reason.trim().length < 5) return
+    if (!row || !activeAction) return
     setLoading(true)
     try {
       const res  = await fetch('/api/ops/products/action', {
@@ -232,7 +233,7 @@ export function ProductDrawer({ row, onClose }: Props) {
         body:    JSON.stringify({
           productId: row.productId,
           action:    activeAction,
-          reason:    reason.trim(),
+          reason:    reason.trim() || 'admin-action',
           operator:  'admin',
         }),
       })
@@ -264,6 +265,11 @@ export function ProductDrawer({ row, onClose }: Props) {
   }, [row, activeAction, reason])
 
   if (!row) return null
+
+  const activeTier =
+    row.hasOverride && row.tier === 'active'     ? 'override-active'     :
+    row.hasOverride && row.tier === 'suppressed' ? 'override-suppressed' :
+    row.tier
 
   const tierBadgeCls = TIER_BADGE[row.tier] ?? TIER_BADGE.suppressed
   const tierLabel    = TIER_LABEL[row.tier]  ?? row.tier
@@ -380,14 +386,14 @@ export function ProductDrawer({ row, onClose }: Props) {
                     autoFocus
                     value={reason}
                     onChange={e => setReason(e.target.value)}
-                    placeholder="Motivo (mín. 5 chars)…"
+                    placeholder="Motivo de la acción…"
                     maxLength={200}
                     className="flex-1 text-xs bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800 dark:text-gray-200"
                     onKeyDown={e => { if (e.key === 'Enter') execute() }}
                   />
                   <button
                     onClick={execute}
-                    disabled={loading || reason.trim().length < 5}
+                    disabled={loading}
                     className="text-[11px] bg-blue-600 hover:bg-blue-500 disabled:opacity-50 text-white px-3 rounded-lg transition-colors font-medium"
                   >
                     {loading ? '…' : '↵'}
@@ -402,9 +408,9 @@ export function ProductDrawer({ row, onClose }: Props) {
               </div>
             )}
 
-            {/* Action buttons */}
+            {/* Action buttons — only show valid transitions for current tier */}
             <div className="flex flex-wrap gap-1.5">
-              {DRAWER_ACTIONS.map(({ action, label, danger, confirm: needsConfirm }) => (
+              {DRAWER_ACTIONS.filter(({ action }) => isTransitionAllowed(activeTier, action)).map(({ action, label, danger, confirm: needsConfirm }) => (
                 <button
                   key={action}
                   onClick={() => {

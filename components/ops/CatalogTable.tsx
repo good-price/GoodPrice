@@ -22,10 +22,22 @@ import { ProductDrawer }                   from './ProductDrawer'
 type TierFilter    = 'all' | 'active' | 'warning' | 'degraded' | 'suppressed' | 'quarantined' | 'archived'
 type SortField     = 'title' | 'score' | 'price' | 'tier' | 'none'
 type SortDir       = 'asc' | 'desc'
-type PriorityView  = 'all' | 'degraded' | 'suppressed' | 'no-image' | 'no-clicks' | 'recoverable' | 'high-risk'
+type PriorityView  = 'all' | 'no-image' | 'recoverable' | 'high-risk'
 
 const TIER_ORDER: Record<string, number> = {
   active: 0, warning: 1, degraded: 2, suppressed: 3, quarantined: 4, archived: 5,
+}
+
+// P1.2 — single source of truth for "recoverable" predicate
+function isRecoverableRow(r: CatalogTableRow): boolean {
+  return (
+    r.tier === 'suppressed' &&
+    r.productStatus === 'active' &&
+    r.suppressionReason !== null &&
+    !r.suppressionReason.toLowerCase().includes('cuarentena') &&
+    !r.suppressionReason.toLowerCase().includes('inactivo') &&
+    !r.suppressionReason.toLowerCase().includes('asin inválido')
+  )
 }
 
 const PAGE_SIZE = 25
@@ -255,13 +267,10 @@ interface PriorityBarProps {
 }
 
 const PRIORITY_DEFS: { id: PriorityView; label: string }[] = [
-  { id: 'all',         label: 'Todos'      },
-  { id: 'degraded',    label: 'Degradados' },
-  { id: 'suppressed',  label: 'Suprimidos' },
-  { id: 'no-image',    label: 'Sin imagen' },
-  { id: 'no-clicks',   label: 'Sin clicks' },
+  { id: 'all',         label: 'Todos'        },
+  { id: 'no-image',    label: 'Sin imagen'   },
   { id: 'recoverable', label: 'Recuperables' },
-  { id: 'high-risk',   label: 'Riesgo alto' },
+  { id: 'high-risk',   label: 'Riesgo alto'  },
 ]
 
 function PriorityBar({ active, onChange, counts }: PriorityBarProps) {
@@ -278,7 +287,7 @@ function PriorityBar({ active, onChange, counts }: PriorityBarProps) {
             className={[
               'flex-shrink-0 flex items-center gap-1 text-[10px] font-semibold px-2.5 py-1 rounded-full transition-all',
               isActive
-                ? id === 'suppressed' || id === 'high-risk'
+                ? id === 'high-risk'
                   ? 'bg-red-600 text-white'
                   : id === 'recoverable'
                     ? 'bg-green-600 text-white'
@@ -293,7 +302,7 @@ function PriorityBar({ active, onChange, counts }: PriorityBarProps) {
               <span className={`text-[9px] font-bold rounded-full px-1 ${
                 isActive
                   ? 'bg-white/20 text-white'
-                  : id === 'suppressed' || id === 'high-risk'
+                  : id === 'high-risk'
                     ? 'bg-red-100 dark:bg-red-900/40 text-red-600 dark:text-red-400'
                     : 'bg-gray-100 dark:bg-gray-700 text-gray-500'
               }`}>
@@ -365,14 +374,11 @@ export function CatalogTable({ initialRows }: Props) {
     [initialRows],
   )
 
-  // B7: Counts per priority view (computed over all rows, not filtered)
+  // Counts per priority view (computed over all rows, not filtered)
   const priorityCounts = useMemo((): Record<PriorityView, number> => ({
     all:         initialRows.length,
-    degraded:    initialRows.filter(r => r.tier === 'degraded').length,
-    suppressed:  initialRows.filter(r => r.tier === 'suppressed').length,
-    'no-image':  initialRows.filter(r => r.suppressionReason != null && (r.suppressionReason.toLowerCase().includes('imagen') || r.suppressionReason.toLowerCase().includes('image') || r.suppressionReason.toLowerCase().includes('img'))).length,
-    'no-clicks': initialRows.filter(r => r.clickCount === 0).length,
-    recoverable: initialRows.filter(r => r.tier === 'suppressed' && r.productStatus === 'active' && r.suppressionReason != null && !r.suppressionReason.toLowerCase().includes('cuarentena')).length,
+    'no-image':  initialRows.filter(r => r.imageIssue).length,
+    recoverable: initialRows.filter(isRecoverableRow).length,
     'high-risk': initialRows.filter(r => r.riskLevel === 'high' || r.riskLevel === 'critical').length,
   }), [initialRows])
 
@@ -403,29 +409,11 @@ export function CatalogTable({ initialRows }: Props) {
       rows = rows.filter(r => r.clickCount === 0)
     }
 
-    // B7: Priority view filters
-    if (priorityView === 'degraded') {
-      rows = rows.filter(r => r.tier === 'degraded')
-    } else if (priorityView === 'suppressed') {
-      rows = rows.filter(r => r.tier === 'suppressed')
-    } else if (priorityView === 'no-image') {
-      rows = rows.filter(r =>
-        r.suppressionReason != null &&
-        (r.suppressionReason.toLowerCase().includes('imagen') ||
-         r.suppressionReason.toLowerCase().includes('image') ||
-         r.suppressionReason.toLowerCase().includes('img'))
-      )
-    } else if (priorityView === 'no-clicks') {
-      rows = rows.filter(r => r.clickCount === 0)
+    // Priority view filters (degraded/suppressed/no-clicks are handled by FilterBar)
+    if (priorityView === 'no-image') {
+      rows = rows.filter(r => r.imageIssue)
     } else if (priorityView === 'recoverable') {
-      rows = rows.filter(r =>
-        r.tier === 'suppressed' &&
-        r.productStatus === 'active' &&
-        r.suppressionReason !== null &&
-        !r.suppressionReason.toLowerCase().includes('cuarentena') &&
-        !r.suppressionReason.toLowerCase().includes('inactivo') &&
-        !r.suppressionReason.toLowerCase().includes('asin inválido')
-      )
+      rows = rows.filter(isRecoverableRow)
     } else if (priorityView === 'high-risk') {
       rows = rows.filter(r => r.riskLevel === 'high' || r.riskLevel === 'critical')
     }
@@ -519,8 +507,6 @@ export function CatalogTable({ initialRows }: Props) {
   // Apply priority view: reset search/tier filters for clean UX
   function handlePriorityChange(v: PriorityView) {
     setPriorityView(v)
-    // Clear conflicting toggles
-    if (v === 'no-clicks') { setOnlyNoClicks(false) }
     if (v === 'high-risk') { setOnlyRisk(false) }
     setPage(1)
   }

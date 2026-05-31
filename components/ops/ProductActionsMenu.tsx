@@ -10,6 +10,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 import type { ProductAction }          from '@/lib/ops/actions/types'
+import { isTransitionAllowed }         from '@/lib/ops/actions/lifecycle-transitions'
 
 interface ActionDef {
   action:  ProductAction
@@ -49,12 +50,18 @@ const ACTION_GROUPS: { label: string; actions: ActionDef[] }[] = [
 ]
 
 interface Props {
-  productId: string
+  productId:    string
   productTitle: string
   currentTier:  string
+  hasOverride?: boolean
 }
 
-export function ProductActionsMenu({ productId, productTitle }: Props) {
+export function ProductActionsMenu({ productId, productTitle, currentTier, hasOverride = false }: Props) {
+  // Resolve override-aware tier for transition table
+  const activeTier =
+    hasOverride && currentTier === 'active'     ? 'override-active'     :
+    hasOverride && currentTier === 'suppressed' ? 'override-suppressed' :
+    currentTier
   const [open, setOpen]       = useState(false)
   const [active, setActive]   = useState<ProductAction | null>(null)
   const [reason, setReason]   = useState('')
@@ -76,7 +83,6 @@ export function ProductActionsMenu({ productId, productTitle }: Props) {
 
   async function execute() {
     if (!active) return
-    if (reason.trim().length < 5) return
 
     setLoading(true)
     try {
@@ -86,7 +92,7 @@ export function ProductActionsMenu({ productId, productTitle }: Props) {
         body:    JSON.stringify({
           productId,
           action: active,
-          reason: reason.trim(),
+          reason: reason.trim() || 'admin-action',
           operator: 'admin',
         }),
       })
@@ -154,7 +160,7 @@ export function ProductActionsMenu({ productId, productTitle }: Props) {
               <div className="flex gap-2 mt-1.5">
                 <button
                   onClick={execute}
-                  disabled={loading || reason.trim().length < 5}
+                  disabled={loading}
                   className="flex-1 text-xs bg-blue-600 hover:bg-blue-700 text-white rounded px-2 py-1 disabled:opacity-50 transition-colors"
                 >
                   {loading ? '…' : 'Confirmar'}
@@ -169,15 +175,18 @@ export function ProductActionsMenu({ productId, productTitle }: Props) {
             </div>
           )}
 
-          {/* Action groups */}
+          {/* Action groups — filtered by current tier */}
           {!feedback && (
             <div className="max-h-72 overflow-y-auto">
-              {ACTION_GROUPS.map(group => (
+              {ACTION_GROUPS.map(group => {
+                const validActions = group.actions.filter(a => isTransitionAllowed(activeTier, a.action))
+                if (validActions.length === 0) return null
+                return (
                 <div key={group.label}>
                   <p className="px-3 pt-2 pb-1 text-[9px] font-bold text-gray-400 uppercase tracking-widest">
                     {group.label}
                   </p>
-                  {group.actions.map(({ action, label, icon, danger }) => (
+                  {validActions.map(({ action, label, icon, danger }) => (
                     <button
                       key={action}
                       onClick={() => { setActive(action); setReason('') }}
@@ -193,7 +202,8 @@ export function ProductActionsMenu({ productId, productTitle }: Props) {
                     </button>
                   ))}
                 </div>
-              ))}
+              )
+              })}
             </div>
           )}
         </div>
