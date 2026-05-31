@@ -14,6 +14,7 @@ import { buildObservabilityReport, buildCatalogMetrics } from '@/lib/analytics'
 import { runCatalogIntegrity, getLastIntegritySnapshot } from '@/lib/catalog/integrity'
 import { generateIntelligenceReport }       from '@/lib/catalog/intelligence'
 import { getPublicCatalogStats }            from '@/lib/catalog/public'
+import { getLinkHealthStatus }              from '@/lib/catalog/link-health'
 import { getCatalogStats }                  from '@/data/catalog'
 import { getValidationCacheSize }           from '@/lib/catalog'
 import { buildCatalogTableRows }            from '@/lib/ops/actions'
@@ -63,6 +64,7 @@ export default async function CatalogPage() {
   const intelligenceReport = await generateIntelligenceReport({ analyticsData: catalog, includeDiscovery: true })
   const catalogTableRows   = buildCatalogTableRows()
 
+  const linkHealthStatus = getLinkHealthStatus()
   const deadProductIdSet = new Set(catalog.deadProducts.map(p => p.productId))
   const enrichedRows     = catalogTableRows.map(r => ({
     ...r,
@@ -116,6 +118,32 @@ export default async function CatalogPage() {
           Integridad · Inteligencia · Consola de operaciones
         </p>
       </div>
+
+      {/* ── Gate 9 warning — shown only when link health has never been audited ── */}
+      {!linkHealthStatus.hasData && (
+        <div className="flex items-start gap-3 px-4 py-3 rounded-xl border border-orange-200 bg-orange-50">
+          <span className="text-orange-500 text-base flex-shrink-0 mt-0.5">⚠</span>
+          <div className="flex-1 min-w-0">
+            <p className="text-[11px] font-semibold text-orange-800">
+              Gate 9 sin calibrar — enlaces Amazon no auditados
+            </p>
+            <p className="text-[10px] text-orange-600 mt-0.5">
+              El cache de link health no existe. Productos con páginas Amazon en 404
+              podrían estar visibles al público. Gate 9 solo suprime enlaces confirmados
+              muertos — sin datos, no suprime nada.
+            </p>
+            <p className="text-[10px] text-orange-500 mt-1 font-mono">
+              Ejecutar:{' '}
+              <span className="bg-orange-100 px-1.5 py-0.5 rounded">
+                POST /api/catalog/link-audit/run
+              </span>
+            </p>
+          </div>
+          <span className="text-[10px] text-orange-400 flex-shrink-0 font-medium whitespace-nowrap">
+            Gate 9
+          </span>
+        </div>
+      )}
 
       {/* ── Tabbed content ───────────────────────────────────────────────── */}
       <AdminTabs tabs={tabs} defaultTab="integrity">

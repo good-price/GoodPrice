@@ -185,10 +185,8 @@ export default function ImagesPage() {
       {/* ── API reference ───────────────────────────────────────────────── */}
       <div className="border-t border-gray-100 pt-4 pb-4">
         <p className="text-[10px] text-gray-300">
-          Reparación automática:{' '}
+          Reparación automática (CDN swap + scoring + PA-API):{' '}
           <code className="font-mono">POST /api/catalog/repair/run</code>
-          {' · '}CDN swap:{' '}
-          <code className="font-mono">POST /api/catalog/repair/cdn-swap</code>
         </p>
       </div>
     </div>

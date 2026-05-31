@@ -152,6 +152,42 @@ function buildDeadSet(cache: LinkHealthCache | null): Set<string> {
 const _linkHealthCache: LinkHealthCache | null = loadLinkHealthCache()
 const _deadLinkIds:     Set<string>            = buildDeadSet(_linkHealthCache)
 
+// ── Gate 9 status ─────────────────────────────────────────────────────────────
+
+export interface LinkHealthStatus {
+  /** True when the cache file exists and contains at least one audited entry */
+  hasData:      boolean
+  /** ISO timestamp of the last completed audit, or null if never run */
+  lastAuditAt:  string | null
+  /** Number of products confirmed dead (suppressible by Gate 9) */
+  deadCount:    number
+  /** Total number of products that have ever been audited */
+  totalAudited: number
+}
+
+/**
+ * Returns the operational status of Gate 9 (link health).
+ *
+ * Used by admin dashboards to surface the "never audited" state:
+ * when hasData === false, Gate 9 is effectively inactive — no products
+ * will be suppressed regardless of their actual Amazon page status.
+ *
+ * Safe to call from server components — reads from module-level singleton,
+ * no additional disk I/O.
+ */
+export function getLinkHealthStatus(): LinkHealthStatus {
+  if (!_linkHealthCache) {
+    return { hasData: false, lastAuditAt: null, deadCount: 0, totalAudited: 0 }
+  }
+  const entries = Object.values(_linkHealthCache.entries)
+  return {
+    hasData:      entries.length > 0,
+    lastAuditAt:  _linkHealthCache.generatedAt || null,
+    deadCount:    entries.filter(e => e.status === 'dead').length,
+    totalAudited: entries.length,
+  }
+}
+
 // ── Core predicates ───────────────────────────────────────────────────────────
 
 /**
