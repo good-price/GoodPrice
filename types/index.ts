@@ -275,6 +275,10 @@ export interface CategoryPage {
   updatedAt: string    // ISO date
 }
 
+// ── Trusted Product Engine types ──────────────────────────────────────────────
+
+export * from './tpe'
+
 // ── Content / guide types ─────────────────────────────────────────────────────
 
 export type GuideType = 'buying-guide' | 'comparison' | 'top-list'

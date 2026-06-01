@@ -1,5 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // ── C2: File tracing for data/tpe/ JSON stores ────────────────────────────
+  // Next.js cannot auto-trace files accessed via path.resolve(process.cwd(), ...)
+  // because the path is constructed at runtime, not statically importable.
+  // Without this, data/tpe/*.json may be absent in the serverless function
+  // bundle, causing ENOENT at runtime on Vercel.
+  //
+  // In Next.js 14, outputFileTracingIncludes lives under `experimental`.
+  // Scope: only the evaluate-local route reads from the pool at runtime.
+  // Other data/tpe/ reads happen exclusively in scripts/ (local, not Vercel).
+  experimental: {
+    outputFileTracingIncludes: {
+      '/api/tpe/evaluate-local': ['./data/tpe/**'],
+    },
+  },
+
   images: {
     remotePatterns: [
       {

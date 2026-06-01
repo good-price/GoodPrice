@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-01T01:39:19.252Z",
+  "jobs": [
+    {
+      "id": "djob-2026-06-01T01-39-19-236Z",
+      "runAt": "2026-06-01T01:39:19.237Z",
+      "source": "mock",
+      "targetVacancyIds": [
+        "vac-bebes",
+        "vac-belleza",
+        "vac-mascotas",
+        "vac-herramientas",
+        "vac-deporte",
+        "vac-oficina"
+      ],
+      "candidatesGenerated": 35,
+      "candidatesInserted": 35,
+      "duplicatesSkipped": 0,
+      "byCategory": [
+        {
+          "category": "bebes",
+          "vacancyId": "vac-bebes",
+          "slotsNeeded": 6,
+          "generated": 8,
+          "inserted": 8,
+          "duplicates": 0
+        },
+        {
+          "category": "belleza",
+          "vacancyId": "vac-belleza",
+          "slotsNeeded": 5,
+          "generated": 7,
+          "inserted": 7,
+          "duplicates": 0
+        },
+        {
+          "category": "mascotas",
+          "vacancyId": "vac-mascotas",
+          "slotsNeeded": 5,
+          "generated": 7,
+          "inserted": 7,
+          "duplicates": 0
+        },
+        {
+          "category": "herramientas",
+          "vacancyId": "vac-herramientas",
+          "slotsNeeded": 5,
+          "generated": 7,
+          "inserted": 7,
+          "duplicates": 0
+        },
+        {
+          "category": "deporte",
+          "vacancyId": "vac-deporte",
+          "slotsNeeded": 1,
+          "generated": 3,
+          "inserted": 3,
+          "duplicates": 0
+        },
+        {
+          "category": "oficina",
+          "vacancyId": "vac-oficina",
+          "slotsNeeded": 1,
+          "generated": 3,
+          "inserted": 3,
+          "duplicates": 0
+        }
+      ],
+      "durationMs": 21,
+      "status": "completed",
+      "notes": "Sprint 5A mock run — validates pipeline architecture. Mock ASINs will fail Gate 7."
+    }
+  ]
+}

@@ -12,6 +12,7 @@
     "catalog:integrity:strict": "npx tsx scripts/catalog-integrity.ts --save --strict"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.1057.0",
     "@radix-ui/react-dialog": "^1.1.15",
     "@radix-ui/react-select": "^2.2.6",
     "@radix-ui/react-separator": "^1.1.8",

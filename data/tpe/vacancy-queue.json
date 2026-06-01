@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "updatedAt": "2026-06-01T01:39:19.252Z",
+  "targetPerCategory": 20,
+  "allCategories": [
+    "electronica",
+    "gaming",
+    "hogar",
+    "cocina",
+    "deporte",
+    "oficina",
+    "belleza",
+    "mascotas",
+    "bebes",
+    "herramientas"
+  ],
+  "vacancies": [
+    {
+      "id": "vac-deporte",
+      "category": "deporte",
+      "priority": "low",
+      "status": "in_progress",
+      "currentCount": 19,
+      "targetCount": 20,
+      "slotsNeeded": 1,
+      "createdAt": "2026-06-01T01:27:39.450Z",
+      "updatedAt": "2026-06-01T01:39:19.251Z",
+      "notes": "3 candidates in pipeline (status=pending, gates not yet run)"
+    },
+    {
+      "id": "vac-oficina",
+      "category": "oficina",
+      "priority": "low",
+      "status": "in_progress",
+      "currentCount": 19,
+      "targetCount": 20,
+      "slotsNeeded": 1,
+      "createdAt": "2026-06-01T01:27:39.450Z",
+      "updatedAt": "2026-06-01T01:39:19.252Z",
+      "notes": "3 candidates in pipeline (status=pending, gates not yet run)"
+    },
+    {
+      "id": "vac-belleza",
+      "category": "belleza",
+      "priority": "high",
+      "status": "in_progress",
+      "currentCount": 15,
+      "targetCount": 20,
+      "slotsNeeded": 5,
+      "createdAt": "2026-06-01T01:27:39.450Z",
+      "updatedAt": "2026-06-01T01:39:19.250Z",
+      "notes": "7 candidates in pipeline (status=pending, gates not yet run)"
+    },
+    {
+      "id": "vac-mascotas",
+      "category": "mascotas",
+      "priority": "high",
+      "status": "in_progress",
+      "currentCount": 15,
+      "targetCount": 20,
+      "slotsNeeded": 5,
+      "createdAt": "2026-06-01T01:27:39.450Z",
+      "updatedAt": "2026-06-01T01:39:19.251Z",
+      "notes": "7 candidates in pipeline (status=pending, gates not yet run)"
+    },
+    {
+      "id": "vac-bebes",
+      "category": "bebes",
+      "priority": "critical",
+      "status": "in_progress",
+      "currentCount": 14,
+      "targetCount": 20,
+      "slotsNeeded": 6,
+      "createdAt": "2026-06-01T01:27:39.450Z",
+      "updatedAt": "2026-06-01T01:39:19.250Z",
+      "notes": "8 candidates in pipeline (status=pending, gates not yet run)"
+    },
+    {
+      "id": "vac-herramientas",
+      "category": "herramientas",
+      "priority": "high",
+      "status": "in_progress",
+      "currentCount": 15,
+      "targetCount": 20,
+      "slotsNeeded": 5,
+      "createdAt": "2026-06-01T01:27:39.450Z",
+      "updatedAt": "2026-06-01T01:39:19.251Z",
+      "notes": "7 candidates in pipeline (status=pending, gates not yet run)"
+    }
+  ],
+  "categorySnapshot": [
+    {
+      "category": "electronica",
+      "currentCount": 30,
+      "targetCount": 20,
+      "delta": 10,
+      "status": "surplus"
+    },
+    {
+      "category": "gaming",
+      "currentCount": 22,
+      "targetCount": 20,
+      "delta": 2,
+      "status": "surplus"
+    },
+    {
+      "category": "hogar",
+      "currentCount": 23,
+      "targetCount": 20,
+      "delta": 3,
+      "status": "surplus"
+    },
+    {
+      "category": "cocina",
+      "currentCount": 20,
+      "targetCount": 20,
+      "delta": 0,
+      "status": "balanced"
+    },
+    {
+      "category": "deporte",
+      "currentCount": 19,
+      "targetCount": 20,
+      "delta": -1,
+      "status": "deficit"
+    },
+    {
+      "category": "oficina",
+      "currentCount": 19,
+      "targetCount": 20,
+      "delta": -1,
+      "status": "deficit"
+    },
+    {
+      "category": "belleza",
+      "currentCount": 15,
+      "targetCount": 20,
+      "delta": -5,
+      "status": "deficit"
+    },
+    {
+      "category": "mascotas",
+      "currentCount": 15,
+      "targetCount": 20,
+      "delta": -5,
+      "status": "deficit"
+    },
+    {
+      "category": "bebes",
+      "currentCount": 14,
+      "targetCount": 20,
+      "delta": -6,
+      "status": "deficit"
+    },
+    {
+      "category": "herramientas",
+      "currentCount": 15,
+      "targetCount": 20,
+      "delta": -5,
+      "status": "deficit"
+    }
+  ]
+}
