@@ -86,7 +86,7 @@ interface WatchlistCardProps {
 
 function WatchlistCard({ item, offerData, integrity, onRemove, onEdit }: WatchlistCardProps) {
   const productPageUrl = `/productos/${item.asin}`
-  const amazonUrl      = `https://www.amazon.com/dp/${item.asin}?tag=pulseprice-20`
+  const amazonUrl      = `https://www.amazon.com/dp/${item.asin}?tag=upgoodprice-20`
 
   const mlPriceUSD = offerData?.priceUSD
   const hasMlPrice = mlPriceUSD !== undefined

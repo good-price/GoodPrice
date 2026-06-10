@@ -1,4 +1,4 @@
-const AFFILIATE_TAG = 'pulseprice-20'
+const AFFILIATE_TAG = 'upgoodprice-20'
 
 export function buildAffiliateUrl(amazonUrl: string): string {
   try {

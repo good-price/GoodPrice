@@ -138,7 +138,7 @@ export function PaapiStatusPanel({ initial = null }: Props) {
             <div className="space-y-0.5 font-mono text-[9px] text-gray-500">
               <p>PAAPI_ACCESS_KEY=&lt;tu-access-key&gt;</p>
               <p>PAAPI_SECRET_KEY=&lt;tu-secret-key&gt;</p>
-              <p>PAAPI_PARTNER_TAG=pulseprice-20</p>
+              <p>PAAPI_PARTNER_TAG=upgoodprice-20</p>
             </div>
           </div>
         )}

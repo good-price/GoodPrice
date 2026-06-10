@@ -11,7 +11,7 @@
  * Credentials sourced from environment:
  *   PAAPI_ACCESS_KEY   — Amazon PA-API access key
  *   PAAPI_SECRET_KEY   — Amazon PA-API secret key
- *   PAAPI_PARTNER_TAG  — Associate tag (default: pulseprice-20)
+ *   PAAPI_PARTNER_TAG  — Associate tag (default: upgoodprice-20)
  *   PAAPI_MARKETPLACE  — Marketplace (default: www.amazon.com)
  */
 
@@ -68,7 +68,7 @@ export class PaapiClient {
   }) {
     this.accessKey    = options?.accessKey    ?? process.env.PAAPI_ACCESS_KEY   ?? ''
     this.secretKey    = options?.secretKey    ?? process.env.PAAPI_SECRET_KEY   ?? ''
-    this.partnerTag   = options?.partnerTag   ?? process.env.PAAPI_PARTNER_TAG  ?? 'pulseprice-20'
+    this.partnerTag   = options?.partnerTag   ?? process.env.PAAPI_PARTNER_TAG  ?? 'upgoodprice-20'
     this.marketplace  = options?.marketplace  ?? process.env.PAAPI_MARKETPLACE  ?? 'www.amazon.com'
     this.requestDelayMs = options?.requestDelayMs ?? 1100
     this.timeoutMs      = options?.timeoutMs      ?? 15_000

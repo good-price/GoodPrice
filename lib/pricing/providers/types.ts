@@ -64,7 +64,7 @@ export interface RetailerProvider {
    *
    * @example
    * amazon.buildAffiliateUrl('https://www.amazon.com/dp/B0CHWRXH8B')
-   * // → 'https://www.amazon.com/dp/B0CHWRXH8B?tag=pulseprice-20'
+   * // → 'https://www.amazon.com/dp/B0CHWRXH8B?tag=upgoodprice-20'
    */
   buildAffiliateUrl(productUrl: string): string
 

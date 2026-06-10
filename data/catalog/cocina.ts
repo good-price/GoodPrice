@@ -55,7 +55,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Cafeteras y café ─────────────────────────────────────────────────────
+  // â”€â”€ Cafeteras y café â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-004',
     asin: 'B07SL3TLGL',
@@ -110,7 +110,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Ollas a presión y multifunciones ──────────────────────────────────────
+  // â”€â”€ Ollas a presión y multifunciones â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-007',
     asin: 'B074Z5RD79',
@@ -147,7 +147,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Licuadoras y procesadores ─────────────────────────────────────────────
+  // â”€â”€ Licuadoras y procesadores â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-009',
     asin: 'B00INAXSZU',
@@ -184,7 +184,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Sartenes y utensilios ─────────────────────────────────────────────────
+  // â”€â”€ Sartenes y utensilios â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-011',
     asin: 'B00006JSUA',
@@ -221,7 +221,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Básculas y medición ───────────────────────────────────────────────────
+  // â”€â”€ Básculas y medición â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-013',
     asin: 'B07S9XGXBQ',
@@ -240,7 +240,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Sous vide y técnicas avanzadas ────────────────────────────────────────
+  // â”€â”€ Sous vide y técnicas avanzadas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-014',
     asin: 'B01IHHLB3W',
@@ -259,7 +259,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Air Fryer independiente ───────────────────────────────────────────────
+  // â”€â”€ Air Fryer independiente â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-015',
     asin: 'B07FDJMC9Q',
@@ -278,7 +278,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Cuchillos y tablas ────────────────────────────────────────────────────
+  // â”€â”€ Cuchillos y tablas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-016',
     asin: 'B0000CFNBR',
@@ -297,7 +297,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Conservación ─────────────────────────────────────────────────────────
+  // â”€â”€ Conservación â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-017',
     asin: 'B00JGFQTD2',
@@ -316,7 +316,7 @@ const cocina: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Electrodomésticos premium ─────────────────────────────────────────────
+  // â”€â”€ Electrodomésticos premium â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'coci-018',
     asin: 'B07THHQMHM',

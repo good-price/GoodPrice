@@ -28,7 +28,7 @@ export async function GET() {
 
   return NextResponse.json({
     configured: client.isConfigured,
-    partnerTag: process.env.PAAPI_PARTNER_TAG ?? 'pulseprice-20',
+    partnerTag: process.env.PAAPI_PARTNER_TAG ?? 'upgoodprice-20',
     marketplace: process.env.PAAPI_MARKETPLACE ?? 'www.amazon.com',
     cache: cacheStats,
     imageHealth,

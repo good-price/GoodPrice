@@ -10,7 +10,7 @@
  *   - Inline CSS only (email client compatibility)
  *   - Mobile-first, single-column layout
  *   - Minimal — no heavy imagery, loads fast
- *   - Affiliate links always use buildAsinUrl() → pulseprice-20 tag
+ *   - Affiliate links always use buildAsinUrl() → upgoodprice-20 tag
  *   - Unsubscribe link in footer (CAN-SPAM compliant)
  */
 

@@ -1,7 +1,7 @@
 import { RawProduct } from '@/types'
 
 const herramientas: RawProduct[] = [
-  // ── Taladros y atornilladores ─────────────────────────────────────────────
+  // â”€â”€ Taladros y atornilladores â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'herr-001',
     asin: 'B01N5AIZIM',
@@ -74,7 +74,7 @@ const herramientas: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Multímetros ───────────────────────────────────────────────────────────
+  // â”€â”€ Multímetros â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'herr-005',
     asin: 'B07N3W3F8F',
@@ -111,7 +111,7 @@ const herramientas: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Cajas y organización ──────────────────────────────────────────────────
+  // â”€â”€ Cajas y organización â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'herr-007',
     asin: 'B07KMVJJK7',
@@ -148,7 +148,7 @@ const herramientas: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Iluminación de trabajo ────────────────────────────────────────────────
+  // â”€â”€ Iluminación de trabajo â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'herr-009',
     asin: 'B07NQPYM2R',
@@ -167,7 +167,7 @@ const herramientas: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Grapas, sierras y accesorios ─────────────────────────────────────────
+  // â”€â”€ Grapas, sierras y accesorios â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'herr-010',
     asin: 'B01M9JRJ12',
@@ -204,7 +204,7 @@ const herramientas: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Herramientas manuales ─────────────────────────────────────────────────
+  // â”€â”€ Herramientas manuales â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'herr-012',
     asin: 'B000MVCKPA',
@@ -241,7 +241,7 @@ const herramientas: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Herramientas rotativas ────────────────────────────────────────────────
+  // â”€â”€ Herramientas rotativas â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'herr-014',
     asin: 'B07HBGJK7F',

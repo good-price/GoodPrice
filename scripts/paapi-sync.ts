@@ -78,7 +78,7 @@ async function main() {
     console.log('  Set these in .env.local:')
     console.log(Cy('    PAAPI_ACCESS_KEY=<your-access-key>'))
     console.log(Cy('    PAAPI_SECRET_KEY=<your-secret-key>'))
-    console.log(Cy('    PAAPI_PARTNER_TAG=pulseprice-20'))
+    console.log(Cy('    PAAPI_PARTNER_TAG=upgoodprice-20'))
     console.log()
     console.log('  Get credentials at:')
     console.log(Gr('    https://affiliate-program.amazon.com/assoc_credentials/home'))
@@ -138,7 +138,7 @@ async function main() {
   console.log(`  Modo              : ${dryRun ? Y('DRY RUN (no escribe archivos)') : G('REAL')}`)
   console.log(`  Cache             : ${forceRefresh ? Y('ignorar (--force)') : G('usar si disponible')}`)
   console.log(`  Targets           : ${B(targetDesc)}`)
-  console.log(`  Partner tag       : ${Cy(process.env.PAAPI_PARTNER_TAG ?? 'pulseprice-20')}`)
+  console.log(`  Partner tag       : ${Cy(process.env.PAAPI_PARTNER_TAG ?? 'upgoodprice-20')}`)
   console.log()
 
   if (!dryRun) {

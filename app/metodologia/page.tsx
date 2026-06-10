@@ -276,7 +276,7 @@ export default function MetodologiaPage() {
       <Section id="afiliados" title="5. Relación con afiliados">
         <p>
           GOODPRICE es un sitio participante en el{' '}
-          <strong>Programa de Afiliados de Amazon</strong> (tag: pulseprice-20). Cuando
+          <strong>Programa de Afiliados de Amazon</strong> (tag: upgoodprice-20). Cuando
           compras a través de nuestros enlaces de Amazon, recibimos una pequeña comisión
           de Amazon.
         </p>

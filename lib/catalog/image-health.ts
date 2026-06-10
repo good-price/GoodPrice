@@ -18,8 +18,6 @@
  * Suppression criteria (any of these triggers suppression):
  *   1. images-na…/images/P/* (score = 0) — ASIN is dead
  *   2. Structurally invalid URL (score = 0) — misconfigured product
- *   3. REPEATED broken images: images-na/I/ AND repeated audit failures
- *      (handled by image-health + intelligence integration, not here directly)
  *
  * Integration:
  *   - Used by lib/catalog/public.ts Gate 5E (enhanced image gate)

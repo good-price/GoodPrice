@@ -1,7 +1,7 @@
 import { RawProduct } from '@/types'
 
 const hogar: RawProduct[] = [
-  // ── Existentes (hogar-001 – 004) ──────────────────────────────────────────
+  // â”€â”€ Existentes (hogar-001 – 004) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-001',
     asin: 'B07R295MLS',
@@ -74,7 +74,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Robot aspiradoras y limpieza ─────────────────────────────────────────
+  // â”€â”€ Robot aspiradoras y limpieza â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-005',
     asin: 'B09T57FNF9',
@@ -112,7 +112,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Purificadores de aire ─────────────────────────────────────────────────
+  // â”€â”€ Purificadores de aire â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-007',
     asin: 'B07VVK39F7',
@@ -131,7 +131,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Iluminación inteligente ───────────────────────────────────────────────
+  // â”€â”€ Iluminación inteligente â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-008',
     asin: 'B082ZD6Y7C',
@@ -168,7 +168,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Termostatoss y clima ──────────────────────────────────────────────────
+  // â”€â”€ Termostatoss y clima â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-010',
     asin: 'B0BXDN7CX4',
@@ -187,7 +187,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Seguridad del hogar ───────────────────────────────────────────────────
+  // â”€â”€ Seguridad del hogar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-011',
     asin: 'B09WZBPX7K',
@@ -224,7 +224,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Altavoces inteligentes ────────────────────────────────────────────────
+  // â”€â”€ Altavoces inteligentes â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-013',
     asin: 'B09ZMMGNL6',
@@ -261,7 +261,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Utensilios y pequeños electrodomésticos ───────────────────────────────
+  // â”€â”€ Utensilios y pequeños electrodomésticos â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-015',
     asin: 'B00FLYWNYQ',
@@ -316,7 +316,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: false,
   },
-  // ── Organización ──────────────────────────────────────────────────────────
+  // â”€â”€ Organización â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-018',
     asin: 'B07Q3YBFLB',
@@ -335,7 +335,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Ropa de cama y textiles ───────────────────────────────────────────────
+  // â”€â”€ Ropa de cama y textiles â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-019',
     asin: 'B07GKWXZMX',
@@ -354,7 +354,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Cocina pequeños electrodomésticos ────────────────────────────────────
+  // â”€â”€ Cocina pequeños electrodomésticos â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-020',
     asin: 'B001WTYKBE',
@@ -373,7 +373,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Jardín y exterior ─────────────────────────────────────────────────────
+  // â”€â”€ Jardín y exterior â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-021',
     asin: 'B08NZJ8QPN',
@@ -392,7 +392,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Limpieza del hogar ────────────────────────────────────────────────────
+  // â”€â”€ Limpieza del hogar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-022',
     asin: 'B08F67ZM14',
@@ -411,7 +411,7 @@ const hogar: RawProduct[] = [
     lastValidated: '2026-05-27',
     shipsToColombiaConfirmed: true,
   },
-  // ── Monitoreo del hogar ───────────────────────────────────────────────────
+  // â”€â”€ Monitoreo del hogar â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     id: 'hogar-023',
     asin: 'B07Y4FSNQM',

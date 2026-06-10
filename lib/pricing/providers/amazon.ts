@@ -5,7 +5,7 @@
  * are Amazon listings. This provider formalizes the Amazon-specific logic
  * that was previously scattered across the codebase.
  *
- * Affiliate program: Amazon Associates (tag: pulseprice-20)
+ * Affiliate program: Amazon Associates (tag: upgoodprice-20)
  * Primary market: amazon.com (ships internationally to Colombia)
  * Pricing currency: USD
  * Colombia shipping: Direct (7–21 days, free on orders $25+)
@@ -40,7 +40,7 @@ const AMAZON_RETAILER: Retailer = {
   countries: ['US'],
   currency: 'USD',
   affiliateSupport: true,
-  affiliateTag: 'pulseprice-20',
+  affiliateTag: 'upgoodprice-20',
   logoUrl: '/logos/amazon.svg',
   shipsToColombiaDirectly: true,
   shippingEstimateDays: { min: 7, max: 21 },
