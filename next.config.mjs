@@ -16,6 +16,9 @@ const nextConfig = {
       '/reviews/[slug]':     ['./content/reviews/**'],
       '/comparar/[slug]':    ['./content/comparisons/**'],
       '/guias/[slug]':       ['./content/guides/**'],
+      // Currency seed — provides baseline TRM on Vercel cold starts before
+      // the first cron write. Needed by all ISR product/category pages.
+      '/**':                 ['./data/currency/**'],
     },
   },
 

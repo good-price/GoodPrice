@@ -21,15 +21,34 @@ import type { PricingHealthReport } from './types'
 /** Days without re-validation before a price is considered stale */
 const STALE_DAYS = 7
 
+/**
+ * Grace period for products that have never run through live-truth validation
+ * but have a manual `lastValidated` date set by the curator.
+ * Allows freshly-curated catalogs to score correctly before the first cron run.
+ */
+const MANUAL_GRACE_DAYS = 30
+
 /** Price drift beyond this threshold is flagged as extreme */
 const DRIFT_THRESHOLD_PCT = 30
 
 // ── Helpers ────────────────────────────────────────────────────────────────────
 
-function isStale(checkedAt: string | undefined): boolean {
-  if (!checkedAt) return true
-  const ageMs = Date.now() - new Date(checkedAt).getTime()
-  return ageMs > STALE_DAYS * 86_400_000
+/**
+ * Returns true if pricing data is too old to trust.
+ *
+ * Priority:
+ *   1. `checkedAt` from live-truth results (automated, most authoritative)
+ *   2. `lastValidated` from catalog product (manual curator date, grace period applies)
+ *   3. Neither present → stale
+ */
+function isStale(checkedAt: string | undefined, lastValidated?: string): boolean {
+  if (checkedAt) {
+    return Date.now() - new Date(checkedAt).getTime() > STALE_DAYS * 86_400_000
+  }
+  if (lastValidated) {
+    return Date.now() - new Date(lastValidated).getTime() > MANUAL_GRACE_DAYS * 86_400_000
+  }
+  return true
 }
 
 function hasExtremeDrift(deltaPct: number | undefined): boolean {
@@ -62,8 +81,8 @@ export function buildPricingHealthReport(): PricingHealthReport {
 
     const result = allResults[product.id]
 
-    // Stale detection
-    const stale = isStale(result?.checkedAt)
+    // Stale detection — use live-truth checkedAt first, fall back to curator's lastValidated
+    const stale = isStale(result?.checkedAt, product.lastValidated)
     if (stale) staleCount++
 
     // Live-truth results

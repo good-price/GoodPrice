@@ -18,14 +18,18 @@
  */
 
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'fs'
-import { dirname } from 'path'
+import { dirname, join } from 'path'
 import type { StoredRate, RateProvider } from './types'
 import { dataPath } from '@/lib/data-path'
 
 // ── Constants ──────────────────────────────────────────────────────────────────
 
-/** Conservative estimate used when no rate is available on disk. */
-export const FALLBACK_RATE: number = 4100
+/**
+ * Emergency fallback used only when no rate file is available (not even the
+ * committed seed). Verified against open.er-api.com on 2026-06-13 (~3,550)
+ * and fawazahmed0/CDN (~3,491). Average rounded down for safety.
+ */
+export const FALLBACK_RATE: number = 3520
 
 /** In-process cache refreshes once per hour (disk reads are cheap but not free). */
 const IN_PROCESS_TTL = 60 * 60 * 1000   // 1 hour
@@ -43,18 +47,36 @@ function getRatePath(): string {
 
 /**
  * Reads the stored rate from disk. Returns null if absent or corrupt.
+ *
+ * Two-path lookup:
+ *   1. Dynamic path — /tmp on Vercel (written by cron), cwd locally.
+ *   2. Seed path   — committed to the repo, bundled via outputFileTracingIncludes.
+ *      Used on Vercel cold starts before the first cron write to /tmp.
  */
 export function readStoredRate(): StoredRate | null {
-  const path = getRatePath()
-  if (!existsSync(path)) return null
-  try {
-    const raw = JSON.parse(readFileSync(path, 'utf8')) as StoredRate
-    // Basic shape validation
-    if (typeof raw.rate !== 'number' || raw.rate <= 0) return null
-    return raw
-  } catch {
-    return null
+  const primaryPath = getRatePath()
+  if (existsSync(primaryPath)) {
+    try {
+      const raw = JSON.parse(readFileSync(primaryPath, 'utf8')) as StoredRate
+      if (typeof raw.rate === 'number' && raw.rate > 0) return raw
+    } catch { /* fall through to seed */ }
   }
+
+  // On Vercel, /tmp starts empty on every cold start. Read the seed file
+  // committed to the repo (included in the lambda bundle via next.config.mjs
+  // outputFileTracingIncludes). Locally this path resolves to the same file
+  // as primaryPath, so we only try it when on Vercel.
+  if (process.env.VERCEL) {
+    const seedPath = join(process.cwd(), 'data', 'currency', 'usd-cop.json')
+    if (existsSync(seedPath)) {
+      try {
+        const raw = JSON.parse(readFileSync(seedPath, 'utf8')) as StoredRate
+        if (typeof raw.rate === 'number' && raw.rate > 0) return raw
+      } catch { /* fall through */ }
+    }
+  }
+
+  return null
 }
 
 /**
