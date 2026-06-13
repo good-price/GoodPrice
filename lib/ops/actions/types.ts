@@ -31,17 +31,14 @@ export type ProductAction =
   | 'unquarantine'      // Remove from quarantine (unsafe products cannot be unquarantined)
   | 'archive'           // Permanently archive (status = inactive, cannot activate)
   | 'restore'           // Remove any manual override — let automation decide
-  | 'repair'            // Queue for repair pipeline
-  | 'revalidate'        // Queue for live-truth validation
-  | 'refresh-truth'     // Queue for truth score refresh
-  | 'refresh-pricing'   // Queue for pricing refresh
-  | 'rerun-repair'      // Queue for repair re-run
+  | 'repair'            // Run repair pipeline via Execution Engine
+  | 'revalidate'        // Run trust recompute via Execution Engine
+  | 'refresh-truth'     // Run live-truth validation via Execution Engine
+  | 'refresh-pricing'   // Run pricing repair via Execution Engine
+  | 'rerun-repair'      // Re-run repair via Execution Engine
 
 /** Subset of actions that set a forced tier */
 export type TierOverrideAction = 'activate' | 'downgrade' | 'suppress'
-
-/** Subset of actions that queue a pipeline job */
-export type PipelineQueueAction = 'repair' | 'revalidate' | 'refresh-truth' | 'refresh-pricing' | 'rerun-repair'
 
 // ── Override ───────────────────────────────────────────────────────────────────
 
@@ -61,30 +58,6 @@ export interface ProductOverride {
 export interface OverrideStore {
   updatedAt: string
   overrides: Record<string, ProductOverride>  // productId → override
-}
-
-// ── Action queue (for pipeline-type actions) ───────────────────────────────────
-
-export type QueuedActionType = PipelineQueueAction
-
-export interface QueuedAction {
-  id:           string
-  productId:    string
-  asin:         string
-  actionType:   QueuedActionType
-  operator:     string
-  reason?:      string
-  queuedAt:     string
-  /** Set when a job picks this up */
-  startedAt?:   string
-  /** Set when the job completes */
-  completedAt?: string
-  status:       'pending' | 'running' | 'done' | 'failed'
-}
-
-export interface ActionQueue {
-  updatedAt: string
-  items:     QueuedAction[]
 }
 
 // ── Moderation ─────────────────────────────────────────────────────────────────
@@ -178,7 +151,6 @@ export interface CatalogTableRow {
   overrideOperator: string | null
   riskLevel:        RiskLevel | null
   hasNote:          boolean
-  pendingAction:    QueuedActionType | null
   lastActionAt:     string | null
   /** 0 = no clicks tracked; >0 = known click count. -1 = data unavailable. */
   clickCount:       number

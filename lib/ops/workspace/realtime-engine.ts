@@ -13,7 +13,6 @@
 import { computeVisibilityRatios }      from '@/lib/catalog/stabilization/visibility-balancer'
 import { computeCatalogHealthScore }   from '@/lib/catalog/stabilization/catalog-health'
 import { loadAllOverrides }          from '@/lib/ops/actions/override-engine'
-import { getPendingQueueItems }      from '@/lib/ops/actions/bulk-actions'
 import { runHealthCheck }            from '@/lib/ops/health'
 import { getWorkspaceLiveEvents }    from './live-events'
 import { getWorkspaceActiveJobs, getActiveJobCount } from './execution-stream'
@@ -66,12 +65,6 @@ export function buildOpsSnapshot(): OpsSnapshot {
     overrideCount = loadAllOverrides().size
   } catch { /* no overrides file yet */ }
 
-  // ── Pending queue jobs ────────────────────────────────────────────────────
-  let pendingQueueJobs = 0
-  try {
-    pendingQueueJobs = getPendingQueueItems().length
-  } catch { /* no queue file yet */ }
-
   // ── Active jobs ───────────────────────────────────────────────────────────
   const activeJobCount = getActiveJobCount()
 
@@ -87,7 +80,6 @@ export function buildOpsSnapshot(): OpsSnapshot {
     systemStatus,
     visibility,
     overrideCount,
-    pendingQueueJobs,
     activeJobCount,
     recentEvents,
     activeJobs,

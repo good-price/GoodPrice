@@ -7,7 +7,6 @@
  *   - Overrides
  *   - Moderation entries
  *   - Live-truth results
- *   - Action queue (pending pipeline actions)
  *   - Quarantine status
  *   - Audit log (last action timestamp)
  *
@@ -23,7 +22,6 @@ import { computeCatalogVisibility }          from '@/lib/catalog/trust/visibilit
 import { loadAllOverrides, applyOverrideToResult } from './override-engine'
 import { loadAllModerationEntries }          from './moderation-engine'
 import { loadAllResults }                    from '@/lib/catalog/live-truth/reports'
-import { getPendingActionForProduct }        from './bulk-actions'
 import { isQuarantined }                     from '@/lib/audit/quarantine'
 import { getRecentAuditEntries }             from './audit-log'
 import { computeColombiaAvailability }       from '@/lib/catalog/colombia-availability'
@@ -33,8 +31,7 @@ import type { CatalogTableRow }              from './types'
 
 /**
  * Builds the full catalog table dataset.
- * This is a synchronous, in-memory computation designed for server-render.
- * Typically <100ms for catalogs up to 500 products.
+ * Synchronous, in-memory — typically <100ms for catalogs up to 500 products.
  */
 export function buildCatalogTableRows(): CatalogTableRow[] {
   const products    = getAllProducts()
@@ -112,7 +109,6 @@ export function buildCatalogTableRows(): CatalogTableRow[] {
       overrideOperator:  isArchived ? null : (override?.operator ?? null),
       riskLevel:         mod?.riskLevel ?? null,
       hasNote:           (mod?.notes.length ?? 0) > 0,
-      pendingAction:     getPendingActionForProduct(id),
       lastActionAt:      lastActionMap.get(id) ?? null,
       clickCount:        -1,   // enriched in admin page from analytics after build
       imageIssue:        isInvalidImageUrl(product.image) || isImageSuppressible(product.image),

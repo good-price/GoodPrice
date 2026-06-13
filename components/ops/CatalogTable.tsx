@@ -109,9 +109,6 @@ function StatusPill({ row }: { row: CatalogTableRow }) {
                                      'bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300'
     chips.push({ label: `⚑ ${row.riskLevel}`, cls })
   }
-  if (row.pendingAction) {
-    chips.push({ label: `⏳ ${row.pendingAction}`, cls: 'bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300' })
-  }
   if (row.hasNote) {
     chips.push({ label: '📝', cls: 'bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400' })
   }
@@ -140,8 +137,6 @@ interface FilterBarProps {
   onToggleOverride: () => void
   onlyRisk:        boolean
   onToggleRisk:    () => void
-  onlyPending:     boolean
-  onTogglePending: () => void
   onlyNoClicks:    boolean
   onToggleNoClicks: () => void
   hasClickData:    boolean
@@ -154,7 +149,6 @@ function FilterBar({
   tierFilter, onTierFilter,
   onlyOverride, onToggleOverride,
   onlyRisk, onToggleRisk,
-  onlyPending, onTogglePending,
   onlyNoClicks, onToggleNoClicks,
   hasClickData,
   total, filtered,
@@ -223,17 +217,6 @@ function FilterBar({
           ].join(' ')}
         >
           ⚑ Riesgo
-        </button>
-        <button
-          onClick={onTogglePending}
-          className={[
-            'text-[10px] font-semibold px-2 py-1 rounded-full border transition-all',
-            onlyPending
-              ? 'bg-purple-600 text-white border-purple-600'
-              : 'border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 hover:border-gray-400',
-          ].join(' ')}
-        >
-          ⏳ Pendiente
         </button>
         {hasClickData && (
           <button
@@ -356,7 +339,6 @@ export function CatalogTable({ initialRows }: Props) {
   const [tierFilter,   setTierFilter]   = useState<TierFilter>('all')
   const [onlyOverride,  setOnlyOverride]  = useState(false)
   const [onlyRisk,      setOnlyRisk]      = useState(false)
-  const [onlyPending,   setOnlyPending]   = useState(false)
   const [onlyNoClicks,  setOnlyNoClicks]  = useState(false)
   const [priorityView,  setPriorityView]  = useState<PriorityView>('all')
   const [openDrawer,    setOpenDrawer]    = useState<CatalogTableRow | null>(null)
@@ -402,9 +384,6 @@ export function CatalogTable({ initialRows }: Props) {
     if (onlyRisk) {
       rows = rows.filter(r => r.riskLevel !== null)
     }
-    if (onlyPending) {
-      rows = rows.filter(r => r.pendingAction !== null)
-    }
     if (onlyNoClicks) {
       rows = rows.filter(r => r.clickCount === 0)
     }
@@ -435,7 +414,7 @@ export function CatalogTable({ initialRows }: Props) {
     }
 
     return rows
-  }, [initialRows, search, tierFilter, onlyOverride, onlyRisk, onlyPending, onlyNoClicks, priorityView, sortField, sortDir])
+  }, [initialRows, search, tierFilter, onlyOverride, onlyRisk, onlyNoClicks, priorityView, sortField, sortDir])
 
   // ── Pagination ────────────────────────────────────────────────────────────────
 
@@ -526,7 +505,6 @@ export function CatalogTable({ initialRows }: Props) {
         tierFilter={tierFilter}       onTierFilter={handleTierFilter}
         onlyOverride={onlyOverride}   onToggleOverride={() => { setOnlyOverride(v => !v); setPage(1) }}
         onlyRisk={onlyRisk}           onToggleRisk={() => { setOnlyRisk(v => !v); setPage(1) }}
-        onlyPending={onlyPending}     onTogglePending={() => { setOnlyPending(v => !v); setPage(1) }}
         onlyNoClicks={onlyNoClicks}   onToggleNoClicks={() => { setOnlyNoClicks(v => !v); setPage(1) }}
         hasClickData={hasClickData}
         total={initialRows.length}    filtered={filteredRows.length}

@@ -8,13 +8,9 @@
 export type {
   ProductAction,
   TierOverrideAction,
-  PipelineQueueAction,
   OverrideTier,
   ProductOverride,
   OverrideStore,
-  QueuedAction,
-  ActionQueue,
-  QueuedActionType,
   RiskLevel,
   ModerationNote,
   ModerationEntry,
@@ -72,13 +68,8 @@ export {
 // Product actions
 export { executeProductAction } from './product-actions'
 
-// Bulk actions + queue
-export {
-  executeBulkAction,
-  enqueueAction,
-  getPendingQueueItems,
-  getPendingActionForProduct,
-} from './bulk-actions'
+// Bulk actions
+export { executeBulkAction } from './bulk-actions'
 
 // Reports (catalog table)
 export { buildCatalogTableRows } from './reports'

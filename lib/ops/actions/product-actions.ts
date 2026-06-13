@@ -19,8 +19,10 @@ import { invalidateVisibilityContext } from '@/lib/catalog/trust/visibility-engi
 import { validateProductAction }      from './action-validators'
 import { setOverride, removeOverride, getOverride } from './override-engine'
 import { appendAuditEntry }           from './audit-log'
-import { enqueueAction }              from './bulk-actions'
 import { getTargetState }             from './lifecycle-transitions'
+import { createJob }                  from '@/lib/ops/execution/queue-engine'
+import { runJob }                     from '@/lib/ops/execution/job-runner'
+import type { ExecJobType }           from '@/lib/ops/execution/types'
 import type { ProductAction, ActionResult } from './types'
 import type { Product }              from '@/types'
 
@@ -142,15 +144,30 @@ export async function executeProductAction(
         nextState = 'archived (suppressed indefinitely)'
         break
 
-      // Pipeline-queue actions
+      // Pipeline actions — execute immediately via Execution Engine
       case 'repair':
-      case 'revalidate':
-      case 'refresh-truth':
       case 'refresh-pricing':
-      case 'rerun-repair':
-        enqueueAction(productId, product.asin ?? '', action, operator, reason)
-        nextState = `queued: ${action}`
+      case 'rerun-repair': {
+        const jobType: ExecJobType = 'repair'
+        const job = createJob(jobType, { limit: 1 }, operator)
+        const result = await runJob(job)
+        nextState = `${action} ejecutado — ${result.summary}`
         break
+      }
+
+      case 'refresh-truth': {
+        const job = createJob('live-truth', { limit: 1 }, operator)
+        const result = await runJob(job)
+        nextState = `refresh-truth ejecutado — ${result.summary}`
+        break
+      }
+
+      case 'revalidate': {
+        const job = createJob('trust-recompute', {}, operator)
+        const result = await runJob(job)
+        nextState = `revalidate ejecutado — ${result.summary}`
+        break
+      }
 
       default:
         execError = `Unknown action: ${action}`

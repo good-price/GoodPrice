@@ -61,12 +61,6 @@ export const METRIC_DEFS: MetricDef[] = [
     category:    'pipeline',
   },
   {
-    id:          'queue-pending',
-    label:       'En cola',
-    description: 'Actions pending in the product queue',
-    category:    'pipeline',
-  },
-  {
     id:          'system-status',
     label:       'Sistema',
     description: 'Overall system health status',
@@ -168,13 +162,6 @@ export function computeMetricValues(
       label:      'Jobs',
       value:      snapshot.activeJobCount,
       color:      snapshot.activeJobCount > 0 ? 'purple' : 'gray',
-      trend:      'unknown',
-    },
-    'queue-pending': {
-      id:         'queue-pending',
-      label:      'En cola',
-      value:      snapshot.pendingQueueJobs,
-      color:      snapshot.pendingQueueJobs > 0 ? 'blue' : 'gray',
       trend:      'unknown',
     },
     'system-status': {

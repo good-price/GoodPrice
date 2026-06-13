@@ -8,11 +8,11 @@
 import type { OpsSnapshot } from './types'
 
 export interface SectionCounts {
-  catalog:    number   // overrides + pending actions
+  catalog:    number   // overrides active
   visibility: number   // suppressed + degraded
   recovery:   number   // recoverable suppressed count
   validation: number   // quarantine size
-  repair:     number   // pending queue repair jobs
+  repair:     number   // active repair jobs
   healing:    number   // active healing jobs
   operations: number   // active jobs total
   logs:       number   // recent events count
@@ -24,11 +24,11 @@ export interface SectionCounts {
  */
 export function buildSectionCounts(snapshot: OpsSnapshot): SectionCounts {
   return {
-    catalog:    snapshot.overrideCount + snapshot.pendingQueueJobs,
+    catalog:    snapshot.overrideCount,
     visibility: snapshot.visibility.suppressed + snapshot.visibility.degraded,
     recovery:   snapshot.visibility.degraded,
     validation: 0,   // quarantine count — not loaded in fast snapshot
-    repair:     snapshot.pendingQueueJobs,
+    repair:     snapshot.activeJobCount,
     healing:    0,
     operations: snapshot.activeJobCount,
     logs:       snapshot.recentEvents.length,

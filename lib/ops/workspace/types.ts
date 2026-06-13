@@ -165,7 +165,6 @@ export interface OpsSnapshot {
   }
 
   overrideCount:    number
-  pendingQueueJobs: number
   activeJobCount:   number
 
   recentEvents:  LiveEvent[]

@@ -409,7 +409,7 @@ export default async function CatalogPage() {
             <StatCard label="Total" value={enrichedRows.length} />
             <StatCard label="Suprimidos" value={enrichedRows.filter(r => r.tier === 'suppressed').length} warn={enrichedRows.filter(r => r.tier === 'suppressed').length > 0} />
             <StatCard label="Con override" value={enrichedRows.filter(r => r.hasOverride).length} accent={enrichedRows.filter(r => r.hasOverride).length > 0} />
-            <StatCard label="En riesgo / Pendiente" value={`${enrichedRows.filter(r => r.riskLevel !== null).length} / ${enrichedRows.filter(r => r.pendingAction !== null).length}`} />
+            <StatCard label="En riesgo" value={enrichedRows.filter(r => r.riskLevel !== null).length} warn={enrichedRows.filter(r => r.riskLevel !== null).length > 0} />
           </div>
           <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden">
             <CatalogTable initialRows={enrichedRows} />
