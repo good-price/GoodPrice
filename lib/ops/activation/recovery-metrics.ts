@@ -8,7 +8,7 @@
  */
 
 import { computeVisibilityRatios } from '@/lib/catalog/stabilization/visibility-balancer'
-import { loadStabilizationReport } from '@/lib/catalog/stabilization/reports'
+import { computeCatalogHealthScore } from '@/lib/catalog/stabilization/catalog-health'
 import type { VisibilitySnapshot, RecoveryImpact } from './types'
 
 // ── Snapshot builder ──────────────────────────────────────────────────────────
@@ -26,9 +26,8 @@ export function captureVisibilitySnapshot(): VisibilitySnapshot {
   } catch { /* catalog not initialized */ }
 
   try {
-    const report = loadStabilizationReport()
-    healthScore = report?.healthScore.overall ?? 0
-  } catch { /* no report */ }
+    healthScore = computeCatalogHealthScore().overall
+  } catch { /* catalog not initialised */ }
 
   return {
     capturedAt:  new Date().toISOString(),

@@ -10,8 +10,8 @@
  * SERVER-ONLY.
  */
 
-import { computeVisibilityRatios }   from '@/lib/catalog/stabilization/visibility-balancer'
-import { loadStabilizationReport }   from '@/lib/catalog/stabilization/reports'
+import { computeVisibilityRatios }      from '@/lib/catalog/stabilization/visibility-balancer'
+import { computeCatalogHealthScore }   from '@/lib/catalog/stabilization/catalog-health'
 import { loadAllOverrides }          from '@/lib/ops/actions/override-engine'
 import { getPendingQueueItems }      from '@/lib/ops/actions/bulk-actions'
 import { runHealthCheck }            from '@/lib/ops/health'
@@ -45,21 +45,20 @@ export function buildOpsSnapshot(): OpsSnapshot {
     }
   } catch { /* catalog not yet initialised */ }
 
-  // ── Health score (from saved report — no recompute) ───────────────────────
+  // ── Health score (computed live — single source of truth) ────────────────
+  // report.json is kept only as historical cache for /api/catalog/stabilization/report.
+  // The dashboard, sidebar, and ops page all derive their score from here.
   let healthScore = 0
   let systemStatus: OpsSnapshot['systemStatus'] = 'ok'
   try {
-    const savedReport = loadStabilizationReport()
-    if (savedReport) {
-      healthScore  = savedReport.healthScore?.overall ?? 0
-      systemStatus = healthScore >= 70 ? 'ok' : healthScore >= 40 ? 'degraded' : 'critical'
-    } else {
-      // Fall back to system health check
-      const health = runHealthCheck()
-      systemStatus = health.status as OpsSnapshot['systemStatus']
-      healthScore  = health.status === 'ok' ? 80 : health.status === 'degraded' ? 50 : 20
-    }
-  } catch { /* health check unavailable */ }
+    healthScore  = computeCatalogHealthScore().overall
+    systemStatus = healthScore >= 70 ? 'ok' : healthScore >= 40 ? 'degraded' : 'critical'
+  } catch {
+    // Fall back to system health check if catalog is not yet initialised
+    const health = runHealthCheck()
+    systemStatus = health.status as OpsSnapshot['systemStatus']
+    healthScore  = health.status === 'ok' ? 80 : health.status === 'degraded' ? 50 : 20
+  }
 
   // ── Override count ────────────────────────────────────────────────────────
   let overrideCount = 0
