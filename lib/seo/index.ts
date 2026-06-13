@@ -44,3 +44,14 @@ export {
   categoryItemListSchema,
   categoryCollectionSchema,
 } from './categories'
+
+// ── Editorial MDX content SEO ─────────────────────────────────────────────────
+export {
+  buildReviewMetadata,
+  buildReviewsIndexMetadata,
+  reviewSchema,
+  reviewArticleSchema,
+  editorialComparisonSchema,
+  editorialGuideSchema,
+  editorialFaqSchema,
+} from './editorial'

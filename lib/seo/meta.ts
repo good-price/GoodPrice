@@ -121,10 +121,10 @@ export function buildHomeMetadata(): Metadata {
 
 /** /productos catalog page */
 export function buildCatalogMetadata(): Metadata {
-  const title = 'Catálogo completo de Amazon para Colombia'
+  const title = 'Catálogo de Amazon para Colombia — productos curados'
   const description =
-    'Explora más de 200 productos de Amazon curados para Colombia. ' +
-    'Filtra por categoría, precio y valoración. Precios en dólares, envío real.'
+    'Productos de Amazon seleccionados para Colombia. ' +
+    'Solo artículos con envío internacional confirmado, rating verificado y precio en pesos colombianos.'
   const url = `${SITE_URL}/productos`
 
   return {

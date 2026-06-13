@@ -12,6 +12,10 @@ const nextConfig = {
   experimental: {
     outputFileTracingIncludes: {
       '/api/tpe/evaluate-local': ['./data/tpe/**'],
+      // MDX editorial content — needed for ISR re-renders on Vercel
+      '/reviews/[slug]':     ['./content/reviews/**'],
+      '/comparar/[slug]':    ['./content/comparisons/**'],
+      '/guias/[slug]':       ['./content/guides/**'],
     },
   },
 
@@ -73,17 +77,20 @@ const nextConfig = {
           //   - Next.js inline JSON-LD <script> blocks (structured data)
           //   - Next.js App Router hydration scripts
           // 'unsafe-inline' for styles is required by Tailwind CSS.
+          // GA4 requires:
+          //   - script-src: googletagmanager.com (loader script)
+          //   - connect-src: google-analytics.com + analytics.google.com (event beacons)
           {
             key: 'Content-Security-Policy',
             value: [
               "default-src 'self'",
-              "script-src 'self' 'unsafe-inline'",
+              "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
               "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
               // Amazon CDN + MercadoLibre CDN product images
               "img-src 'self' data: blob: https://m.media-amazon.com https://images-na.ssl-images-amazon.com https://http2.mlstatic.com",
               "font-src 'self' https://fonts.gstatic.com",
-              // All API calls go to same origin
-              "connect-src 'self'",
+              // Same-origin API calls + GA4 event beacons
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com",
               "media-src 'none'",
               "object-src 'none'",
               // Stronger clickjacking protection (duplicates X-Frame-Options for CSP-aware browsers)

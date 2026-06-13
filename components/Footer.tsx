@@ -13,8 +13,8 @@ export function Footer() {
               GOOD<span className="text-[#F7A823]">PRICE</span>
             </span>
             <p className="text-xs leading-relaxed mb-3">
-              Comparador de precios Amazon vs MercadoLibre para compradores en Colombia.
-              Activa alertas gratuitas y compra al mejor precio.
+              Curador de productos Amazon para Colombia. Solo artículos con envío
+              internacional confirmado, calificación verificada y precio en pesos.
             </p>
             <p className="text-[10px] text-gray-600 leading-relaxed">
               Como afiliado de Amazon, ganamos comisión por compras calificadas

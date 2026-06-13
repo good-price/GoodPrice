@@ -1,18 +1,22 @@
 /**
- * TrustStrip — Compact row of credibility signals
+ * TrustStrip — Compact row of credibility signals.
  *
- * Static, honest numbers about the platform. No JS required.
- * Rendered on the homepage between the hero and the category grid.
+ * Receives productCount from the server (app/page.tsx → getPublicCatalogStats)
+ * so the number is always accurate and never hardcoded.
  */
 
-const signals = [
-  { icon: '🛍', label: '19 productos rastreados' },
-  { icon: '⏱', label: 'Actualizado cada hora'    },
-  { icon: '🇨🇴', label: 'Precios para Colombia'   },
-  { icon: '🔔', label: 'Alertas gratuitas'        },
-]
+interface TrustStripProps {
+  productCount: number
+}
 
-export function TrustStrip() {
+export function TrustStrip({ productCount }: TrustStripProps) {
+  const signals = [
+    { icon: '✅', label: `${productCount} productos curados`       },
+    { icon: '🚢', label: 'Envío a Colombia verificado'             },
+    { icon: '💱', label: 'TRM actualizada diariamente'             },
+    { icon: '🔔', label: 'Alertas de precio gratis'                },
+  ]
+
   return (
     <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 py-3 px-4 bg-white border border-gray-100 rounded-xl shadow-sm">
       {signals.map(({ icon, label }) => (

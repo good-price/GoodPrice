@@ -41,7 +41,7 @@ const laptops: CategoryPage = {
     'Verificamos el envío a Colombia de cada producto antes de publicarlo. ' +
     'Los precios en Amazon son en promedio un 35–50 % más bajos que en tiendas físicas en Colombia para estos accesorios.',
 
-  featuredProductIds: ['ofic-002', 'ofic-003', 'ofic-001', 'elec-004'],
+  featuredProductIds: ['ofic-001', 'elec-004'],
   relatedGuideSlugs: ['gadgets-home-office-colombia'],
 
   relatedCategories: [

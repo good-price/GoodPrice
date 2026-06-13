@@ -33,8 +33,8 @@ export function OffersSection({ limit = 8 }: OffersSectionProps) {
       <div className="bg-gradient-to-r from-orange-50 to-red-50 border border-orange-100 rounded-xl p-3 mb-4 flex items-center gap-3">
         <span className="text-2xl">🔥</span>
         <div>
-          <p className="text-sm font-semibold text-gray-800">Ofertas por tiempo limitado</p>
-          <p className="text-xs text-gray-500">Precios rebajados directamente en Amazon</p>
+          <p className="text-sm font-semibold text-gray-800">Productos con descuento activo</p>
+          <p className="text-xs text-gray-500">Precio actual por debajo del precio de referencia en Amazon</p>
         </div>
       </div>
       <ProductGrid products={offers} columns={4} copPrices={copPrices} dynamicBadges={dynamicBadges} />

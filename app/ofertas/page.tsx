@@ -19,7 +19,7 @@ export default function OfertasPage() {
       <div className="bg-gradient-to-r from-orange-500 to-red-500 rounded-2xl p-6 mb-6 flex items-center gap-4 text-white">
         <Tag className="h-8 w-8 flex-shrink-0" />
         <div>
-          <h1 className="text-2xl font-extrabold">Ofertas del día</h1>
+          <h1 className="text-2xl font-extrabold">Productos con descuento activo</h1>
           <p className="text-orange-100 text-sm mt-0.5">Descuentos reales directamente en Amazon</p>
         </div>
         <span className="ml-auto text-3xl">🔥</span>

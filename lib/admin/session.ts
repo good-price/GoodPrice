@@ -32,13 +32,13 @@ export interface SessionPayload {
 function getSecret(): string {
   const s = process.env.ADMIN_SESSION_SECRET
   if (!s) {
-    if (process.env.NODE_ENV !== 'test') {
-      console.warn(
-        '[session] ADMIN_SESSION_SECRET is not set. ' +
-        'Using insecure dev fallback — never deploy without this env var.',
+    if (process.env.NODE_ENV === 'production') {
+      throw new Error(
+        '[session] ADMIN_SESSION_SECRET must be set in production. ' +
+        'Add it to your Vercel environment variables.',
       )
     }
-    return 'dev-secret-goodprice-internal-NOT-for-production'
+    return 'dev-secret-goodprice-local-only'
   }
   return s
 }

@@ -1,0 +1,2378 @@
+{
+  "generatedAt": "2026-06-10T21:21:13.012Z",
+  "total": 120,
+  "byCat": {
+    "mascotas": 21,
+    "herramientas": 14,
+    "bebes": 17,
+    "cocina": 10,
+    "oficina": 20,
+    "belleza": 14,
+    "deporte": 4,
+    "electronica": 15,
+    "hogar": 4,
+    "gaming": 1
+  },
+  "candidates": [
+    {
+      "asin": "B00BSYR7K8",
+      "title": "Earth Rated Poop Bags for Dogs, Guaranteed Leak Proof and Extra Thick Waste Bag Refill Rolls, Lavender Scented, 270 Bags",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 4,
+      "rating": 4.8,
+      "reviewCount": 247471,
+      "estimatedPriceUSD": 5350,
+      "priceRaw": "COP 53,509.80",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00BSYR7K8",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 247.471 (+30)",
+        "rating 4.8 (+20)",
+        "price $5350 (+5)"
+      ]
+    },
+    {
+      "asin": "B00004SU18",
+      "title": "Brita Standard Water Filter for Pitchers and Dispensers, BPA-Free, Reduces Copper, Cadmium and Mercury Impurities, Lasts",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 6,
+      "rating": 4.8,
+      "reviewCount": 225899,
+      "estimatedPriceUSD": 6418,
+      "priceRaw": "COP 64,183.21",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00004SU18",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 225.899 (+30)",
+        "rating 4.8 (+20)",
+        "price $6418 (+5)"
+      ]
+    },
+    {
+      "asin": "B00CJZ8LAK",
+      "title": "Filterbuy 20x20x1 Air Filter MERV 8 Essential Dust & Allergy Defense (4-Pack), Electrostatic Pleated HVAC AC Furnace Fil",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 10,
+      "rating": 4.7,
+      "reviewCount": 157812,
+      "estimatedPriceUSD": 10694,
+      "priceRaw": "COP 106,948.21",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00CJZ8LAK",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 157.812 (+30)",
+        "rating 4.7 (+20)",
+        "price $10694 (+5)"
+      ]
+    },
+    {
+      "asin": "B07SCL613T",
+      "title": "Huggies Natural Care Sensitive Baby Wipes, Unscented, Hypoallergenic, 99% Purified Water, 12 Flip-Top Packs (768 Wipes T",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 2,
+      "rating": 4.8,
+      "reviewCount": 125529,
+      "estimatedPriceUSD": 7849,
+      "priceRaw": "COP 78,497.70",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07SCL613T",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 125.529 (+30)",
+        "rating 4.8 (+20)",
+        "price $7849 (+5)"
+      ]
+    },
+    {
+      "asin": "B06X9NQ8GX",
+      "title": "Amazon Basics Digital Kitchen Scale with LCD Display, Tare Function, Multiple Units, Weighs up to 11 Pounds, Batteries I",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 9,
+      "rating": 4.7,
+      "reviewCount": 116298,
+      "estimatedPriceUSD": 3294,
+      "priceRaw": "COP 32,948.33",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B06X9NQ8GX",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 116.298 (+30)",
+        "rating 4.7 (+20)",
+        "price $3294 (+5)"
+      ]
+    },
+    {
+      "asin": "B000J07BRQ",
+      "title": "Scotch Heavy Duty Shipping Packing Tape, Clear, Packing Tape for Moving Boxes and Packaging Supplies, 1.88 in. x 22.2 yd",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 3,
+      "rating": 4.8,
+      "reviewCount": 108104,
+      "estimatedPriceUSD": 6764,
+      "priceRaw": "COP 67,645.82",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B000J07BRQ",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 108.104 (+30)",
+        "rating 4.8 (+20)",
+        "price $6764 (+5)"
+      ]
+    },
+    {
+      "asin": "B079KL4C91",
+      "title": "Amazon Basics Clear Thermal Laminating Sheets for Documents and Photos, 9 x 11.5-Inch, 2.8 mil, 200-Pack",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 8,
+      "rating": 4.8,
+      "reviewCount": 93538,
+      "estimatedPriceUSD": 4779,
+      "priceRaw": "COP 47,798.28",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B079KL4C91",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 93.538 (+30)",
+        "rating 4.8 (+20)",
+        "price $4779 (+5)"
+      ]
+    },
+    {
+      "asin": "B002BWOS5I",
+      "title": "Rust-Oleum 334029 Painter's Touch 2X Ultra Cover Spray Paint, 12 oz, Gloss Clear",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 3,
+      "rating": 4.7,
+      "reviewCount": 93106,
+      "estimatedPriceUSD": 2388,
+      "priceRaw": "COP 23,881.29",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B002BWOS5I",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 93.106 (+30)",
+        "rating 4.7 (+20)",
+        "price $2388 (+5)"
+      ]
+    },
+    {
+      "asin": "B008KJEYLO",
+      "title": "WaterWipes Sensitive+ Newborn & Baby Wipes, 3-In-1 Cleans, Cares, Protects, 99.9% Water, Unscented & Hypoallergenic, 720",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 7,
+      "rating": 4.7,
+      "reviewCount": 85491,
+      "estimatedPriceUSD": 12683,
+      "priceRaw": "COP 126,831.44",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B008KJEYLO",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 85.491 (+30)",
+        "rating 4.7 (+20)",
+        "price $12683 (+5)"
+      ]
+    },
+    {
+      "asin": "B07PZF3QS3",
+      "title": "KitchenAid All Purpose Kitchen Shears with Protective Sheath Durable Stainless Steel Scissors, Dishwasher Safe, Soft Gri",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 6,
+      "rating": 4.8,
+      "reviewCount": 71234,
+      "estimatedPriceUSD": 2909,
+      "priceRaw": "COP 29,093.06",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07PZF3QS3",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 71.234 (+30)",
+        "rating 4.8 (+20)",
+        "price $2909 (+5)"
+      ]
+    },
+    {
+      "asin": "B07R8D1RHS",
+      "title": "Amazon Basics Sheet Protectors for 3 Ring Binder, Heavyweight, Acid-Free, Clear Plastic Sleeves, Letter Size, 8.5 x 11 I",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 7,
+      "rating": 4.7,
+      "reviewCount": 55019,
+      "estimatedPriceUSD": 2994,
+      "priceRaw": "COP 29,949.78",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07R8D1RHS",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 55.019 (+30)",
+        "rating 4.7 (+20)",
+        "price $2994 (+5)"
+      ]
+    },
+    {
+      "asin": "B005OB3E30",
+      "title": "Purina Fancy Feast Gravy Lovers Poultry and Beef Grilled Gourmet Wet Cat Food Variety Pack - (Pack of 24) 3 oz. Cans",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 3,
+      "rating": 4.7,
+      "reviewCount": 54684,
+      "estimatedPriceUSD": 8160,
+      "priceRaw": "COP 81,603.34",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B005OB3E30",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 54.684 (+30)",
+        "rating 4.7 (+20)",
+        "price $8160 (+5)"
+      ]
+    },
+    {
+      "asin": "B086LKQDJG",
+      "title": "The Honest Company Baby Wipes for Sensitive Skin, Hypoallergenic, Fragrance-Free, Multi-Use, Pattern Play Design, 720 Co",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 3,
+      "rating": 4.8,
+      "reviewCount": 53624,
+      "estimatedPriceUSD": 16060,
+      "priceRaw": "COP 160,600.80",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B086LKQDJG",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 53.624 (+30)",
+        "rating 4.8 (+20)",
+        "price $16060 (+5)"
+      ]
+    },
+    {
+      "asin": "B071914GGL",
+      "title": "The Ordinary Glycolic Acid 7% Exfoliating Toner, Brightening and Smoothing Daily Toner for More Even-Looking Skin Tone",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 4,
+      "rating": 4.7,
+      "reviewCount": 53196,
+      "estimatedPriceUSD": 4819,
+      "priceRaw": "COP 48,190.95",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B071914GGL",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 53.196 (+30)",
+        "rating 4.7 (+20)",
+        "price $4819 (+5)"
+      ]
+    },
+    {
+      "asin": "B07G2HWJWC",
+      "title": "Simply 16x25x1 Air Filter, MERV 8, 6 Pack, For Home AC Furnace & HVAC (Actual Size: 15.75\"x24.75\"x0.75\") DUST, Pet, & Al",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 2,
+      "rating": 4.7,
+      "reviewCount": 52540,
+      "estimatedPriceUSD": 11137,
+      "priceRaw": "COP 111,374.64",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07G2HWJWC",
+      "confidenceScore": 80,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 52.540 (+30)",
+        "rating 4.7 (+20)",
+        "price $11137 (+5)"
+      ]
+    },
+    {
+      "asin": "B0BJ13K7FR",
+      "title": "Pampers Sensitive Baby Wipes, Clinically Proven, Fragrance Free, Unscented, Water Based, Hypoallergenic, Multi-Use, Hand",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 4,
+      "rating": 4.8,
+      "reviewCount": 239926,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0BJ13K7FR",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 239.926 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B01FV0F8H8",
+      "title": "Amazon Basics Multipurpose Copy Printer Paper, 8.5 x 11 Inches, 20 lb, 92 Bright, White, 1 Ream (500 Sheets), Jam-Free",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 1,
+      "rating": 4.8,
+      "reviewCount": 221603,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01FV0F8H8",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 221.603 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B00MW8G62E",
+      "title": "Amazon Basics Leak-Proof Dog and Puppy Potty Training Pee Pads with Quick-Dry 5-Layer Super Absorbent Design, Regular Si",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 2,
+      "rating": 4.5,
+      "reviewCount": 221485,
+      "estimatedPriceUSD": 6739,
+      "priceRaw": "COP 67,395.94",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00MW8G62E",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 221.485 (+30)",
+        "rating 4.5 (+15)",
+        "price $6739 (+5)"
+      ]
+    },
+    {
+      "asin": "B0113UZJE2",
+      "title": "Etekcity Food Kitchen Scale, Digital Grams and Ounces for Weight Loss, Baking, Cooking, Keto and Meal Prep, LCD Display,",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 4,
+      "rating": 4.6,
+      "reviewCount": 147918,
+      "estimatedPriceUSD": 4044,
+      "priceRaw": "COP 40,444.70",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0113UZJE2",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 147.918 (+30)",
+        "rating 4.6 (+15)",
+        "price $4044 (+5)"
+      ]
+    },
+    {
+      "asin": "B08412HXK9",
+      "title": "HP 67 Black/Tri-Color Ink Cartridges (2-Pack) | Works with DeskJet 1255, 2700, 4100, Envy 6000, 6400 | Instant Ink Eligi",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 2,
+      "rating": 4.6,
+      "reviewCount": 143003,
+      "estimatedPriceUSD": 17491,
+      "priceRaw": "COP 174,915.30",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08412HXK9",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 143.003 (+30)",
+        "rating 4.6 (+15)",
+        "price $17491 (+5)"
+      ]
+    },
+    {
+      "asin": "B010OVZO64",
+      "title": "Pampers Swaddlers Diapers, Size 5 (20-37 lbs), 132 Count, Hypoallergenic, Absorbent, Keeps Baby Dry and Comfortable, Ski",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 1,
+      "rating": 4.8,
+      "reviewCount": 129697,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B010OVZO64",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 129.697 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B01LR5RG08",
+      "title": "Amazon Basics Neoprene Dumbbell Hand Weights for Exercise and Muscle Toning",
+      "category": "deporte",
+      "categoryLabel": "Deporte / Fitness",
+      "bsrRank": 1,
+      "rating": 4.8,
+      "reviewCount": 127220,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01LR5RG08",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 127.220 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B00U2VQZDS",
+      "title": "Neutrogena Makeup Remover Wipes Micellar Alcohol-Free Face Towelettes Remove Waterproof Mascara & Oil, Compostable 100% ",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 5,
+      "rating": 4.8,
+      "reviewCount": 119525,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00U2VQZDS",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 119.525 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B0BZYCJK89",
+      "title": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz, ",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 1,
+      "rating": 4.7,
+      "reviewCount": 115477,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0BZYCJK89",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 115.477 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B0DR9GN2PM",
+      "title": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw for Sports and Travel, BPA-Free Sports Water Bottle, 24 ",
+      "category": "deporte",
+      "categoryLabel": "Deporte / Fitness",
+      "bsrRank": 4,
+      "rating": 4.7,
+      "reviewCount": 115477,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0DR9GN2PM",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 115.477 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B06ZY9LP74",
+      "title": "HP 64 Black & Tri-Color Ink Cartridges Printers (Combo Pack) | Works with Printer Series: Inspire 7950e; Envy Photo 6200",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 5,
+      "rating": 4.6,
+      "reviewCount": 111556,
+      "estimatedPriceUSD": 19951,
+      "priceRaw": "COP 199,510.53",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B06ZY9LP74",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 111.556 (+30)",
+        "rating 4.6 (+15)",
+        "price $19951 (+5)"
+      ]
+    },
+    {
+      "asin": "B0F7Z4QZTT",
+      "title": "Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search, Wi-Fi 6, stream hundreds of thousands of mov",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 8,
+      "rating": 4.6,
+      "reviewCount": 109893,
+      "estimatedPriceUSD": 17844,
+      "priceRaw": "COP 178,449.30",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0F7Z4QZTT",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 109.893 (+30)",
+        "rating 4.6 (+15)",
+        "price $17844 (+5)"
+      ]
+    },
+    {
+      "asin": "B00UXG4WR8",
+      "title": "everydrop by Whirlpool Ice and Water Refrigerator Filter 1, EDR1RXD1, Single-Pack",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 7,
+      "rating": 4.7,
+      "reviewCount": 108043,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00UXG4WR8",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 108.043 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B001AFL8GY",
+      "title": "HP Printer Paper | 8.5 x 11 Paper | Copy &Print 20 lb | 1 Ream Case - 500 Sheets| 92 Bright | FSC Certified | 200060",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 4,
+      "rating": 4.8,
+      "reviewCount": 101211,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B001AFL8GY",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 101.211 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B0CRMP3RQT",
+      "title": "STANLEY Quencher H2.0 Tumbler with Handle and Straw 40 oz | Flowstate 3-Position Lid | Cup Holder Compatible for Travel ",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 2,
+      "rating": 4.7,
+      "reviewCount": 99913,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0CRMP3RQT",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 99.913 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B00S93EQUK",
+      "title": "Alpha Grillers Meat Thermometer Digital – Instant Read Food Thermometer for Cooking & Grilling – Professional Kitchen Fa",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 5,
+      "rating": 4.8,
+      "reviewCount": 89393,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00S93EQUK",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 89.393 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B07MB5PZBF",
+      "title": "Huggies Size 1 Diapers, Little Snugglers Baby Diapers, Size 1 (8-14 lbs), 32 Count, Packaging May Vary",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 6,
+      "rating": 4.8,
+      "reviewCount": 87866,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07MB5PZBF",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 87.866 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B081KL2QYJ",
+      "title": "PanOxyl 10% Benzoyl Peroxide Acne Foaming Wash, Maximum Strength, Daily Acne-Fighting Face and Body Cleanser, Face Wash ",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 9,
+      "rating": 4.6,
+      "reviewCount": 81113,
+      "estimatedPriceUSD": 3808,
+      "priceRaw": "COP 38,088.70",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B081KL2QYJ",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 81.113 (+30)",
+        "rating 4.6 (+15)",
+        "price $3808 (+5)"
+      ]
+    },
+    {
+      "asin": "B08QRKY3NJ",
+      "title": "Huggies Simply Clean Unscented Baby Diaper Wipes, 11 Flip-Top Packs (704 Wipes Total), Packaging May Vary",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 8,
+      "rating": 4.8,
+      "reviewCount": 78208,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08QRKY3NJ",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 78.208 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B09541P9WH",
+      "title": "Amazon Basics Double-Tipped Cotton Swabs for Personal Hygiene and Baby Care, Cotton, Versatile, Baby Safe, 500 Count",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 2,
+      "rating": 4.7,
+      "reviewCount": 75863,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B09541P9WH",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 75.863 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B07NHL31CC",
+      "title": "Earth Rated Pet Wipes for Dogs and Cats, Hypoallergenic, 3-in-1 Cleaning, Deodorizing and Hydrating, for Grooming Paws, ",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 8,
+      "rating": 4.6,
+      "reviewCount": 66720,
+      "estimatedPriceUSD": 3562,
+      "priceRaw": "COP 35,625.61",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07NHL31CC",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 66.720 (+30)",
+        "rating 4.6 (+15)",
+        "price $3562 (+5)"
+      ]
+    },
+    {
+      "asin": "B0C5QRZ47P",
+      "title": "Ring Outdoor Cam (Stick Up Cam), Weather-resistant home or business security camera, outdoor ready, Live View, Color Nig",
+      "category": "hogar",
+      "categoryLabel": "Hogar Inteligente",
+      "bsrRank": 2,
+      "rating": 4.6,
+      "reviewCount": 63048,
+      "estimatedPriceUSD": 14275,
+      "priceRaw": "COP 142,752.30",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0C5QRZ47P",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 63.048 (+30)",
+        "rating 4.6 (+15)",
+        "price $14275 (+5)"
+      ]
+    },
+    {
+      "asin": "B09542G9ZN",
+      "title": "Amazon Basics Hypoallergenic Cotton Rounds for Makeup Removal and Skincare, 100 Count, 1 Pack",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 7,
+      "rating": 4.7,
+      "reviewCount": 51082,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B09542G9ZN",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 51.082 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B0BZWRLRLK",
+      "title": "Ring Battery Doorbell, Home or business security with Head-to-Toe video, Live View with Two-Way Talk, and Motion Detecti",
+      "category": "hogar",
+      "categoryLabel": "Hogar Inteligente",
+      "bsrRank": 7,
+      "rating": 4.5,
+      "reviewCount": 51014,
+      "estimatedPriceUSD": 16060,
+      "priceRaw": "COP 160,600.80",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0BZWRLRLK",
+      "confidenceScore": 75,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 51.014 (+30)",
+        "rating 4.5 (+15)",
+        "price $16060 (+5)"
+      ]
+    },
+    {
+      "asin": "B00NABTC8M",
+      "title": "Amazon Basics Dog Poop Leak Proof Bags with Dispenser and Leash Clip, Unscented, 13\" x 9\" Large Size, 300 Count",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 14,
+      "rating": 4.8,
+      "reviewCount": 239651,
+      "estimatedPriceUSD": 3915,
+      "priceRaw": "COP 39,159.61",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00NABTC8M",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 239.651 (+30)",
+        "rating 4.8 (+20)",
+        "price $3915 (+5)"
+      ]
+    },
+    {
+      "asin": "B07FP5X3JH",
+      "title": "Filtrete 20x30x1 Air Filter MERV 5, 6-Pack AC Furnace HVAC Filters for Home, MPR 300 Basic Dust Defense, Pleated Electro",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 14,
+      "rating": 4.7,
+      "reviewCount": 160057,
+      "estimatedPriceUSD": 21675,
+      "priceRaw": "COP 216,752.18",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07FP5X3JH",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 160.057 (+30)",
+        "rating 4.7 (+20)",
+        "price $21675 (+5)"
+      ]
+    },
+    {
+      "asin": "B0107QPFBU",
+      "title": "Aquaphor Healing Ointment Advanced Therapy Skin Protectant, Dry Skin Body Moisturizer, 7 Oz Tube",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 20,
+      "rating": 4.8,
+      "reviewCount": 139893,
+      "estimatedPriceUSD": 4565,
+      "priceRaw": "COP 45,656.46",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0107QPFBU",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 139.893 (+30)",
+        "rating 4.8 (+20)",
+        "price $4565 (+5)"
+      ]
+    },
+    {
+      "asin": "B076JKHDQT",
+      "title": "Ring Rechargeable Quick Release Battery Pack",
+      "category": "hogar",
+      "categoryLabel": "Hogar Inteligente",
+      "bsrRank": 18,
+      "rating": 4.7,
+      "reviewCount": 127546,
+      "estimatedPriceUSD": 11865,
+      "priceRaw": "COP 118,656.83",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B076JKHDQT",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 127.546 (+30)",
+        "rating 4.7 (+20)",
+        "price $11865 (+5)"
+      ]
+    },
+    {
+      "asin": "B00V5DG6IQ",
+      "title": "Amazon Basics Hanging File Folders with Adjustable Tabs, Sturdy Expandable Document Organizer, Letter Size 8.5x11 inch, ",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 22,
+      "rating": 4.7,
+      "reviewCount": 126309,
+      "estimatedPriceUSD": 3769,
+      "priceRaw": "COP 37,696.03",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00V5DG6IQ",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 126.309 (+30)",
+        "rating 4.7 (+20)",
+        "price $3769 (+5)"
+      ]
+    },
+    {
+      "asin": "B00EB4ADQW",
+      "title": "Fujifilm, Instax Mini Instant Film, 20 Photos",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 19,
+      "rating": 4.8,
+      "reviewCount": 111891,
+      "estimatedPriceUSD": 8563,
+      "priceRaw": "COP 85,637.10",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00EB4ADQW",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 111.891 (+30)",
+        "rating 4.8 (+20)",
+        "price $8563 (+5)"
+      ]
+    },
+    {
+      "asin": "B00L1G7K50",
+      "title": "HP 62 Black Ink Cartridge | Works with Envy 5540, 5640, 5660, 7640, OfficeJet 5740, 8040, OfficeJet Mobile 200, 250 | In",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 19,
+      "rating": 4.7,
+      "reviewCount": 102185,
+      "estimatedPriceUSD": 9498,
+      "priceRaw": "COP 94,989.72",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00L1G7K50",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 102.185 (+30)",
+        "rating 4.7 (+20)",
+        "price $9498 (+5)"
+      ]
+    },
+    {
+      "asin": "B07MFMWFYL",
+      "title": "MRS. MEYER'S CLEAN DAY Hand Soap Refill, Rain Water Scent, 33 Fl Oz Bottle",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 14,
+      "rating": 4.7,
+      "reviewCount": 89658,
+      "estimatedPriceUSD": 2573,
+      "priceRaw": "COP 25,737.54",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07MFMWFYL",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 89.658 (+30)",
+        "rating 4.7 (+20)",
+        "price $2573 (+5)"
+      ]
+    },
+    {
+      "asin": "B000I82DTU",
+      "title": "Milk-Bone Original Dog Treats Biscuits for Medium Dogs, 10 Pound",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 15,
+      "rating": 4.8,
+      "reviewCount": 80724,
+      "estimatedPriceUSD": 5347,
+      "priceRaw": "COP 53,474.11",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B000I82DTU",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 80.724 (+30)",
+        "rating 4.8 (+20)",
+        "price $5347 (+5)"
+      ]
+    },
+    {
+      "asin": "B003ULL1NQ",
+      "title": "Nutramax Cosequin for Dogs Joint Health Supplement, Contains Glucosamine for Dogs, Plus Chondroitin and MSM, Supports He",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 21,
+      "rating": 4.7,
+      "reviewCount": 78821,
+      "estimatedPriceUSD": 12461,
+      "priceRaw": "COP 124,618.23",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B003ULL1NQ",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 78.821 (+30)",
+        "rating 4.7 (+20)",
+        "price $12461 (+5)"
+      ]
+    },
+    {
+      "asin": "B01LNB6SA0",
+      "title": "Temptations Cat Treats Classic Crunchy and Soft Cat Treats, Tasty Chicken Flavor, 30 oz. Tub",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 17,
+      "rating": 4.8,
+      "reviewCount": 71865,
+      "estimatedPriceUSD": 5525,
+      "priceRaw": "COP 55,258.96",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01LNB6SA0",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 71.865 (+30)",
+        "rating 4.8 (+20)",
+        "price $5525 (+5)"
+      ]
+    },
+    {
+      "asin": "B006W6YHYQ",
+      "title": "Greenies Veterinarian-Recommended Adult Natural Dental Dog Treats Teenie Size, Dog Dental Chews, Original Flavor, 36 oz.",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 25,
+      "rating": 4.8,
+      "reviewCount": 70562,
+      "estimatedPriceUSD": 13197,
+      "priceRaw": "COP 131,971.81",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B006W6YHYQ",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 70.562 (+30)",
+        "rating 4.8 (+20)",
+        "price $13197 (+5)"
+      ]
+    },
+    {
+      "asin": "B0CQMRKRV5",
+      "title": "Amazon Fire TV Stick HD, free and live TV, Alexa Voice Remote, smart home controls, HD streaming",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 14,
+      "rating": 4.7,
+      "reviewCount": 68132,
+      "estimatedPriceUSD": 12490,
+      "priceRaw": "COP 124,903.80",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0CQMRKRV5",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 68.132 (+30)",
+        "rating 4.7 (+20)",
+        "price $12490 (+5)"
+      ]
+    },
+    {
+      "asin": "B075BMVZ2N",
+      "title": "Amazon Basics Extension Cord, 10 Ft, 3 Prong Outlet Extender, Indoor, 13 Amps, 125V, Black",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 23,
+      "rating": 4.8,
+      "reviewCount": 61153,
+      "estimatedPriceUSD": 2495,
+      "priceRaw": "COP 24,952.20",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B075BMVZ2N",
+      "confidenceScore": 73,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 61.153 (+30)",
+        "rating 4.8 (+20)",
+        "price $2495 (+5)"
+      ]
+    },
+    {
+      "asin": "B00ZQXT4EY",
+      "title": "Desitin Maximum Strength Paste, 40% Zinc Oxide Paste, Diaper Rash Healing Ointment for Immediate Relief, Dermatologist P",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 10,
+      "rating": 4.8,
+      "reviewCount": 49799,
+      "estimatedPriceUSD": 2845,
+      "priceRaw": "COP 28,450.51",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00ZQXT4EY",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 49.799 (+22)",
+        "rating 4.8 (+20)",
+        "price $2845 (+5)"
+      ]
+    },
+    {
+      "asin": "B001650NNW",
+      "title": "Purina Pro Plan Veterinary Supplements FortiFlora Daily Probiotics for Dogs, Helps Digestive Gut Health and Diarrhea - 3",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 9,
+      "rating": 4.7,
+      "reviewCount": 48632,
+      "estimatedPriceUSD": 11062,
+      "priceRaw": "COP 110,625.00",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B001650NNW",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 48.632 (+22)",
+        "rating 4.7 (+20)",
+        "price $11062 (+5)"
+      ]
+    },
+    {
+      "asin": "B0DKYWMHDX",
+      "title": "Huggies Size 5 Diapers, Little Movers Baby Diapers, Size 5 (27+ lbs), 132 Count (2 Packs of 66), Packaging May Vary",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 9,
+      "rating": 4.8,
+      "reviewCount": 47412,
+      "estimatedPriceUSD": 19326,
+      "priceRaw": "COP 193,263.56",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0DKYWMHDX",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 47.412 (+22)",
+        "rating 4.8 (+20)",
+        "price $19326 (+5)"
+      ]
+    },
+    {
+      "asin": "B0B6GLQJMV",
+      "title": "Ring Indoor Cam, Home or business security in 1080p HD video, White",
+      "category": "hogar",
+      "categoryLabel": "Hogar Inteligente",
+      "bsrRank": 9,
+      "rating": 4.7,
+      "reviewCount": 42548,
+      "estimatedPriceUSD": 17844,
+      "priceRaw": "COP 178,449.30",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0B6GLQJMV",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 42.548 (+22)",
+        "rating 4.7 (+20)",
+        "price $17844 (+5)"
+      ]
+    },
+    {
+      "asin": "B07S2TDDCK",
+      "title": "Greenies Pill Pockets for Dogs Large Size, Dog Treat Pouch for Capsule Medication, Peanut Butter Flavor, 15.8 oz. Pouch",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 5,
+      "rating": 4.8,
+      "reviewCount": 32991,
+      "estimatedPriceUSD": 6386,
+      "priceRaw": "COP 63,861.93",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07S2TDDCK",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 32.991 (+22)",
+        "rating 4.8 (+20)",
+        "price $6386 (+5)"
+      ]
+    },
+    {
+      "asin": "B0DZ75TN5F",
+      "title": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch I",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 6,
+      "rating": 4.7,
+      "reviewCount": 24701,
+      "estimatedPriceUSD": 98388,
+      "priceRaw": "COP 983,880.71",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0DZ75TN5F",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 24.701 (+22)",
+        "rating 4.7 (+20)",
+        "price $98388 (+5)"
+      ]
+    },
+    {
+      "asin": "B072DTFZHL",
+      "title": "Sheba Perfect Portions Wet Cat Food Cuts in Gravy, Cat Food Wet Recipe, Roasted Chicken Entree, with Sustainable Salmon,",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 10,
+      "rating": 4.7,
+      "reviewCount": 20748,
+      "estimatedPriceUSD": 8345,
+      "priceRaw": "COP 83,459.59",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B072DTFZHL",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 20.748 (+22)",
+        "rating 4.7 (+20)",
+        "price $8345 (+5)"
+      ]
+    },
+    {
+      "asin": "B000MVV6AA",
+      "title": "Scotch Heavy Duty Shipping Packing Tape, Clear, Shipping and Packaging Supplies, 1.88 in. x 27.7 yd., 1 Tape Roll with D",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 9,
+      "rating": 4.8,
+      "reviewCount": 20694,
+      "estimatedPriceUSD": 1474,
+      "priceRaw": "COP 14,742.86",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B000MVV6AA",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 20.694 (+22)",
+        "rating 4.8 (+20)",
+        "price $1474 (+5)"
+      ]
+    },
+    {
+      "asin": "B0C3SSXL4K",
+      "title": "Inspire Black Nitrile Gloves HEAVY DUTY 6 Mil Nitrile Chemical Resistant Medical Cooking Cleaning Disposable Black Glove",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 9,
+      "rating": 4.7,
+      "reviewCount": 15451,
+      "estimatedPriceUSD": 5154,
+      "priceRaw": "COP 51,546.47",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0C3SSXL4K",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 15.451 (+22)",
+        "rating 4.7 (+20)",
+        "price $5154 (+5)"
+      ]
+    },
+    {
+      "asin": "B0B41MYSGP",
+      "title": "BAND-AID Brand Travel Ready Portable Emergency First Aid Kit, Minor Wound Care, Perfect for Home, Car, Camping, Travel &",
+      "category": "deporte",
+      "categoryLabel": "Deporte / Fitness",
+      "bsrRank": 9,
+      "rating": 4.8,
+      "reviewCount": 13557,
+      "estimatedPriceUSD": 3919,
+      "priceRaw": "COP 39,195.31",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0B41MYSGP",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 13.557 (+22)",
+        "rating 4.8 (+20)",
+        "price $3919 (+5)"
+      ]
+    },
+    {
+      "asin": "B07D323MFZ",
+      "title": "INABA Churu Cat Treats, Lickable, Squeezable Creamy Purée Cat Treat with Green Tea Extract & Taurine, 0.5 Ounces Each Tu",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 6,
+      "rating": 4.9,
+      "reviewCount": 13169,
+      "estimatedPriceUSD": 11765,
+      "priceRaw": "COP 117,657.31",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07D323MFZ",
+      "confidenceScore": 72,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 13.169 (+22)",
+        "rating 4.9 (+20)",
+        "price $11765 (+5)"
+      ]
+    },
+    {
+      "asin": "B074PVTPBW",
+      "title": "Mighty Patch Original Patch from Hero Cosmetics - #1 Hydrocolloid Acne Pimple Patches for Face, Shrinking Zits & Whitehe",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 3,
+      "rating": 4.6,
+      "reviewCount": 183938,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B074PVTPBW",
+      "confidenceScore": 70,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 183.938 (+30)",
+        "rating 4.6 (+15)"
+      ]
+    },
+    {
+      "asin": "B08H3JPH74",
+      "title": "Maybelline Lash Sensational Sky High Washable Mascara Makeup, Volumizing, Lengthening, Defining, Curling, Multiplying, B",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 10,
+      "rating": 4.5,
+      "reviewCount": 183923,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08H3JPH74",
+      "confidenceScore": 70,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 183.923 (+30)",
+        "rating 4.5 (+15)"
+      ]
+    },
+    {
+      "asin": "B000VDR8LA",
+      "title": "Fresh Step Odor Shield Multi Cat Clumping Cat Litter with Febreze Freshness, Low Dust, Odor Control with Ammonia Block T",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 7,
+      "rating": 4.6,
+      "reviewCount": 140751,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B000VDR8LA",
+      "confidenceScore": 70,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 140.751 (+30)",
+        "rating 4.6 (+15)"
+      ]
+    },
+    {
+      "asin": "B073WJMKHN",
+      "title": "YETI Rambler 20 oz Stainless Steel Vacuum Insulated Tumbler w/MagSlider Lid",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 21,
+      "rating": 4.8,
+      "reviewCount": 146241,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B073WJMKHN",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 146.241 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B00TTD9BRC",
+      "title": "CeraVe Moisturizing Cream, Body and Face Moisturizer for Dry Skin, Body Cream with Hyaluronic Acid and Ceramides, Daily ",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 22,
+      "rating": 4.7,
+      "reviewCount": 144789,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00TTD9BRC",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 144.789 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B0824XNJSW",
+      "title": "No-Touch Thermometer for Adults and Kids, Accurate Digital Baby Thermometer, Fever Alarm & Silent Mode, 2 in 1 Forehead ",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 25,
+      "rating": 4.5,
+      "reviewCount": 117188,
+      "estimatedPriceUSD": 7135,
+      "priceRaw": "COP 71,358.30",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0824XNJSW",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 117.188 (+30)",
+        "rating 4.5 (+15)",
+        "price $7135 (+5)"
+      ]
+    },
+    {
+      "asin": "B08R6S1M1K",
+      "title": "Wall Charger, Surge Protector, QINLIANF 5 Outlet Extender with 4 USB Charging Ports, 3-Sided 1680J Power Strip Multi Plu",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 11,
+      "rating": 4.7,
+      "reviewCount": 114162,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08R6S1M1K",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 114.162 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B00AINMFAC",
+      "title": "Nizoral Anti-Dandruff Shampoo with 1% Ketoconazole, Fresh Scent, 7 Fl Oz",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 17,
+      "rating": 4.6,
+      "reviewCount": 110644,
+      "estimatedPriceUSD": 5668,
+      "priceRaw": "COP 56,686.84",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00AINMFAC",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 110.644 (+30)",
+        "rating 4.6 (+15)",
+        "price $5668 (+5)"
+      ]
+    },
+    {
+      "asin": "B00TJ6WLV2",
+      "title": "Pampers Diapers - Baby Dry - Size 1, 120 Count, Absorbent Disposable Infant Diaper (Packaging May Vary)",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 18,
+      "rating": 4.7,
+      "reviewCount": 97839,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00TJ6WLV2",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 97.839 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B00C7N7L1E",
+      "title": "ZeroWater Official Replacement Filter - 5-Stage 0 TDS Water Filter Replacement IAPMO Certified to Reduce Lead, Chromium,",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 24,
+      "rating": 4.5,
+      "reviewCount": 96669,
+      "estimatedPriceUSD": 14557,
+      "priceRaw": "COP 145,572.37",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00C7N7L1E",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 96.669 (+30)",
+        "rating 4.5 (+15)",
+        "price $14557 (+5)"
+      ]
+    },
+    {
+      "asin": "B07YDDX4JL",
+      "title": "iBayam 3-Pack 8\" Heavy Duty Scissors with Ultra Sharp Blades and Comfort Grip Handles - For Office, Home, School, Sewing",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 20,
+      "rating": 4.8,
+      "reviewCount": 86172,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07YDDX4JL",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 86.172 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B00QSR9URI",
+      "title": "Amazon Basics Wide Ruled Lined Writing Note Pads for Office Supplies, 8.5\" x 11.75\", White, 12-Pack of 50 Perforated She",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 12,
+      "rating": 4.7,
+      "reviewCount": 81549,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00QSR9URI",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 81.549 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B08KT5HM98",
+      "title": "eos Shea Better Body Lotion Coconut Waters, 24-Hour Moisture Skin Care, Lightweight & Non-Greasy, Natural Shea, Vegan, C",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 16,
+      "rating": 4.7,
+      "reviewCount": 75504,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08KT5HM98",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 75.504 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B0012YVGOW",
+      "title": "BIC Round Stic Xtra Life Ballpoint Pen, Ultra Long Lasting and Consistent Ink Flow, 60-Count in Black Ink",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 17,
+      "rating": 4.7,
+      "reviewCount": 71049,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0012YVGOW",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 71.049 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B092J8LPWR",
+      "title": "Surge Protector Power Strip - HANYCONY 8 Outlets 4 USB (2 USB C) Charging Ports, Multi Plug Outlet Extender, 5Ft Braided",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 25,
+      "rating": 4.8,
+      "reviewCount": 67031,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B092J8LPWR",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 67.031 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B009PCI2JU",
+      "title": "GE RPWFE Refrigerator Water Filter, Genuine Replacement Filter, Certified to Reduce Lead, Sulfur, and 50+ Other Impuriti",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 15,
+      "rating": 4.6,
+      "reviewCount": 57682,
+      "estimatedPriceUSD": 17841,
+      "priceRaw": "COP 178,413.61",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B009PCI2JU",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 57.682 (+30)",
+        "rating 4.6 (+15)",
+        "price $17841 (+5)"
+      ]
+    },
+    {
+      "asin": "B004Q69HIU",
+      "title": "Filtrete 20x25x1 AC Furnace Air Filter, MERV 11, MPR 1000, Micro Allergen Defense, 3-Month Pleated 1-Inch Electrostatic ",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 11,
+      "rating": 4.8,
+      "reviewCount": 57181,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B004Q69HIU",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 57.181 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B01LYHE49W",
+      "title": "Amazon Basics Sturdy File Folders with Reinforced Tabs for Filing and Organization, 1/3-Cut Tab, Assorted Positions, Let",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 11,
+      "rating": 4.8,
+      "reviewCount": 56391,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01LYHE49W",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 56.391 (+30)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B01MU7973W",
+      "title": "Brita Elite Water Filter Replacements for Pitchers and Dispensers, BPA-Free, Reduces 99% of Lead, Lasts Six Months or 12",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 16,
+      "rating": 4.6,
+      "reviewCount": 54993,
+      "estimatedPriceUSD": 10630,
+      "priceRaw": "COP 106,305.67",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01MU7973W",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 54.993 (+30)",
+        "rating 4.6 (+15)",
+        "price $10630 (+5)"
+      ]
+    },
+    {
+      "asin": "B07XXSYLL8",
+      "title": "TempPro TP19H Digital Meat Thermometer for Cooking, 1 Sec Instant Read Food Thermometer with Motion-Sensing Wake for BBQ",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 22,
+      "rating": 4.7,
+      "reviewCount": 54847,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07XXSYLL8",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 54.847 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B08412PTS8",
+      "title": "HP 67XL Black High-Yield Ink Cartridge | Works with DeskJet 1255, 2700, 4100, Envy 6000, 6400 Series | Eligible for Inst",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 16,
+      "rating": 4.7,
+      "reviewCount": 53764,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08412PTS8",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 53.764 (+30)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B09PDLBFKY",
+      "title": "6 Ft Surge Protector Power Strip - 8 Widely Outlets with 4 USB Ports, 3 Side Outlet Extender with 6 Feet Extension Cord,",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 12,
+      "rating": 4.6,
+      "reviewCount": 50056,
+      "estimatedPriceUSD": 4280,
+      "priceRaw": "COP 42,800.70",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B09PDLBFKY",
+      "confidenceScore": 68,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 50.056 (+30)",
+        "rating 4.6 (+15)",
+        "price $4280 (+5)"
+      ]
+    },
+    {
+      "asin": "B003PMQMK2",
+      "title": "Milk-Bone MaroSnacks Small Dog Treats with Real Bone Marrow, 40 Oz. Canister",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 28,
+      "rating": 4.7,
+      "reviewCount": 83802,
+      "estimatedPriceUSD": 4094,
+      "priceRaw": "COP 40,944.46",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B003PMQMK2",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-50 (+12)",
+        "reviews 83.802 (+30)",
+        "rating 4.7 (+20)",
+        "price $4094 (+5)"
+      ]
+    },
+    {
+      "asin": "B0DFRHY91R",
+      "title": "Huggies Size 4 Diapers, Snug & Dry Baby Diapers, Size 4 (22-37 lbs), 92 Count, Packaging May Vary",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 26,
+      "rating": 4.7,
+      "reviewCount": 64265,
+      "estimatedPriceUSD": 8920,
+      "priceRaw": "COP 89,206.80",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0DFRHY91R",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-50 (+12)",
+        "reviews 64.265 (+30)",
+        "rating 4.7 (+20)",
+        "price $8920 (+5)"
+      ]
+    },
+    {
+      "asin": "B079M8FPTW",
+      "title": "Rubbermaid Brilliance Tritan Plastic Food Storage Containers BPA Free Airtight Lids Ideal for Lunch Meal Prep & Leftover",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 29,
+      "rating": 4.7,
+      "reviewCount": 58805,
+      "estimatedPriceUSD": 8863,
+      "priceRaw": "COP 88,635.65",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B079M8FPTW",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-50 (+12)",
+        "reviews 58.805 (+30)",
+        "rating 4.7 (+20)",
+        "price $8863 (+5)"
+      ]
+    },
+    {
+      "asin": "B08KW1KR5H",
+      "title": "JBL Go 3 - Portable Mini Bluetooth Speaker, big audio and punchy bass, IP67 waterproof and dustproof, 5 hours of playtim",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 26,
+      "rating": 4.8,
+      "reviewCount": 52595,
+      "estimatedPriceUSD": 10055,
+      "priceRaw": "COP 100,558.45",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08KW1KR5H",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-50 (+12)",
+        "reviews 52.595 (+30)",
+        "rating 4.8 (+20)",
+        "price $10055 (+5)"
+      ]
+    },
+    {
+      "asin": "B007JXVR76",
+      "title": "Meow Mix Original Choice Dry Cat Food, 6.3 Pound Bag",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 27,
+      "rating": 4.7,
+      "reviewCount": 51759,
+      "estimatedPriceUSD": 3209,
+      "priceRaw": "COP 32,091.60",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B007JXVR76",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-50 (+12)",
+        "reviews 51.759 (+30)",
+        "rating 4.7 (+20)",
+        "price $3209 (+5)"
+      ]
+    },
+    {
+      "asin": "B00006IFHD",
+      "title": "Sharpie Permanent Markers, Fine Tip, Black, 12 Count - Quick Drying, Fade Resistant, For Wood, Plastic, Paper, Metal, An",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 6,
+      "rating": 4.8,
+      "reviewCount": 45194,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00006IFHD",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 45.194 (+22)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B07PBXXNCY",
+      "title": "Clean Skin Club Clean Towels XL®, 100% USDA Biobased Face Towel, Disposable Face Towelette, Eczema Association Accepted,",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 8,
+      "rating": 4.8,
+      "reviewCount": 43796,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07PBXXNCY",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 43.796 (+22)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B07CMS5Q6P",
+      "title": "Logitech G305 Lightspeed Wireless Gaming Mouse, Hero Sensor, 12,000 DPI, Lightweight, 6 Programmable Buttons, 250h Batte",
+      "category": "gaming",
+      "categoryLabel": "Gaming",
+      "bsrRank": 10,
+      "rating": 4.6,
+      "reviewCount": 38659,
+      "estimatedPriceUSD": 8192,
+      "priceRaw": "COP 81,924.62",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07CMS5Q6P",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 38.659 (+22)",
+        "rating 4.6 (+15)",
+        "price $8192 (+5)"
+      ]
+    },
+    {
+      "asin": "B0795WF49L",
+      "title": "Pampers Swim Diapers - Splashers - Size 4, 18 Count, Gap-Free Disposable Baby Swimming Pants",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 5,
+      "rating": 4.8,
+      "reviewCount": 31432,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0795WF49L",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 31.432 (+22)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B0DGHMNQ5Z",
+      "title": "Apple AirPods 4 Wireless Earbuds, Bluetooth Headphones, Personalized Spatial Audio, Sweat and Water Resistant, USB-C Cha",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 4,
+      "rating": 4.6,
+      "reviewCount": 30452,
+      "estimatedPriceUSD": 49815,
+      "priceRaw": "COP 498,151.64",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0DGHMNQ5Z",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 30.452 (+22)",
+        "rating 4.6 (+15)",
+        "price $49815 (+5)"
+      ]
+    },
+    {
+      "asin": "B01K1TX77W",
+      "title": "Rainleaf Microfiber Towel Perfect Travel & Gym & Camping Towel. Quick Dry - Super Absorbent - Ultra Compact - Lightweigh",
+      "category": "deporte",
+      "categoryLabel": "Deporte / Fitness",
+      "bsrRank": 8,
+      "rating": 4.7,
+      "reviewCount": 29968,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01K1TX77W",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 29.968 (+22)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B0DXXYS4BJ",
+      "title": "Roku Streaming Stick HD — HD Streaming Device for TV with Roku Voice Remote, Free & Live TV",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 7,
+      "rating": 4.7,
+      "reviewCount": 20255,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0DXXYS4BJ",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 20.255 (+22)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B0DCH8VDXF",
+      "title": "Apple EarPods Headphones with USB-C Plug, Wired Ear Buds with Built-in Remote to Control Music, Phone Calls, and Volume",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 2,
+      "rating": 4.6,
+      "reviewCount": 14246,
+      "estimatedPriceUSD": 6375,
+      "priceRaw": "COP 63,754.84",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0DCH8VDXF",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 14.246 (+22)",
+        "rating 4.6 (+15)",
+        "price $6375 (+5)"
+      ]
+    },
+    {
+      "asin": "B0B27HX6P7",
+      "title": "2 Pack European Travel Plug Adapter, TESSAN Europe Power Converter 4 Outlets 3 USB(1 USB C PD 20W), Type C International",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 4,
+      "rating": 4.7,
+      "reviewCount": 13708,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0B27HX6P7",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 13.708 (+22)",
+        "rating 4.7 (+20)"
+      ]
+    },
+    {
+      "asin": "B01C5IHGJW",
+      "title": "Scotch Magic Tape, 3 Dispensered Rolls, Numerous Applications, Invisible, Clear Tape Engineered for Repairing, 3/4 x 300",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 10,
+      "rating": 4.8,
+      "reviewCount": 11760,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01C5IHGJW",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 11.760 (+22)",
+        "rating 4.8 (+20)"
+      ]
+    },
+    {
+      "asin": "B0FQFB8FMG",
+      "title": "Apple AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation, Live Translation, Heart Rate Sensing, Hearing Aid Featu",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 5,
+      "rating": 4.5,
+      "reviewCount": 10343,
+      "estimatedPriceUSD": 82460,
+      "priceRaw": "COP 824,600.70",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0FQFB8FMG",
+      "confidenceScore": 67,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 10.343 (+22)",
+        "rating 4.5 (+15)",
+        "price $82460 (+5)"
+      ]
+    },
+    {
+      "asin": "B0FQF9ZX7P",
+      "title": "Apple Watch Series 11 [GPS 42mm] Smartwatch with Rose Gold Aluminum Case with Light Blush Sport Band - S/M. Sleep Score,",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 10,
+      "rating": 4.8,
+      "reviewCount": 5190,
+      "estimatedPriceUSD": 93925,
+      "priceRaw": "COP 939,259.46",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0FQF9ZX7P",
+      "confidenceScore": 66,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 5.190 (+16)",
+        "rating 4.8 (+20)",
+        "price $93925 (+5)"
+      ]
+    },
+    {
+      "asin": "B08JHCVHTY",
+      "title": "blink plus plan with monthly auto-renewal",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 1,
+      "rating": 4.4,
+      "reviewCount": 276642,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08JHCVHTY",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 276.642 (+30)",
+        "rating 4.4 (+10)"
+      ]
+    },
+    {
+      "asin": "B0009X29WK",
+      "title": "Dr. Elsey's Ultra UnScented Clumping Clay Cat Litter 40 lb. Bag",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 1,
+      "rating": 4.3,
+      "reviewCount": 95502,
+      "estimatedPriceUSD": null,
+      "priceRaw": null,
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0009X29WK",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-10 (+25)",
+        "reviews 95.502 (+30)",
+        "rating 4.3 (+10)"
+      ]
+    },
+    {
+      "asin": "B001STX13U",
+      "title": "Purina Fancy Feast Grilled Wet Cat Food Seafood Collection in Wet Cat Food Variety Pack - (Pack of 24) 3 oz. Cans",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 24,
+      "rating": 4.7,
+      "reviewCount": 46873,
+      "estimatedPriceUSD": 7417,
+      "priceRaw": "COP 74,178.37",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B001STX13U",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 46.873 (+22)",
+        "rating 4.7 (+20)",
+        "price $7417 (+5)"
+      ]
+    },
+    {
+      "asin": "B072QXWXS6",
+      "title": "The Honest Company 2-in-1 Baby Shampoo & Body Wash, Fragrance-Free, Tear-Free, Hypoallergenic, Naturally Derived, Sensit",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 11,
+      "rating": 4.7,
+      "reviewCount": 46235,
+      "estimatedPriceUSD": 4483,
+      "priceRaw": "COP 44,835.43",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B072QXWXS6",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 46.235 (+22)",
+        "rating 4.7 (+20)",
+        "price $4483 (+5)"
+      ]
+    },
+    {
+      "asin": "B015XBYDLM",
+      "title": "Dr. Brown’s Natural Flow Level 2 Narrow Baby Bottle Silicone Nipple, Medium Flow, 3m+, 100% Silicone Bottle Nipple, 6 Co",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 14,
+      "rating": 4.9,
+      "reviewCount": 42661,
+      "estimatedPriceUSD": 3923,
+      "priceRaw": "COP 39,231.00",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B015XBYDLM",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 42.661 (+22)",
+        "rating 4.9 (+20)",
+        "price $3923 (+5)"
+      ]
+    },
+    {
+      "asin": "B071NFVVNG",
+      "title": "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Wat",
+      "category": "herramientas",
+      "categoryLabel": "Herramientas & Mejoras del Hogar",
+      "bsrRank": 12,
+      "rating": 4.7,
+      "reviewCount": 42553,
+      "estimatedPriceUSD": 13868,
+      "priceRaw": "COP 138,682.84",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B071NFVVNG",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 42.553 (+22)",
+        "rating 4.7 (+20)",
+        "price $13868 (+5)"
+      ]
+    },
+    {
+      "asin": "B006HKA6II",
+      "title": "Milk-Bone Soft & Chewy Dog Treats, Made with Real Beef & Filet Mignon, 25 Ounce Canister",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 20,
+      "rating": 4.7,
+      "reviewCount": 34472,
+      "estimatedPriceUSD": 5165,
+      "priceRaw": "COP 51,653.56",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B006HKA6II",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 34.472 (+22)",
+        "rating 4.7 (+20)",
+        "price $5165 (+5)"
+      ]
+    },
+    {
+      "asin": "B09K8YYVWV",
+      "title": "Blue Buffalo Life Protection Formula Chicken & Brown Rice Adult Dry Dog Food, Supports Immunity with Antioxidant-Rich Li",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 13,
+      "rating": 4.7,
+      "reviewCount": 29176,
+      "estimatedPriceUSD": 5343,
+      "priceRaw": "COP 53,438.41",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B09K8YYVWV",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 29.176 (+22)",
+        "rating 4.7 (+20)",
+        "price $5343 (+5)"
+      ]
+    },
+    {
+      "asin": "B08QS2KQ3F",
+      "title": "Huggies Overnites Size 5 Overnight Diapers (27+ lbs), 50 Ct, Packaging May Vary",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 24,
+      "rating": 4.7,
+      "reviewCount": 28931,
+      "estimatedPriceUSD": 10170,
+      "priceRaw": "COP 101,700.75",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08QS2KQ3F",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 28.931 (+22)",
+        "rating 4.7 (+20)",
+        "price $10170 (+5)"
+      ]
+    },
+    {
+      "asin": "B07PFYT8MC",
+      "title": "Reynolds Kitchens Unbleached Parchment Paper Roll, Non Stick Parchment Paper for Cooking and Baking, Oven Safe up to 425",
+      "category": "cocina",
+      "categoryLabel": "Cocina",
+      "bsrRank": 13,
+      "rating": 4.8,
+      "reviewCount": 27832,
+      "estimatedPriceUSD": 1392,
+      "priceRaw": "COP 13,921.83",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07PFYT8MC",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 27.832 (+22)",
+        "rating 4.8 (+20)",
+        "price $1392 (+5)"
+      ]
+    },
+    {
+      "asin": "B08PX2V7PG",
+      "title": "Pampers Diapers - Cruisers 360 - Size 5, 128 Count, Babyproof up to 100% Leakproof Pull-On Diaper",
+      "category": "bebes",
+      "categoryLabel": "Bebés",
+      "bsrRank": 12,
+      "rating": 4.8,
+      "reviewCount": 27824,
+      "estimatedPriceUSD": 18480,
+      "priceRaw": "COP 184,803.37",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B08PX2V7PG",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 27.824 (+22)",
+        "rating 4.8 (+20)",
+        "price $18480 (+5)"
+      ]
+    },
+    {
+      "asin": "B01MQXX9US",
+      "title": "Banana Boat Sport Ultra SPF 50 Sunscreen Spray | Banana Boat Sunscreen Spray SPF 50, Water Resistant, Oxybenzone Free, S",
+      "category": "belleza",
+      "categoryLabel": "Belleza & Cuidado Personal",
+      "bsrRank": 18,
+      "rating": 4.8,
+      "reviewCount": 25723,
+      "estimatedPriceUSD": 5486,
+      "priceRaw": "COP 54,866.29",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B01MQXX9US",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 25.723 (+22)",
+        "rating 4.8 (+20)",
+        "price $5486 (+5)"
+      ]
+    },
+    {
+      "asin": "B074B1KCXD",
+      "title": "Amazon Basics Assorted Size and Color Rubber Bands, Strong Elastic Stretch Office Supplies, 0.5 lb. Variety Assortment",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 21,
+      "rating": 4.7,
+      "reviewCount": 23942,
+      "estimatedPriceUSD": 2084,
+      "priceRaw": "COP 20,847.05",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B074B1KCXD",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 23.942 (+22)",
+        "rating 4.7 (+20)",
+        "price $2084 (+5)"
+      ]
+    },
+    {
+      "asin": "B00CU2CMOI",
+      "title": "Pedigree Dentastix Large Dog Treats, Original, Beef & Fresh, 2.73 lb. Variety Pack (51 Treats Total)",
+      "category": "mascotas",
+      "categoryLabel": "Mascotas",
+      "bsrRank": 16,
+      "rating": 4.8,
+      "reviewCount": 22002,
+      "estimatedPriceUSD": 8560,
+      "priceRaw": "COP 85,601.41",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B00CU2CMOI",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 22.002 (+22)",
+        "rating 4.8 (+20)",
+        "price $8560 (+5)"
+      ]
+    },
+    {
+      "asin": "B000I0TZO4",
+      "title": "Sharpie Permanent Markers, Fine Tip, Black, 5 Count - Quick Drying, Fade Resistant",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 18,
+      "rating": 4.8,
+      "reviewCount": 20080,
+      "estimatedPriceUSD": 1888,
+      "priceRaw": "COP 18,883.71",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B000I0TZO4",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 20.080 (+22)",
+        "rating 4.8 (+20)",
+        "price $1888 (+5)"
+      ]
+    },
+    {
+      "asin": "B0CFPJYX7P",
+      "title": "Amazon Kindle Paperwhite 16GB (newest model) – 20% faster, with new 7\" glare-free display and weeks of battery life – Bl",
+      "category": "electronica",
+      "categoryLabel": "Electrónica",
+      "bsrRank": 15,
+      "rating": 4.7,
+      "reviewCount": 18955,
+      "estimatedPriceUSD": 48544,
+      "priceRaw": "COP 485,443.50",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B0CFPJYX7P",
+      "confidenceScore": 65,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 18.955 (+22)",
+        "rating 4.7 (+20)",
+        "price $48544 (+5)"
+      ]
+    },
+    {
+      "asin": "B07VNSXY31",
+      "title": "EZlifego Double Sided Tape Heavy Duty, Nano Double Sided Adhesive Tape, Clear Mounting Tape Picture Hanging Adhesive Str",
+      "category": "oficina",
+      "categoryLabel": "Oficina / Home Office",
+      "bsrRank": 14,
+      "rating": 4.4,
+      "reviewCount": 129280,
+      "estimatedPriceUSD": 3566,
+      "priceRaw": "COP 35,661.30",
+      "soldByAmazon": null,
+      "pageUrl": "https://www.amazon.com/dp/B07VNSXY31",
+      "confidenceScore": 63,
+      "scoreBreakdown": [
+        "BSR top-25 (+18)",
+        "reviews 129.280 (+30)",
+        "rating 4.4 (+10)",
+        "price $3566 (+5)"
+      ]
+    }
+  ]
+}

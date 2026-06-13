@@ -23,6 +23,7 @@ import { ExternalLink } from 'lucide-react'
 import { Button }            from '@/components/ui/button'
 import { useProductTrack }   from '@/hooks/useTrack'
 import { trackSessionEvent } from '@/lib/session'
+import { ga4Event }          from '@/lib/analytics/ga4'
 
 interface Props {
   affiliateUrl: string
@@ -49,7 +50,14 @@ export function ProductDetailCTA({
   const handleClick = useCallback(() => {
     trackProductClick(productId, asin, category)
     trackSessionEvent({ type: 'product_click', productId, category, ts: Date.now() })
-  }, [productId, asin, category, trackProductClick])
+    ga4Event('affiliate_click', {
+      product_id: productId,
+      asin,
+      category,
+      is_offer:   isOffer,
+      source:     'product_detail',
+    })
+  }, [productId, asin, category, isOffer, trackProductClick])
 
   return (
     <Button

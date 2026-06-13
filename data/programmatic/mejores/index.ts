@@ -13,19 +13,7 @@
 
 import type { MejoresPage } from '@/types'
 
-import auricularesBluetooth from './auriculares-bluetooth'
-import gadgetsHomeOffice from './gadgets-home-office'
-import accesoriosGaming from './accesorios-gaming'
-import regalosTecnologicos from './regalos-tecnologicos'
-import gadgetsAmazonColombia from './gadgets-amazon-colombia'
-
-export const MEJORES_PAGES: MejoresPage[] = [
-  auricularesBluetooth,
-  gadgetsHomeOffice,
-  accesoriosGaming,
-  regalosTecnologicos,
-  gadgetsAmazonColombia,
-]
+export const MEJORES_PAGES: MejoresPage[] = []
 
 export function getMejoresPage(slug: string): MejoresPage | undefined {
   return MEJORES_PAGES.find(p => p.slug === slug)

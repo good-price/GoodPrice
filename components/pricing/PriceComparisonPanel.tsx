@@ -230,7 +230,7 @@ export function PriceComparisonPanel({
             Precios en Colombia
           </h2>
           <span
-            title="Comparamos Amazon (importado) vs MercadoLibre Colombia (local). Precios actualizados cada hora."
+            title="Precio de Amazon (importado) comparado con la oferta disponible en MercadoLibre Colombia."
             aria-label="¿Cómo funciona esta comparación?"
             className="text-gray-300 hover:text-gray-500 cursor-help text-xs"
           >

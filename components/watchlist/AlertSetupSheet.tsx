@@ -20,6 +20,7 @@ import {
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { getAnonId } from '@/hooks/useWatchlist'
+import { ga4Event } from '@/lib/analytics/ga4'
 import type { AlertTrigger } from '@/lib/watchlist/types'
 
 interface AlertSetupSheetProps {
@@ -47,8 +48,8 @@ const TRIGGER_OPTIONS: Array<{ value: AlertTrigger; label: string; description: 
   },
   {
     value:       'all_time_low',
-    label:       'Precio mínimo histórico',
-    description: 'Solo te aviso si alcanza el precio más bajo registrado',
+    label:       'Precio más bajo registrado',
+    description: 'Te aviso si el precio cae por debajo del mínimo que hemos visto hasta hoy',
   },
   {
     value:       'price_below',
@@ -88,6 +89,13 @@ export function AlertSetupSheet({
 
     // If no email → save client-side only
     if (!email.trim()) {
+      ga4Event('alert_created', {
+        product_id:       productId,
+        asin,
+        trigger,
+        has_email:        false,
+        target_price_usd: targetUSD ?? 0,
+      })
       onAlertSaved({ trigger, targetUSD }, undefined)
       return
     }
@@ -122,9 +130,23 @@ export function AlertSetupSheet({
         return
       }
 
+      ga4Event('alert_created', {
+        product_id:       productId,
+        asin,
+        trigger,
+        has_email:        true,
+        target_price_usd: targetUSD ?? 0,
+      })
       onAlertSaved({ trigger, targetUSD }, data.subscription?.id)
     } catch {
       setError('Error de conexión. La alerta se guardó localmente.')
+      ga4Event('alert_created', {
+        product_id:       productId,
+        asin,
+        trigger,
+        has_email:        true,
+        target_price_usd: targetUSD ?? 0,
+      })
       onAlertSaved({ trigger, targetUSD }, undefined)
     } finally {
       setSaving(false)

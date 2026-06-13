@@ -10,15 +10,7 @@
 
 import type { CompararPage } from '@/types'
 
-import airpodsVsGalaxy from './airpods-pro-2-vs-galaxy-buds2-pro'
-import ps5VsXbox from './ps5-dualsense-vs-xbox-controller'
-import logitechG502VsMxMaster from './logitech-g502-vs-mx-master-3s'
-
-export const COMPARAR_PAGES: CompararPage[] = [
-  airpodsVsGalaxy,
-  ps5VsXbox,
-  logitechG502VsMxMaster,
-]
+export const COMPARAR_PAGES: CompararPage[] = []
 
 export function getCompararPage(slug: string): CompararPage | undefined {
   return COMPARAR_PAGES.find(p => p.slug === slug)

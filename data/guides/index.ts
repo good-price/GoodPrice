@@ -14,16 +14,10 @@
 
 import type { Guide } from '@/types'
 
-import mejoresAuricularesBluetooth from './mejores-auriculares-bluetooth'
-import gadgetsHomeOfficeColombia from './gadgets-home-office-colombia'
-
 // ── Registry ──────────────────────────────────────────────────────────────────
 // Order here = display order on the /guias hub page
 
-export const GUIDES: Guide[] = [
-  mejoresAuricularesBluetooth,
-  gadgetsHomeOfficeColombia,
-]
+export const GUIDES: Guide[] = []
 
 // ── Query helpers ─────────────────────────────────────────────────────────────
 

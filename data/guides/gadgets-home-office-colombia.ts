@@ -32,7 +32,7 @@ const guide: Guide = {
     'hub usb-c colombia',
     'raton inalambrico amazon',
   ],
-  productIds: ['ofic-001', 'ofic-002', 'ofic-003', 'elec-004'],
+  productIds: ['ofic-001', 'elec-004'],
   badge: '2025',
   publishedAt: '2025-05-22',
   updatedAt: '2025-05-26',

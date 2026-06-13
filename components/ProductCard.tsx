@@ -27,6 +27,7 @@ import { Star, ExternalLink } from 'lucide-react'
 import { Product } from '@/types'
 import { buildAffiliateUrl } from '@/lib/affiliate'
 import { useProductTrack } from '@/hooks/useTrack'
+import { ga4Event } from '@/lib/analytics/ga4'
 import { getProductImageSrc, getCategoryPlaceholder } from '@/lib/catalog/placeholders'
 import { getBadgeStyle } from '@/lib/catalog/badges'
 import { trackSessionEvent } from '@/lib/session'
@@ -99,16 +100,22 @@ export function ProductCard({ product, priority = false, copPrice, dynamicBadge 
 
   // Fire-and-forget — tracks the Amazon outbound click (affiliate conversion intent)
   const handleAmazonClick = useCallback(() => {
-    // Server-side analytics (existing system)
     trackProductClick(product.id, product.asin, product.category)
-    // Client-side session profile (personalisation engine)
     trackSessionEvent({
       type:      'product_click',
       productId: product.id,
       category:  product.category,
       ts:        Date.now(),
     })
-  }, [product.id, product.asin, product.category, trackProductClick])
+    ga4Event('affiliate_click', {
+      product_id: product.id,
+      asin:       product.asin,
+      category:   product.category,
+      price_usd:  product.price,
+      is_offer:   product.isOffer ?? false,
+      source:     'product_card',
+    })
+  }, [product.id, product.asin, product.category, product.price, product.isOffer, trackProductClick])
 
   // ── Badge overlays ───────────────────────────────────────────────────────────
   // dynamicBadge (server-computed) takes priority over the static product.badge.

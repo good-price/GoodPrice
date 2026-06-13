@@ -15,6 +15,7 @@ import { useRouter } from 'next/navigation'
 import { SearchInput } from './SearchInput'
 import { SearchResults } from './SearchResults'
 import { useCommandSearch, useRecentSearches } from '@/hooks/useCommandSearch'
+import { ga4Event } from '@/lib/analytics/ga4'
 
 // ── Props ─────────────────────────────────────────────────────────────────────
 
@@ -50,6 +51,7 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
   const [query, setQuery] = useState('')
   const [selectedIndex, setSelectedIndex] = useState(0)
   const resultsRef = useRef<HTMLDivElement>(null)
+  const lastNoResultQuery = useRef('')
 
   const { groups, totalCount, isEmpty } = useCommandSearch(query)
   const noResults = !isEmpty && groups.length === 0
@@ -93,12 +95,27 @@ export function SearchModal({ isOpen, onClose }: SearchModalProps) {
 
   const handleSelect = useCallback(
     (href: string, currentQuery: string) => {
-      if (currentQuery.trim()) addRecent(currentQuery.trim())
+      if (currentQuery.trim()) {
+        addRecent(currentQuery.trim())
+        ga4Event('search', {
+          search_term:     currentQuery.trim(),
+          result_count:    totalCount,
+          selected_result: href,
+        })
+      }
       onClose()
       router.push(href)
     },
-    [addRecent, onClose, router],
+    [addRecent, onClose, router, totalCount],
   )
+
+  useEffect(() => {
+    if (noResults && query.trim().length >= 3 && query.trim() !== lastNoResultQuery.current) {
+      lastNoResultQuery.current = query.trim()
+      ga4Event('no_results_search', { search_term: query.trim() })
+    }
+    if (!noResults) lastNoResultQuery.current = ''
+  }, [noResults, query])
 
   const handleQuerySelect = useCallback((q: string) => {
     setQuery(q)

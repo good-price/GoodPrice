@@ -29,7 +29,7 @@ const page: MejoresPage = {
     'el ahorro promedio es de $60–$90 USD en este setup.\n\n' +
     'Para el análisis detallado de cada accesorio con casos de uso específicos, ' +
     'nuestra guía de home office incluye veredictos claros sobre cuándo vale la pena cada compra.',
-  featuredProductIds: ['ofic-001', 'ofic-002', 'ofic-003', 'elec-004'],
+  featuredProductIds: ['ofic-001', 'elec-004'],
   relatedGuideSlugs: ['gadgets-home-office-colombia'],
   relatedCategoryPageSlugs: ['home-office', 'laptops'],
   relatedComparisonSlugs: ['logitech-g502-vs-mx-master-3s'],

@@ -187,7 +187,12 @@ const _auditHistory    = loadAuditHistory(2)
  *
  * All other hard gates (1-5E, 7, 8) still result in SUPPRESSED.
  */
+const MIN_RATING  = 4.0
+const MIN_REVIEWS = 50
+
 export function isPublicSafeProduct(product: Product): boolean {
+  if (product.rating  < MIN_RATING)  return false
+  if (product.reviews < MIN_REVIEWS) return false
   return isProductPublic(product)
 }
 

@@ -3,8 +3,6 @@ import { HeroSection }         from '@/components/HeroSection'
 import { CategoryGrid }        from '@/components/CategoryGrid'
 import { TopSalesSection }     from '@/components/TopSalesSection'
 import { OffersSection }       from '@/components/OffersSection'
-import { TrendingSection }     from '@/components/TrendingSection'
-import { BestImportsSection }  from '@/components/BestImportsSection'
 import { PersonalizedSection } from '@/components/PersonalizedSection'
 import { ProductGrid }         from '@/components/ProductGrid'
 import { TrustStrip }          from '@/components/trust/TrustStrip'
@@ -14,12 +12,14 @@ import { buildCopPriceMap }    from '@/lib/currency'
 import { getCachedSnapshot }   from '@/lib/catalog/intelligence/snapshot'
 import { buildDynamicBadgeMap } from '@/lib/catalog/badges'
 import { buildHomeMetadata, websiteSchema, organizationSchema } from '@/lib/seo'
+import { getPublicCatalogStats } from '@/lib/catalog/public'
 
 export const revalidate = 86400
 
 export const metadata: Metadata = buildHomeMetadata()
 
 export default function HomePage() {
+  const stats         = getPublicCatalogStats()
   const featured      = getFeatured(8)
   const copPrices     = buildCopPriceMap(featured)
   const dynamicBadges = buildDynamicBadgeMap(featured, getCachedSnapshot())
@@ -37,29 +37,24 @@ export default function HomePage() {
       />
 
       <div className="flex flex-col gap-10">
-        <HeroSection />
 
-        {/* Credibility signals — right below the fold */}
-        <TrustStrip />
+        <HeroSection productCount={stats.public} />
+
+        {/* Credibility signals — productCount es dinámico, no hardcodeado */}
+        <TrustStrip productCount={stats.public} />
 
         <CategoryGrid />
 
-        {/* Personalised section — client-only, appears after hydration on return visits */}
+        {/* Sección personalizada — client-only, visible solo en visitas repetidas */}
         <PersonalizedSection />
 
-        {/* Daily deals */}
+        {/* Productos con descuento activo */}
         <OffersSection limit={8} />
 
-        {/* Intelligence-promoted trending products (hidden until snapshot exists) */}
-        <TrendingSection limit={8} />
-
-        {/* Top sellers ranked by intelligence engine */}
+        {/* Top ventas del catálogo */}
         <TopSalesSection limit={8} />
 
-        {/* Confirmed Colombia-shippable picks (hidden until Colombia audit runs) */}
-        <BestImportsSection limit={8} />
-
-        {/* Featured products — priorityCount=4 preloads the first row (LCP) */}
+        {/* Productos destacados — rating ≥ 4.6, ordenados por reseñas */}
         <section>
           <h2 className="text-xl font-bold text-gray-800 mb-4">Productos destacados</h2>
           <ProductGrid
@@ -71,8 +66,9 @@ export default function HomePage() {
           />
         </section>
 
-        {/* How it works — captures scrollers who haven't converted yet */}
+        {/* Cómo funciona — captura usuarios que scrollearon sin convertir */}
         <HowItWorks />
+
       </div>
     </>
   )

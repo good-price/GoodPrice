@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-06-10T00:00:00.000Z",
+  "criteria": "Grade A (addToCart OR buyNow active) + shipsToColombiaConfirmed + priceRaw parseable",
+  "total": 21,
+  "products": [
+    { "id": "elec-015", "asin": "B06VVS7S94", "category": "electronica", "title": "WD 1TB Elements Portable External Hard Drive - USB 3.0", "price": 126.24, "rating": 4.6, "reviews": 313944, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "elec-013", "asin": "B0874YJP92", "category": "electronica", "title": "SAMSUNG T7 Portable SSD 1TB", "price": 217.66, "rating": 4.7, "reviews": 37932, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "elec-024", "asin": "B07K3FN5MR", "category": "electronica", "title": "Elgato Cam Link 4K", "price": 87.06, "rating": 4.6, "reviews": 13871, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "elec-008", "asin": "B0C33XXS56", "category": "electronica", "title": "Sony WF-1000XM5 Earbuds", "price": 215.92, "rating": 3.8, "reviews": 5976, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "elec-006", "asin": "B09XS7JWHH", "category": "electronica", "title": "Sony WH-1000XM5 Headphones", "price": 242.04, "rating": 4.2, "reviews": 19622, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "elec-002", "asin": "B0B2SFVRC2", "category": "electronica", "title": "Samsung Galaxy Buds 2 Pro", "price": 174.12, "rating": 4.5, "reviews": 11123, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "game-003", "asin": "B086PKMZ21", "category": "gaming", "title": "Razer BlackShark V2 X Gaming Headset", "price": 34.82, "rating": 4.4, "reviews": 28287, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "game-008", "asin": "B09C13PZX7", "category": "gaming", "title": "Razer Basilisk V3 Gaming Mouse", "price": 30.46, "rating": 4.6, "reviews": 10156, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "hogar-007", "asin": "B07VVK39F7", "category": "hogar", "title": "LEVOIT Air Purifier Core300-P", "price": 74.00, "rating": 4.7, "reviews": 107514, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "hogar-002", "asin": "B07QWB3H1Q", "category": "hogar", "title": "Philips Hue Smart A19 LED Bulb", "price": 34.81, "rating": 4.8, "reviews": 16271, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "coci-001", "asin": "B06Y1YD5W7", "category": "cocina", "title": "Instant Pot Duo Mini 3qt", "price": 78.35, "rating": 4.7, "reviews": 184679, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "coci-014", "asin": "B01IHHLB3W", "category": "cocina", "title": "TempPro TP03B Digital Meat Thermometer", "price": 8.70, "rating": 4.6, "reviews": 136522, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "coci-019", "asin": "B007TIE0GQ", "category": "cocina", "title": "NutriBullet 12-Piece Blender/Mixer System", "price": 78.25, "rating": 4.5, "reviews": 26846, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "coci-002", "asin": "B0047BIWSK", "category": "cocina", "title": "AeroPress Original Coffee Press", "price": 30.44, "rating": 4.6, "reviews": 25961, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "dep-002", "asin": "B01AVDVHTI", "category": "deporte", "title": "Fit Simplify Resistance Loop Exercise Bands (Set of 5)", "price": 8.69, "rating": 4.5, "reviews": 135683, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "dep-007", "asin": "B0040EGNIU", "category": "deporte", "title": "TriggerPoint Grid Foam Roller 13\"", "price": 32.79, "rating": 4.7, "reviews": 27820, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "dep-001", "asin": "B09WTP57Z5", "category": "deporte", "title": "Garmin Forerunner 255 GPS Smartwatch", "price": 261.19, "rating": 4.7, "reviews": 4097, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "ofic-006", "asin": "B00N1YPXW2", "category": "oficina", "title": "Logitech Blue Yeti USB Microphone - Blackout", "price": 85.32, "rating": 4.6, "reviews": 34533, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "ofic-012", "asin": "B00B21TLQU", "category": "oficina", "title": "VIVO Single Monitor Arm Desk Mount", "price": 34.99, "rating": 4.5, "reviews": 20175, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "ofic-001", "asin": "B09HM94VDS", "category": "oficina", "title": "Logitech MX Master 3S Wireless Mouse - Graphite", "price": 165.42, "rating": 4.5, "reviews": 8616, "grade": "A", "auditReason": "Comprable desde Colombia" },
+    { "id": "masc-005", "asin": "B0002AR0II", "category": "mascotas", "title": "KONG Extreme Dog Toy - Large", "price": 14.96, "rating": 4.6, "reviews": 32641, "grade": "A", "auditReason": "Comprable desde Colombia" }
+  ]
+}

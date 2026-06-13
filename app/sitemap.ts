@@ -6,6 +6,7 @@ import { GUIDES } from '@/data/guides'
 import { CATEGORY_PAGES } from '@/data/category-pages'
 import { MEJORES_PAGES } from '@/data/programmatic/mejores'
 import { COMPARAR_PAGES } from '@/data/programmatic/comparar'
+import { getAllReviews } from '@/lib/content'
 
 /**
  * Dynamic sitemap — served at /sitemap.xml.
@@ -126,6 +127,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }))
 
+  // ── Reviews (MDX editorial) ───────────────────────────────────────────────────
+  // Priority 0.85 — original editorial reviews with structured data
+  const reviewRoutes: MetadataRoute.Sitemap = getAllReviews().map(r => ({
+    url: `${SITE_URL}/reviews/${r.slug}`,
+    lastModified: new Date(r.frontmatter.updatedDate),
+    changeFrequency: 'monthly' as const,
+    priority: 0.85,
+  }))
+
   return [
     ...staticRoutes,
     ...categoryRoutes,
@@ -134,5 +144,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...categoryLandingRoutes,
     ...mejoresRoutes,
     ...compararRoutes,
+    ...reviewRoutes,
   ]
 }

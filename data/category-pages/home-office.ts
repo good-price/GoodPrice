@@ -40,7 +40,7 @@ const homeOffice: CategoryPage = {
     'Si quieres ver el análisis detallado con casos de uso específicos, nuestra guía de home office ' +
     'desglosa cada accesorio con veredicto claro sobre cuándo y por qué comprarlo.',
 
-  featuredProductIds: ['ofic-001', 'ofic-002', 'ofic-003', 'elec-004'],
+  featuredProductIds: ['ofic-001', 'elec-004'],
   relatedGuideSlugs: ['gadgets-home-office-colombia'],
 
   relatedCategories: [

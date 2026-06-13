@@ -30,7 +30,16 @@ export async function isAdminRequest(req: NextRequest): Promise<boolean> {
 
   // ── (b)/(c) AUDIT_SECRET — cron jobs and external API callers ─────────────
   const secret = process.env.AUDIT_SECRET
-  if (!secret) return true   // dev: open when AUDIT_SECRET is not set
+  if (!secret) {
+    if (process.env.NODE_ENV === 'production') {
+      // Deny all non-cookie requests in production when AUDIT_SECRET is missing.
+      // This prevents cron/admin API routes from being publicly accessible.
+      console.error('[auth] AUDIT_SECRET must be set in production. Request denied.')
+      return false
+    }
+    // Local dev only: open when AUDIT_SECRET is not configured
+    return true
+  }
 
   const bearer = req.headers.get('authorization')?.replace(/^Bearer\s+/i, '') ?? ''
   const query  = req.nextUrl.searchParams.get('secret') ?? ''

@@ -3,31 +3,31 @@
  *
  * Pure Server Component. Zero JS. Placed on the homepage after featured products
  * to capture users who scrolled past the hero without converting.
- *
- * Explains the full GOODPRICE loop: compare → track → buy smart.
  */
 
 const steps = [
   {
     number: '01',
     icon:   '🔍',
-    title:  'Compara precios',
-    body:   'Buscamos el mismo producto en Amazon y MercadoLibre Colombia en tiempo real. ' +
-            'Ves el precio importado vs el precio local, incluyendo envío estimado.',
+    title:  'Encuentra productos verificados',
+    body:   'Revisamos el catálogo de Amazon y seleccionamos solo los productos con ' +
+            'envío internacional confirmado a Colombia, rating mínimo 4.0 y cientos ' +
+            'de reseñas reales de compradores.',
   },
   {
     number: '02',
     icon:   '🔔',
-    title:  'Sigue el precio',
-    body:   'Activa una alerta gratis — sin registro. Te avisamos por email cuando el ' +
-            'precio baje, llegue a tu objetivo, o alcance su mínimo histórico.',
+    title:  'Activa una alerta de precio',
+    body:   'Sin registro. Ingresa tu email y te avisamos por correo cuando el precio ' +
+            'del producto que elegiste baje. Gratis, sin spam, cancela cuando quieras.',
   },
   {
     number: '03',
     icon:   '💡',
-    title:  'Decide con datos',
-    body:   'Tendencia de precio, historial de los últimos meses, señal de compra. ' +
-            'Todo lo que necesitas para decidir si comprar hoy o esperar.',
+    title:  'Compra con información real',
+    body:   'Cada producto muestra su precio convertido a pesos colombianos, la ' +
+            'calificación de Amazon y el enlace directo al producto. ' +
+            'Lo que ves es lo que encuentras en Amazon.',
   },
 ]
 

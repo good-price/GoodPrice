@@ -24,6 +24,7 @@ import { useState } from 'react'
 import { Bell, BellRing, Check, ChevronDown } from 'lucide-react'
 import { useWatchlist } from '@/hooks/useWatchlist'
 import { AlertSetupSheet } from './AlertSetupSheet'
+import { ga4Event } from '@/lib/analytics/ga4'
 import type { LocalWatchlistItem } from '@/lib/watchlist/types'
 
 interface WatchButtonProps {
@@ -65,6 +66,12 @@ export function WatchButton({
       productId, asin, title, imageUrl, category, catalogPriceUSD,
     }
     add(item)
+    ga4Event('watchlist_add', {
+      product_id: productId,
+      asin,
+      category,
+      price_usd:  catalogPriceUSD,
+    })
     setJustAdded(true)
 
     // Reset "just added" feedback after 2 s

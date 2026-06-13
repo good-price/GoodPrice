@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { FilterState, SortOption } from '@/types'
 import { categories } from '@/data/categories'
+import { ga4Event } from '@/lib/analytics/ga4'
 
 interface FilterSidebarProps {
   filters: FilterState
@@ -52,7 +53,10 @@ export function FilterSidebar({ filters, updateFilter, resetFilters, totalResult
           {sortOptions.map(opt => (
             <button
               key={opt.value}
-              onClick={() => updateFilter('sortBy', opt.value)}
+              onClick={() => {
+                updateFilter('sortBy', opt.value)
+                ga4Event('filter_applied', { filter_type: 'sort', filter_value: opt.value, result_count: totalResults })
+              }}
               className={`text-left text-sm px-2 py-1.5 rounded-lg transition-colors ${
                 filters.sortBy === opt.value
                   ? 'bg-[#F7A823]/15 text-[#e8961a] font-medium'
@@ -72,7 +76,10 @@ export function FilterSidebar({ filters, updateFilter, resetFilters, totalResult
         <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Categoría</h3>
         <div className="flex flex-col gap-1">
           <button
-            onClick={() => updateFilter('category', '')}
+            onClick={() => {
+              updateFilter('category', '')
+              ga4Event('filter_applied', { filter_type: 'category', filter_value: 'all', result_count: totalResults })
+            }}
             className={`text-left text-sm px-2 py-1.5 rounded-lg transition-colors ${
               filters.category === ''
                 ? 'bg-[#F7A823]/15 text-[#e8961a] font-medium'
@@ -84,7 +91,10 @@ export function FilterSidebar({ filters, updateFilter, resetFilters, totalResult
           {categories.map(cat => (
             <button
               key={cat.id}
-              onClick={() => updateFilter('category', cat.slug)}
+              onClick={() => {
+                updateFilter('category', cat.slug)
+                ga4Event('filter_applied', { filter_type: 'category', filter_value: cat.slug, result_count: totalResults })
+              }}
               className={`text-left text-sm px-2 py-1.5 rounded-lg transition-colors flex items-center gap-2 ${
                 filters.category === cat.slug
                   ? 'bg-[#F7A823]/15 text-[#e8961a] font-medium'
@@ -106,7 +116,10 @@ export function FilterSidebar({ filters, updateFilter, resetFilters, totalResult
           {ratingOptions.map(r => (
             <button
               key={r}
-              onClick={() => updateFilter('minRating', r)}
+              onClick={() => {
+                updateFilter('minRating', r)
+                ga4Event('filter_applied', { filter_type: 'rating', filter_value: r, result_count: totalResults })
+              }}
               className={`text-left text-sm px-2 py-1.5 rounded-lg transition-colors flex items-center gap-1 ${
                 filters.minRating === r
                   ? 'bg-[#F7A823]/15 text-[#e8961a] font-medium'
@@ -129,7 +142,10 @@ export function FilterSidebar({ filters, updateFilter, resetFilters, totalResult
             <input
               type="checkbox"
               checked={filters.isTopSeller}
-              onChange={e => updateFilter('isTopSeller', e.target.checked)}
+              onChange={e => {
+                updateFilter('isTopSeller', e.target.checked)
+                ga4Event('filter_applied', { filter_type: 'top_seller', filter_value: e.target.checked, result_count: totalResults })
+              }}
               className="accent-[#F7A823] h-4 w-4"
             />
             <span className="text-sm text-gray-700">Solo top ventas</span>
@@ -138,7 +154,10 @@ export function FilterSidebar({ filters, updateFilter, resetFilters, totalResult
             <input
               type="checkbox"
               checked={filters.isOffer}
-              onChange={e => updateFilter('isOffer', e.target.checked)}
+              onChange={e => {
+                updateFilter('isOffer', e.target.checked)
+                ga4Event('filter_applied', { filter_type: 'offer', filter_value: e.target.checked, result_count: totalResults })
+              }}
               className="accent-[#F7A823] h-4 w-4"
             />
             <span className="text-sm text-gray-700">Solo ofertas</span>
