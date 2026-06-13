@@ -109,7 +109,7 @@ export function ProductCard({ product, priority = false, copPrice, dynamicBadge 
     })
     ga4Event('affiliate_click', {
       product_id: product.id,
-      asin:       product.asin,
+      ...(product.asin ? { asin: product.asin } : {}),
       category:   product.category,
       price_usd:  product.price,
       is_offer:   product.isOffer ?? false,
