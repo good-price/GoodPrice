@@ -9,6 +9,10 @@
       "schedule": "0 7 * * *"
     },
     {
+      "path": "/api/catalog/audit/daily",
+      "schedule": "30 8 * * *"
+    },
+    {
       "path": "/api/audit/run",
       "schedule": "0 9 1 * *"
     },

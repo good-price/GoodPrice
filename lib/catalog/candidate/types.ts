@@ -1,9 +1,10 @@
 /**
  * lib/catalog/candidate/types.ts
  *
- * Types for the Candidate Validator — the gate system that determines
- * whether a new ASIN is fit for the GOODPRICE catalog before it is added.
+ * Types for the Candidate Validator and the Automated Catalog Admission system.
  */
+
+// ── Validation types ──────────────────────────────────────────────────────────
 
 export interface GateResult {
   gate:    number
@@ -46,6 +47,10 @@ export interface CandidateValidationResult {
   availability:     'available' | 'unavailable' | 'unknown'
   rating?:          number
   reviewCount?:     number
+  /** Product title extracted from Amazon — populated on HTTP 200 pages. */
+  title?:           string
+  /** Brand extracted from Amazon — populated on HTTP 200 pages. */
+  brand?:           string
   /**
    * Best-effort: true when no shipping-restriction phrase was detected in the
    * Amazon page HTML. NOTE: Restriction phrases for Colombia only appear when
@@ -60,4 +65,58 @@ export interface CandidateValidationResult {
   gates:            GateResult[]
   checkedAt:        string   // ISO 8601
   durationMs:       number
+}
+
+// ── Draft types (product pending promotion to catalog) ────────────────────────
+
+export type DraftStatus = 'pending' | 'promoted' | 'dismissed'
+
+/**
+ * A ProductDraft is a fully validated product ready to enter the catalog.
+ * Created by POST /api/catalog/candidate/admit on APPROVED validation.
+ * A human must assign category, review the suggested ID, then promote it.
+ */
+export interface ProductDraft {
+  draftId:      string       // e.g. "draft_B09XYZ12345_1718360000000"
+  asin:         string
+  finalAsin:    string
+  status:       DraftStatus
+  // Live data from Amazon (captured at validation time)
+  title?:       string
+  brand?:       string
+  price:        number
+  imageUrl:     string
+  rating:       number
+  reviewCount:  number
+  // Suggested catalog fields (human reviews before promoting)
+  suggestedId?: string       // e.g. "elec-025"
+  category:     string       // provided by caller at admit time
+  // Metadata
+  submittedAt:  string       // ISO
+  promotedAt?:  string       // ISO — set when status → promoted
+  dismissedAt?: string       // ISO — set when status → dismissed
+  validationReport: CandidateValidationResult
+}
+
+export interface DraftStore {
+  updatedAt: string
+  drafts:    ProductDraft[]
+}
+
+// ── Admission log (history of all validate + admit calls) ─────────────────────
+
+export interface AdmissionLogEntry {
+  asin:        string
+  finalAsin:   string
+  category?:   string
+  decision:    CandidateDecision
+  reason?:     string
+  gatesFailed: string[]
+  checkedAt:   string
+  draftId?:    string   // set if APPROVED via /admit
+}
+
+export interface AdmissionLog {
+  updatedAt: string
+  entries:   AdmissionLogEntry[]
 }

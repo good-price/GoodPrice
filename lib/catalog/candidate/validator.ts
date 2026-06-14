@@ -64,6 +64,8 @@ export async function validateCandidate(
     availability:     'unknown' as CandidateValidationResult['availability'],
     rating:           undefined as number | undefined,
     reviewCount:      undefined as number | undefined,
+    title:            undefined as string | undefined,
+    brand:            undefined as string | undefined,
     shipsToColombia:  false,
   }
 
@@ -80,6 +82,8 @@ export async function validateCandidate(
       availability:    s.availability,
       rating:          s.rating,
       reviewCount:     s.reviewCount,
+      title:           s.title,
+      brand:           s.brand,
       shipsToColombia: s.shipsToColombia,
       decision:        'REJECTED',
       reason,
@@ -176,6 +180,8 @@ export async function validateCandidate(
 
   // Ships to Colombia — best-effort: true when no restriction phrase detected.
   s.shipsToColombia = !(extracted.shippingRestriction ?? false)
+  s.title           = extracted.title
+  s.brand           = extracted.brand
 
   return {
     asin,
@@ -189,6 +195,8 @@ export async function validateCandidate(
     availability:    s.availability,
     rating:          s.rating,
     reviewCount:     s.reviewCount,
+    title:           s.title,
+    brand:           s.brand,
     shipsToColombia: s.shipsToColombia,
     decision:        'APPROVED',
     gates,
