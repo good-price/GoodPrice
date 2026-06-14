@@ -323,16 +323,29 @@ function extractRating(html: string, ld: JsonLdObject | null): number | null {
 }
 
 function extractReviewCount(html: string, ld: JsonLdObject | null): number | null {
-  // 1. JSON-LD aggregateRating.reviewCount
+  // 1. JSON-LD aggregateRating.reviewCount / ratingCount
   if (ld?.aggregateRating && typeof ld.aggregateRating === 'object') {
     const ar = ld.aggregateRating as JsonLdObject
     const v = parseInt(String(ar.reviewCount ?? ar.ratingCount), 10)
     if (!isNaN(v) && v >= 0) return v
   }
-  // 2. <span id="acrCustomerReviewText">12,345 ratings</span>
-  const m = html.match(/id="acrCustomerReviewText"[^>]*>([\d,]+)\s+(?:global\s+)?rating/i)
-  if (m?.[1]) {
-    const v = parseInt(m[1].replace(/,/g, ''), 10)
+  // 2. data-hook="total-review-count">10,089 global ratings</span>
+  //    This is the most reliable HTML pattern — present on almost all Amazon pages.
+  const m1 = html.match(/data-hook="total-review-count"[^>]*>([\d,]+)/)
+  if (m1?.[1]) {
+    const v = parseInt(m1[1].replace(/,/g, ''), 10)
+    if (!isNaN(v) && v >= 0) return v
+  }
+  // 3. aria-label="10,089 Reviews" on the acrCustomerReviewText span
+  const m2 = html.match(/id="acrCustomerReviewText"[^>]*aria-label="([\d,]+)\s+[Rr]eview/)
+  if (m2?.[1]) {
+    const v = parseInt(m2[1].replace(/,/g, ''), 10)
+    if (!isNaN(v) && v >= 0) return v
+  }
+  // 4. Parenthesized count inside acrCustomerReviewText: (10,089)
+  const m3 = html.match(/id="acrCustomerReviewText"[^>]*>\s*\(([\d,]+)\)/)
+  if (m3?.[1]) {
+    const v = parseInt(m3[1].replace(/,/g, ''), 10)
     if (!isNaN(v) && v >= 0) return v
   }
   return null
