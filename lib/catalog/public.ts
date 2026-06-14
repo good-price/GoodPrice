@@ -39,6 +39,7 @@
 import { existsSync, readFileSync, readdirSync } from 'fs'
 import { join } from 'path'
 import { getColombiaProducts, getAllProducts } from '@/data/catalog'
+import { getDeletedProductIds } from '@/lib/catalog/deleted-products'
 import { isValidAsinFormat } from './validator'
 import { isKnownBrokenImageUrl } from './placeholders'
 import { getCachedSnapshot } from '@/lib/catalog/intelligence/snapshot'
@@ -204,7 +205,10 @@ export function isPublicSafeProduct(product: Product): boolean {
  * This is the ONLY function public-facing pages should use.
  */
 export function getPublicProducts(): Product[] {
-  const filtered = getColombiaProducts().filter(isPublicSafeProduct)
+  const deletedIds = getDeletedProductIds()
+  const filtered = getColombiaProducts()
+    .filter(p => !deletedIds.has(p.id ?? ''))
+    .filter(isPublicSafeProduct)
   // Protection layer: log a server-side warning if the catalog is completely empty.
   // This is a configuration/deployment error (quarantine too aggressive, audit scores wrong, etc.)
   if (filtered.length === 0) {

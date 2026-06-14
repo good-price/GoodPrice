@@ -77,7 +77,7 @@ export function getCatalogStats(): CatalogStats {
   }
 }
 
-/** All raw products with their ASINs — for validation scripts */
+/** All raw products with their ASINs — for pricing jobs and validation scripts */
 export function getRawProducts(): RawProduct[] {
   return REGISTRY
 }
