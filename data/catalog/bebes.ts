@@ -1,5 +1,55 @@
 import { RawProduct } from '@/types'
 
-const bebes: RawProduct[] = []
+const bebes: RawProduct[] = [
+  {
+    id: 'beb-001',
+    asin: 'B00BCII95Q',
+    title: 'Boppy Original Nursing Pillow and Positioner — Gray Leaves | Essential for Breastfeeding, Formula Feeding and Propping Baby | Removable Washable Cover',
+    category: 'bebes',
+    image: 'https://m.media-amazon.com/images/I/81DgxUd4sNL._AC_SX425_.jpg',
+    price: 34.99,
+    rating: 4.7,
+    reviews: 95000,
+    badge: 'N.º 1 en ventas',
+    isTopSeller: true,
+    isOffer: false,
+    brand: 'Boppy',
+    status: 'unverified',
+    lastValidated: '2026-06-14',
+    shipsToColombiaConfirmed: true,
+  },
+  {
+    id: 'beb-002',
+    asin: 'B07DD98F3G',
+    title: 'Hatch Baby Rest Sound Machine, Night Light and Time-to-Rise | Sleep Trainer, Baby Nursery Essential, New Mom Must Have | Works via App or Manually | Nightlight for Kids',
+    category: 'bebes',
+    image: 'https://m.media-amazon.com/images/I/61kz6ixAbRL._AC_SX425_.jpg',
+    price: 69.99,
+    rating: 4.7,
+    reviews: 20000,
+    isTopSeller: false,
+    isOffer: false,
+    brand: 'Hatch',
+    status: 'unverified',
+    lastValidated: '2026-06-14',
+    shipsToColombiaConfirmed: true,
+  },
+  {
+    id: 'beb-003',
+    asin: 'B001OFKFR2',
+    title: 'Fisher-Price Rainforest Jumperoo',
+    category: 'bebes',
+    image: 'https://m.media-amazon.com/images/I/81Gu4ZKZJIL._AC_SX425_.jpg',
+    price: 79.99,
+    rating: 4.7,
+    reviews: 20000,
+    isTopSeller: true,
+    isOffer: false,
+    brand: 'Fisher-Price',
+    status: 'unverified',
+    lastValidated: '2026-06-14',
+    shipsToColombiaConfirmed: true,
+  },
+]
 
 export default bebes

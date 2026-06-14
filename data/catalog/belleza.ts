@@ -1,5 +1,55 @@
 import { RawProduct } from '@/types'
 
-const belleza: RawProduct[] = []
+const belleza: RawProduct[] = [
+  {
+    id: 'bel-001',
+    asin: 'B078JNJMRC',
+    title: 'Revlon One-Step Volumizer Original 1.0 Hair Dryer and Hot Air Brush | Amazon Exclusive | Packaging May Vary',
+    category: 'belleza',
+    image: 'https://m.media-amazon.com/images/I/71CWePbLBmL._AC_SY879_.jpg',
+    price: 49.98,
+    rating: 4.5,
+    reviews: 100000,
+    badge: 'N.º 1 en ventas',
+    isTopSeller: true,
+    isOffer: false,
+    brand: 'Revlon',
+    status: 'unverified',
+    lastValidated: '2026-06-14',
+    shipsToColombiaConfirmed: true,
+  },
+  {
+    id: 'bel-002',
+    asin: 'B01D5EGSAM',
+    title: 'Philips Norelco OneBlade Hybrid Electric Trimmer and Shaver, Frustration Free Packaging, QP2520/70',
+    category: 'belleza',
+    image: 'https://m.media-amazon.com/images/I/61E9CgtKP7L._AC_SX425_.jpg',
+    price: 34.96,
+    rating: 4.4,
+    reviews: 25000,
+    isTopSeller: false,
+    isOffer: false,
+    brand: 'Philips Norelco',
+    status: 'unverified',
+    lastValidated: '2026-06-14',
+    shipsToColombiaConfirmed: true,
+  },
+  {
+    id: 'bel-003',
+    asin: 'B01IMLKZ7I',
+    title: 'Olaplex No.3 Hair Perfector, 3.3 Fl Oz (Pack of 1)',
+    category: 'belleza',
+    image: 'https://m.media-amazon.com/images/I/51Z7S7E6KwL._AC_SX425_.jpg',
+    price: 28.00,
+    rating: 4.7,
+    reviews: 50000,
+    isTopSeller: true,
+    isOffer: false,
+    brand: 'Olaplex',
+    status: 'unverified',
+    lastValidated: '2026-06-14',
+    shipsToColombiaConfirmed: true,
+  },
+]
 
 export default belleza
