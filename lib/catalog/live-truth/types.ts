@@ -61,6 +61,17 @@ export interface ExtractedProductData {
    * Used to reject non-USD prices before writing overrides.
    */
   detectedCurrency?:  string
+  /** Star rating 0–5 extracted from JSON-LD aggregateRating or HTML. */
+  rating?:            number
+  /** Number of customer reviews extracted from JSON-LD or HTML. */
+  reviewCount?:       number
+  /**
+   * True if the page contains an explicit shipping restriction phrase.
+   * NOTE: Without a Colombian IP/address, Amazon won't show Colombia-specific
+   * restrictions — this will be false for most products regardless of true
+   * Colombia shipping availability.
+   */
+  shippingRestriction?: boolean
 }
 
 // ── Per-dimension validation results ─────────────────────────────────────────

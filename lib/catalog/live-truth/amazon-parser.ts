@@ -298,6 +298,55 @@ function extractBrand(html: string, ld: JsonLdObject | null): string | null {
   return null
 }
 
+// ── Rating & review-count extraction ─────────────────────────────────────────
+
+function extractRating(html: string, ld: JsonLdObject | null): number | null {
+  // 1. JSON-LD aggregateRating.ratingValue
+  if (ld?.aggregateRating && typeof ld.aggregateRating === 'object') {
+    const ar = ld.aggregateRating as JsonLdObject
+    const v = parseFloat(String(ar.ratingValue))
+    if (!isNaN(v) && v > 0 && v <= 5) return Math.round(v * 10) / 10
+  }
+  // 2. <span class="a-icon-alt">4.7 out of 5 stars</span>
+  const m1 = html.match(/<span[^>]+class="[^"]*a-icon-alt[^"]*"[^>]*>([\d.]+)\s+out of 5/i)
+  if (m1?.[1]) {
+    const v = parseFloat(m1[1])
+    if (!isNaN(v) && v > 0 && v <= 5) return Math.round(v * 10) / 10
+  }
+  // 3. id="acrPopover" title="4.7 out of 5 stars"
+  const m2 = html.match(/id="acrPopover"[^>]*title="([\d.]+)\s+out of 5/i)
+  if (m2?.[1]) {
+    const v = parseFloat(m2[1])
+    if (!isNaN(v) && v > 0 && v <= 5) return Math.round(v * 10) / 10
+  }
+  return null
+}
+
+function extractReviewCount(html: string, ld: JsonLdObject | null): number | null {
+  // 1. JSON-LD aggregateRating.reviewCount
+  if (ld?.aggregateRating && typeof ld.aggregateRating === 'object') {
+    const ar = ld.aggregateRating as JsonLdObject
+    const v = parseInt(String(ar.reviewCount ?? ar.ratingCount), 10)
+    if (!isNaN(v) && v >= 0) return v
+  }
+  // 2. <span id="acrCustomerReviewText">12,345 ratings</span>
+  const m = html.match(/id="acrCustomerReviewText"[^>]*>([\d,]+)\s+(?:global\s+)?rating/i)
+  if (m?.[1]) {
+    const v = parseInt(m[1].replace(/,/g, ''), 10)
+    if (!isNaN(v) && v >= 0) return v
+  }
+  return null
+}
+
+function detectShippingRestriction(html: string): boolean {
+  return (
+    html.includes('cannot be shipped to your selected delivery location') ||
+    html.includes("item can't be shipped") ||
+    html.includes('not available for international shipping') ||
+    html.includes('does not ship internationally')
+  )
+}
+
 // ── Confidence assessment ─────────────────────────────────────────────────────
 
 function assessConfidence(
@@ -398,20 +447,26 @@ export async function fetchAndParseProduct(asin: string): Promise<ExtractedProdu
   const imageUrl   = extractImage(html, ld)
   const brand      = extractBrand(html, ld)
   const confidence = assessConfidence(ld, { title, price: priceUSD, avStatus: av.status })
+  const rating     = extractRating(html, ld)
+  const reviewCount = extractReviewCount(html, ld)
+  const shippingRestriction = detectShippingRestriction(html)
 
   return {
-    title:              title       ?? undefined,
-    priceUSD:           priceUSD    ?? undefined,
-    oldPriceUSD:        oldPrice    ?? undefined,
-    availability:       av.text     || undefined,
-    availabilityStatus: av.status,
-    imageUrl:           imageUrl    ?? undefined,
-    brand:              brand       ?? undefined,
+    title:               title        ?? undefined,
+    priceUSD:            priceUSD     ?? undefined,
+    oldPriceUSD:         oldPrice     ?? undefined,
+    availability:        av.text      || undefined,
+    availabilityStatus:  av.status,
+    imageUrl:            imageUrl     ?? undefined,
+    brand:               brand        ?? undefined,
     confidence,
     httpStatus,
-    isRobotCheck:       false,
-    rawHtmlLength:      html.length,
+    isRobotCheck:        false,
+    rawHtmlLength:       html.length,
     finalUrl,
-    detectedCurrency:   priceSymbol ?? undefined,
+    detectedCurrency:    priceSymbol  ?? undefined,
+    rating:              rating       ?? undefined,
+    reviewCount:         reviewCount  ?? undefined,
+    shippingRestriction: shippingRestriction || undefined,
   }
 }
