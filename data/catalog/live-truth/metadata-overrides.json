@@ -1,0 +1,109 @@
+{
+  "updatedAt": "2026-06-14T12:59:41.702Z",
+  "overrides": {
+    "elec-015": {
+      "productId": "elec-015",
+      "asin": "B06VVS7S94",
+      "price": 144.99,
+      "oldPrice": 97.18,
+      "reason": "Amazon live $144.99 (catalog $126.24, Δ +14.9%)",
+      "appliedAt": "2026-06-14T12:59:00.658Z"
+    },
+    "elec-013": {
+      "productId": "elec-013",
+      "asin": "B0874YJP92",
+      "price": 249.99,
+      "oldPrice": 57.59,
+      "reason": "Amazon live $249.99 (catalog $217.66, Δ +14.9%)",
+      "appliedAt": "2026-06-14T12:59:02.722Z"
+    },
+    "elec-006": {
+      "productId": "elec-006",
+      "asin": "B09XS7JWHH",
+      "price": 278,
+      "oldPrice": 399.99,
+      "reason": "Amazon live $278 (catalog $242.04, Δ +14.9%)",
+      "appliedAt": "2026-06-14T12:59:05.592Z"
+    },
+    "elec-024": {
+      "productId": "elec-024",
+      "asin": "B07K3FN5MR",
+      "price": 99.99,
+      "oldPrice": 56.97,
+      "reason": "Amazon live $99.99 (catalog $87.06, Δ +14.9%)",
+      "appliedAt": "2026-06-14T12:59:07.750Z"
+    },
+    "game-003": {
+      "productId": "game-003",
+      "asin": "B086PKMZ21",
+      "price": 39.99,
+      "oldPrice": 69.99,
+      "reason": "Amazon live $39.99 (catalog $34.82, Δ +14.8%)",
+      "appliedAt": "2026-06-14T12:59:11.475Z"
+    },
+    "game-008": {
+      "productId": "game-008",
+      "asin": "B09C13PZX7",
+      "price": 34.98,
+      "oldPrice": 69.99,
+      "reason": "Amazon live $34.98 (catalog $30.46, Δ +14.8%)",
+      "appliedAt": "2026-06-14T12:59:13.318Z"
+    },
+    "hogar-002": {
+      "productId": "hogar-002",
+      "asin": "B07QWB3H1Q",
+      "price": 54.98,
+      "oldPrice": 25,
+      "reason": "Amazon live $54.98 (catalog $34.81, Δ +57.9%)",
+      "appliedAt": "2026-06-14T12:59:18.564Z"
+    },
+    "coci-001": {
+      "productId": "coci-001",
+      "asin": "B06Y1YD5W7",
+      "price": 59.99,
+      "oldPrice": 89.99,
+      "reason": "Amazon live $59.99 (catalog $78.35, Δ -23.4%)",
+      "appliedAt": "2026-06-14T12:59:23.630Z"
+    },
+    "coci-014": {
+      "productId": "coci-014",
+      "asin": "B01IHHLB3W",
+      "price": 9.49,
+      "oldPrice": 19.99,
+      "reason": "Amazon live $9.49 (catalog $8.7, Δ +9.1%)",
+      "appliedAt": "2026-06-14T12:59:26.645Z"
+    },
+    "coci-002": {
+      "productId": "coci-002",
+      "asin": "B0047BIWSK",
+      "price": 34.96,
+      "oldPrice": 39.95,
+      "reason": "Amazon live $34.96 (catalog $30.44, Δ +14.8%)",
+      "appliedAt": "2026-06-14T12:59:30.376Z"
+    },
+    "hogar-003": {
+      "productId": "hogar-003",
+      "asin": "B0131RG6VK",
+      "price": 259.95,
+      "oldPrice": 279.99,
+      "reason": "Amazon live $259.95 (catalog $249.99, Δ +4.0%)",
+      "appliedAt": "2026-06-14T12:59:20.317Z"
+    },
+    "ofic-004": {
+      "productId": "ofic-004",
+      "asin": "B0006H92QK",
+      "price": 119,
+      "oldPrice": 28.99,
+      "reason": "Amazon live $119 (catalog $99, Δ +20.2%)",
+      "appliedAt": "2026-06-14T12:59:41.701Z"
+    },
+    "dep-002": {
+      "productId": "dep-002",
+      "asin": "B01AVDVHTI",
+      "price": 9.98,
+      "oldPrice": 16.66,
+      "reason": "Amazon live $9.98 (catalog $8.69, Δ +14.8%)",
+      "appliedAt": "2026-06-14T12:59:32.423Z"
+    }
+  }
+}
