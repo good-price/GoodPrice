@@ -23,6 +23,9 @@ const MIN_PRODUCT_HTML = 2_000   // Shorter pages are bot-check / error pages
 const HEADERS: Record<string, string> = {
   'Accept':          'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
   'Accept-Language': 'en-US,en;q=0.9',
+  // Force Amazon to serve prices in USD regardless of the server's geographic IP.
+  // Without this, Amazon detects non-US IPs and serves local currency (e.g. COP from Colombia).
+  'Cookie':          'i18n-prefs=USD',
   'Connection':      'keep-alive',
   'Upgrade-Insecure-Requests': '1',
   'Cache-Control':   'no-cache',
@@ -118,6 +121,21 @@ function extractTitle(html: string, ld: JsonLdObject | null): string | null {
 }
 
 // ── Price helpers ─────────────────────────────────────────────────────────────
+
+/**
+ * Returns the currency symbol found in the first non-empty a-price-symbol span.
+ * '$' → USD, 'COP' → Colombian Peso, null → no price block present.
+ * Used to gate price extraction: we only accept '$' (or absent, for lenient fallback).
+ */
+function extractPriceSymbol(html: string): string | null {
+  const pattern = /<span[^>]+class="[^"]*a-price-symbol[^"]*"[^>]*>([^<]*)<\/span>/g
+  let m: RegExpExecArray | null
+  while ((m = pattern.exec(html)) !== null) {
+    const sym = m[1].trim()
+    if (sym) return sym
+  }
+  return null
+}
 
 function coercePrice(raw: unknown): number | null {
   if (typeof raw === 'number' && raw > 0 && raw < 100_000) return raw
@@ -312,6 +330,7 @@ export async function fetchAndParseProduct(asin: string): Promise<ExtractedProdu
 
   let html: string
   let httpStatus: number
+  let finalUrl: string | undefined
 
   try {
     const res = await fetch(url, {
@@ -320,6 +339,7 @@ export async function fetchAndParseProduct(asin: string): Promise<ExtractedProdu
       signal:   AbortSignal.timeout(FETCH_TIMEOUT_MS),
     })
     httpStatus = res.status
+    finalUrl   = res.url
     html = await res.text()
   } catch {
     // Network error or timeout
@@ -365,10 +385,15 @@ export async function fetchAndParseProduct(asin: string): Promise<ExtractedProdu
   }
 
   // ── Parse ──────────────────────────────────────────────────────────────────
-  const ld         = extractJsonLd(html)
+  const ld          = extractJsonLd(html)
+  const priceSymbol = extractPriceSymbol(html)
+
+  // Accept prices only when the currency symbol is '$' (USD) or absent (unknown/no block).
+  // Any other symbol (e.g. 'COP', 'EUR') means Amazon served a geo-localised price — reject it.
+  const isUsd      = !priceSymbol || priceSymbol === '$'
   const title      = extractTitle(html, ld)
-  const priceUSD   = extractPrice(html, ld)
-  const oldPrice   = extractOldPrice(html, ld)
+  const priceUSD   = isUsd ? extractPrice(html, ld)    : null
+  const oldPrice   = isUsd ? extractOldPrice(html, ld) : null
   const av         = extractAvailability(html, ld)
   const imageUrl   = extractImage(html, ld)
   const brand      = extractBrand(html, ld)
@@ -386,5 +411,7 @@ export async function fetchAndParseProduct(asin: string): Promise<ExtractedProdu
     httpStatus,
     isRobotCheck:       false,
     rawHtmlLength:      html.length,
+    finalUrl,
+    detectedCurrency:   priceSymbol ?? undefined,
   }
 }

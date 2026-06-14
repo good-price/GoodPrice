@@ -53,6 +53,14 @@ export interface ExtractedProductData {
   httpStatus?:        number
   isRobotCheck:       boolean
   rawHtmlLength:      number
+  /** Final URL after following HTTP redirects — used to detect ASIN redirects. */
+  finalUrl?:          string
+  /**
+   * Currency symbol found in the a-price-symbol span ('$', 'COP', 'EUR', …).
+   * Absent when no price block was found on the page.
+   * Used to reject non-USD prices before writing overrides.
+   */
+  detectedCurrency?:  string
 }
 
 // ── Per-dimension validation results ─────────────────────────────────────────
