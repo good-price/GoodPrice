@@ -44,8 +44,8 @@ const electronica: RawProduct[] = [
     reviews: 19622,
     isTopSeller: false,
     isOffer: false,
-    status: 'active',
-    lastValidated: '2026-06-10',
+    status: 'inactive',
+    lastValidated: '2026-06-14',
     shipsToColombiaConfirmed: true,
   },
   {

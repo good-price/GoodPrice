@@ -83,6 +83,23 @@ const oficina: RawProduct[] = [
     lastValidated: '2026-06-14',
     shipsToColombiaConfirmed: true,
   },
+  {
+    id: 'ofic-020',
+    asin: 'B01EBDV9BU',
+    title: 'Everlasting Comfort Office Chair Seat Cushion - Tailbone Pain Relief Cushion - Coccyx Cushion - Memory Foam Chair Pad - Computer Chair Cushions (Black)',
+    category: 'oficina',
+    image: 'https://m.media-amazon.com/images/I/81y9bKjCpaL._AC_SL1500_.jpg',
+    price: 47.97,
+    rating: 4.4,
+    reviews: 123215,
+    badge: 'N.º 1 en ventas',
+    isTopSeller: true,
+    isOffer: false,
+    brand: 'Everlasting Comfort',
+    status: 'active',
+    lastValidated: '2026-06-14',
+    shipsToColombiaConfirmed: true,
+  },
 ]
 
 export default oficina
