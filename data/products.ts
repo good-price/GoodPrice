@@ -56,12 +56,14 @@ export function getProductsByCategory(category: string): Product[] {
 }
 
 export function getTopSellers(limit?: number): Product[] {
-  const top    = rankSort(products.filter(p => p.isTopSeller))
+  const top = [...products].sort((a, b) => b.reviews - a.reviews || b.rating - a.rating)
   return limit ? top.slice(0, limit) : top
 }
 
 export function getOffers(limit?: number): Product[] {
-  const offers = rankSort(products.filter(p => p.isOffer))
+  const offers = [...products]
+    .filter(p => p.rating >= 4.6 && p.reviews >= 10000)
+    .sort((a, b) => b.reviews - a.reviews)
   return limit ? offers.slice(0, limit) : offers
 }
 
