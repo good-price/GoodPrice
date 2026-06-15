@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
+import { readSiteMode } from '@/lib/system/site-mode'
 import Image from 'next/image'
 import { Star, ChevronLeft } from 'lucide-react'
 import { getPublicProducts, getPublicProductByAsin } from '@/lib/catalog/public'
@@ -18,8 +19,7 @@ import { ProductDetailCTA } from '@/components/tracking/ProductDetailCTA'
 import { TrackPageView }    from '@/components/TrackPageView'
 import { TrackSession }     from '@/components/TrackSession'
 
-// Revalidate every hour — matches the hourly price-check cron job
-export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 /**
  * Only generate pages for ASINs in the PUBLIC catalog.
@@ -68,6 +68,9 @@ function categoryLabel(slug: string): string {
 // ── Page ──────────────────────────────────────────────────────────────────────
 
 export default async function ProductoPage({ params }: PageProps) {
+  const { mode } = readSiteMode()
+  if (mode === 'development') redirect('/en-desarrollo')
+
   // Use public catalog — returns null for inactive, quarantined, or low-score products
   const product = getPublicProductByAsin(params.asin)
   if (!product) notFound()

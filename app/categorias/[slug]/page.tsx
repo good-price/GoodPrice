@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, redirect } from 'next/navigation'
+import { readSiteMode } from '@/lib/system/site-mode'
 import { categories } from '@/data/categories'
 import { getPublicCategoryProducts } from '@/lib/catalog/public'
 import { ProductsClient } from '@/components/ProductsClient'
@@ -14,7 +15,7 @@ interface PageProps {
   params: { slug: string }
 }
 
-export const revalidate = 86400
+export const dynamic = 'force-dynamic'
 
 export function generateStaticParams() {
   return categories.map(cat => ({ slug: cat.slug }))
@@ -28,6 +29,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
 }
 
 export default function CategoryPage({ params }: PageProps) {
+  const { mode } = readSiteMode()
+  if (mode === 'development') redirect('/en-desarrollo')
+
   const cat = categories.find(c => c.slug === params.slug)
   if (!cat) notFound()
 

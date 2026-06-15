@@ -122,6 +122,14 @@ export default function AdminDashboard() {
       metric: 'Métricas de tráfico',
       metricColor: 'text-indigo-600',                  // UX-2: pink → indigo (informational)
     },
+    {
+      href:  '/admin/system',
+      icon:  '⚙',
+      title: 'Sistema',
+      desc:  'Modo del sitio: PUBLIC / DEVELOPMENT',
+      metric: 'Site Mode Control',
+      metricColor: 'text-gray-500',
+    },
   ]
 
   return (

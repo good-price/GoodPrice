@@ -1,4 +1,6 @@
 import { Metadata } from 'next'
+import { redirect } from 'next/navigation'
+import { readSiteMode } from '@/lib/system/site-mode'
 import { HeroSection }         from '@/components/HeroSection'
 import { CategoryGrid }        from '@/components/CategoryGrid'
 import { TopSalesSection }     from '@/components/TopSalesSection'
@@ -14,11 +16,14 @@ import { buildDynamicBadgeMap } from '@/lib/catalog/badges'
 import { buildHomeMetadata, websiteSchema, organizationSchema } from '@/lib/seo'
 import { getPublicCatalogStats } from '@/lib/catalog/public'
 
-export const revalidate = 86400
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = buildHomeMetadata()
 
 export default function HomePage() {
+  const { mode } = readSiteMode()
+  if (mode === 'development') redirect('/en-desarrollo')
+
   const stats         = getPublicCatalogStats()
   const featured      = getFeatured(8)
   const copPrices     = buildCopPriceMap(featured)

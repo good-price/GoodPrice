@@ -1,15 +1,20 @@
 import { Metadata } from 'next'
+import { redirect } from 'next/navigation'
+import { readSiteMode } from '@/lib/system/site-mode'
 import { getTopSellers } from '@/data/products'
 import { ProductsClient } from '@/components/ProductsClient'
 import { TrendingUp } from 'lucide-react'
 import { buildCopPriceMap } from '@/lib/currency'
 import { buildTopSellersMetadata } from '@/lib/seo'
 
-export const revalidate = 86400
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = buildTopSellersMetadata()
 
 export default function TopVentasPage() {
+  const { mode } = readSiteMode()
+  if (mode === 'development') redirect('/en-desarrollo')
+
   const topSellers = getTopSellers()
   const copPrices  = buildCopPriceMap(topSellers)
 

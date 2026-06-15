@@ -1,14 +1,19 @@
 import { Metadata } from 'next'
+import { redirect } from 'next/navigation'
+import { readSiteMode } from '@/lib/system/site-mode'
 import Link from 'next/link'
 import { categories } from '@/data/categories'
 import { products } from '@/data/products'
 import { buildCategoriesIndexMetadata } from '@/lib/seo'
 
-export const revalidate = 86400
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = buildCategoriesIndexMetadata()
 
 export default function CategoriasPage() {
+  const { mode } = readSiteMode()
+  if (mode === 'development') redirect('/en-desarrollo')
+
   return (
     <div>
       <h1 className="text-2xl font-bold text-gray-800 mb-6">Todas las categorías</h1>

@@ -1,15 +1,20 @@
 import { Metadata } from 'next'
+import { redirect } from 'next/navigation'
+import { readSiteMode } from '@/lib/system/site-mode'
 import { getOffers } from '@/data/products'
 import { ProductsClient } from '@/components/ProductsClient'
 import { Tag } from 'lucide-react'
 import { buildCopPriceMap } from '@/lib/currency'
 import { buildOffersMetadata } from '@/lib/seo'
 
-export const revalidate = 86400
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = buildOffersMetadata()
 
 export default function OfertasPage() {
+  const { mode } = readSiteMode()
+  if (mode === 'development') redirect('/en-desarrollo')
+
   const offers    = getOffers()
   const copPrices = buildCopPriceMap(offers)
 
