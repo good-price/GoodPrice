@@ -36,6 +36,7 @@ export type ProductAction =
   | 'refresh-truth'     // Run live-truth validation via Execution Engine
   | 'refresh-pricing'   // Run pricing repair via Execution Engine
   | 'rerun-repair'      // Re-run repair via Execution Engine
+  | 'permanent-delete'  // Irreversible removal from all stores — forensic audit preserved
 
 /** Subset of actions that set a forced tier */
 export type TierOverrideAction = 'activate' | 'downgrade' | 'suppress'

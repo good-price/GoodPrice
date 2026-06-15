@@ -1,0 +1,194 @@
+{
+  "updatedAt": "2026-06-14T12:59:44.175Z",
+  "jobs": {
+    "price-check": [
+      {
+        "runId": "price-check-1781441938769",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T12:58:58.769Z",
+        "completedAt": "2026-06-14T12:59:44.174Z",
+        "durationMs": 45405,
+        "status": "success",
+        "summary": "[price-check] 23 processed, 13 overridden, 3 ok, 7 no_match — 45.4s",
+        "meta": {
+          "productIds": [
+            "elec-015",
+            "elec-013",
+            "elec-006",
+            "elec-024",
+            "elec-002",
+            "game-003",
+            "game-008",
+            "game-011",
+            "hogar-007",
+            "hogar-002",
+            "hogar-003",
+            "hogar-005",
+            "coci-001",
+            "coci-014",
+            "coci-019",
+            "coci-002",
+            "dep-002",
+            "dep-007",
+            "dep-001",
+            "ofic-012",
+            "ofic-001",
+            "ofic-004",
+            "masc-005"
+          ],
+          "forceSearch": false,
+          "processed": 23,
+          "errors": 0
+        }
+      },
+      {
+        "runId": "price-check-1781441536434",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T12:52:16.435Z",
+        "completedAt": "2026-06-14T12:52:37.505Z",
+        "durationMs": 21070,
+        "status": "success",
+        "summary": "[price-check] 33 processed, 2 overridden, 1 ok, 7 no_match, 23 not_found — 21.1s",
+        "meta": {
+          "productIds": [
+            "elec-025",
+            "elec-026",
+            "elec-027",
+            "elec-028",
+            "elec-029",
+            "elec-030",
+            "game-009",
+            "game-010",
+            "game-011",
+            "hogar-003",
+            "hogar-004",
+            "hogar-005",
+            "hogar-006",
+            "coci-003",
+            "coci-004",
+            "coci-005",
+            "dep-003",
+            "dep-004",
+            "dep-005",
+            "ofic-004",
+            "ofic-005",
+            "masc-001",
+            "masc-002",
+            "bel-001",
+            "bel-002",
+            "bel-003",
+            "beb-001",
+            "beb-002",
+            "beb-003",
+            "herr-001",
+            "herr-002",
+            "herr-003",
+            "herr-004"
+          ],
+          "forceSearch": false,
+          "processed": 33,
+          "errors": 0
+        }
+      },
+      {
+        "runId": "price-check-1781407675633",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T03:27:55.634Z",
+        "completedAt": "2026-06-14T03:28:00.944Z",
+        "durationMs": 5310,
+        "status": "success",
+        "summary": "[price-check] 3 processed, 3 overridden — 5.3s",
+        "meta": {
+          "productIds": [
+            "coci-001",
+            "coci-014",
+            "elec-015"
+          ],
+          "forceSearch": false,
+          "processed": 3,
+          "errors": 0
+        }
+      },
+      {
+        "runId": "price-check-1781407582510",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T03:26:22.511Z",
+        "completedAt": "2026-06-14T03:27:05.419Z",
+        "durationMs": 42908,
+        "status": "success",
+        "summary": "[price-check] 20 processed, 10 overridden, 2 ok, 7 no_match, 1 not_found — 42.9s",
+        "meta": {
+          "forceSearch": false,
+          "processed": 20,
+          "errors": 0
+        }
+      },
+      {
+        "runId": "price-check-1781406478341",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T03:07:58.341Z",
+        "completedAt": "2026-06-14T03:08:04.730Z",
+        "durationMs": 6389,
+        "status": "success",
+        "summary": "[price-check] 3 processed, 3 suspicious — 6.4s",
+        "meta": {
+          "productIds": [
+            "coci-014",
+            "dep-002",
+            "masc-005"
+          ],
+          "forceSearch": false,
+          "processed": 3,
+          "errors": 0
+        }
+      },
+      {
+        "runId": "price-check-1781406470067",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T03:07:50.068Z",
+        "completedAt": "2026-06-14T03:07:55.111Z",
+        "durationMs": 5043,
+        "status": "success",
+        "summary": "[price-check] 3 processed, 3 suspicious — 5.0s",
+        "meta": {
+          "productIds": [
+            "coci-014",
+            "dep-002",
+            "masc-005"
+          ],
+          "forceSearch": false,
+          "processed": 3,
+          "errors": 0
+        }
+      },
+      {
+        "runId": "price-check-1781406347159",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T03:05:47.160Z",
+        "completedAt": "2026-06-14T03:06:23.101Z",
+        "durationMs": 35941,
+        "status": "partial",
+        "summary": "[price-check] 20 processed, 6 no_match, 1 not_found, 3 suspicious, 10 error — 35.9s",
+        "meta": {
+          "forceSearch": false,
+          "processed": 20,
+          "errors": 10
+        }
+      },
+      {
+        "runId": "price-check-1781406304367",
+        "jobId": "price-check",
+        "startedAt": "2026-06-14T03:05:04.368Z",
+        "completedAt": "2026-06-14T03:05:46.148Z",
+        "durationMs": 41780,
+        "status": "partial",
+        "summary": "[price-check] 20 processed, 6 no_match, 1 not_found, 3 suspicious, 10 error — 41.8s",
+        "meta": {
+          "forceSearch": false,
+          "processed": 20,
+          "errors": 10
+        }
+      }
+    ]
+  }
+}

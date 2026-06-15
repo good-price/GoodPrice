@@ -13,6 +13,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
+import { useRouter }                        from 'next/navigation'
 import type { CatalogTableRow, ProductAction, ProductHistoryEntry } from '@/lib/ops/actions/types'
 import { isTransitionAllowed } from '@/lib/ops/actions/lifecycle-transitions'
 
@@ -183,6 +184,8 @@ interface Props {
 }
 
 export function ProductDrawer({ row, onClose }: Props) {
+  const router = useRouter()
+
   const [activeAction, setActiveAction] = useState<ProductAction | null>(null)
   const [reason,       setReason]       = useState('')
   const [loading,      setLoading]      = useState(false)
@@ -191,6 +194,13 @@ export function ProductDrawer({ row, onClose }: Props) {
   const [timeline,     setTimeline]     = useState<ProductHistoryEntry[]>([])
   const [tlLoading,    setTlLoading]    = useState(false)
 
+  // Delete modal state
+  const [showDeleteModal,  setShowDeleteModal]  = useState(false)
+  const [deleteReason,     setDeleteReason]     = useState('')
+  const [deleteConfirmTxt, setDeleteConfirmTxt] = useState('')
+  const [deleteLoading,    setDeleteLoading]    = useState(false)
+  const [deleteFeedback,   setDeleteFeedback]   = useState<{ ok: boolean; msg: string } | null>(null)
+
   // Reset state when row changes
   useEffect(() => {
     setActiveAction(null)
@@ -198,6 +208,10 @@ export function ProductDrawer({ row, onClose }: Props) {
     setFeedback(null)
     setConfirming(false)
     setTimeline([])
+    setShowDeleteModal(false)
+    setDeleteReason('')
+    setDeleteConfirmTxt('')
+    setDeleteFeedback(null)
   }, [row?.productId])
 
   // Fetch timeline when drawer opens (use productId directly — not `row` — so ESLint is satisfied)
@@ -263,6 +277,40 @@ export function ProductDrawer({ row, onClose }: Props) {
       setLoading(false)
     }
   }, [row, activeAction, reason])
+
+  const executeDelete = useCallback(async () => {
+    if (!row) return
+    if (deleteConfirmTxt !== 'ELIMINAR') return
+    if (deleteReason.trim().length < 10) return
+    setDeleteLoading(true)
+    try {
+      const res  = await fetch('/api/ops/products/delete', {
+        method:  'DELETE',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify({
+          productId:    row.productId,
+          confirmation: deleteConfirmTxt,
+          reason:       deleteReason.trim(),
+          operator:     'admin',
+        }),
+      })
+      const data = await res.json() as { ok: boolean; error?: string; message?: string; storesCleared?: string[] }
+      if (data.ok) {
+        setDeleteFeedback({ ok: true, msg: data.message ?? 'Producto eliminado permanentemente.' })
+        // Close drawer and refresh page after 2 seconds
+        setTimeout(() => {
+          onClose()
+          router.refresh()
+        }, 2000)
+      } else {
+        setDeleteFeedback({ ok: false, msg: data.error ?? 'Error desconocido' })
+        setDeleteLoading(false)
+      }
+    } catch {
+      setDeleteFeedback({ ok: false, msg: 'Error de red' })
+      setDeleteLoading(false)
+    }
+  }, [row, deleteConfirmTxt, deleteReason, onClose, router])
 
   if (!row) return null
 
@@ -461,6 +509,98 @@ export function ProductDrawer({ row, onClose }: Props) {
                 {timeline.map((entry, i) => (
                   <TimelineItem key={i} entry={entry} last={i === timeline.length - 1} />
                 ))}
+              </div>
+            )}
+          </div>
+
+          {/* ── ZONA DE PELIGRO — Eliminación definitiva ───────────────────── */}
+          <div className="px-4 py-4 border-t-2 border-red-100 dark:border-red-900/30">
+            <p className="text-[10px] font-bold text-red-400 uppercase tracking-widest mb-2">
+              Zona de peligro
+            </p>
+
+            {!showDeleteModal ? (
+              <button
+                onClick={() => { setShowDeleteModal(true); setDeleteFeedback(null) }}
+                className="w-full text-[10px] font-semibold py-2 px-3 rounded-lg border border-red-200 dark:border-red-800 text-red-600 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
+              >
+                🗑 Eliminar definitivamente
+              </button>
+            ) : deleteFeedback ? (
+              /* ── Result ────────────────────────────────────────────────── */
+              <div className={`px-3 py-2 rounded-lg text-xs ${deleteFeedback.ok ? 'bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-300' : 'bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-300'}`}>
+                {deleteFeedback.ok ? '✓' : '⚠'} {deleteFeedback.msg}
+                {!deleteFeedback.ok && (
+                  <button
+                    onClick={() => setDeleteFeedback(null)}
+                    className="block mt-1.5 text-[10px] underline opacity-60 hover:opacity-100"
+                  >
+                    Reintentar
+                  </button>
+                )}
+              </div>
+            ) : (
+              /* ── Confirmation modal ───────────────────────────────────── */
+              <div className="space-y-2.5">
+                <div className="px-3 py-2.5 bg-red-50 dark:bg-red-950/40 border border-red-200 dark:border-red-800 rounded-lg">
+                  <p className="text-[10px] font-bold text-red-700 dark:text-red-400 mb-1">
+                    ⚠ Esta acción es IRREVERSIBLE
+                  </p>
+                  <p className="text-[10px] text-red-600 dark:text-red-300 leading-relaxed">
+                    El producto será eliminado de todos los stores operacionales. El registro de auditoría se preserva permanentemente como constancia forense.
+                  </p>
+                </div>
+
+                {/* Reason input */}
+                <div>
+                  <label className="block text-[9px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1">
+                    Motivo (mínimo 10 caracteres)
+                  </label>
+                  <textarea
+                    autoFocus
+                    value={deleteReason}
+                    onChange={e => setDeleteReason(e.target.value)}
+                    placeholder="Motivo de la eliminación…"
+                    maxLength={300}
+                    rows={2}
+                    className="w-full text-xs bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-red-400 text-gray-800 dark:text-gray-200 resize-none"
+                  />
+                </div>
+
+                {/* Confirmation input */}
+                <div>
+                  <label className="block text-[9px] font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-1">
+                    Escribe <span className="text-red-600 font-bold font-mono">ELIMINAR</span> para confirmar
+                  </label>
+                  <input
+                    value={deleteConfirmTxt}
+                    onChange={e => setDeleteConfirmTxt(e.target.value)}
+                    placeholder="ELIMINAR"
+                    className="w-full text-xs bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-red-400 text-gray-800 dark:text-gray-200 font-mono"
+                  />
+                </div>
+
+                {/* Action buttons */}
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => { setShowDeleteModal(false); setDeleteReason(''); setDeleteConfirmTxt('') }}
+                    disabled={deleteLoading}
+                    className="flex-1 text-[11px] py-1.5 rounded-lg bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors disabled:opacity-40"
+                  >
+                    Cancelar
+                  </button>
+                  <button
+                    onClick={executeDelete}
+                    disabled={
+                      deleteLoading ||
+                      deleteConfirmTxt !== 'ELIMINAR' ||
+                      deleteReason.trim().length < 10
+                    }
+                    className="flex-1 text-[11px] py-1.5 rounded-lg bg-red-600 text-white font-semibold hover:bg-red-700 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                  >
+                    {deleteLoading ? '⋯ Eliminando…' : '🗑 Confirmar eliminación'}
+                  </button>
+                </div>
               </div>
             )}
           </div>

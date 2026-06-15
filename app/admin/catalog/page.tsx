@@ -87,6 +87,15 @@ export default async function CatalogPage() {
 
   const integrityIssues = integrityReport.issues.filter(i => i.severity !== 'info')
 
+  // Consola tab stat counts — used for conditional StatCard rendering
+  const consoleSuppCount     = enrichedRows.filter(r => r.tier === 'suppressed').length
+  const consoleOverrideCount = enrichedRows.filter(r => r.hasOverride).length
+  const consoleRiskCount     = enrichedRows.filter(r => r.riskLevel !== null).length
+  const consoleExtraCols     = (consoleOverrideCount > 0 ? 1 : 0) + (consoleRiskCount > 0 ? 1 : 0)
+  const consoleGridCols      = consoleExtraCols === 2 ? 'grid-cols-2 sm:grid-cols-4'
+                             : consoleExtraCols === 1 ? 'grid-cols-2 sm:grid-cols-3'
+                             : 'grid-cols-2'
+
   const tabs = [
     {
       id:    'integrity',
@@ -405,11 +414,11 @@ export default async function CatalogPage() {
 
         {/* ── Tab: Consola ───────────────────────────────────────────────── */}
         <div className="space-y-4">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+          <div className={`grid ${consoleGridCols} gap-3`}>
             <StatCard label="Total" value={enrichedRows.length} />
-            <StatCard label="Suprimidos" value={enrichedRows.filter(r => r.tier === 'suppressed').length} warn={enrichedRows.filter(r => r.tier === 'suppressed').length > 0} />
-            <StatCard label="Con override" value={enrichedRows.filter(r => r.hasOverride).length} accent={enrichedRows.filter(r => r.hasOverride).length > 0} />
-            <StatCard label="En riesgo" value={enrichedRows.filter(r => r.riskLevel !== null).length} warn={enrichedRows.filter(r => r.riskLevel !== null).length > 0} />
+            <StatCard label="Suprimidos" value={consoleSuppCount} warn={consoleSuppCount > 0} />
+            {consoleOverrideCount > 0 && <StatCard label="Con override" value={consoleOverrideCount} accent />}
+            {consoleRiskCount > 0 && <StatCard label="En riesgo" value={consoleRiskCount} warn />}
           </div>
           <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-xl overflow-hidden">
             <CatalogTable initialRows={enrichedRows} />

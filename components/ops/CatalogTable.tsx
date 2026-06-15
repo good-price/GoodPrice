@@ -142,7 +142,22 @@ interface FilterBarProps {
   hasClickData:    boolean
   total:           number
   filtered:        number
+  tierCounts:      Partial<Record<TierFilter, number>>
+  overrideCount:   number
+  riskCount:       number
 }
+
+const TIER_ALWAYS_VISIBLE = new Set<TierFilter>(['all', 'active', 'quarantined'])
+
+const ALL_TIERS: { value: TierFilter; label: string }[] = [
+  { value: 'all',         label: 'Todos'       },
+  { value: 'active',      label: 'Activos'     },
+  { value: 'warning',     label: 'Warning'     },
+  { value: 'degraded',    label: 'Degradados'  },
+  { value: 'suppressed',  label: 'Suprimidos'  },
+  { value: 'quarantined', label: 'Cuarentena'  },
+  { value: 'archived',    label: 'Archivados'  },
+]
 
 function FilterBar({
   search, onSearch,
@@ -152,16 +167,13 @@ function FilterBar({
   onlyNoClicks, onToggleNoClicks,
   hasClickData,
   total, filtered,
+  tierCounts,
+  overrideCount,
+  riskCount,
 }: FilterBarProps) {
-  const TIERS: { value: TierFilter; label: string }[] = [
-    { value: 'all',         label: 'Todos'       },
-    { value: 'active',      label: 'Activos'     },
-    { value: 'warning',     label: 'Warning'     },
-    { value: 'degraded',    label: 'Degradados'  },
-    { value: 'suppressed',  label: 'Suprimidos'  },
-    { value: 'quarantined', label: 'Cuarentena'  },
-    { value: 'archived',    label: 'Archivados'  },
-  ]
+  const visibleTiers = ALL_TIERS.filter(
+    t => TIER_ALWAYS_VISIBLE.has(t.value) || (tierCounts[t.value] ?? 0) > 0,
+  )
 
   return (
     <div className="flex flex-wrap items-center gap-2 p-3 border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900/50">
@@ -176,9 +188,9 @@ function FilterBar({
         />
       </div>
 
-      {/* Tier filter */}
+      {/* Tier filter — only show tiers that have products (except always-visible ones) */}
       <div className="flex items-center gap-1">
-        {TIERS.map(t => (
+        {visibleTiers.map(t => (
           <button
             key={t.value}
             onClick={() => onTierFilter(t.value)}
@@ -194,30 +206,34 @@ function FilterBar({
         ))}
       </div>
 
-      {/* Toggle chips */}
+      {/* Toggle chips — only show when count > 0 */}
       <div className="flex items-center gap-1.5 ml-auto">
-        <button
-          onClick={onToggleOverride}
-          className={[
-            'text-[10px] font-semibold px-2 py-1 rounded-full border transition-all',
-            onlyOverride
-              ? 'bg-blue-600 text-white border-blue-600'
-              : 'border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 hover:border-gray-400',
-          ].join(' ')}
-        >
-          ✎ Override
-        </button>
-        <button
-          onClick={onToggleRisk}
-          className={[
-            'text-[10px] font-semibold px-2 py-1 rounded-full border transition-all',
-            onlyRisk
-              ? 'bg-orange-500 text-white border-orange-500'
-              : 'border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 hover:border-gray-400',
-          ].join(' ')}
-        >
-          ⚑ Riesgo
-        </button>
+        {overrideCount > 0 && (
+          <button
+            onClick={onToggleOverride}
+            className={[
+              'text-[10px] font-semibold px-2 py-1 rounded-full border transition-all',
+              onlyOverride
+                ? 'bg-blue-600 text-white border-blue-600'
+                : 'border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 hover:border-gray-400',
+            ].join(' ')}
+          >
+            ✎ Override
+          </button>
+        )}
+        {riskCount > 0 && (
+          <button
+            onClick={onToggleRisk}
+            className={[
+              'text-[10px] font-semibold px-2 py-1 rounded-full border transition-all',
+              onlyRisk
+                ? 'bg-orange-500 text-white border-orange-500'
+                : 'border-gray-300 dark:border-gray-600 text-gray-500 dark:text-gray-400 hover:border-gray-400',
+            ].join(' ')}
+          >
+            ⚑ Riesgo
+          </button>
+        )}
         {hasClickData && (
           <button
             onClick={onToggleNoClicks}
@@ -257,9 +273,10 @@ const PRIORITY_DEFS: { id: PriorityView; label: string }[] = [
 ]
 
 function PriorityBar({ active, onChange, counts }: PriorityBarProps) {
+  const visibleDefs = PRIORITY_DEFS.filter(({ id }) => id === 'all' || counts[id] > 0)
   return (
     <div className="flex items-center gap-1 px-3 py-2 border-b border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900/60 overflow-x-auto scrollbar-none">
-      {PRIORITY_DEFS.map(({ id, label }) => {
+      {visibleDefs.map(({ id, label }) => {
         const isActive = active === id
         const count    = counts[id]
         const hasAlert = id !== 'all' && count > 0
@@ -363,6 +380,21 @@ export function CatalogTable({ initialRows }: Props) {
     recoverable: initialRows.filter(isRecoverableRow).length,
     'high-risk': initialRows.filter(r => r.riskLevel === 'high' || r.riskLevel === 'critical').length,
   }), [initialRows])
+
+  // Counts for dynamic filter chips and tier tabs
+  const tierCounts = useMemo((): Partial<Record<TierFilter, number>> => {
+    const counts: Partial<Record<TierFilter, number>> = {}
+    for (const row of initialRows) {
+      const key = row.tier as TierFilter
+      counts[key] = (counts[key] ?? 0) + 1
+    }
+    return counts
+  }, [initialRows])
+
+  const overrideCount = useMemo(() => initialRows.filter(r => r.hasOverride).length, [initialRows])
+  const anyRiskCount  = useMemo(() => initialRows.filter(r => r.riskLevel !== null).length, [initialRows])
+
+  const showPriorityBar = priorityCounts['no-image'] > 0 || priorityCounts.recoverable > 0 || priorityCounts['high-risk'] > 0
 
   const filteredRows = useMemo(() => {
     const q = search.trim().toLowerCase()
@@ -492,12 +524,14 @@ export function CatalogTable({ initialRows }: Props) {
 
   return (
     <div className="relative">
-      {/* B7: Priority view tabs */}
-      <PriorityBar
-        active={priorityView}
-        onChange={handlePriorityChange}
-        counts={priorityCounts}
-      />
+      {/* B7: Priority view tabs — hidden when all priority counts are 0 */}
+      {showPriorityBar && (
+        <PriorityBar
+          active={priorityView}
+          onChange={handlePriorityChange}
+          counts={priorityCounts}
+        />
+      )}
 
       {/* Filter bar */}
       <FilterBar
@@ -508,6 +542,9 @@ export function CatalogTable({ initialRows }: Props) {
         onlyNoClicks={onlyNoClicks}   onToggleNoClicks={() => { setOnlyNoClicks(v => !v); setPage(1) }}
         hasClickData={hasClickData}
         total={initialRows.length}    filtered={filteredRows.length}
+        tierCounts={tierCounts}
+        overrideCount={overrideCount}
+        riskCount={anyRiskCount}
       />
 
       {/* Table */}
