@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "createdAt": "2026-06-15",
+  "description": "Manual title overrides for GOODPRICE Title Intelligence V1 — products where the automatic generator produced incorrect or empty identifiers (FASE 5A analysis).",
+  "overrides": [
+    {
+      "id": "dep-012",
+      "reason": "Brand 'Vault X' present but title starts with '9 Pocket' (pure digit after brand) blocking productLine extraction. card-binder type not in vocabulary. Auto-generated benefit 'Movilidad y Confort' is wrong for a trading card binder.",
+      "amazonTitle": "Vault X 9 Pocket Zip Binder, 360 Cards, Exo-Tec Material, 20 Side-Loading Pages (Black)",
+      "title": "Vault X Zip Binder – Organización para tu Colección",
+      "shortTitle": "Vault X Zip Binder"
+    },
+    {
+      "id": "ofic-004",
+      "reason": "Model '952' is a pure numeric string — MODEL_PATTERN requires at least one letter. productLine extraction halts at the pure digit. Result 'HP – Rendimiento Profesional' loses the critical model number entirely.",
+      "amazonTitle": "HP 952 Cyan, Magenta, Yellow Ink Cartridges (3-Pack) | Works with Printer Series: OfficeJet 8702, OfficeJet Pro 7720, 7740, 8210, 8710, 8720, 8730, 8740 | Eligible for Instant Ink | N9K27AN",
+      "title": "HP 952 Cartuchos de Color – Colores Vibrantes para tu Impresora",
+      "shortTitle": "HP 952 Tricolor"
+    },
+    {
+      "id": "ofic-006",
+      "reason": "Same issue as ofic-004: model '962' is pure numeric. Both HP cartridge packs lose their model number and produce identical generic titles.",
+      "amazonTitle": "HP 962 Cyan, Magenta, Yellow Ink Cartridges | Works with OfficeJet 9010, 9020 | Eligible for Instant Ink | 3YP00AN",
+      "title": "HP 962 Cartuchos de Color – Resultados Profesionales en Casa",
+      "shortTitle": "HP 962 Tricolor"
+    },
+    {
+      "id": "hogar-006",
+      "reason": "No 'brand' field in catalog entry. extractBrandFromTitle() infers 'American Flag' from the title. Then productLine extraction picks up 'American Flags' producing the broken shortTitle 'American Flag American Flags'.",
+      "amazonTitle": "American Flag Made in USA | American Flags for Outside 3X5 | Premium US Flag 3X5 Heavy Duty Outdoor with Embroidered Stars and Sewn Stripes",
+      "title": "Bandera Americana 3x5 – Calidad que Perdura",
+      "shortTitle": "Bandera Americana 3x5"
+    },
+    {
+      "id": "coci-007",
+      "reason": "Product is a drawer/shelf liner, not a cooking tool. Category fallback benefit 'Cocinado Fácil y Rápido' is semantically wrong. No productType maps to shelf/drawer liners.",
+      "amazonTitle": "GORILLA GRIP powerGRIP Drawer Shelf and Cabinet Liner, Thick Strong Hold, Non-Adhesive Liners Protect Kitchen Cabinets and Cupboard, Bathroom Drawers, Easy Install Mat, 12\" x 20', Beige",
+      "title": "Gorilla Grip powerGRIP – Cajones y Alacenas sin Deslizamientos",
+      "shortTitle": "Gorilla Grip powerGRIP"
+    }
+  ]
+}

@@ -4,7 +4,9 @@ const gaming: RawProduct[] = [
   {
     id: 'game-001',
     asin: 'B07VHR4Y8G',
-    title: 'Nintendo Neon Purple/Neon Orange Joy-Con (L-R) - Switch',
+    amazonTitle: 'Nintendo Neon Purple/Neon Orange Joy-Con (L-R) - Switch',
+    title: 'Nintendo Joy-Con – Control Preciso para Cada Partida',
+    shortTitle: 'Nintendo Joy-Con',
     category: 'gaming',
     image: 'https://m.media-amazon.com/images/I/6197HqTcMiL._SL1500_.jpg',
     price: 55.99,
@@ -18,7 +20,9 @@ const gaming: RawProduct[] = [
   {
     id: 'game-002',
     asin: 'B0CQKKHT5J',
-    title: 'PlayStation DualSense Wireless Controller - Midnight Black',
+    amazonTitle: 'PlayStation DualSense Wireless Controller - Midnight Black',
+    title: 'PlayStation DualSense Wireless – Control Preciso para Cada Partida',
+    shortTitle: 'PlayStation DualSense Wireless',
     category: 'gaming',
     image: 'https://m.media-amazon.com/images/I/61GNEp3auhL._SL1500_.jpg',
     price: 74.00,
@@ -32,7 +36,9 @@ const gaming: RawProduct[] = [
   {
     id: 'game-003',
     asin: 'B0CJTCQRNL',
-    title: 'PlayStation DualSense Wireless Controller - Sterling Silver',
+    amazonTitle: 'PlayStation DualSense Wireless Controller - Sterling Silver',
+    title: 'PlayStation DualSense Wireless – Control Preciso para Cada Partida',
+    shortTitle: 'PlayStation DualSense Wireless',
     category: 'gaming',
     image: 'https://m.media-amazon.com/images/I/61BPHAahwEL._SL1500_.jpg',
     price: 79.00,
@@ -46,7 +52,9 @@ const gaming: RawProduct[] = [
   {
     id: 'game-004',
     asin: 'B0C8VHZR14',
-    title: 'Super Mario Bros. Wonder - Nintendo Switch (US Version)',
+    amazonTitle: 'Super Mario Bros. Wonder - Nintendo Switch (US Version)',
+    title: 'Nintendo Super Mario – Aventura y Entretenimiento Garantizados',
+    shortTitle: 'Nintendo Super Mario',
     category: 'gaming',
     image: 'https://m.media-amazon.com/images/I/81KYcp48kgL._SL1500_.jpg',
     price: 53.88,

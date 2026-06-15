@@ -4,7 +4,12 @@ export type ProductStatus = 'active' | 'inactive' | 'unverified' | 'stale'
 
 export interface Product {
   id: string
+  /** Original Amazon listing title (reference only — not shown in UI) */
+  amazonTitle?: string
+  /** Curated GOODPRICE title: "[Brand Model] – [Benefit in Spanish]" */
   title: string
+  /** Short curated title for cards: "[Brand Model]" */
+  shortTitle?: string
   category: string
   image: string
   price: number
@@ -94,7 +99,12 @@ export type SortOption = 'relevance' | 'price-asc' | 'price-desc' | 'rating' | '
 export interface RawProduct {
   id: string
   asin: string
+  /** Original Amazon listing title (reference only — not shown in UI) */
+  amazonTitle?: string
+  /** Curated GOODPRICE title: "[Brand Model] – [Benefit in Spanish]" */
   title: string
+  /** Short curated title for cards: "[Brand Model]" */
+  shortTitle?: string
   category: string
   image: string
   price: number
