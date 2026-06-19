@@ -154,6 +154,7 @@ export function resolveCategoryDeficit(targetCategory?: string): ResolutionResul
     const completedAt    = new Date().toISOString()
     saveCatalogExecution({
       ...finalExecState,
+      isRunning:   false,
       iterations,
       remainingDeficit,
       completedAt: finalExecState.completedAt ?? completedAt,
@@ -360,6 +361,7 @@ export async function resolveCatalogDeficits(): Promise<AutoFillResult> {
       const finalState = readCatalogExecution()
       saveCatalogExecution({
         ...finalState,
+        isRunning:           false,
         currentCategory:     null,
         categoriesProcessed,
         categoriesResolved,

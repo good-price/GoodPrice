@@ -1,15 +1,20 @@
 {
-  "updatedAt": "2026-06-19T06:38:55.338Z",
+  "updatedAt": "2026-06-19T07:06:18.618Z",
   "categories": {
     "hogar": {
       "category": "hogar",
-      "lastRunAt": "2026-06-19T06:38:55.338Z",
+      "lastRunAt": "2026-06-19T07:06:18.618Z",
       "lastStatus": "failed",
-      "lastDurationMs": 14851,
+      "lastDurationMs": 27169,
       "lastParsed": 0,
       "lastValidated": 0,
       "lastSaved": 0,
       "lastWarnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
         "Candidatos críticos: solo 0 candidatos en hogar"
       ],
       "lastErrors": []

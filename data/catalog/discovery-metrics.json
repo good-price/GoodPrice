@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-06-19T06:38:55.343Z",
+  "updatedAt": "2026-06-19T07:06:18.624Z",
   "categories": {
     "hogar": {
       "category": "hogar",
-      "totalRuns": 195,
+      "totalRuns": 245,
       "successfulRuns": 0,
       "partialRuns": 0,
-      "failedRuns": 195,
+      "failedRuns": 245,
       "totalParsed": 0,
       "totalValidated": 0,
       "totalSaved": 0,
       "totalRejected": 0,
-      "averageDurationMs": 7678.543589743587,
-      "lastRunAt": "2026-06-19T06:38:55.343Z"
+      "averageDurationMs": 10831.6775510204,
+      "lastRunAt": "2026-06-19T07:06:18.624Z"
     }
   }
 }

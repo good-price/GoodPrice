@@ -1,15 +1,15 @@
 [
   {
     "date": "2026-06-19",
-    "totalRuns": 533,
-    "failedRuns": 240,
-    "successfulRuns": 198,
-    "partialRuns": 95,
+    "totalRuns": 1018,
+    "failedRuns": 390,
+    "successfulRuns": 483,
+    "partialRuns": 145,
     "cancelledRuns": 0,
     "cycleStatus": "success",
     "cycleDurationMs": 21011,
     "lastCycleAt": "2026-06-19T06:34:28.276Z",
-    "updatedAt": "2026-06-19T06:39:03.142Z"
+    "updatedAt": "2026-06-19T07:06:27.831Z"
   },
   {
     "date": "2026-06-18",
