@@ -25,7 +25,6 @@ import type {
   RetailerOffer,
   PriceHistoryPoint,
 } from '../types'
-import type { ProductMapping, MappingsStore } from '../ml/types'
 
 // ── Store interface ───────────────────────────────────────────────────────────
 
@@ -99,29 +98,6 @@ export interface PricingStore {
     productId: string,
     days?: number,
   ): Promise<PriceHistoryPoint[]>
-
-  // ── Product mappings ──────────────────────────────────────────────────────
-
-  /**
-   * Load all product→ML item mappings.
-   * Seeded from data/pricing/mappings.json; can be updated via API.
-   */
-  getMappings(): Promise<MappingsStore>
-
-  /**
-   * Get the mapping for a single catalog product.
-   * Returns null if product has no mapping yet.
-   *
-   * @param productId - Internal GOODPRICE product ID
-   */
-  getMapping(productId: string): Promise<ProductMapping | null>
-
-  /**
-   * Save (create or update) a product→ML item mapping.
-   *
-   * @param mapping - Updated ProductMapping
-   */
-  saveMapping(mapping: ProductMapping): Promise<void>
 }
 
 // ── Snapshot query options ────────────────────────────────────────────────────

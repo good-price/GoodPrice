@@ -1,0 +1,946 @@
+{
+  "generatedAt": "2026-06-18T01:57:14.790Z",
+  "totalChecked": 15,
+  "totalInCatalog": 99,
+  "validCount": 6,
+  "driftedCount": 6,
+  "unavailableCount": 3,
+  "suspectCount": 0,
+  "failedCount": 0,
+  "fakeDiscountCount": 0,
+  "titleDriftCount": 15,
+  "imageDriftCount": 0,
+  "avgTruthScore": 62,
+  "lowScoreCount": 2,
+  "quarantineRecommendations": [
+    "elec-001",
+    "elec-002",
+    "elec-003",
+    "elec-005",
+    "hogar-001",
+    "hogar-004",
+    "hogar-005"
+  ],
+  "results": {
+    "elec-001": {
+      "productId": "elec-001",
+      "asin": "B00SFSU53G",
+      "checkedAt": "2026-06-18T01:29:45.082Z",
+      "extracted": {
+        "title": "Mounting Dream TV Wall Mount for 32-65 Inch Television,Mount with Swivel and Tilt, Full Motion Bracket with Articulating Dual Arms, Fits 16inch Studs, Max VESA 400X400 mm, 99lbs, MD2380",
+        "priceUSD": 38.99,
+        "oldPriceUSD": 46.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/61da4dQI-hL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3028675,
+        "finalUrl": "https://www.amazon.com/dp/B00SFSU53G",
+        "detectedCurrency": "$",
+        "rating": 4.8,
+        "reviewCount": 74860
+      },
+      "title": {
+        "score": 0,
+        "similarity": 0.14814814814814814,
+        "hasDrift": true,
+        "catalogTitle": "Mounting Dream MD2380 65 Inch – Instalación Segura y Vista Perfecta",
+        "extractedTitle": "Mounting Dream TV Wall Mount for 32-65 Inch Television,Mount with Swivel and Tilt, Full Motion Bracket with Articulating Dual Arms, Fits 16inch Studs, Max VESA 400X400 mm, 99lbs, MD2380",
+        "reason": "Deriva extrema — posible producto diferente (Jaccard 0.15)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 38.99,
+        "livePrice": 38.99,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "discountPct": 17.024898914662693,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 65,
+      "status": "drifted",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "CUARENTENA: Deriva de título extrema (Jaccard 0.15) — posiblemente producto diferente",
+        "Deriva de título: Deriva extrema — posible producto diferente (Jaccard 0.15)"
+      ]
+    },
+    "elec-002": {
+      "productId": "elec-002",
+      "asin": "B09DT48V16",
+      "checkedAt": "2026-06-18T01:29:48.315Z",
+      "extracted": {
+        "title": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Ear buds with Mic for TV Smart Phone Laptop Computer Sports",
+        "priceUSD": 99.98,
+        "oldPriceUSD": 250,
+        "availability": "Currently unavailable",
+        "availabilityStatus": "unavailable",
+        "imageUrl": "https://m.media-amazon.com/images/I/61uEvVoizoL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3017141,
+        "finalUrl": "https://www.amazon.com/dp/B09DT48V16",
+        "detectedCurrency": "$",
+        "rating": 4.4,
+        "reviewCount": 86666
+      },
+      "title": {
+        "score": 0,
+        "similarity": 0.06896551724137931,
+        "hasDrift": true,
+        "catalogTitle": "TAGRY IPX5 – Sonido Premium y Cancelación de Ruido",
+        "extractedTitle": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Ear buds with Mic for TV Smart Phone Laptop Computer Sports",
+        "reason": "Deriva extrema — posible producto diferente (Jaccard 0.07)"
+      },
+      "pricing": {
+        "score": 2,
+        "catalogPriceUSD": 39.99,
+        "livePrice": 99.98,
+        "deltaPct": 150.01250312578145,
+        "hasFakeDiscount": false,
+        "discountPct": 60.007999999999996,
+        "reason": "Precio más alto en Amazon ahora (Δ +150.0%) — actualizar"
+      },
+      "availability": {
+        "score": 0,
+        "isAvailable": false,
+        "status": "unavailable",
+        "rawText": "Currently unavailable",
+        "reason": "No disponible — posiblemente descontinuado o archivado"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 17,
+      "status": "unavailable",
+      "isAvailable": false,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "CUARENTENA: Deriva de título extrema (Jaccard 0.07) — posiblemente producto diferente",
+        "Deriva de título: Deriva extrema — posible producto diferente (Jaccard 0.07)",
+        "Precio desactualizado (Δ +150.0%)",
+        "No disponible: No disponible — posiblemente descontinuado o archivado"
+      ]
+    },
+    "elec-003": {
+      "productId": "elec-003",
+      "asin": "B07S8DZ1T5",
+      "checkedAt": "2026-06-18T01:29:51.843Z",
+      "extracted": {
+        "title": "Sleek Socket Original &amp; Patented Flat Ultra-Thin Outlet Concealer with Extension Cord Kit, Multi Outlets Power Strip, Ideal for Home Improvement, Hide Bulky and Messy Cords, 3ft",
+        "priceUSD": 21.95,
+        "oldPriceUSD": 14.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/51dkEiKE8JL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3015593,
+        "finalUrl": "https://www.amazon.com/dp/B07S8DZ1T5",
+        "detectedCurrency": "$",
+        "rating": 4.7,
+        "reviewCount": 30624
+      },
+      "title": {
+        "score": 0,
+        "similarity": 0.14285714285714285,
+        "hasDrift": true,
+        "catalogTitle": "Sleek Socket Original Patented – Control de Energía para tu Hogar",
+        "extractedTitle": "Sleek Socket Original &amp; Patented Flat Ultra-Thin Outlet Concealer with Extension Cord Kit, Multi Outlets Power Strip, Ideal for Home Improvement, Hide Bulky and Messy Cords, 3ft",
+        "reason": "Deriva extrema — posible producto diferente (Jaccard 0.14)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 21.95,
+        "livePrice": 21.95,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 65,
+      "status": "drifted",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "CUARENTENA: Deriva de título extrema (Jaccard 0.14) — posiblemente producto diferente",
+        "Deriva de título: Deriva extrema — posible producto diferente (Jaccard 0.14)"
+      ]
+    },
+    "elec-004": {
+      "productId": "elec-004",
+      "asin": "B075ZRJ263",
+      "checkedAt": "2026-06-18T01:29:55.003Z",
+      "extracted": {
+        "title": "iBirdie Outdoor TV Cover 52 to 55 inch Weatherproof, Cover Size 52&#39;&#39;L x 31&#39;&#39;H, Waterproof for Outside Flat Screen 52 to 55 inch TV, Black, 600D Thick Fabric Screen Protector with Bottom",
+        "priceUSD": 27.99,
+        "oldPriceUSD": 46.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/71WMttbXIoL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3102140,
+        "finalUrl": "https://www.amazon.com/dp/B075ZRJ263",
+        "detectedCurrency": "$",
+        "rating": 4.7,
+        "reviewCount": 24094
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.16666666666666666,
+        "hasDrift": true,
+        "catalogTitle": "iBirdie Outdoor TV 55 inch – Tecnología Avanzada",
+        "extractedTitle": "iBirdie Outdoor TV Cover 52 to 55 inch Weatherproof, Cover Size 52&#39;&#39;L x 31&#39;&#39;H, Waterproof for Outside Flat Screen 52 to 55 inch TV, Black, 600D Thick Fabric Screen Protector with Bottom",
+        "reason": "Deriva significativa (Jaccard 0.17)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 27.99,
+        "livePrice": 27.99,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "discountPct": 40.434134922323906,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 73,
+      "status": "valid",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.17)"
+      ]
+    },
+    "elec-005": {
+      "productId": "elec-005",
+      "asin": "B0CRTYZG5C",
+      "checkedAt": "2026-06-18T01:29:58.677Z",
+      "extracted": {
+        "title": "Soundcore P30i by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4 (Black)",
+        "priceUSD": 24.99,
+        "oldPriceUSD": 39.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/51HbL1WS+KL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3187823,
+        "finalUrl": "https://www.amazon.com/dp/B0CRTYZG5C",
+        "detectedCurrency": "$",
+        "rating": 4.4,
+        "reviewCount": 35544
+      },
+      "title": {
+        "score": 0,
+        "similarity": 0.08,
+        "hasDrift": true,
+        "catalogTitle": "Soundcore IP54 – Audio Inalámbrico de Alta Calidad",
+        "extractedTitle": "Soundcore P30i by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4 (Black)",
+        "reason": "Deriva extrema — posible producto diferente (Jaccard 0.08)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 24.98,
+        "livePrice": 24.99,
+        "deltaPct": 0.04003202562048843,
+        "hasFakeDiscount": false,
+        "discountPct": 37.509377344336094,
+        "reason": "Precio OK (Δ +0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 65,
+      "status": "drifted",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "CUARENTENA: Deriva de título extrema (Jaccard 0.08) — posiblemente producto diferente",
+        "Deriva de título: Deriva extrema — posible producto diferente (Jaccard 0.08)"
+      ]
+    },
+    "elec-006": {
+      "productId": "elec-006",
+      "asin": "B0DXXYS4BJ",
+      "checkedAt": "2026-06-18T01:43:10.913Z",
+      "extracted": {
+        "title": "Roku Streaming Stick HD — HD Streaming Device for TV with Roku Voice Remote, Free &amp; Live TV",
+        "priceUSD": 28.89,
+        "oldPriceUSD": 45.99,
+        "availability": "Currently unavailable",
+        "availabilityStatus": "unavailable",
+        "imageUrl": "https://m.media-amazon.com/images/I/71GUOcJCzSL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3036724,
+        "finalUrl": "https://www.amazon.com/dp/B0DXXYS4BJ",
+        "detectedCurrency": "$",
+        "rating": 4.7,
+        "reviewCount": 20530
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.25,
+        "hasDrift": true,
+        "catalogTitle": "Roku Streaming Stick – Entretenimiento sin Límites en tu TV",
+        "extractedTitle": "Roku Streaming Stick HD — HD Streaming Device for TV with Roku Voice Remote, Free &amp; Live TV",
+        "reason": "Deriva significativa (Jaccard 0.25)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 28.99,
+        "livePrice": 28.89,
+        "deltaPct": -0.34494653328733316,
+        "hasFakeDiscount": false,
+        "discountPct": 37.18199608610568,
+        "reason": "Precio OK (Δ -0.3%)"
+      },
+      "availability": {
+        "score": 0,
+        "isAvailable": false,
+        "status": "unavailable",
+        "rawText": "Currently unavailable",
+        "reason": "No disponible — posiblemente descontinuado o archivado"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 48,
+      "status": "unavailable",
+      "isAvailable": false,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.25)",
+        "No disponible: No disponible — posiblemente descontinuado o archivado"
+      ]
+    },
+    "game-001": {
+      "productId": "game-001",
+      "asin": "B07VHR4Y8G",
+      "checkedAt": "2026-06-18T01:43:14.204Z",
+      "extracted": {
+        "title": "Nintendo Neon Purple/Neon Orange Joy-Con (L-R) - Switch",
+        "priceUSD": 87.95,
+        "oldPriceUSD": 87.95,
+        "availability": "Currently unavailable",
+        "availabilityStatus": "unavailable",
+        "imageUrl": "https://m.media-amazon.com/images/I/6197HqTcMiL._SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 2683605,
+        "finalUrl": "https://www.amazon.com/dp/B07VHR4Y8G",
+        "detectedCurrency": "$",
+        "rating": 4.8,
+        "reviewCount": 75810
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.18181818181818182,
+        "hasDrift": true,
+        "catalogTitle": "Nintendo Joy-Con – Control Preciso para Cada Partida",
+        "extractedTitle": "Nintendo Neon Purple/Neon Orange Joy-Con (L-R) - Switch",
+        "reason": "Deriva significativa (Jaccard 0.18)"
+      },
+      "pricing": {
+        "score": 8,
+        "catalogPriceUSD": 55.99,
+        "livePrice": 87.95,
+        "deltaPct": 57.08162171816396,
+        "hasFakeDiscount": false,
+        "reason": "Precio más alto en Amazon ahora (Δ +57.1%) — actualizar"
+      },
+      "availability": {
+        "score": 0,
+        "isAvailable": false,
+        "status": "unavailable",
+        "rawText": "Currently unavailable",
+        "reason": "No disponible — posiblemente descontinuado o archivado"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 31,
+      "status": "unavailable",
+      "isAvailable": false,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.18)",
+        "Precio desactualizado (Δ +57.1%)",
+        "No disponible: No disponible — posiblemente descontinuado o archivado"
+      ]
+    },
+    "game-002": {
+      "productId": "game-002",
+      "asin": "B0CQKKHT5J",
+      "checkedAt": "2026-06-18T01:43:17.354Z",
+      "extracted": {
+        "title": "PlayStation DualSense® Wireless Controller - Midnight Black",
+        "priceUSD": 74,
+        "oldPriceUSD": 74,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/61GNEp3auhL._SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 2482036,
+        "finalUrl": "https://www.amazon.com/dp/B0CQKKHT5J",
+        "detectedCurrency": "$",
+        "rating": 4.7,
+        "reviewCount": 23024
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.2727272727272727,
+        "hasDrift": true,
+        "catalogTitle": "PlayStation DualSense Wireless – Control Preciso para Cada Partida",
+        "extractedTitle": "PlayStation DualSense® Wireless Controller - Midnight Black",
+        "reason": "Deriva significativa (Jaccard 0.27)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 74,
+        "livePrice": 74,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 73,
+      "status": "valid",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.27)"
+      ]
+    },
+    "game-003": {
+      "productId": "game-003",
+      "asin": "B0CJTCQRNL",
+      "checkedAt": "2026-06-18T01:43:20.654Z",
+      "extracted": {
+        "title": "PlayStation DualSense Wireless Controller - Sterling Silver",
+        "priceUSD": 79,
+        "oldPriceUSD": 79,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/61BPHAahwEL._SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 2748267,
+        "finalUrl": "https://www.amazon.com/dp/B0CJTCQRNL",
+        "detectedCurrency": "$",
+        "rating": 4.7,
+        "reviewCount": 12548
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.2727272727272727,
+        "hasDrift": true,
+        "catalogTitle": "PlayStation DualSense Wireless – Control Preciso para Cada Partida",
+        "extractedTitle": "PlayStation DualSense Wireless Controller - Sterling Silver",
+        "reason": "Deriva significativa (Jaccard 0.27)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 79,
+        "livePrice": 79,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 73,
+      "status": "valid",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.27)"
+      ]
+    },
+    "game-004": {
+      "productId": "game-004",
+      "asin": "B0C8VHZR14",
+      "checkedAt": "2026-06-18T01:43:24.090Z",
+      "extracted": {
+        "title": "Super Mario Bros.™ Wonder - Nintendo Switch (US Version)",
+        "priceUSD": 53.88,
+        "oldPriceUSD": 59.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/81KYcp48kgL._SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 2782302,
+        "finalUrl": "https://www.amazon.com/dp/B0C8VHZR14",
+        "detectedCurrency": "$",
+        "rating": 4.9,
+        "reviewCount": 10920
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.3,
+        "hasDrift": true,
+        "catalogTitle": "Nintendo Super Mario – Aventura y Entretenimiento Garantizados",
+        "extractedTitle": "Super Mario Bros.™ Wonder - Nintendo Switch (US Version)",
+        "reason": "Deriva significativa (Jaccard 0.30)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 53.88,
+        "livePrice": 53.88,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "discountPct": 10.185030838473077,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 73,
+      "status": "valid",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.30)"
+      ]
+    },
+    "hogar-001": {
+      "productId": "hogar-001",
+      "asin": "B01M16WBW1",
+      "checkedAt": "2026-06-18T01:57:00.593Z",
+      "extracted": {
+        "title": "Queen Size 4 Piece Sheet Set - Comfy Breathable &amp; Cooling Sheets - Hotel Luxury Bed Sheets for Women &amp; Men - Deep Pockets, Easy-Fit, Extra Soft and Wrinkle Free Sheets - White Oeko-Tex Bed Sheet Set",
+        "priceUSD": 24.99,
+        "oldPriceUSD": 29.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/61o6SkL3DOL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3105684,
+        "finalUrl": "https://www.amazon.com/dp/B01M16WBW1",
+        "detectedCurrency": "$",
+        "rating": 4.5,
+        "reviewCount": 442540
+      },
+      "title": {
+        "score": 0,
+        "similarity": 0.07407407407407407,
+        "hasDrift": true,
+        "catalogTitle": "Queen Size – Suavidad y Confort para tu Cama",
+        "extractedTitle": "Queen Size 4 Piece Sheet Set - Comfy Breathable &amp; Cooling Sheets - Hotel Luxury Bed Sheets for Women &amp; Men - Deep Pockets, Easy-Fit, Extra Soft and Wrinkle Free Sheets - White Oeko-Tex Bed Sheet Set",
+        "reason": "Deriva extrema — posible producto diferente (Jaccard 0.07)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 24.99,
+        "livePrice": 24.99,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "discountPct": 16.672224074691563,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 65,
+      "status": "drifted",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "CUARENTENA: Deriva de título extrema (Jaccard 0.07) — posiblemente producto diferente",
+        "Deriva de título: Deriva extrema — posible producto diferente (Jaccard 0.07)"
+      ]
+    },
+    "hogar-002": {
+      "productId": "hogar-002",
+      "asin": "B0BZYCJK89",
+      "checkedAt": "2026-06-18T01:57:03.897Z",
+      "extracted": {
+        "title": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz, Denim",
+        "priceUSD": 29.99,
+        "oldPriceUSD": 24.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/61Gvw0-b0eL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3004016,
+        "finalUrl": "https://www.amazon.com/dp/B0BZYCJK89",
+        "detectedCurrency": "$",
+        "rating": 4.7,
+        "reviewCount": 116059
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.2,
+        "hasDrift": true,
+        "catalogTitle": "Owala FreeSip Insulated 24 Oz – Hidratación para tu Día a Día",
+        "extractedTitle": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz, Denim",
+        "reason": "Deriva significativa (Jaccard 0.20)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 29.99,
+        "livePrice": 29.99,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 73,
+      "status": "valid",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.20)"
+      ]
+    },
+    "hogar-003": {
+      "productId": "hogar-003",
+      "asin": "B01LYNW421",
+      "checkedAt": "2026-06-18T01:57:08.120Z",
+      "extracted": {
+        "title": "Beckham Hotel Collection Bed Pillows Standard/Queen Size Set of 2 - Original Soft Down Alternative Pillow for Sleeping - Soft Support for Back, Stomach or Side Sleepers",
+        "priceUSD": 59.99,
+        "oldPriceUSD": 30,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/71329CVoVDL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 2707769,
+        "finalUrl": "https://www.amazon.com/dp/B01LYNW421",
+        "detectedCurrency": "$",
+        "rating": 4.4,
+        "reviewCount": 260804
+      },
+      "title": {
+        "score": 8,
+        "similarity": 0.21739130434782608,
+        "hasDrift": true,
+        "catalogTitle": "Beckham Hotel Collection Bed Pillows – Soporte Perfecto para tu Descanso",
+        "extractedTitle": "Beckham Hotel Collection Bed Pillows Standard/Queen Size Set of 2 - Original Soft Down Alternative Pillow for Sleeping - Soft Support for Back, Stomach or Side Sleepers",
+        "reason": "Deriva significativa (Jaccard 0.22)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 59.99,
+        "livePrice": 59.99,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 73,
+      "status": "valid",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "Deriva de título: Deriva significativa (Jaccard 0.22)"
+      ]
+    },
+    "hogar-004": {
+      "productId": "hogar-004",
+      "asin": "B07F97MPYT",
+      "checkedAt": "2026-06-18T01:57:11.333Z",
+      "extracted": {
+        "title": "Extra Deep Queen Sheet Set - 6 Piece Breathable and Cooling Sheets - Hotel Luxury Bedding for Women, Men, Kids &amp; Teens - Easy &amp; Secure Fit - Soft, Wrinkle Free and Comfy - Extra Deep Pockets - Grey",
+        "priceUSD": 39.99,
+        "oldPriceUSD": 44.99,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/61e4nXQiaJL._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 2989059,
+        "finalUrl": "https://www.amazon.com/dp/B07F97MPYT",
+        "detectedCurrency": "$",
+        "rating": 4.4,
+        "reviewCount": 101229
+      },
+      "title": {
+        "score": 0,
+        "similarity": 0.13793103448275862,
+        "hasDrift": true,
+        "catalogTitle": "Extra Deep Queen Sheet Set – Suavidad y Confort para tu Cama",
+        "extractedTitle": "Extra Deep Queen Sheet Set - 6 Piece Breathable and Cooling Sheets - Hotel Luxury Bedding for Women, Men, Kids &amp; Teens - Easy &amp; Secure Fit - Soft, Wrinkle Free and Comfy - Extra Deep Pockets - Grey",
+        "reason": "Deriva extrema — posible producto diferente (Jaccard 0.14)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 39.99,
+        "livePrice": 39.99,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "discountPct": 11.113580795732386,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 65,
+      "status": "drifted",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "CUARENTENA: Deriva de título extrema (Jaccard 0.14) — posiblemente producto diferente",
+        "Deriva de título: Deriva extrema — posible producto diferente (Jaccard 0.14)"
+      ]
+    },
+    "hogar-005": {
+      "productId": "hogar-005",
+      "asin": "B07Q8RTRW3",
+      "checkedAt": "2026-06-18T01:57:14.780Z",
+      "extracted": {
+        "title": "Deconovo Navy Blue Blackout Curtains 2 Panel Set for Bedroom, Thermal Insulated Grommet Room Darkening Window Drapes for Living Room, Silver Wave Foil Print, 52W x 84L Inch",
+        "priceUSD": 29.99,
+        "oldPriceUSD": 15,
+        "availability": "In Stock",
+        "availabilityStatus": "in_stock",
+        "imageUrl": "https://m.media-amazon.com/images/I/813QuuwyjwS._AC_SL1500_.jpg",
+        "confidence": "medium",
+        "httpStatus": 200,
+        "isRobotCheck": false,
+        "rawHtmlLength": 3181709,
+        "finalUrl": "https://www.amazon.com/dp/B07Q8RTRW3",
+        "detectedCurrency": "$",
+        "rating": 4.7,
+        "reviewCount": 28803
+      },
+      "title": {
+        "score": 0,
+        "similarity": 0.14814814814814814,
+        "hasDrift": true,
+        "catalogTitle": "Deconovo Blackout Curtains 84L – Oscuridad Total para Dormir Mejor",
+        "extractedTitle": "Deconovo Navy Blue Blackout Curtains 2 Panel Set for Bedroom, Thermal Insulated Grommet Room Darkening Window Drapes for Living Room, Silver Wave Foil Print, 52W x 84L Inch",
+        "reason": "Deriva extrema — posible producto diferente (Jaccard 0.15)"
+      },
+      "pricing": {
+        "score": 25,
+        "catalogPriceUSD": 29.99,
+        "livePrice": 29.99,
+        "deltaPct": 0,
+        "hasFakeDiscount": false,
+        "reason": "Precio OK (Δ 0.0%)"
+      },
+      "availability": {
+        "score": 25,
+        "isAvailable": true,
+        "status": "in_stock",
+        "rawText": "In Stock",
+        "reason": "Disponible en Amazon"
+      },
+      "image": {
+        "score": 10,
+        "hasImage": true,
+        "urlChanged": false,
+        "reason": "Imagen idéntica a catálogo"
+      },
+      "truthScore": 65,
+      "status": "drifted",
+      "isAvailable": true,
+      "hasFakeDiscount": false,
+      "hasTitleDrift": true,
+      "hasImageDrift": false,
+      "confidence": "medium",
+      "issues": [
+        "CUARENTENA: Deriva de título extrema (Jaccard 0.15) — posiblemente producto diferente",
+        "Deriva de título: Deriva extrema — posible producto diferente (Jaccard 0.15)"
+      ]
+    }
+  }
+}

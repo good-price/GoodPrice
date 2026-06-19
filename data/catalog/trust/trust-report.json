@@ -1,0 +1,13 @@
+{
+  "totalProducts": 99,
+  "active": 99,
+  "warning": 0,
+  "degraded": 0,
+  "suppressed": 0,
+  "visible": 99,
+  "avgPublicScore": 89,
+  "suppressionBreakdown": {},
+  "warningBreakdown": {},
+  "recoveryCandidates": 0,
+  "computedAt": "2026-06-18T01:56:58.512Z"
+}

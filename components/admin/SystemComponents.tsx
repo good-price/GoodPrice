@@ -1,13 +1,13 @@
 /**
  * components/admin/SystemComponents.tsx
  *
- * System health, ops command center, and operational timeline.
- * Used in /admin (dashboard) and /admin/ops.
+ * System health badges and operational timeline.
+ * OpsCommandCenter removed (OPS V2 Fase 1 — duplicaba Dashboard).
  */
 
 import type { SystemHealth } from '@/lib/ops'
-import type { OpsReport, QuickAction } from '@/lib/ops'
-import { SectionHeader, Card, StatCard, Th, Td, relativeTime } from './shared'
+import type { OpsReport } from '@/lib/ops'
+import { SectionHeader, Card, Th, Td, relativeTime } from './shared'
 
 // ── HealthStatusBadge ─────────────────────────────────────────────────────────
 
@@ -125,161 +125,6 @@ export function SubsystemBadge({ subsystem }: { subsystem: string }) {
     <span className={`text-[9px] font-semibold px-1.5 py-0.5 rounded uppercase tracking-wide ${colors[subsystem] ?? 'bg-gray-100 text-gray-600'}`}>
       {label[subsystem] ?? subsystem}
     </span>
-  )
-}
-
-// ── OpsCommandCenter ──────────────────────────────────────────────────────────
-
-export function OpsCommandCenter({ report, actions }: { report: OpsReport; actions: QuickAction[] }) {
-  const { health, alerts, anomalies, queues, diagnostics } = report
-  const criticalAlerts = alerts.filter(a => a.severity === 'critical')
-  const warningAlerts  = alerts.filter(a => a.severity === 'warning')
-  const criticalDiags  = diagnostics.filter(d => d.severity === 'critical')
-  const warningDiags   = diagnostics.filter(d => d.severity === 'warning')
-  const stalledQueues  = queues.filter(q => q.isStalled)
-  const overallOk      = criticalAlerts.length === 0 && anomalies.filter(a => a.severity === 'critical').length === 0
-
-  return (
-    <section>
-      <SectionHeader>Centro de Operaciones — platform health</SectionHeader>
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mb-4">
-        <Card className={`sm:col-span-1 ${overallOk ? 'border-green-200' : 'border-red-200'}`}>
-          <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide mb-2">Score de Plataforma</p>
-          <div className="flex items-center gap-3">
-            <div>
-              <p className={`text-5xl font-black tabular-nums ${
-                health.overall >= 80 ? 'text-green-600' : health.overall >= 60 ? 'text-cyan-600' :
-                health.overall >= 40 ? 'text-yellow-500' : 'text-red-600'
-              }`}>{health.overall}</p>
-              <p className="text-[10px] text-gray-400 mt-0.5">/ 100</p>
-            </div>
-            <div className="flex-1 space-y-1">
-              {[
-                { dim: 'Verdad',      val: health.truthHealth },
-                { dim: 'Catálogo',    val: health.catalogHealth },
-                { dim: 'Supresiones', val: health.suppressionHealth },
-                { dim: 'Colas',       val: health.queueHealth },
-                { dim: 'Frescura',    val: health.freshnessHealth },
-                { dim: 'Disp.',       val: health.availabilityHealth },
-              ].map(({ dim, val }) => (
-                <div key={dim} className="flex items-center gap-1.5">
-                  <span className="text-[9px] text-gray-400 w-16">{dim}</span>
-                  <div className="flex-1 bg-gray-100 rounded-full h-1 overflow-hidden">
-                    <div className={`h-1 rounded-full ${val >= 70 ? 'bg-green-500' : val >= 40 ? 'bg-yellow-400' : 'bg-red-500'}`} style={{ width: `${val}%` }} />
-                  </div>
-                  <span className="text-[9px] tabular-nums text-gray-500 w-6 text-right">{val}</span>
-                </div>
-              ))}
-            </div>
-          </div>
-          <p className="text-[9px] text-gray-400 mt-3">Calculado: {relativeTime(health.computedAt)}</p>
-        </Card>
-        <div className="sm:col-span-2 grid grid-cols-2 sm:grid-cols-4 gap-2">
-          <StatCard label="Alertas críticas" value={criticalAlerts.length} warn={criticalAlerts.length > 0} accent={criticalAlerts.length === 0} />
-          <StatCard label="Avisos" value={warningAlerts.length} warn={warningAlerts.length > 2} />
-          <StatCard label="Anomalías" value={anomalies.length} warn={anomalies.length > 0} />
-          <StatCard label="Colas estancadas" value={stalledQueues.length} warn={stalledQueues.length > 0} accent={stalledQueues.length === 0} />
-        </div>
-      </div>
-
-      {alerts.length > 0 && (
-        <Card className="mb-4">
-          <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide mb-3">Alertas activas ({alerts.length})</p>
-          <div className="space-y-2.5">
-            {alerts.map(alert => (
-              <div key={alert.id} className={`flex items-start gap-3 p-2.5 rounded-lg ${
-                alert.severity === 'critical' ? 'bg-red-50' : alert.severity === 'warning' ? 'bg-yellow-50' : 'bg-blue-50'
-              }`}>
-                <AlertBadge severity={alert.severity} />
-                <div className="flex-1 min-w-0">
-                  <p className="text-xs font-semibold text-gray-800">{alert.title}</p>
-                  <p className="text-[11px] text-gray-600 mt-0.5 leading-snug">{alert.description}</p>
-                  {alert.suggestion && <p className="text-[10px] text-gray-400 mt-1 font-mono">{alert.suggestion}</p>}
-                </div>
-                <span className="text-[10px] text-gray-400 flex-shrink-0">{alert.subsystem}</span>
-              </div>
-            ))}
-          </div>
-        </Card>
-      )}
-
-      {anomalies.length > 0 && (
-        <Card className="mb-4 border-orange-100 bg-orange-50/30">
-          <p className="text-[10px] font-semibold text-orange-600 uppercase tracking-wide mb-3">Anomalías detectadas ({anomalies.length})</p>
-          <div className="space-y-2">
-            {anomalies.map((a, i) => (
-              <div key={i} className="flex items-start gap-2">
-                <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded uppercase ${a.severity === 'critical' ? 'bg-red-100 text-red-700' : 'bg-yellow-100 text-yellow-700'}`}>{a.severity}</span>
-                <div>
-                  <p className="text-[11px] text-gray-700 font-medium">{a.type.replace(/_/g, ' ')}</p>
-                  <p className="text-[10px] text-gray-500">{a.description}</p>
-                  <p className="text-[9px] text-gray-400 mt-0.5">Valor: <span className="font-semibold text-gray-600">{a.value}</span> · Umbral: {a.threshold}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </Card>
-      )}
-
-      <div className="grid grid-cols-2 gap-3 mb-4">
-        {queues.map(q => (
-          <Card key={q.name} className={q.isStalled ? 'border-orange-200' : ''}>
-            <div className="flex items-center justify-between mb-1">
-              <p className="text-[11px] font-semibold text-gray-700">{q.name}</p>
-              {q.isStalled && <span className="text-[9px] font-bold px-1.5 py-0.5 rounded bg-orange-100 text-orange-700 uppercase">estancada</span>}
-            </div>
-            <p className={`text-2xl font-bold ${q.size > 0 ? 'text-gray-800' : 'text-gray-300'}`}>{q.size}</p>
-            <p className="text-[10px] text-gray-400 mt-1">{q.lastActivityAt ? `Última actividad: ${relativeTime(q.lastActivityAt)}` : 'Sin actividad registrada'}</p>
-          </Card>
-        ))}
-      </div>
-
-      {(criticalDiags.length > 0 || warningDiags.length > 0) && (
-        <Card className="mb-4">
-          <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide mb-3">Diagnósticos — {diagnostics.length} issues</p>
-          <div className="space-y-2">
-            {diagnostics.filter(d => d.severity !== 'info').map((d, i) => (
-              <div key={i} className="flex items-start gap-2">
-                <AlertBadge severity={d.severity} />
-                <div className="flex-1">
-                  <p className="text-[11px] text-gray-700">{d.description}</p>
-                  <p className="text-[10px] text-gray-400 mt-0.5 font-mono">{d.suggestion}</p>
-                </div>
-                <span className="text-[9px] text-gray-400 flex-shrink-0">{d.subsystem}</span>
-              </div>
-            ))}
-          </div>
-        </Card>
-      )}
-
-      <Card>
-        <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wide mb-3">Acciones rápidas — {actions.length} disponibles</p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {actions.map(action => (
-            <div key={action.id} className="flex items-start gap-2 p-2 bg-gray-50 rounded-lg">
-              <span className={`text-[9px] font-bold px-1.5 py-0.5 rounded uppercase flex-shrink-0 ${
-                action.category === 'validation' ? 'bg-blue-100 text-blue-700' :
-                action.category === 'healing'    ? 'bg-purple-100 text-purple-700' :
-                action.category === 'audit'      ? 'bg-orange-100 text-orange-700' :
-                'bg-gray-200 text-gray-600'
-              }`}>{action.category}</span>
-              <div className="flex-1 min-w-0">
-                <p className="text-[11px] font-semibold text-gray-700">{action.label}</p>
-                <p className="text-[10px] text-gray-400 line-clamp-1">{action.description}</p>
-                <p className="text-[9px] font-mono text-blue-500 mt-0.5">
-                  {action.method} {action.endpoint}
-                  {action.durationHint && <span className="text-gray-400 ml-2">{action.durationHint}</span>}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-        <p className="text-[10px] text-gray-400 mt-3">
-          POST <code className="font-mono bg-gray-100 px-1 rounded">/api/ops/actions</code>{' '}
-          con <code className="font-mono bg-gray-100 px-1 rounded">{`{ "action": "id" }`}</code> para ejecutar.
-        </p>
-      </Card>
-    </section>
   )
 }
 

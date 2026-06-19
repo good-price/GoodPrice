@@ -58,12 +58,6 @@ const RETAILER_PROFILES: Record<string, {
     simplicityScore:  50,  // requires international shipping setup
     badges: ['Amazon Prime', 'Envío Internacional'],
   },
-  mercadolibre: {
-    reliabilityScore: 75,  // good but seller quality varies
-    speedScore:       85,  // 1–7 days domestic
-    simplicityScore:  95,  // fully local, no import
-    badges: ['Envío Gratis', 'Entrega Rápida', 'Sin Importar'],
-  },
   alkosto: {
     reliabilityScore: 80,  // established chain, good returns
     speedScore:       80,  // 1–5 days domestic + physical store pickup

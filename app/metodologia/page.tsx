@@ -2,11 +2,10 @@
  * /metodologia — Methodology & Transparency
  *
  * Static page explaining how GOODPRICE works:
- * - How prices are sourced and updated
- * - How product matching works
- * - How alerts fire and cooldown
- * - Affiliate relationship
- * - Limitations (honest)
+ * - Amazon-Only strategy and catalog philosophy
+ * - How prices are sourced and validated
+ * - How price tracking and alerts operate
+ * - Affiliate relationship and trust principles
  *
  * Server Component. No JS needed.
  */
@@ -18,12 +17,12 @@ import { SITE_URL } from '@/lib/seo'
 export const metadata: Metadata = {
   title: 'Cómo funciona GOODPRICE | Metodología y transparencia',
   description:
-    'Entiende cómo GOODPRICE compara precios de Amazon y MercadoLibre Colombia, ' +
-    'cómo funcionan las alertas de precio y nuestra relación con los afiliados.',
+    'Descubre cómo GOODPRICE selecciona productos de Amazon para Colombia, ' +
+    'cómo rastreamos precios y cómo funcionan las alertas inteligentes.',
   alternates: { canonical: `${SITE_URL}/metodologia` },
   openGraph: {
     title:       'Cómo funciona GOODPRICE | Metodología y transparencia',
-    description: 'Entiende cómo GOODPRICE compara precios de Amazon y MercadoLibre Colombia.',
+    description: 'Cómo GOODPRICE selecciona productos Amazon para Colombia, rastrea precios y dispara alertas.',
     url:         `${SITE_URL}/metodologia`,
     type:        'website',
   },
@@ -69,12 +68,12 @@ function Callout({ type, children }: {
 // ── Table of contents ─────────────────────────────────────────────────────────
 
 const TOC_ITEMS = [
-  { id: 'fuentes',        label: 'Fuentes de precios'          },
-  { id: 'comparacion',    label: 'Cómo comparamos'             },
-  { id: 'actualizacion',  label: 'Frecuencia de actualización' },
-  { id: 'alertas',        label: 'Alertas de precio'           },
-  { id: 'afiliados',      label: 'Relación con afiliados'      },
-  { id: 'limitaciones',   label: 'Limitaciones'                },
+  { id: 'catalogo',       label: 'Catálogo y selección'         },
+  { id: 'precios',        label: 'Precios y seguimiento'         },
+  { id: 'validacion',     label: 'Validación automática'         },
+  { id: 'alertas',        label: 'Alertas de precio'             },
+  { id: 'afiliados',      label: 'Relación con afiliados'        },
+  { id: 'limitaciones',   label: 'Limitaciones'                  },
 ]
 
 // ── Page ──────────────────────────────────────────────────────────────────────
@@ -101,9 +100,9 @@ export default function MetodologiaPage() {
           Cómo funciona GOODPRICE
         </h1>
         <p className="text-sm text-gray-500 leading-relaxed">
-          GOODPRICE es una plataforma independiente de comparación de precios para
-          compradores en Colombia. Comparamos precios de Amazon y MercadoLibre en
-          tiempo real para que puedas tomar decisiones de compra con datos reales.
+          GOODPRICE es una plataforma de curaduría Amazon para compradores en Colombia.
+          Seleccionamos, validamos y rastreamos productos de Amazon para que tomes decisiones
+          de compra con datos reales, sin ruido y con contexto de precio local.
         </p>
       </header>
 
@@ -130,89 +129,67 @@ export default function MetodologiaPage() {
         </ol>
       </nav>
 
-      {/* ── 1. Fuentes de precios ─────────────────────────────────────────── */}
-      <Section id="fuentes" title="1. Fuentes de precios">
-        <div>
-          <p className="font-semibold text-gray-800 mb-1">🇺🇸 Amazon</p>
-          <p>
-            Los precios de Amazon en nuestro catálogo son precios de referencia en USD
-            obtenidos del catálogo de Amazon.com. Los mantenemos actualizados cuando hay
-            cambios significativos en los productos que seguimos. Para el precio exacto
-            siempre recomendamos verificar en Amazon antes de comprar.
-          </p>
-        </div>
-        <div>
-          <p className="font-semibold text-gray-800 mb-1">🇨🇴 MercadoLibre Colombia</p>
-          <p>
-            Los precios de MercadoLibre se obtienen automáticamente usando la{' '}
-            <strong>API pública oficial de MercadoLibre</strong> (api.mercadolibre.com).
-            Usamos el catálogo de MercadoLibre Colombia (sitio MCO) para mostrar precios
-            en pesos colombianos (COP), convertidos a USD usando la tasa de cambio vigente.
-          </p>
-        </div>
-        <Callout type="info">
-          No hacemos scraping de ningún sitio web. Todos los datos de MercadoLibre
-          provienen de su API oficial, respetando sus términos de servicio y límites de
-          velocidad.
-        </Callout>
-      </Section>
-
-      {/* ── 2. Comparación ────────────────────────────────────────────────── */}
-      <Section id="comparacion" title="2. Cómo hacemos la comparación">
+      {/* ── 1. Catálogo y selección ───────────────────────────────────────── */}
+      <Section id="catalogo" title="1. Catálogo y selección de productos">
         <p>
-          Para cada producto de nuestro catálogo, buscamos el equivalente más cercano en
-          MercadoLibre Colombia usando un <strong>algoritmo de coincidencia automática</strong>:
+          Todos los productos de GOODPRICE provienen exclusivamente de{' '}
+          <strong>Amazon</strong>. No comparamos con otros marketplaces. Esta decisión
+          es intencional: nos permite controlar la calidad del catálogo, garantizar que
+          los precios son verificables y mantener una experiencia consistente.
+        </p>
+        <p>
+          Cada producto pasa por un proceso de selección manual antes de entrar al
+          catálogo:
         </p>
         <ol className="list-decimal list-inside flex flex-col gap-2 ml-1">
           <li>
-            Buscamos en ML con el nombre y características del producto (marca, modelo,
-            categoría).
+            Verificamos que el ASIN sea válido y el producto esté activo en Amazon.
           </li>
           <li>
-            Puntuamos cada resultado según: similitud del título, rango de precio
-            esperado, calidad del listado y disponibilidad.
+            Validamos que la imagen principal sea accesible y de calidad aceptable.
           </li>
           <li>
-            Solo confirmamos la coincidencia cuando la puntuación supera un umbral mínimo
-            de confianza. Si no encontramos una coincidencia confiable, no mostramos
-            precio de ML para ese producto.
+            Confirmamos que el producto sea relevante para compradores en Colombia
+            (disponible con envío internacional o a través de revendedores locales).
+          </li>
+          <li>
+            Asignamos una puntuación de confianza basada en reseñas, precio y
+            consistencia histórica. Solo los productos con puntuación suficiente son
+            visibles al público.
           </li>
         </ol>
-        <div>
-          <p className="font-semibold text-gray-800 mb-1">Costo total estimado</p>
-          <p>
-            Para facilitar la comparación, calculamos un <strong>costo total estimado</strong>:
-          </p>
-          <ul className="list-disc list-inside ml-1 flex flex-col gap-1 mt-1">
-            <li>
-              <strong>Amazon:</strong> precio + ~$12 USD de envío internacional
-              (estimado para Colombia, 15–30 días hábiles).
-            </li>
-            <li>
-              <strong>MercadoLibre:</strong> precio local incluyendo envío
-              (generalmente gratuito en productos con envío estándar).
-            </li>
-          </ul>
-        </div>
-        <Callout type="warning">
-          El envío de Amazon es un estimado. El costo real puede variar según el peso,
-          el vendedor y el método de envío elegido. Siempre verifica en Amazon antes de comprar.
+        <Callout type="info">
+          El catálogo actual tiene <strong>99 productos curados</strong> en 10
+          categorías. Agregamos nuevos productos cuando superan todos los criterios de
+          validación.
         </Callout>
       </Section>
 
-      {/* ── 3. Actualización ──────────────────────────────────────────────── */}
-      <Section id="actualizacion" title="3. Frecuencia de actualización">
-        <p>
-          Los precios de MercadoLibre se actualizan <strong>cada hora</strong> de forma
-          automática mediante un proceso programado (cron job). La hora de la última
-          actualización aparece en cada página de producto.
-        </p>
+      {/* ── 2. Precios y seguimiento ──────────────────────────────────────── */}
+      <Section id="precios" title="2. Precios y seguimiento">
+        <div>
+          <p className="font-semibold text-gray-800 mb-1">Fuente de precios</p>
+          <p>
+            Los precios de nuestro catálogo son precios de referencia en USD obtenidos
+            de Amazon.com. Los actualizamos periódicamente mediante un proceso
+            automatizado que consulta Amazon directamente.
+          </p>
+        </div>
+        <div>
+          <p className="font-semibold text-gray-800 mb-1">Conversión a pesos colombianos</p>
+          <p>
+            Mostramos precios en COP usando la <strong>Tasa de Cambio de Referencia
+            (TRM)</strong> del Banco de la República de Colombia, actualizada
+            diariamente. La conversión es automática y se refleja en todas las páginas
+            de producto.
+          </p>
+        </div>
         <div className="grid grid-cols-2 gap-3">
           {[
-            { label: 'Frecuencia', value: 'Cada hora'                 },
-            { label: 'Fuente',     value: 'API oficial de ML'         },
-            { label: 'Cobertura',  value: '19 productos (creciendo)'  },
-            { label: 'Historial',  value: 'Hasta 90 días de datos'    },
+            { label: 'Fuente de precios',   value: 'Amazon.com'               },
+            { label: 'Moneda base',         value: 'USD'                      },
+            { label: 'Conversión COP',      value: 'TRM diaria'               },
+            { label: 'Historial',           value: 'Hasta 90 días de datos'   },
           ].map(({ label, value }) => (
             <div key={label} className="bg-gray-50 rounded-xl px-4 py-3">
               <p className="text-xs text-gray-400 mb-0.5">{label}</p>
@@ -220,6 +197,39 @@ export default function MetodologiaPage() {
             </div>
           ))}
         </div>
+        <Callout type="warning">
+          El precio en Amazon puede cambiar en cualquier momento. Siempre verifica el
+          precio final en Amazon antes de confirmar tu compra.
+        </Callout>
+      </Section>
+
+      {/* ── 3. Validación automática ──────────────────────────────────────── */}
+      <Section id="validacion" title="3. Validación automática del catálogo">
+        <p>
+          Un proceso automático diario revisa todos los productos del catálogo para
+          detectar y corregir problemas:
+        </p>
+        <ul className="flex flex-col gap-2">
+          {[
+            { label: 'Imágenes rotas', desc: 'Detecta URLs de imagen que fallan y las repara automáticamente cuando es posible (swap de CDN Amazon).' },
+            { label: 'ASINs inactivos', desc: 'Identifica productos que Amazon ha dado de baja y los marca para revisión.' },
+            { label: 'Restricciones Colombia', desc: 'Detecta productos con restricciones de envío a Colombia y los señala en el catálogo.' },
+            { label: 'Puntuación de confianza', desc: 'Recalcula la puntuación de cada producto. Los que caen por debajo del umbral mínimo se ocultan automáticamente.' },
+          ].map(({ label, desc }) => (
+            <li key={label} className="flex gap-3">
+              <span className="text-amber-500 mt-0.5 flex-shrink-0">→</span>
+              <span>
+                <strong className="text-gray-800">{label}:</strong>{' '}
+                {desc}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <Callout type="success">
+          Este proceso mantiene la calidad del catálogo sin intervención manual
+          constante. Los errores que no se pueden reparar automáticamente se registran
+          para revisión del equipo.
+        </Callout>
       </Section>
 
       {/* ── 4. Alertas ────────────────────────────────────────────────────── */}
@@ -286,14 +296,10 @@ export default function MetodologiaPage() {
           comisión la paga Amazon, no tú.
         </Callout>
         <p>
-          No somos afiliados de MercadoLibre. Mostramos precios de MercadoLibre como
-          referencia informativa usando su API pública. Los enlaces a MercadoLibre no
-          generan comisión para GOODPRICE.
-        </p>
-        <p>
-          La relación de afiliados <strong>no influye en la objetividad</strong> de
-          nuestra comparación. Mostramos el mejor precio independientemente de si es
-          Amazon o MercadoLibre, incluyendo cuando MercadoLibre resulta más barato.
+          La relación de afiliados <strong>no influye en la selección del catálogo</strong>.
+          Incluimos únicamente productos que consideramos genuinamente útiles y bien
+          valorados por compradores. Si un producto cae por debajo de nuestros criterios
+          de calidad, lo ocultamos aunque siga generando comisión.
         </p>
       </Section>
 
@@ -302,12 +308,11 @@ export default function MetodologiaPage() {
         <p>Queremos ser honestos sobre lo que GOODPRICE no garantiza:</p>
         <ul className="flex flex-col gap-2">
           {[
-            'Los precios pueden cambiar en tiempo real. Siempre verifica el precio final antes de confirmar tu compra.',
-            'El costo de envío de Amazon (~$12 USD) es un estimado. El valor exacto depende del peso, vendedor y destino.',
-            'La disponibilidad en MercadoLibre puede variar según el vendedor individual.',
-            'El producto encontrado en MercadoLibre puede ser de un vendedor diferente al oficial de la marca.',
-            'El algoritmo de coincidencia puede cometer errores. Si detectas una comparación incorrecta, escríbenos.',
+            'Los precios pueden cambiar en tiempo real. Siempre verifica el precio final en Amazon antes de confirmar tu compra.',
+            'El costo de envío internacional (~$12 USD estimado) puede variar según el peso, el vendedor y el destino exacto dentro de Colombia.',
+            'La disponibilidad puede cambiar entre el momento en que rastreamos el precio y el momento en que haces tu compra.',
             'El historial de precios refleja los datos que hemos recopilado desde que empezamos a rastrear el producto. No tenemos datos previos a esa fecha.',
+            'El proceso de validación automática puede cometer errores. Si detectas un producto con información incorrecta, escríbenos.',
           ].map(text => (
             <li key={text} className="flex gap-2">
               <span className="text-gray-300 mt-0.5 flex-shrink-0">·</span>
@@ -326,7 +331,7 @@ export default function MetodologiaPage() {
             hola@goodprice.co
           </a>
         </p>
-        <p>Última actualización de esta página: mayo 2026.</p>
+        <p>Última actualización de esta página: junio 2026.</p>
       </div>
 
     </div>

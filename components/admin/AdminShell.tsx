@@ -110,9 +110,10 @@ export function AdminShell({
     return () => document.removeEventListener('keydown', handleKey)
   }, [paletteOpen])
 
-  const navigateSection = useCallback(() => {
+  const navigateSection = useCallback((path: string) => {
+    router.push(path)
     setPaletteOpen(false)
-  }, [])
+  }, [router])
 
   const healthColor =
     healthScore >= 70 ? 'text-green-600' :

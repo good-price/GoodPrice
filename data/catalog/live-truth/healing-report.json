@@ -1,0 +1,815 @@
+{
+  "generatedAt": "2026-06-18T01:56:58.563Z",
+  "cycleCount": 3,
+  "lastCycleAt": "2026-06-18T01:56:58.525Z",
+  "newlySuppressed": [],
+  "newlyRecovered": [],
+  "driftRepairs": [],
+  "replacements": [],
+  "staleProducts": [
+    {
+      "productId": "hogar-001",
+      "asin": "B01M16WBW1",
+      "title": "Queen Size – Suavidad y Confort para tu Cama",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-002",
+      "asin": "B0BZYCJK89",
+      "title": "Owala FreeSip Insulated 24 Oz – Hidratación para tu Día a Día",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-003",
+      "asin": "B01LYNW421",
+      "title": "Beckham Hotel Collection Bed Pillows – Soporte Perfecto para tu Descanso",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-004",
+      "asin": "B07F97MPYT",
+      "title": "Extra Deep Queen Sheet Set – Suavidad y Confort para tu Cama",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-005",
+      "asin": "B07Q8RTRW3",
+      "title": "Deconovo Blackout Curtains 84L – Oscuridad Total para Dormir Mejor",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-006",
+      "asin": "B01HMWWLCI",
+      "title": "Bandera Americana 3x5 – Calidad que Perdura",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-007",
+      "asin": "B0D6C6GS58",
+      "title": "HydroJug Traveler - 32 oz – Hidratación Caliente o Fría por Horas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-008",
+      "asin": "B09PQF39PG",
+      "title": "GOOTOP Bug Zapper – Protección contra Insectos sin Químicos",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-009",
+      "asin": "B0C3PDTYYX",
+      "title": "Zevo – Protección contra Insectos sin Químicos",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-010",
+      "asin": "B088BZTYFP",
+      "title": "Amazon Basics 16x20x1 Air – Filtración de Aire para tu Sistema HVAC",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-011",
+      "asin": "B07H76BZW8",
+      "title": "SUNNY GUARD Sun Shade – Sombra y Protección UV al Aire Libre",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-012",
+      "asin": "B0D89V1RX1",
+      "title": "2x6 Hallway Washable – Estilo y Confort para tu Espacio",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-013",
+      "asin": "B0BVZFQ4DF",
+      "title": "LEVOIT Tower Fan 36 inch – Frescura Silenciosa para tu Espacio",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-001",
+      "asin": "B073WJMKHN",
+      "title": "YETI Rambler 20 oz – Hidratación Caliente o Fría por Horas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-002",
+      "asin": "B0GC8SZL6Y",
+      "title": "STANLEY IceFlow 30 oz – Hidratación Caliente o Fría por Horas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-003",
+      "asin": "B0CGRGRXPY",
+      "title": "SURETIVIAN Chicken Shredder – Preparación de Carnes sin Esfuerzo",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-004",
+      "asin": "B08N9Q24M9",
+      "title": "Mueller – Cortes Rápidos y Uniformes",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-005",
+      "asin": "B009HBKQ16",
+      "title": "Tramontina Professional 10-Inch – Calidad para tu Mesa",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-006",
+      "asin": "B0F2WPH4PF",
+      "title": "Owala Disney Princess 24 oz – Hidratación para tu Día a Día",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-007",
+      "asin": "B07773PQG7",
+      "title": "Gorilla Grip powerGRIP – Cajones y Alacenas sin Deslizamientos",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-008",
+      "asin": "B08C7YS3YW",
+      "title": "Frost Buddy Universal Can 16 oz – Eficiencia Culinaria",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-009",
+      "asin": "B0FK1MWXCW",
+      "title": "Owala FreeSip Sway 40oz – Hidratación para tu Día a Día",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-010",
+      "asin": "B08QXJ31WR",
+      "title": "Ninja Nutri-Blender Pro – Batidos y Mezclas en Segundos",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-011",
+      "asin": "B0BJV68C17",
+      "title": "Whiskey Smoker Kit – Ahumado Artesanal para tus Bebidas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-001",
+      "asin": "B017AGGBTU",
+      "title": "Sports Research Sweet Sweat – Entrenamiento en Cualquier Lugar",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-002",
+      "asin": "B0DR9GN2PM",
+      "title": "Owala FreeSip Insulated 24 oz – Hidratación para tu Día a Día",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-003",
+      "asin": "B01LP0U5X0",
+      "title": "Amazon Basics Extra Thick – Práctica Cómoda y Estable",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-004",
+      "asin": "B0731DWW5K",
+      "title": "Amazon Basics Cast Iron – Fuerza Funcional para tu Rutina",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-005",
+      "asin": "B0DR9ML5X9",
+      "title": "STANLEY IceFlow 30 oz – Hidratación Caliente o Fría por Horas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-006",
+      "asin": "B07P95K1ZT",
+      "title": "ZIONOR G1 – Visión Clara en el Agua",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-007",
+      "asin": "B07N6ZL6J3",
+      "title": "GCI Outdoor RoadTrip Rocker – Comodidad al Aire Libre",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-008",
+      "asin": "B0BZZSC2J2",
+      "title": "RAYMYLO One Gallon – Hidratación para tu Día a Día",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-009",
+      "asin": "B00ITWI74W",
+      "title": "Campus Colors NCAA Arch – Para tu Mejor Versión",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-010",
+      "asin": "B08X6VQBGJ",
+      "title": "WEKAPO Beach Blanket – Movilidad y Confort",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-011",
+      "asin": "B0167U8H9W",
+      "title": "Campus Colors NCAA Adult – Para tu Mejor Versión",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-012",
+      "asin": "B071V91LGC",
+      "title": "Vault X Zip Binder – Organización para tu Colección",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-013",
+      "asin": "B07518RBH2",
+      "title": "ZELUS Weighted Vest 6lb – Equipo para el Deportista",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-014",
+      "asin": "B0DHT5XZR1",
+      "title": "Callaway Golf Supersoft – Supera tus Límites",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-015",
+      "asin": "B0B7CJT5SP",
+      "title": "400 Pack Card – Calidad para el Movimiento",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-016",
+      "asin": "B08MY13HYC",
+      "title": "Ally Peaks Pull Up 440 lbs – Supera tus Límites",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-017",
+      "asin": "B0DGHBV6XS",
+      "title": "HydroJug Sport - 32oz – Hidratación Caliente o Fría por Horas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-018",
+      "asin": "B0791F4VC2",
+      "title": "HERCULES 10LB – Para tu Mejor Versión",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-019",
+      "asin": "B079MFSX6Z",
+      "title": "Gorich Beach Tent – Rendimiento Activo",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-001",
+      "asin": "B08412PTS8",
+      "title": "HP 67XL – Impresión de Alta Calidad",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-002",
+      "asin": "B072FVQNWM",
+      "title": "Hammermill Printer Paper 20 lb – Impresión Profesional y Confiable",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-003",
+      "asin": "B01EBDV9BU",
+      "title": "Everlasting Comfort Doctor Recommended – Comodidad para Largas Jornadas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-004",
+      "asin": "B01AV8PPOQ",
+      "title": "HP 952 Cartuchos de Color – Colores Vibrantes para tu Impresora",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-005",
+      "asin": "B07N3FYTW5",
+      "title": "HP 910XL – Impresión de Alta Calidad",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-006",
+      "asin": "B07MCYDD62",
+      "title": "HP 962 Cartuchos de Color – Resultados Profesionales en Casa",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-007",
+      "asin": "B0B1M6ML2J",
+      "title": "WOWBOX – Orden y Productividad en tu Escritorio",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-001",
+      "asin": "B01N9SPQHQ",
+      "title": "La Roche-Posay Toleriane Double – Hidratación Profunda para tu Piel",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-002",
+      "asin": "B071RCMQNG",
+      "title": "Palmer's Cocoa Butter – Cuidado Intensivo para tu Piel",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-003",
+      "asin": "B09ZKYQMVD",
+      "title": "Vtopmart – Orden para tu Rutina de Belleza",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-004",
+      "asin": "B093W7CDWD",
+      "title": "Colorescience Total Protection – Piel Saludable y Radiante",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-005",
+      "asin": "B00GDIL0AM",
+      "title": "Trilastin Stretch Mark 4 oz – Hidratación Profunda para tu Piel",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-001",
+      "asin": "B00BAGTNAQ",
+      "title": "ChomChom Roller Pet – Ropa Libre de Pelo de Mascota",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-002",
+      "asin": "B08N6VLJKV",
+      "title": "Muddy Mat Super Absorbent – Estilo y Confort para tu Espacio",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-003",
+      "asin": "B004IEH6RY",
+      "title": "Julius-K9 16IDC – Control Seguro sin Dañar a tu Mascota",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-004",
+      "asin": "B089RGDQBB",
+      "title": "Bedsure Orthopedic Dog – Descanso Ortopédico para tu Mascota",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-005",
+      "asin": "B07GL8SLKY",
+      "title": "ARM & HAMMER Clump Seal 37 lbs – Control de Olores y Fácil Limpieza",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-006",
+      "asin": "B01I3DIWDM",
+      "title": "Jasonwell Foldable Dog – Diversión y Frescura para tu Mascota",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-007",
+      "asin": "B08QV42S5F",
+      "title": "ShawnCo Essential Dog – Control Seguro sin Dañar a tu Mascota",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-008",
+      "asin": "B0CBVTKP97",
+      "title": "Spark Paws 2XL – Abrigo y Estilo para tu Mascota",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-009",
+      "asin": "B0CGJG25PV",
+      "title": "Purina Tidy Cats Free 38 lb – Control de Olores y Fácil Limpieza",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-010",
+      "asin": "B07JHG13WP",
+      "title": "Fluval – Agua Limpia y Saludable para tus Peces",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-011",
+      "asin": "B0BDLGZCTY",
+      "title": "EHEYCIGA Orthopedic Dog – Descanso Ortopédico para tu Mascota",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-012",
+      "asin": "B0C3HYJCWB",
+      "title": "FXW Rollick Unleashed 24 inch – Espacio Seguro para Jugar y Explorar",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-013",
+      "asin": "B00O8SZTKQ",
+      "title": "Marineland Portrait Glass – Ecosistema Acuático Completo",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-014",
+      "asin": "B0BTTNPLF5",
+      "title": "PUPIBOO Washable Pee – Calidad para tu Compañero",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-001",
+      "asin": "B0BJ13K7FR",
+      "title": "Pampers Sensitive Baby – Higiene y Cuidado para tu Bebé",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-002",
+      "asin": "B010OVZO64",
+      "title": "Pampers Swaddlers Diapers 37 lbs – Protección y Confort para tu Bebé",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-003",
+      "asin": "B01845QH7M",
+      "title": "Dr. Brown's Natural Flow 8 oz – Alimentación Segura y sin Cólicos",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-004",
+      "asin": "B0964CHD65",
+      "title": "Philips Avent SCY903 9oz – Cuidado Esencial",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-005",
+      "asin": "B0081GJ038",
+      "title": "Love to Dream Swaddle UP 13lbs – Sueño Seguro y Tranquilo",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-006",
+      "asin": "B0GN3G5S58",
+      "title": "Alpine Muffy Baby – Sonido Premium y Cancelación de Ruido",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-007",
+      "asin": "B09GM8JZM9",
+      "title": "HelloBaby HB6550 – Imagen Clara para Trabajo y Entretenimiento",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-008",
+      "asin": "B09X1CV5SS",
+      "title": "Mama Koala – Protección y Confort para tu Bebé",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "beb-009",
+      "asin": "B0GT6Z19FS",
+      "title": "Hello Bello Premium Wipes – Lo Mejor para tu Bebé",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-001",
+      "asin": "B00UXG4WR8",
+      "title": "everydrop EDR1RXD1 – Agua Pura y Limpia desde tu Nevera",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-002",
+      "asin": "B00UB38V2A",
+      "title": "everydrop EDR4RXD1 – Agua Pura y Limpia desde tu Nevera",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-003",
+      "asin": "B087279HM1",
+      "title": "HBTower Step Ladder – Altura Segura para cada Trabajo",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-004",
+      "asin": "B074HLRXMP",
+      "title": "LG LT1000P – Agua Pura y Limpia desde tu Nevera",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-005",
+      "asin": "B0882ZJ48W",
+      "title": "GE XWFE Refrigerator – Agua Pura y Limpia desde tu Nevera",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-006",
+      "asin": "B075NS8YXG",
+      "title": "Brightech Ambience Pro – Iluminación Elegante para Exteriores",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-007",
+      "asin": "B09TGQYRYT",
+      "title": "HUANCHAIN 16AWG – Alcance y Potencia donde lo Necesitas",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-008",
+      "asin": "B099WTN2TR",
+      "title": "Govee RGBIC Floor – Iluminación Moderna para tu Espacio",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-009",
+      "asin": "B0757TX3VX",
+      "title": "HVAC Premium 32x8 Return – Flujo de Aire Limpio y Controlado",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-010",
+      "asin": "B0DQHFG94H",
+      "title": "BOZYBO Rain Shower – Ducha Premium en tu Hogar",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-011",
+      "asin": "B07TQKT16K",
+      "title": "Go Hang It! Pro – Decoración Precisa y sin Complicaciones",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    }
+  ],
+  "suppressedCount": 0,
+  "recoveredAllTime": 0,
+  "driftRepairsAllTime": 0
+}

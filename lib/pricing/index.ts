@@ -1,4 +1,4 @@
-/**
+﻿/**
  * GOODPRICE Pricing Infrastructure — Public API
  *
  * Single import point for all pricing functionality.
@@ -19,7 +19,7 @@
  * │                                                                          │
  * │  ⏳ DEFERRED (Phase N+2 — First real integration)                        │
  * │     • Supabase client + database migrations                              │
- * │     • MercadoLibre Items API integration (easiest — official API)       │
+ * │     • Amazon PA-API for image refresh and ASIN verification    │
  * │     • Admin UI for manual price entry                                    │
  * │     • /api/prices/[productId] route                                      │
  * │     • /api/jobs/price-check Vercel Cron route                           │
@@ -97,7 +97,6 @@ export {
   getAllRetailers,
   // Named providers (for direct access when retailer is known at compile time)
   amazonProvider,
-  mercadoLibreProvider,
   alkostoProvider,
   falabellaProvider,
   exitoProvider,

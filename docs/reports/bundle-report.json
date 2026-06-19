@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-06-18T00:00:00.000Z",
+  "sprint": "5C",
+  "totalPages": 205,
+  "firstLoadJsKb": 87.3,
+  "heaviestPages": [
+    { "route": "/seguimiento",         "sizeKb": 4.53, "firstLoadKb": 123 },
+    { "route": "/productos/[asin]",    "sizeKb": 2.03, "firstLoadKb": 133 },
+    { "route": "/categorias/[slug]",   "sizeKb": 0.19, "firstLoadKb": 132 },
+    { "route": "/productos",           "sizeKb": 0.18, "firstLoadKb": 132 },
+    { "route": "/ofertas",             "sizeKb": 0.19, "firstLoadKb": 132 }
+  ],
+  "sharedChunks": [
+    { "file": "chunks/fd9d1056-764cda20c6e1258e.js", "sizeKb": 53.6, "notes": "Largest shared chunk — likely React + framework core" },
+    { "file": "chunks/117-b58b1d92618859a3.js",      "sizeKb": 31.7, "notes": "Second shared chunk" },
+    { "file": "other shared chunks (total)",          "sizeKb": 1.96 }
+  ],
+  "circularDependencies": {
+    "count": 0,
+    "tool": "madge@8.0.0",
+    "filesScanned": 590,
+    "result": "No circular dependency found!"
+  },
+  "unusedDependencies": {
+    "tool": "depcheck@1.4.7",
+    "unusedDeps": ["@aws-sdk/client-s3", "@radix-ui/react-select"],
+    "unusedDevDeps": ["playwright", "shadcn"],
+    "falsePositives": [
+      { "package": "postcss",  "reason": "required by tailwindcss — depcheck cannot detect indirect usage" },
+      { "package": "mdx",      "reason": "types provided by next-mdx-remote — not a direct dependency" }
+    ],
+    "actionRequired": [
+      "REMOVE @aws-sdk/client-s3 — confirmed unused across all .ts/.tsx files",
+      "REMOVE @radix-ui/react-select — confirmed unused across all components",
+      "KEEP playwright — reserved for future E2E tests",
+      "KEEP shadcn — CLI tool for adding components (not imported)"
+    ]
+  },
+  "recommendations": [
+    "First Load JS (87.3 kB) is well within target (<100 kB) — no action needed",
+    "No page exceeds 200 kB first-load — healthy for mobile",
+    "Consider dynamic import for admin page if admin bundle grows past 5 kB",
+    "Remove @aws-sdk/client-s3 and @radix-ui/react-select to reduce install footprint",
+    "The fd9d1056 chunk (53.6 kB) is framework core — cannot be reduced without React alternatives"
+  ]
+}

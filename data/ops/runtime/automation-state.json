@@ -1,0 +1,21 @@
+{
+  "updatedAt": "2026-06-18T01:57:19.444Z",
+  "automations": {
+    "cycle-3am": {
+      "id": "cycle-3am",
+      "lastRunAt": "2026-06-18T01:57:19.416Z",
+      "nextRunAt": "2026-06-18T03:00:00.000Z",
+      "averageDurationMs": 20926,
+      "lastStatus": "success",
+      "totalRuns": 1
+    },
+    "trm-update": {
+      "id": "trm-update",
+      "lastRunAt": "2026-06-18T01:57:19.444Z",
+      "nextRunAt": null,
+      "averageDurationMs": 0,
+      "lastStatus": "failed",
+      "totalRuns": 1
+    }
+  }
+}

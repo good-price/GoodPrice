@@ -106,14 +106,19 @@ export async function POST(req: NextRequest) {
   const getPriceFn = async (productId: string): Promise<number | null> => {
     try {
       const offers = await store.getOffers(productId)
+      // Best available offer: prefer Amazon, accept any non-discontinued retailer
       const best = offers
         .filter(
           o =>
-            o.retailerId === 'mercadolibre' &&
             o.availability !== 'out_of_stock' &&
             o.availability !== 'discontinued',
         )
-        .sort((a, b) => a.priceUSD - b.priceUSD)[0]
+        .sort((a, b) => {
+          // Amazon first, then by price ascending
+          if (a.retailerId === 'amazon' && b.retailerId !== 'amazon') return -1
+          if (b.retailerId === 'amazon' && a.retailerId !== 'amazon') return 1
+          return a.priceUSD - b.priceUSD
+        })[0]
       return best?.priceUSD ?? null
     } catch {
       return null
@@ -122,7 +127,8 @@ export async function POST(req: NextRequest) {
 
   const getSnapshotsFn = async (productId: string) => {
     try {
-      return await store.getSnapshots(productId, 'mercadolibre')
+      // All snapshots — detection engine compares against previous records
+      return await store.getSnapshots(productId)
     } catch {
       return []
     }

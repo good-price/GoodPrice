@@ -1,0 +1,2117 @@
+{
+  "updatedAt": "2026-06-19T05:05:47.769Z",
+  "products": {
+    "B00SFSU53G": {
+      "asin": "B00SFSU53G",
+      "category": "electronica",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09DT48V16": {
+      "asin": "B09DT48V16",
+      "category": "electronica",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07S8DZ1T5": {
+      "asin": "B07S8DZ1T5",
+      "category": "electronica",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B075ZRJ263": {
+      "asin": "B075ZRJ263",
+      "category": "electronica",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CRTYZG5C": {
+      "asin": "B0CRTYZG5C",
+      "category": "electronica",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DXXYS4BJ": {
+      "asin": "B0DXXYS4BJ",
+      "category": "electronica",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07VHR4Y8G": {
+      "asin": "B07VHR4Y8G",
+      "category": "gaming",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CQKKHT5J": {
+      "asin": "B0CQKKHT5J",
+      "category": "gaming",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CJTCQRNL": {
+      "asin": "B0CJTCQRNL",
+      "category": "gaming",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0C8VHZR14": {
+      "asin": "B0C8VHZR14",
+      "category": "gaming",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01M16WBW1": {
+      "asin": "B01M16WBW1",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0BZYCJK89": {
+      "asin": "B0BZYCJK89",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01LYNW421": {
+      "asin": "B01LYNW421",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07F97MPYT": {
+      "asin": "B07F97MPYT",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07Q8RTRW3": {
+      "asin": "B07Q8RTRW3",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01HMWWLCI": {
+      "asin": "B01HMWWLCI",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0D6C6GS58": {
+      "asin": "B0D6C6GS58",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09PQF39PG": {
+      "asin": "B09PQF39PG",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0C3PDTYYX": {
+      "asin": "B0C3PDTYYX",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B088BZTYFP": {
+      "asin": "B088BZTYFP",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07H76BZW8": {
+      "asin": "B07H76BZW8",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0D89V1RX1": {
+      "asin": "B0D89V1RX1",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0BVZFQ4DF": {
+      "asin": "B0BVZFQ4DF",
+      "category": "hogar",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B073WJMKHN": {
+      "asin": "B073WJMKHN",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0GC8SZL6Y": {
+      "asin": "B0GC8SZL6Y",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CGRGRXPY": {
+      "asin": "B0CGRGRXPY",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08N9Q24M9": {
+      "asin": "B08N9Q24M9",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B009HBKQ16": {
+      "asin": "B009HBKQ16",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0F2WPH4PF": {
+      "asin": "B0F2WPH4PF",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07773PQG7": {
+      "asin": "B07773PQG7",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08C7YS3YW": {
+      "asin": "B08C7YS3YW",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0FK1MWXCW": {
+      "asin": "B0FK1MWXCW",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08QXJ31WR": {
+      "asin": "B08QXJ31WR",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0BJV68C17": {
+      "asin": "B0BJV68C17",
+      "category": "cocina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B017AGGBTU": {
+      "asin": "B017AGGBTU",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DR9GN2PM": {
+      "asin": "B0DR9GN2PM",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01LP0U5X0": {
+      "asin": "B01LP0U5X0",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0731DWW5K": {
+      "asin": "B0731DWW5K",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DR9ML5X9": {
+      "asin": "B0DR9ML5X9",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07P95K1ZT": {
+      "asin": "B07P95K1ZT",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07N6ZL6J3": {
+      "asin": "B07N6ZL6J3",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0BZZSC2J2": {
+      "asin": "B0BZZSC2J2",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00ITWI74W": {
+      "asin": "B00ITWI74W",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08X6VQBGJ": {
+      "asin": "B08X6VQBGJ",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0167U8H9W": {
+      "asin": "B0167U8H9W",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B071V91LGC": {
+      "asin": "B071V91LGC",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07518RBH2": {
+      "asin": "B07518RBH2",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DHT5XZR1": {
+      "asin": "B0DHT5XZR1",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0B7CJT5SP": {
+      "asin": "B0B7CJT5SP",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08MY13HYC": {
+      "asin": "B08MY13HYC",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DGHBV6XS": {
+      "asin": "B0DGHBV6XS",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0791F4VC2": {
+      "asin": "B0791F4VC2",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B079MFSX6Z": {
+      "asin": "B079MFSX6Z",
+      "category": "deporte",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08412PTS8": {
+      "asin": "B08412PTS8",
+      "category": "oficina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B072FVQNWM": {
+      "asin": "B072FVQNWM",
+      "category": "oficina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01EBDV9BU": {
+      "asin": "B01EBDV9BU",
+      "category": "oficina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01AV8PPOQ": {
+      "asin": "B01AV8PPOQ",
+      "category": "oficina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07N3FYTW5": {
+      "asin": "B07N3FYTW5",
+      "category": "oficina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07MCYDD62": {
+      "asin": "B07MCYDD62",
+      "category": "oficina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0B1M6ML2J": {
+      "asin": "B0B1M6ML2J",
+      "category": "oficina",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01N9SPQHQ": {
+      "asin": "B01N9SPQHQ",
+      "category": "belleza",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B071RCMQNG": {
+      "asin": "B071RCMQNG",
+      "category": "belleza",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09ZKYQMVD": {
+      "asin": "B09ZKYQMVD",
+      "category": "belleza",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B093W7CDWD": {
+      "asin": "B093W7CDWD",
+      "category": "belleza",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00GDIL0AM": {
+      "asin": "B00GDIL0AM",
+      "category": "belleza",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00BAGTNAQ": {
+      "asin": "B00BAGTNAQ",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08N6VLJKV": {
+      "asin": "B08N6VLJKV",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B004IEH6RY": {
+      "asin": "B004IEH6RY",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B089RGDQBB": {
+      "asin": "B089RGDQBB",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07GL8SLKY": {
+      "asin": "B07GL8SLKY",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01I3DIWDM": {
+      "asin": "B01I3DIWDM",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08QV42S5F": {
+      "asin": "B08QV42S5F",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CBVTKP97": {
+      "asin": "B0CBVTKP97",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CGJG25PV": {
+      "asin": "B0CGJG25PV",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07JHG13WP": {
+      "asin": "B07JHG13WP",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0BDLGZCTY": {
+      "asin": "B0BDLGZCTY",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0C3HYJCWB": {
+      "asin": "B0C3HYJCWB",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00O8SZTKQ": {
+      "asin": "B00O8SZTKQ",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0BTTNPLF5": {
+      "asin": "B0BTTNPLF5",
+      "category": "mascotas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0BJ13K7FR": {
+      "asin": "B0BJ13K7FR",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B010OVZO64": {
+      "asin": "B010OVZO64",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01845QH7M": {
+      "asin": "B01845QH7M",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0964CHD65": {
+      "asin": "B0964CHD65",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0081GJ038": {
+      "asin": "B0081GJ038",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0GN3G5S58": {
+      "asin": "B0GN3G5S58",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09GM8JZM9": {
+      "asin": "B09GM8JZM9",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09X1CV5SS": {
+      "asin": "B09X1CV5SS",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0GT6Z19FS": {
+      "asin": "B0GT6Z19FS",
+      "category": "bebes",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00UXG4WR8": {
+      "asin": "B00UXG4WR8",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00UB38V2A": {
+      "asin": "B00UB38V2A",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B087279HM1": {
+      "asin": "B087279HM1",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B074HLRXMP": {
+      "asin": "B074HLRXMP",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0882ZJ48W": {
+      "asin": "B0882ZJ48W",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B075NS8YXG": {
+      "asin": "B075NS8YXG",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09TGQYRYT": {
+      "asin": "B09TGQYRYT",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B099WTN2TR": {
+      "asin": "B099WTN2TR",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0757TX3VX": {
+      "asin": "B0757TX3VX",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DQHFG94H": {
+      "asin": "B0DQHFG94H",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07TQKT16K": {
+      "asin": "B07TQKT16K",
+      "category": "herramientas",
+      "recommendationScore": 30,
+      "opportunityScore": 0,
+      "confidenceScore": 50,
+      "qualityScore": 50,
+      "trend": "stable",
+      "reasons": [
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DZ75TN5F": {
+      "asin": "B0DZ75TN5F",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07G2KT7FN": {
+      "asin": "B07G2KT7FN",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0B27HX6P7": {
+      "asin": "B0B27HX6P7",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B004Q69HIU": {
+      "asin": "B004Q69HIU",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00CJZ8LAK": {
+      "asin": "B00CJZ8LAK",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07FP5X3JH": {
+      "asin": "B07FP5X3JH",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B071NFVVNG": {
+      "asin": "B071NFVVNG",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00VBP8QPO": {
+      "asin": "B00VBP8QPO",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00CK01P2A": {
+      "asin": "B00CK01P2A",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00C7N7L1E": {
+      "asin": "B00C7N7L1E",
+      "category": "herramientas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CQMRKRV5": {
+      "asin": "B0CQMRKRV5",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CFPJYX7P": {
+      "asin": "B0CFPJYX7P",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09B8V1LZ3": {
+      "asin": "B09B8V1LZ3",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08KW1KR5H": {
+      "asin": "B08KW1KR5H",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CTNWBT1Z": {
+      "asin": "B0CTNWBT1Z",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0FQFB8FMG": {
+      "asin": "B0FQFB8FMG",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DGHMNQ5Z": {
+      "asin": "B0DGHMNQ5Z",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0F7Z4QZTT": {
+      "asin": "B0F7Z4QZTT",
+      "category": "electronica",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00L1G7K50": {
+      "asin": "B00L1G7K50",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08412HXK9": {
+      "asin": "B08412HXK9",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B06ZY9LP74": {
+      "asin": "B06ZY9LP74",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DR9S2DQR": {
+      "asin": "B0DR9S2DQR",
+      "category": "hogar",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0764HS4SL": {
+      "asin": "B0764HS4SL",
+      "category": "hogar",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0FK1C3GDW": {
+      "asin": "B0FK1C3GDW",
+      "category": "deporte",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0FGFPLQFH": {
+      "asin": "B0FGFPLQFH",
+      "category": "deporte",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07TFP7JFH": {
+      "asin": "B07TFP7JFH",
+      "category": "gaming",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07CMS5Q6P": {
+      "asin": "B07CMS5Q6P",
+      "category": "gaming",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07GBZ4Q68": {
+      "asin": "B07GBZ4Q68",
+      "category": "gaming",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CXGTGPZQ": {
+      "asin": "B0CXGTGPZQ",
+      "category": "gaming",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0C3BV19Q3": {
+      "asin": "B0C3BV19Q3",
+      "category": "gaming",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CYWFH5Y9": {
+      "asin": "B0CYWFH5Y9",
+      "category": "gaming",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07D323MFZ": {
+      "asin": "B07D323MFZ",
+      "category": "mascotas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B005OB3E30": {
+      "asin": "B005OB3E30",
+      "category": "mascotas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B001650NNW": {
+      "asin": "B001650NNW",
+      "category": "mascotas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B072DTFZHL": {
+      "asin": "B072DTFZHL",
+      "category": "mascotas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00CU2CMOI": {
+      "asin": "B00CU2CMOI",
+      "category": "mascotas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B001STX13U": {
+      "asin": "B001STX13U",
+      "category": "mascotas",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B09541P9WH": {
+      "asin": "B09541P9WH",
+      "category": "belleza",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08KT2Z93D": {
+      "asin": "B08KT2Z93D",
+      "category": "belleza",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B071914GGL": {
+      "asin": "B071914GGL",
+      "category": "belleza",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00U2VQZDS": {
+      "asin": "B00U2VQZDS",
+      "category": "belleza",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07PBXXNCY": {
+      "asin": "B07PBXXNCY",
+      "category": "belleza",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B01FV0F8H8": {
+      "asin": "B01FV0F8H8",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00006IFHD": {
+      "asin": "B00006IFHD",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B000J07BRQ": {
+      "asin": "B000J07BRQ",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B001AFL8GY": {
+      "asin": "B001AFL8GY",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B07R8D1RHS": {
+      "asin": "B07R8D1RHS",
+      "category": "oficina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0CRMYHY1B": {
+      "asin": "B0CRMYHY1B",
+      "category": "cocina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00S93EQUK": {
+      "asin": "B00S93EQUK",
+      "category": "cocina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B08J8GZXKZ": {
+      "asin": "B08J8GZXKZ",
+      "category": "cocina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0DR9PJNSK": {
+      "asin": "B0DR9PJNSK",
+      "category": "cocina",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00ITWI0VC": {
+      "asin": "B00ITWI0VC",
+      "category": "deporte",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B0GFBC33B9": {
+      "asin": "B0GFBC33B9",
+      "category": "deporte",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B00E632SZW": {
+      "asin": "B00E632SZW",
+      "category": "deporte",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    },
+    "B076FKWJSL": {
+      "asin": "B076FKWJSL",
+      "category": "deporte",
+      "recommendationScore": 43,
+      "opportunityScore": 0,
+      "confidenceScore": 75,
+      "qualityScore": 75,
+      "trend": "stable",
+      "reasons": [
+        "Alta confianza en el dato",
+        "Producto de alta calidad en catálogo",
+        "Producto validado recientemente"
+      ],
+      "createdAt": "2026-06-19T05:05:47.769Z"
+    }
+  }
+}

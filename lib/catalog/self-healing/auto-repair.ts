@@ -22,6 +22,9 @@
 import { getPublicProducts }          from '@/lib/catalog/public'
 import { getAllProducts }             from '@/data/catalog'
 import { getSuppressedCount }        from '@/lib/catalog/live-truth'
+import { runLifecycleScan }          from '@/lib/catalog/lifecycle'
+import { rebuildRecommendations }    from '@/lib/catalog/recommendations/state'
+import { generateAlerts }            from '@/lib/catalog/alerts/state'
 import { identifyStaleProducts }     from './stale-engine'
 import { runArchiveEngine }          from './archive-engine'
 import { runRecoveryEngine }         from './recovery-engine'
@@ -129,6 +132,14 @@ export async function runHealingCycle(
 
   if (!dryRun) {
     saveHealingReport(report)
+  }
+
+  // Sprint 4D: refresh lifecycle store after each healing cycle
+  if (!dryRun) {
+    runLifecycleScan(`heal-${Date.now()}`)
+    // Sprint 4F: rebuild recommendations + alerts after lifecycle is updated
+    rebuildRecommendations()
+    generateAlerts()
   }
 
   return {

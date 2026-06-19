@@ -11,7 +11,7 @@
  * Data flow:
  *   FileStore → raw offers + snapshots
  *   → ui-data.ts computes display signals
- *   → PriceComparisonPanel renders
+ *   → AmazonPricePanel renders
  */
 
 import type { RetailerOffer, PriceHistoryPoint, PriceTrend } from './types'
@@ -38,14 +38,14 @@ export interface HistoryStats {
 }
 
 export interface ProductPricingUIData {
-  /** ML offer (mercadolibre), null if not yet fetched */
-  mlOffer:     RetailerOffer | null
+  /** Best Amazon offer in store, null if price-check job hasn't run yet */
+  amazonOffer:   RetailerOffer | null
   /** All offers for this product */
-  allOffers:   RetailerOffer[]
+  allOffers:     RetailerOffer[]
   /** Last time any offer was checked (ISO string) or null */
   lastCheckedAt: string | null
   /** Computed history stats (null if < 3 data points) */
-  historyStats: HistoryStats | null
+  historyStats:  HistoryStats | null
 }
 
 // ── Buy signal ────────────────────────────────────────────────────────────────
@@ -114,7 +114,9 @@ export async function getProductPricingUIData(
     // No data at all → return null (component renders nothing)
     if (allOffers.length === 0) return null
 
-    const mlOffer = allOffers.find(o => o.retailerId === 'mercadolibre') ?? null
+    const amazonOffer = allOffers
+      .filter(o => o.retailerId === 'amazon' && o.availability !== 'discontinued')
+      .sort((a, b) => a.priceUSD - b.priceUSD)[0] ?? null
 
     // Most recent check timestamp across all offers
     const lastCheckedAt = allOffers
@@ -122,11 +124,11 @@ export async function getProductPricingUIData(
       .sort()
       .pop() ?? null
 
-    // History stats
-    const historyStats = computeHistoryStats(history, mlOffer?.priceUSD ?? 0)
+    // History stats — anchored to current Amazon price
+    const historyStats = computeHistoryStats(history, amazonOffer?.priceUSD ?? 0)
 
     return {
-      mlOffer,
+      amazonOffer,
       allOffers,
       lastCheckedAt,
       historyStats,

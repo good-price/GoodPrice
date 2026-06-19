@@ -1,0 +1,13 @@
+{
+  "current": null,
+  "lastSession": {
+    "id": "maint-mqiunrnp-i9fcgf",
+    "mode": "manual",
+    "reason": "Test: expansión de categorías en ambiente de validación",
+    "startedAt": "2026-06-18T01:57:19.429Z",
+    "estimatedEndAt": "2026-06-18T02:07:19.428Z",
+    "completedAt": "2026-06-18T01:57:19.437Z",
+    "pipelineId": null,
+    "status": "completed"
+  }
+}

@@ -12,7 +12,7 @@
  * Request body (all optional):
  *   {
  *     "productIds": ["elec-001", "game-002"],  // subset mode
- *     "forceSearch": true                       // clear mlItemId, re-search
+ *     "forceSearch": true                       // force re-check all products
  *   }
  *
  * Response 200:

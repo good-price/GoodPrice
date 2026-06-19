@@ -27,13 +27,11 @@ import fs from 'fs/promises'
 import path from 'path'
 import type { PricingStore } from './types'
 import type { PriceSnapshot, RetailerOffer, PriceHistoryPoint } from '../types'
-import type { ProductMapping, MappingsStore } from '../ml/types'
 import { StoreError } from './types'
 
 // ── Path configuration ────────────────────────────────────────────────────────
 
 const DATA_ROOT    = path.join(process.cwd(), 'data', 'pricing')
-const MAPPINGS_PATH = path.join(DATA_ROOT, 'mappings.json')
 const SNAPSHOTS_DIR = path.join(DATA_ROOT, 'snapshots')
 const OFFERS_DIR    = path.join(DATA_ROOT, 'offers')
 
@@ -202,20 +200,4 @@ export class FileStore implements PricingStore {
     return aggregateToHistory(snapshots, days)
   }
 
-  // ── Mappings ──────────────────────────────────────────────────────────────
-
-  async getMappings(): Promise<MappingsStore> {
-    return readJSON<MappingsStore>(MAPPINGS_PATH, {})
-  }
-
-  async getMapping(productId: string): Promise<ProductMapping | null> {
-    const mappings = await this.getMappings()
-    return mappings[productId] ?? null
-  }
-
-  async saveMapping(mapping: ProductMapping): Promise<void> {
-    const mappings = await this.getMappings()
-    mappings[mapping.productId] = mapping
-    await writeJSON(MAPPINGS_PATH, mappings)
-  }
 }

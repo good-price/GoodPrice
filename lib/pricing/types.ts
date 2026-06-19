@@ -86,7 +86,7 @@ export type TrackingPriority = 'high' | 'normal' | 'low'
  * that handles URL building, normalization, and (future) fetching.
  */
 export interface Retailer {
-  /** Unique identifier — matches provider file name (e.g. 'amazon', 'mercadolibre') */
+  /** Unique identifier — matches provider file name (e.g. 'amazon', 'alkosto') */
   id: string
   /** Human-readable display name */
   name: string
@@ -128,7 +128,7 @@ export interface RetailerOffer {
   productId: string
   /** Retailer identifier (matches Retailer.id) */
   retailerId: string
-  /** Retailer's own product identifier (ASIN for Amazon, permalink ID for MercadoLibre, etc.) */
+  /** Retailer's own product identifier (ASIN for Amazon, SKU for local retailers, etc.) */
   externalId: string
   /** Direct product URL at the retailer */
   url: string

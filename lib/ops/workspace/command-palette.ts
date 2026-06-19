@@ -19,7 +19,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '◉',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-overview',
+    actionValue: '/admin',
     tags:        ['overview', 'estado', 'sistema', 'health'],
   },
   {
@@ -29,7 +29,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '▤',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-catalog',
+    actionValue: '/admin/catalog',
     tags:        ['catalogo', 'productos', 'tabla', 'operaciones'],
   },
   {
@@ -39,7 +39,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '◎',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-visibility',
+    actionValue: '/admin/audit',
     tags:        ['visibilidad', 'tiers', 'overrides', 'trust'],
   },
   {
@@ -49,7 +49,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '⟳',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-recovery',
+    actionValue: '/admin/ops',
     tags:        ['recovery', 'recuperacion', 'estabilizacion'],
   },
   {
@@ -59,7 +59,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '✓',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-validation',
+    actionValue: '/admin/audit',
     tags:        ['validacion', 'auditoria', 'cuarentena', 'truth'],
   },
   {
@@ -69,7 +69,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '⚙',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-repair',
+    actionValue: '/admin/images',
     tags:        ['reparacion', 'repair', 'imagenes', 'pipeline'],
   },
   {
@@ -79,7 +79,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '⟲',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-healing',
+    actionValue: '/admin/catalog',
     tags:        ['healing', 'autocuracion', 'autonomo'],
   },
   {
@@ -89,7 +89,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '◈',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-pricing',
+    actionValue: '/admin/pricing',
     tags:        ['precios', 'trm', 'drift', 'pricing'],
   },
   {
@@ -99,7 +99,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '◉',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-colombia',
+    actionValue: '/admin/audit',
     tags:        ['colombia', 'gate10', 'envios', 'amazon global'],
   },
   {
@@ -109,7 +109,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '▲',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-analytics',
+    actionValue: '/admin/analytics',
     tags:        ['analytics', 'clicks', 'categorias', 'sesiones'],
   },
   {
@@ -119,7 +119,7 @@ export const COMMAND_DEFS: CommandDef[] = [
     icon:        '≡',
     group:       'Navegar',
     actionType:  'navigate',
-    actionValue: 's-logs',
+    actionValue: '/admin/ops',
     tags:        ['logs', 'timeline', 'audit', 'historial'],
   },
 

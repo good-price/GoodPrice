@@ -152,24 +152,6 @@ export function buildPatchesForCandidate(
     })
   }
 
-  // ML candidates only produce patches if we had a direct image replacement
-  // (not ASIN replacement — that requires PA-API verification)
-  if (
-    candidate.source === 'mercadolibre' &&
-    candidate.imageUrl &&
-    candidate.imageVerified === true &&
-    product.image
-  ) {
-    // ML images can patch the image field only (no ASIN change)
-    patches.push({
-      filePath,
-      productId: product.id ?? '',
-      field: 'image',
-      oldValue: product.image,
-      newValue: candidate.imageUrl,
-    })
-  }
-
   return patches
 }
 
@@ -222,7 +204,7 @@ export async function repairProduct(
 
   // ── Candidate search ─────────────────────────────────────────────────────────
   try {
-    const rawCandidates = await searchCandidates(product, { searchMl: true })
+    const rawCandidates = await searchCandidates(product)
 
     // Score all candidates (includes image verification via HEAD requests)
     const scored = await scoreCandidates(rawCandidates, product, { verify: true })

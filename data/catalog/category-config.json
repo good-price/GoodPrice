@@ -1,0 +1,32 @@
+{
+  "electronica": {
+    "minimum": 15
+  },
+  "gaming": {
+    "minimum": 10
+  },
+  "hogar": {
+    "minimum": 20
+  },
+  "cocina": {
+    "minimum": 15
+  },
+  "deporte": {
+    "minimum": 25
+  },
+  "oficina": {
+    "minimum": 15
+  },
+  "belleza": {
+    "minimum": 10
+  },
+  "mascotas": {
+    "minimum": 20
+  },
+  "bebes": {
+    "minimum": 20
+  },
+  "herramientas": {
+    "minimum": 20
+  }
+}

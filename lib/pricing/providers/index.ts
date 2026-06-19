@@ -16,29 +16,26 @@
  *   3. Add to PROVIDER_REGISTRY
  *   4. Done — it's automatically available to all consumers
  *
- * Current providers (Phase 15):
- *   amazon       — primary; all catalog products live here
- *   mercadolibre — largest Colombian marketplace (future ML API)
- *   alkosto       — largest Colombian electronics chain (future scraper)
- *   falabella     — major Colombian retailer (future scraper)
- *   exito         — major Colombian retailer (future scraper)
+ * Current providers:
+ *   amazon    — primary; all catalog products live here (Amazon-Only strategy)
+ *   alkosto   — largest Colombian electronics chain (future scraper)
+ *   falabella — major Colombian retailer (future scraper)
+ *   exito     — major Colombian retailer (future scraper)
  */
 
 import type { RetailerProvider, ProviderRegistry, ProviderLookupResult } from './types'
-import { amazonProvider }       from './amazon'
-import { mercadoLibreProvider } from './mercadolibre'
-import { alkostoProvider }      from './alkosto'
-import { falabellaProvider }    from './falabella'
-import { exitoProvider }        from './exito'
+import { amazonProvider }   from './amazon'
+import { alkostoProvider }  from './alkosto'
+import { falabellaProvider } from './falabella'
+import { exitoProvider }    from './exito'
 
 // ── Registry ──────────────────────────────────────────────────────────────────
 
 export const PROVIDER_REGISTRY: ProviderRegistry = new Map<string, RetailerProvider>([
-  ['amazon',       amazonProvider],
-  ['mercadolibre', mercadoLibreProvider],
-  ['alkosto',      alkostoProvider],
-  ['falabella',    falabellaProvider],
-  ['exito',        exitoProvider],
+  ['amazon',    amazonProvider],
+  ['alkosto',   alkostoProvider],
+  ['falabella', falabellaProvider],
+  ['exito',     exitoProvider],
 ])
 
 // ── Accessors ─────────────────────────────────────────────────────────────────
@@ -91,5 +88,5 @@ export function getAllRetailers() {
 
 // ── Re-exports for convenience ────────────────────────────────────────────────
 
-export { amazonProvider, mercadoLibreProvider, alkostoProvider, falabellaProvider, exitoProvider }
+export { amazonProvider, alkostoProvider, falabellaProvider, exitoProvider }
 export type { RetailerProvider, ProviderRegistry, ProviderLookupResult } from './types'

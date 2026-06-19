@@ -1,0 +1,38 @@
+[
+  {
+    "date": "2026-06-19",
+    "totalRuns": 295,
+    "failedRuns": 150,
+    "successfulRuns": 95,
+    "partialRuns": 50,
+    "cancelledRuns": 0,
+    "cycleStatus": null,
+    "cycleDurationMs": null,
+    "lastCycleAt": null,
+    "updatedAt": "2026-06-19T05:05:47.768Z"
+  },
+  {
+    "date": "2026-06-18",
+    "totalRuns": 634,
+    "failedRuns": 316,
+    "successfulRuns": 211,
+    "partialRuns": 107,
+    "cancelledRuns": 0,
+    "cycleStatus": null,
+    "cycleDurationMs": null,
+    "lastCycleAt": null,
+    "updatedAt": "2026-06-19T04:54:19.673Z"
+  },
+  {
+    "date": "2026-06-17",
+    "totalRuns": 44,
+    "failedRuns": 0,
+    "cycleStatus": "success",
+    "cycleDurationMs": 20896,
+    "lastCycleAt": "2026-06-18T01:56:58.488Z",
+    "updatedAt": "2026-06-18T01:57:19.401Z",
+    "successfulRuns": 28,
+    "partialRuns": 0,
+    "cancelledRuns": 2
+  }
+]

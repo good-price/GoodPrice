@@ -9,16 +9,18 @@ import type { Metadata }          from 'next'
 import { getAllProducts }          from '@/data/catalog'
 import { analyseImageHealth }     from '@/lib/catalog/image-health'
 import { generateRepairReport }   from '@/lib/catalog/repair/reports'
+import { buildActivationReport }  from '@/lib/ops/activation/reports'
+import { PaapiStatusPanel }       from '@/components/ops/PaapiStatusPanel'
 import { SectionHeader, Card, StatCard, Th, Td, relativeTime } from '@/components/admin/shared'
-// UX-4: StatCard import kept — used in Repair Center (not CDN section)
 
 export const dynamic = 'force-dynamic'
 export const metadata: Metadata = { title: 'Imágenes — GOODPRICE Internal' }
 
 export default function ImagesPage() {
-  const products     = getAllProducts()
-  const imageHealth  = analyseImageHealth(products)
-  const repairReport = generateRepairReport()
+  const products         = getAllProducts()
+  const imageHealth      = analyseImageHealth(products)
+  const repairReport     = generateRepairReport()
+  const activationReport = buildActivationReport()
 
   // UX-2: cyan → green (healthy CDN = green, consistent with system color)
   // UX-4: bars already show count+% — removing duplicate StatCards above
@@ -79,29 +81,6 @@ export default function ImagesPage() {
           <StatCard label="Revisión manual" value={repairReport.pendingManualReview} warn={repairReport.pendingManualReview > 0} hideIfZero />
           <StatCard label="Tasa de éxito" value={`${repairReport.successRate}%`} accent={repairReport.successRate >= 70} warn={repairReport.successRate < 40} hideIfZero={repairReport.repairedAllTime === 0} />
         </div>
-
-        {/* PA-API readiness */}
-        <Card className={`mb-4 ${repairReport.needsPaapi > 0 ? 'border-orange-200 bg-orange-50/30' : 'border-green-100'}`}>
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1">PA-API Readiness</p>
-              <p className="text-sm font-semibold text-gray-700">
-                {repairReport.needsPaapi > 0
-                  ? `${repairReport.needsPaapi} productos requieren PA-API para recuperar imagen`
-                  : 'Sin productos que requieran PA-API'}
-              </p>
-              <p className="text-[10px] text-gray-400 mt-1">
-                Productos con patrón <code className="font-mono bg-gray-100 px-1 rounded">/images/P/</code> — ASIN muerto, requiere re-fetch manual via PA-API
-              </p>
-            </div>
-            <div className={`text-4xl font-black tabular-nums ${repairReport.needsPaapi > 0 ? 'text-orange-500' : 'text-green-500'}`}>
-              {repairReport.needsPaapi}
-            </div>
-          </div>
-          <p className="text-[10px] text-gray-400 mt-3 font-mono">
-            POST <span className="bg-gray-100 px-1 rounded">/api/catalog/repair/paapi-sync</span>
-          </p>
-        </Card>
 
         {/* Repair by category */}
         {repairReport.byCategory.filter(c => c.needsRepair > 0).length > 0 && (
@@ -180,6 +159,14 @@ export default function ImagesPage() {
             </p>
           </Card>
         )}
+      </section>
+
+      {/* ── PA-API Status ───────────────────────────────────────────────── */}
+      <section>
+        <SectionHeader>PA-API Status — recuperación de datos</SectionHeader>
+        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+          <PaapiStatusPanel initial={activationReport.paapiReadiness} />
+        </div>
       </section>
 
       {/* ── API reference ───────────────────────────────────────────────── */}

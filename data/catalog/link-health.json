@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-06-18T01:57:19.317Z",
+  "entries": {
+    "elec-001": {
+      "productId": "elec-001",
+      "asin": "B00SFSU53G",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:14.963Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "elec-002": {
+      "productId": "elec-002",
+      "asin": "B09DT48V16",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:15.059Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "elec-003": {
+      "productId": "elec-003",
+      "asin": "B07S8DZ1T5",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:15.065Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "elec-005": {
+      "productId": "elec-005",
+      "asin": "B0CRTYZG5C",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:15.993Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "elec-004": {
+      "productId": "elec-004",
+      "asin": "B075ZRJ263",
+      "status": "alive",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:16.083Z",
+      "consecutiveFails": 0,
+      "failureReason": null,
+      "redirectTarget": null
+    },
+    "elec-006": {
+      "productId": "elec-006",
+      "asin": "B0DXXYS4BJ",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:15.997Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "game-001": {
+      "productId": "game-001",
+      "asin": "B07VHR4Y8G",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:17.044Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "game-002": {
+      "productId": "game-002",
+      "asin": "B0CQKKHT5J",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:17.016Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "game-003": {
+      "productId": "game-003",
+      "asin": "B0CJTCQRNL",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:17.064Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "hogar-001": {
+      "productId": "hogar-001",
+      "asin": "B01M16WBW1",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:17.998Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "game-004": {
+      "productId": "game-004",
+      "asin": "B0C8VHZR14",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:18.037Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "hogar-002": {
+      "productId": "hogar-002",
+      "asin": "B0BZYCJK89",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:18.001Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "hogar-004": {
+      "productId": "hogar-004",
+      "asin": "B07F97MPYT",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:19.006Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "hogar-003": {
+      "productId": "hogar-003",
+      "asin": "B01LYNW421",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:19.316Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    },
+    "hogar-005": {
+      "productId": "hogar-005",
+      "asin": "B07Q8RTRW3",
+      "status": "rate-limited",
+      "httpStatus": 200,
+      "checkedAt": "2026-06-18T01:57:19.046Z",
+      "consecutiveFails": 0,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "redirectTarget": null
+    }
+  }
+}

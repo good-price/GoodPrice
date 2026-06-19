@@ -10,6 +10,7 @@ import { buildCopPriceMap } from '@/lib/currency'
 import { getCachedSnapshot } from '@/lib/catalog/intelligence/snapshot'
 import { buildDynamicBadgeMap } from '@/lib/catalog/badges'
 import { buildCategoryMetadata, SITE_URL, collectionPageSchema, breadcrumbSchema } from '@/lib/seo'
+import { TopRecommendations } from '@/components/catalog/TopRecommendations'
 
 interface PageProps {
   params: { slug: string }
@@ -80,6 +81,9 @@ export default function CategoryPage({ params }: PageProps) {
             </p>
           </div>
         </div>
+
+        {/* Top recommendations — renders only when recommendation data exists */}
+        <TopRecommendations category={params.slug} count={6} />
 
         {categoryProducts.length === 0 ? (
           <div className="text-center py-16 text-gray-400">

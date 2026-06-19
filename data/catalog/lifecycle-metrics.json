@@ -1,0 +1,12 @@
+{
+  "lastScanAt": "2026-06-19T05:05:47.676Z",
+  "totalScans": 71,
+  "lastScanDurationMs": 4,
+  "lastScanUpdated": 154,
+  "lastHealthBreakdown": {
+    "healthy": 154,
+    "aging": 0,
+    "stale": 0,
+    "critical": 0
+  }
+}

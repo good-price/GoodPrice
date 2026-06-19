@@ -3,7 +3,6 @@
  *
  * Used for:
  *   - PA-API requests (transient network failures)
- *   - MercadoLibre API requests
  *   - Any external API call that may fail transiently
  *
  * Does NOT retry on:

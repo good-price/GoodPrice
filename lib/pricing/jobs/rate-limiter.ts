@@ -1,7 +1,7 @@
 /**
  * GOODPRICE Pricing — In-Memory Rate Limiter
  *
- * Token bucket algorithm for rate limiting API requests to MercadoLibre.
+ * Token bucket algorithm for rate limiting API requests to external retailer APIs.
  * Designed for single-process use (Vercel Cron runs one function at a time).
  *
  * Token Bucket algorithm:
@@ -10,14 +10,10 @@
  *   - Each request consumes 1 token
  *   - If bucket is empty, wait until a token is available
  *
- * ML Public API limits (no auth):
- *   ~60 requests/minute = 1 req/second sustained
- *   We target 30 req/minute (0.5 req/sec) for safety margin.
- *
  * Usage:
- *   const limiter = createRateLimiter('mercadolibre')
+ *   const limiter = getRateLimiter('amazon')
  *   await limiter.acquire()    // waits if necessary
- *   const result = await mlFetch(...)
+ *   const result = await fetch(...)
  *
  * All functions are synchronous except `acquire()` which returns a Promise.
  */
@@ -45,11 +41,6 @@ export interface RateLimiter {
 // ── Per-retailer defaults ─────────────────────────────────────────────────────
 
 export const RATE_LIMITER_CONFIGS: Record<string, RateLimiterConfig> = {
-  mercadolibre: {
-    capacity:           10,   // burst: up to 10 back-to-back before throttling
-    refillRatePerSecond: 0.5, // sustained: 30 requests/minute
-    minDelayMs:          200, // always at least 200ms between requests
-  },
   amazon: {
     capacity:           3,
     refillRatePerSecond: 0.17, // ~10 requests/minute

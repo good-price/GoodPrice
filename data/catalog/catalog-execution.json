@@ -1,0 +1,26 @@
+{
+  "isRunning": false,
+  "category": "hogar",
+  "stage": "completed",
+  "deficit": 5,
+  "found": 0,
+  "validated": 0,
+  "admitted": 0,
+  "startedAt": "2026-06-19T05:05:43.927Z",
+  "completedAt": "2026-06-19T05:05:43.933Z",
+  "pipelineId": "cf-1781845543927",
+  "currentBatch": 1,
+  "totalBatches": 1,
+  "currentCandidate": null,
+  "errors": [],
+  "iterations": 1,
+  "remainingDeficit": 16,
+  "lastAdmittedAsin": "B076FKWJSL",
+  "currentCategory": null,
+  "categoriesProcessed": 2,
+  "categoriesResolved": 0,
+  "refreshedPools": [
+    "hogar"
+  ],
+  "warnings": []
+}

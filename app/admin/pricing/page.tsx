@@ -17,7 +17,6 @@ import { buildActivationReport }  from '@/lib/ops/activation/reports'
 import { loadReport as loadTruthReport } from '@/lib/catalog/live-truth'
 import { TrmStatusPanel }         from '@/components/ops/TrmStatusPanel'
 import { TruthQueuePanel }        from '@/components/ops/TruthQueuePanel'
-import { PaapiStatusPanel }       from '@/components/ops/PaapiStatusPanel'
 import { SectionHeader, Card, StatCard, HealthBar } from '@/components/admin/shared'
 
 export const dynamic = 'force-dynamic'
@@ -211,14 +210,6 @@ export default async function PricingPage() {
         <SectionHeader>Truth Queue — cola de validación</SectionHeader>
         <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
           <TruthQueuePanel initial={activationReport.truthQueue} />
-        </div>
-      </section>
-
-      {/* ── PA-API readiness ─────────────────────────────────────────────── */}
-      <section>
-        <SectionHeader>PA-API Readiness — recuperación de datos</SectionHeader>
-        <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-          <PaapiStatusPanel initial={activationReport.paapiReadiness} />
         </div>
       </section>
 

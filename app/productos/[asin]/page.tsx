@@ -9,15 +9,21 @@ import { buildProductMetadata, SITE_URL } from '@/lib/seo'
 import { productSchema, breadcrumbSchema } from '@/lib/seo'
 import { categories } from '@/data/categories'
 import { getProductPricingUIData } from '@/lib/pricing/ui-data'
-import { PriceComparisonPanel } from '@/components/pricing/PriceComparisonPanel'
+import { AmazonPricePanel } from '@/components/pricing/AmazonPricePanel'
 import { WatchButton } from '@/components/watchlist/WatchButton'
 import { getProductImageSrc } from '@/lib/catalog/placeholders'
-import { getCachedSnapshot, getSnapshotRelatedProducts } from '@/lib/catalog/intelligence/snapshot'
 import { ProductCard } from '@/components/ProductCard'
 import { buildCopPriceMap, formatCOP, getCachedRate } from '@/lib/currency'
-import { ProductDetailCTA } from '@/components/tracking/ProductDetailCTA'
-import { TrackPageView }    from '@/components/TrackPageView'
-import { TrackSession }     from '@/components/TrackSession'
+import { ProductDetailCTA }  from '@/components/tracking/ProductDetailCTA'
+import { TrackPageView }     from '@/components/TrackPageView'
+import { TrackSession }      from '@/components/TrackSession'
+import { getProductIntelligence } from '@/lib/catalog/product-intelligence/reader'
+import { getRelatedProducts }     from '@/lib/catalog/similarity'
+import { ProductBadges }   from '@/components/catalog/intelligence/ProductBadges'
+import { ProductScores }   from '@/components/catalog/intelligence/ProductScores'
+import { ProductReasons }  from '@/components/catalog/intelligence/ProductReasons'
+import { ProductAlerts }   from '@/components/catalog/intelligence/ProductAlerts'
+import { SupportGoodPrice } from '@/components/catalog/SupportGoodPrice'
 
 export const dynamic = 'force-dynamic'
 
@@ -85,12 +91,11 @@ export default async function ProductoPage({ params }: PageProps) {
   // `product.id` is the internal catalog ID (e.g. "elec-001")
   const pricingData = await getProductPricingUIData(product.id ?? '')
 
-  // Related products — powered by intelligence snapshot when available.
-  // Gracefully absent on first deploy (before admin generates a snapshot).
-  const snapshot        = getCachedSnapshot()
-  const relatedProducts = snapshot
-    ? getSnapshotRelatedProducts(product, getPublicProducts(), snapshot, 4)
-    : []
+  // Product intelligence — aggregated from recommendations, lifecycle, alerts
+  const intelligence = getProductIntelligence(product.asin!)
+
+  // Related products — Sprint 5A: ranked by recommendation + quality + trend
+  const relatedProducts = getRelatedProducts(product.asin!, product.category, 4)
 
   // COP pricing — server-side, zero client-side fetches
   const rate           = getCachedRate()
@@ -228,19 +233,6 @@ export default async function ProductoPage({ params }: PageProps) {
                 </p>
               </div>
 
-              {/* Local price callout — when ML offer exists */}
-              {pricingData?.mlOffer && (
-                <div className="flex items-center gap-2 text-sm">
-                  <span className="text-gray-500">En Colombia:</span>
-                  <span className="font-semibold text-gray-800">
-                    ${pricingData.mlOffer.priceUSD.toFixed(2)} USD
-                  </span>
-                  <span className="text-gray-400 text-xs">
-                    ($ {Math.round(pricingData.mlOffer.price).toLocaleString('es-CO')} COP)
-                  </span>
-                </div>
-              )}
-
               {/* CTA — client component: fires trackProductClick() on every click */}
               <ProductDetailCTA
                 affiliateUrl={affiliateUrl}
@@ -275,17 +267,37 @@ export default async function ProductoPage({ params }: PageProps) {
           </div>
         </article>
 
-        {/* ── Price comparison panel ────────────────────────────────────── */}
-        {/*
-          Renders only when ML offer data exists in the store.
-          Gracefully absent on first run (before the price-check job runs).
-        */}
-        <PriceComparisonPanel
+        {/* ── Amazon price panel ───────────────────────────────────────── */}
+        {/* Renders only when pricing data exists (after first price-check cron run). */}
+        <AmazonPricePanel
           productId={product.id ?? ''}
           amazonPriceUSD={product.price}
           amazonUrl={affiliateUrl}
           pricingData={pricingData}
         />
+
+        {/* ── Product Intelligence ─────────────────────────────────────── */}
+        {/* Renders progressively: each sub-component hides itself when empty. */}
+        {(intelligence.badges.length > 0 ||
+          intelligence.recommendationScore > 0 ||
+          intelligence.alerts.length > 0) && (
+          <div className="mt-6 bg-white rounded-2xl border border-gray-100 shadow-sm p-6 space-y-5">
+            <ProductBadges badges={intelligence.badges} />
+            <ProductScores
+              recommendationScore={intelligence.recommendationScore}
+              opportunityScore={intelligence.opportunityScore}
+              confidenceScore={intelligence.confidenceScore}
+              qualityScore={intelligence.qualityScore}
+            />
+            <ProductReasons reasons={intelligence.recommendationReasons} />
+            <ProductAlerts  alerts={intelligence.alerts} />
+          </div>
+        )}
+
+        {/* ── Support GOODPRICE ─────────────────────────────────────────── */}
+        <div className="mt-6">
+          <SupportGoodPrice />
+        </div>
 
         {/* ── Related products ──────────────────────────────────────────── */}
         {relatedProducts.length > 0 && (

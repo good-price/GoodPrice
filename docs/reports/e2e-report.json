@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-06-19T05:05:45.704Z",
+  "passed": 20,
+  "failed": 0,
+  "total": 20,
+  "status": "PASS",
+  "results": [
+    {
+      "name": "runtime catalog has ≥ 1 products",
+      "status": "PASS"
+    },
+    {
+      "name": "totalProducts === products.length invariant holds",
+      "status": "PASS"
+    },
+    {
+      "name": "sync returns > 0 products seeded",
+      "status": "PASS"
+    },
+    {
+      "name": "lifecycle store has entry for sample ASIN",
+      "status": "PASS"
+    },
+    {
+      "name": "lifecycle store updatedAt is string or null",
+      "status": "PASS"
+    },
+    {
+      "name": "runPricingScan() returns valid object",
+      "status": "PASS"
+    },
+    {
+      "name": "price history store valid after scan",
+      "status": "PASS"
+    },
+    {
+      "name": "runRecommendationScan() returns valid object",
+      "status": "PASS"
+    },
+    {
+      "name": "recommendations store has products map after scan",
+      "status": "PASS"
+    },
+    {
+      "name": "runAlertScan() returns valid object",
+      "status": "PASS"
+    },
+    {
+      "name": "alerts store has alerts map after scan",
+      "status": "PASS"
+    },
+    {
+      "name": "getProductIntelligence(sampleAsin) returns valid object",
+      "status": "PASS"
+    },
+    {
+      "name": "getProductIntelligence(unknownAsin) → score 0",
+      "status": "PASS"
+    },
+    {
+      "name": "getRuntimeProductByAsin(sampleAsin) returns product",
+      "status": "PASS"
+    },
+    {
+      "name": "product page data contract: asin + score + badges + reasons",
+      "status": "PASS"
+    },
+    {
+      "name": "getRuntimeCategoryProducts(sampleCategory) returns ≥ 1 product",
+      "status": "PASS"
+    },
+    {
+      "name": "getRelatedProducts(sampleAsin, sampleCategory) returns array",
+      "status": "PASS"
+    },
+    {
+      "name": "every recommendation ASIN exists in runtime catalog",
+      "status": "PASS"
+    },
+    {
+      "name": "every alert ASIN exists in runtime catalog",
+      "status": "PASS"
+    },
+    {
+      "name": "every lifecycle entry ASIN exists in runtime catalog",
+      "status": "PASS"
+    }
+  ]
+}

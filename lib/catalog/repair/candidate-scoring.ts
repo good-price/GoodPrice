@@ -10,8 +10,8 @@
  *   reviewScore   0–15  availability / review-count proxy
  *   categoryScore 0–15  brand/category keyword match
  *
- * For cdn_swap candidates the scoring is deterministic and skips
- * the ML-only fields (reviews, MercadoLibre permalink).
+ * For cdn_swap candidates the scoring is deterministic (same product — perfect scores).
+ * Future sources (amazon_page, paapi, manual) will score against all dimensions.
  *
  * Usage:
  *   const scored = await scoreCandidate(candidate, product)
@@ -119,23 +119,18 @@ export function computePriceScore(
 /**
  * Review/availability score (0–15).
  * CDN swap candidates always score 15 (same product).
- * ML candidates:
- *   +5 pts  product is "new" condition
- *   +5 pts  has a price (proxy for being in stock)
- *   +5 pts  has free shipping
- * Note: ML search API returns availability via "available_quantity" but we
- * don't receive that in the RepairCandidate. We use available fields instead.
+ * Other sources:
+ *   +10 pts  has a price (proxy for being in stock)
+ *   +5 pts   has a provider-specific ID (confirmed product from the source)
  */
 export function computeReviewScore(
   candidate: RepairCandidate,
 ): number {
   if (candidate.source === 'cdn_swap') return 15
 
-  // For ML candidates we only have what mlProductToCandidate() passed through:
-  // price (proxy for in-stock), no explicit review count yet.
   let score = 0
-  if (candidate.price && candidate.price > 0) score += 10 // has price → likely available
-  if (candidate.mlItemId) score += 5                       // confirmed ML product
+  if (candidate.price && candidate.price > 0) score += 10
+  if (candidate.providerId) score += 5
 
   return Math.min(score, 15)
 }

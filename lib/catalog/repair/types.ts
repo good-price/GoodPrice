@@ -29,10 +29,10 @@ export type RepairStatus =
 // ── Candidate image URL types ──────────────────────────────────────────────────
 
 export type CandidateSource =
-  | 'cdn_swap'          // simple CDN prefix substitution (images-na → m.media-amazon)
-  | 'mercadolibre'      // found via MercadoLibre free search API
-  | 'amazon_page'       // scraped from Amazon product page (fragile, low priority)
-  | 'manual'            // manually provided by admin
+  | 'cdn_swap'      // simple CDN prefix substitution (images-na → m.media-amazon)
+  | 'amazon_page'   // scraped from Amazon product page (not yet implemented)
+  | 'paapi'         // Amazon Product Advertising API (not yet implemented)
+  | 'manual'        // manually provided by admin (not yet implemented)
 
 // ── Candidate score breakdown ──────────────────────────────────────────────────
 
@@ -56,10 +56,10 @@ export interface RepairCandidate {
   title?: string
   /** Price of candidate (USD) */
   price?: number
-  /** MercadoLibre item ID (for reference) */
-  mlItemId?: string
-  /** MercadoLibre permalink (for admin review) */
-  mlPermalink?: string
+  /** Provider-specific product identifier (e.g. PA-API ASIN, admin entry ID) */
+  providerId?: string
+  /** Provider-specific product URL (for admin review) */
+  providerUrl?: string
   /** Overall confidence 0–100 */
   confidence: number
   scoreBreakdown: CandidateScoreBreakdown

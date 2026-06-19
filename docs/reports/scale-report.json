@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-06-19T05:05:47.947Z",
+  "passed": 9,
+  "failed": 0,
+  "total": 9,
+  "status": "PASS",
+  "results": [
+    {
+      "name": "readRuntimeCatalog() × 50",
+      "status": "PASS",
+      "medianMs": 0.6675000000000182,
+      "maxMs": 2.046500000000009
+    },
+    {
+      "name": "getProductIntelligence() × 50",
+      "status": "PASS",
+      "medianMs": 0.8930000000000007,
+      "maxMs": 1.929300000000012
+    },
+    {
+      "name": "getRelatedProducts() × 50",
+      "status": "PASS",
+      "medianMs": 7.191500000000019,
+      "maxMs": 22.3116
+    },
+    {
+      "name": "runLifecycleScan() × 3",
+      "status": "PASS"
+    },
+    {
+      "name": "runRecommendationScan() × 3",
+      "status": "PASS"
+    },
+    {
+      "name": "runAlertScan() × 3",
+      "status": "PASS"
+    },
+    {
+      "name": "runPricingScan() × 3",
+      "status": "PASS"
+    }
+  ]
+}

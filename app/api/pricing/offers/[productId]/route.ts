@@ -10,11 +10,10 @@
  *     "productId": "elec-001",
  *     "offers": [
  *       {
- *         "retailerId": "mercadolibre",
+ *         "retailerId": "amazon",
  *         "priceUSD": 312.65,
- *         "priceCOP": 1299000,
  *         "availability": "in_stock",
- *         "url": "https://articulo.mercadolibre.com.co/MCO-...",
+ *         "url": "https://www.amazon.com/dp/B0CHWRXH8B",
  *         "lastCheckedAt": "2025-05-26T14:30:00Z"
  *       }
  *     ]

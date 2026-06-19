@@ -4,11 +4,10 @@
  * Parses raw availability signals from any retailer into a typed AvailabilityStatus.
  *
  * Each retailer expresses availability differently:
- *   Amazon:       "In Stock", "Only 3 left", "Currently unavailable"
- *   MercadoLibre: API fields (status: "active", available_quantity: 5)
- *   Alkosto:      "Disponible", "Agotado", "Pocas unidades"
- *   Falabella:    "Disponible", "Agotado", quantity indicator
- *   Éxito:        VTEX IsAvailable boolean + stock count
+ *   Amazon:   "In Stock", "Only 3 left", "Currently unavailable"
+ *   Alkosto:  "Disponible", "Agotado", "Pocas unidades"
+ *   Falabella: "Disponible", "Agotado", quantity indicator
+ *   Éxito:    VTEX IsAvailable boolean + stock count
  *
  * This module provides:
  *   1. normalizeAvailabilityString — for text-based availability
@@ -94,7 +93,7 @@ export function normalizeAvailabilityString(rawStatus: string): AvailabilityStat
 
 /**
  * Derive availability from a raw stock quantity number.
- * Used when the retailer provides a numeric quantity (MercadoLibre API, VTEX).
+ * Used when the retailer provides a numeric quantity (VTEX, PA-API, scrapers).
  *
  * @param quantity - Available quantity (0 = out of stock, null/undefined = unknown)
  * @returns Typed availability status

@@ -1,0 +1,18 @@
+{
+  "updatedAt": "2026-06-19T05:05:43.904Z",
+  "categories": {
+    "hogar": {
+      "category": "hogar",
+      "totalRuns": 150,
+      "successfulRuns": 0,
+      "partialRuns": 0,
+      "failedRuns": 150,
+      "totalParsed": 0,
+      "totalValidated": 0,
+      "totalSaved": 0,
+      "totalRejected": 0,
+      "averageDurationMs": 5297.519999999998,
+      "lastRunAt": "2026-06-19T05:05:43.904Z"
+    }
+  }
+}

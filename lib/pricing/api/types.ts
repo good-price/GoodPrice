@@ -280,13 +280,6 @@ export const RETAILER_RATE_LIMITS: Record<string, RateLimitConfig> = {
     minDelayBetweenMs:   2_000,
     circuitOpen:         false,
   },
-  mercadolibre: {
-    retailerId:          'mercadolibre',
-    requestsPerMinute:   30,   // ML API: 3,000/hour free tier
-    requestsPerHour:     1_800,
-    minDelayBetweenMs:   500,
-    circuitOpen:         false,
-  },
   alkosto: {
     retailerId:          'alkosto',
     requestsPerMinute:   5,    // scraper — very conservative

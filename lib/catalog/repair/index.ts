@@ -8,8 +8,8 @@
  *
  * The repair system can work without PA-API credentials:
  *   - Fixes broken images-na CDN URLs via CDN swap (high confidence, auto-applied)
- *   - Uses MercadoLibre free search as a reference source (lower confidence, manual review)
  *   - Flags /images/P/ paths as 'needs_paapi' (cannot fix without product image hash)
+ *   - Future sources: amazon_page, paapi, manual (stubs return empty arrays)
  *
  * When PA-API credentials are available:
  *   - Use scripts/paapi-sync.ts for full ASIN verification and image refresh
@@ -45,12 +45,13 @@ export {
 // ── Candidate search ───────────────────────────────────────────────────────────
 export {
   searchCandidates,
+  searchAmazonPage,
+  searchPaapi,
+  searchManualOverrides,
   buildCdnSwapCandidate,
   buildRepairedImageUrl,
   verifyImageUrl,
   buildSearchQuery,
-  searchMercadoLibre,
-  mlProductToCandidate,
 } from './candidate-search'
 
 // ── Candidate scoring ──────────────────────────────────────────────────────────

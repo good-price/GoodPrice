@@ -1,0 +1,77 @@
+{
+  "updatedAt": "2026-06-18T01:57:19.380Z",
+  "jobs": {
+    "trust-recompute": {
+      "jobType": "trust-recompute",
+      "lastRunAt": "2026-06-18T01:56:58.520Z",
+      "lastDurationMs": 14,
+      "averageDurationMs": 14,
+      "totalRuns": 2,
+      "successfulRuns": 2,
+      "partialRuns": 0,
+      "failedRuns": 0,
+      "cancelledRuns": 0,
+      "lastStatus": "success"
+    },
+    "self-healing": {
+      "jobType": "self-healing",
+      "lastRunAt": "2026-06-18T01:56:58.572Z",
+      "lastDurationMs": 44,
+      "averageDurationMs": 36,
+      "totalRuns": 2,
+      "successfulRuns": 2,
+      "partialRuns": 0,
+      "failedRuns": 0,
+      "cancelledRuns": 0,
+      "lastStatus": "success"
+    },
+    "live-truth": {
+      "jobType": "live-truth",
+      "lastRunAt": "2026-06-18T01:57:14.808Z",
+      "lastDurationMs": 16223,
+      "averageDurationMs": 15829,
+      "totalRuns": 2,
+      "successfulRuns": 2,
+      "partialRuns": 0,
+      "failedRuns": 0,
+      "cancelledRuns": 0,
+      "lastStatus": "success"
+    },
+    "link-audit": {
+      "jobType": "link-audit",
+      "lastRunAt": "2026-06-18T01:57:19.327Z",
+      "lastDurationMs": 4508,
+      "averageDurationMs": 4485,
+      "totalRuns": 2,
+      "successfulRuns": 2,
+      "partialRuns": 0,
+      "failedRuns": 0,
+      "cancelledRuns": 0,
+      "lastStatus": "success"
+    },
+    "colombia-audit": {
+      "jobType": "colombia-audit",
+      "lastRunAt": "2026-06-18T01:57:19.359Z",
+      "lastDurationMs": 16,
+      "averageDurationMs": 15,
+      "totalRuns": 2,
+      "successfulRuns": 2,
+      "partialRuns": 0,
+      "failedRuns": 0,
+      "cancelledRuns": 0,
+      "lastStatus": "success"
+    },
+    "repair": {
+      "jobType": "repair",
+      "lastRunAt": "2026-06-18T01:57:19.380Z",
+      "lastDurationMs": 7,
+      "averageDurationMs": 5,
+      "totalRuns": 2,
+      "successfulRuns": 2,
+      "partialRuns": 0,
+      "failedRuns": 0,
+      "cancelledRuns": 0,
+      "lastStatus": "success"
+    }
+  }
+}

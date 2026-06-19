@@ -1,5 +1,5 @@
 /**
- * GET /api/pricing/history/[productId]?days=90&retailer=mercadolibre
+ * GET /api/pricing/history/[productId]?days=90&retailer=amazon
  *
  * Returns aggregated daily price history for a catalog product.
  * History is derived from accumulated price snapshots.
@@ -19,7 +19,7 @@
  *         "lowestPriceUSD": 298.12,
  *         "highestPriceUSD": 312.65,
  *         "averagePriceUSD": 305.38,
- *         "bestRetailerId": "mercadolibre",
+ *         "bestRetailerId": "amazon",
  *         "endOfDayAvailability": "in_stock",
  *         "snapshotCount": 3
  *       }

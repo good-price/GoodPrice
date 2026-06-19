@@ -1,0 +1,406 @@
+{
+  "generatedAt": "2026-06-15T13:22:05.503Z",
+  "totalProducts": 99,
+  "confidenceDistribution": {
+    "gte_095": 70,
+    "090_to_094": 0,
+    "085_to_089": 8,
+    "lt_085": 21
+  },
+  "summaryByCategory": [
+    {
+      "category": "bebes",
+      "count": 9,
+      "avgConf": 0.94,
+      "minConf": 0.8,
+      "maxConf": 1
+    },
+    {
+      "category": "belleza",
+      "count": 5,
+      "avgConf": 0.93,
+      "minConf": 0.8,
+      "maxConf": 1
+    },
+    {
+      "category": "cocina",
+      "count": 11,
+      "avgConf": 0.92,
+      "minConf": 0.8,
+      "maxConf": 1
+    },
+    {
+      "category": "deporte",
+      "count": 19,
+      "avgConf": 0.89,
+      "minConf": 0.65,
+      "maxConf": 1
+    },
+    {
+      "category": "electronica",
+      "count": 6,
+      "avgConf": 0.97,
+      "minConf": 0.8,
+      "maxConf": 1
+    },
+    {
+      "category": "gaming",
+      "count": 4,
+      "avgConf": 1,
+      "minConf": 1,
+      "maxConf": 1
+    },
+    {
+      "category": "herramientas",
+      "count": 11,
+      "avgConf": 1,
+      "minConf": 1,
+      "maxConf": 1
+    },
+    {
+      "category": "hogar",
+      "count": 13,
+      "avgConf": 0.96,
+      "minConf": 0.8,
+      "maxConf": 1
+    },
+    {
+      "category": "mascotas",
+      "count": 14,
+      "avgConf": 0.98,
+      "minConf": 0.8,
+      "maxConf": 1
+    },
+    {
+      "category": "oficina",
+      "count": 7,
+      "avgConf": 0.88,
+      "minConf": 0.65,
+      "maxConf": 1
+    }
+  ],
+  "top20best": [
+    {
+      "id": "elec-001",
+      "category": "electronica",
+      "amazonTitle": "Mounting Dream TV Wall Mount for 32-65 Inch Television, Mount with Swivel and Tilt, Full Motion Bracket with Articulating Dual Arms, Fits 16inch Studs, Max VESA 400X400 mm, 99lbs, MD2380",
+      "title": "Mounting Dream MD2380 65 Inch – Instalación Segura y Vista Perfecta",
+      "shortTitle": "Mounting Dream MD2380",
+      "confidence": 1
+    },
+    {
+      "id": "elec-002",
+      "category": "electronica",
+      "amazonTitle": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Earbuds with Mic for TV Smart Phone Laptop Computer Sports",
+      "title": "TAGRY IPX5 – Sonido Premium y Cancelación de Ruido",
+      "shortTitle": "TAGRY IPX5",
+      "confidence": 1
+    },
+    {
+      "id": "elec-003",
+      "category": "electronica",
+      "amazonTitle": "Sleek Socket Original & Patented Flat Ultra-Thin Outlet Concealer with Extension Cord Kit, Multi Outlets Power Strip, Ideal for Home Improvement, Hide Bulky and Messy Cords, 3ft",
+      "title": "Sleek Socket Original Patented – Control de Energía para tu Hogar",
+      "shortTitle": "Sleek Socket Original Patented",
+      "confidence": 1
+    },
+    {
+      "id": "elec-005",
+      "category": "electronica",
+      "amazonTitle": "Soundcore P30i by Anker Noise Cancelling Earbuds, Strong and Smart Noise Cancelling, Powerful Bass, 45H Playtime, 2-in-1 Case and Phone Stand, IP54, Wireless Earbuds, Bluetooth 5.4 (Black)",
+      "title": "Soundcore IP54 – Audio Inalámbrico de Alta Calidad",
+      "shortTitle": "Soundcore IP54",
+      "confidence": 1
+    },
+    {
+      "id": "elec-006",
+      "category": "electronica",
+      "amazonTitle": "Roku Streaming Stick HD — HD Streaming Device for TV with Roku Voice Remote, Free & Live TV",
+      "title": "Roku Streaming Stick – Entretenimiento sin Límites en tu TV",
+      "shortTitle": "Roku Streaming Stick",
+      "confidence": 1
+    },
+    {
+      "id": "game-001",
+      "category": "gaming",
+      "amazonTitle": "Nintendo Neon Purple/Neon Orange Joy-Con (L-R) - Switch",
+      "title": "Nintendo Joy-Con – Control Preciso para Cada Partida",
+      "shortTitle": "Nintendo Joy-Con",
+      "confidence": 1
+    },
+    {
+      "id": "game-002",
+      "category": "gaming",
+      "amazonTitle": "PlayStation DualSense Wireless Controller - Midnight Black",
+      "title": "PlayStation DualSense Wireless – Control Preciso para Cada Partida",
+      "shortTitle": "PlayStation DualSense Wireless",
+      "confidence": 1
+    },
+    {
+      "id": "game-003",
+      "category": "gaming",
+      "amazonTitle": "PlayStation DualSense Wireless Controller - Sterling Silver",
+      "title": "PlayStation DualSense Wireless – Control Preciso para Cada Partida",
+      "shortTitle": "PlayStation DualSense Wireless",
+      "confidence": 1
+    },
+    {
+      "id": "game-004",
+      "category": "gaming",
+      "amazonTitle": "Super Mario Bros. Wonder - Nintendo Switch (US Version)",
+      "title": "Nintendo Super Mario – Aventura y Entretenimiento Garantizados",
+      "shortTitle": "Nintendo Super Mario",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-002",
+      "category": "hogar",
+      "amazonTitle": "Owala FreeSip Insulated Stainless Steel Water Bottle with Straw, BPA-Free Sports Water Bottle, Great for Travel, 24 Oz, Denim",
+      "title": "Owala FreeSip Insulated 24 Oz – Hidratación para tu Día a Día",
+      "shortTitle": "Owala FreeSip Insulated",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-003",
+      "category": "hogar",
+      "amazonTitle": "Beckham Hotel Collection Bed Pillows Standard/Queen Size Set of 2 - Original Soft Down Alternative Pillow for Sleeping - Soft Support for Back, Stomach or Side Sleepers",
+      "title": "Beckham Hotel Collection Bed Pillows – Soporte Perfecto para tu Descanso",
+      "shortTitle": "Beckham Hotel Collection Bed Pillows",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-004",
+      "category": "hogar",
+      "amazonTitle": "Extra Deep Queen Sheet Set - 6 Piece Breathable and Cooling Sheets - Hotel Luxury Bedding for Women, Men, Kids & Teens - Easy & Secure Fit - Soft, Wrinkle Free and Comfy - Extra Deep Pockets - Grey",
+      "title": "Extra Deep Queen Sheet Set – Suavidad y Confort para tu Cama",
+      "shortTitle": "Extra Deep Queen Sheet Set",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-005",
+      "category": "hogar",
+      "amazonTitle": "Deconovo Navy Blue Blackout Curtains 2 Panel Set for Bedroom, Thermal Insulated Grommet Room Darkening Window Drapes for Living Room, Silver Wave Foil Print, 52W x 84L Inch",
+      "title": "Deconovo Blackout Curtains 84L – Oscuridad Total para Dormir Mejor",
+      "shortTitle": "Deconovo Blackout Curtains",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-007",
+      "category": "hogar",
+      "amazonTitle": "HydroJug Traveler - 32 oz Water Bottle with Handle & Flip Straw - Fits in Cup Holder, Leak Resistant Tumbler - Reusable Insulated Stainless Steel & Rubber Base - Gifts for Women & Men, Pink Sand",
+      "title": "HydroJug Traveler - 32 oz – Hidratación Caliente o Fría por Horas",
+      "shortTitle": "HydroJug Traveler -",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-008",
+      "category": "hogar",
+      "amazonTitle": "GOOTOP Bug Zapper Outdoor, Mosquito Zapper, 3 Prong Plug in Electric Fly Zapper, Mosquito Killer, Fly Traps, Flying Insects Zapper Indoor Outdoor, 4200V, ABS Plastic Outer (Black)",
+      "title": "GOOTOP Bug Zapper – Protección contra Insectos sin Químicos",
+      "shortTitle": "GOOTOP Bug Zapper",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-010",
+      "category": "hogar",
+      "amazonTitle": "Amazon Basics 16x20x1 Air Filter 6-Pack, MERV 8 AC Furnace Filters, Allergy Control, Removes Dust, Lint and Pollen, Electrostatic (Actual Size: 15.75\" x 19.75\" x 0.75\")",
+      "title": "Amazon Basics 16x20x1 Air – Filtración de Aire para tu Sistema HVAC",
+      "shortTitle": "Amazon Basics 16x20x1 Air",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-011",
+      "category": "hogar",
+      "amazonTitle": "SUNNY GUARD Sun Shade Sail 10' x 13' Rectangle Sand UV Block Sunshade for Backyard Yard Deck Patio Garden Outdoor Activities and Facility (We Make Custom Size)",
+      "title": "SUNNY GUARD Sun Shade – Sombra y Protección UV al Aire Libre",
+      "shortTitle": "SUNNY GUARD Sun Shade",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-012",
+      "category": "hogar",
+      "amazonTitle": "2x6 Hallway Washable Runner Rug: Vintage Soft Kitchen Laundry Runner with Non Slip Backing Farmhouse Entryway Living Room Floor Mat Stain Resistant Carpet for Bedroom Bathroom Distressed Beside Rug",
+      "title": "2x6 Hallway Washable – Estilo y Confort para tu Espacio",
+      "shortTitle": "2x6 Hallway Washable",
+      "confidence": 1
+    },
+    {
+      "id": "hogar-013",
+      "category": "hogar",
+      "amazonTitle": "LEVOIT Tower Fan for Bedroom, 90° Oscillating Standing Fan with 28dB Quiet for Sleep, 25ft/s Velocity, 12H Timer, 5 Speeds 4 Modes, Remote, Bladeless Room Fan for Home, Office, Indoor, 36 inch, White",
+      "title": "LEVOIT Tower Fan 36 inch – Frescura Silenciosa para tu Espacio",
+      "shortTitle": "LEVOIT Tower Fan",
+      "confidence": 1
+    },
+    {
+      "id": "coci-001",
+      "category": "cocina",
+      "amazonTitle": "YETI Rambler 20 oz Stainless Steel Vacuum Insulated Tumbler w/MagSlider Lid",
+      "title": "YETI Rambler 20 oz – Hidratación Caliente o Fría por Horas",
+      "shortTitle": "YETI Rambler",
+      "confidence": 1
+    }
+  ],
+  "top20weakest": [
+    {
+      "id": "dep-012",
+      "category": "deporte",
+      "amazonTitle": "Vault X 9 Pocket Zip Binder, 360 Cards, Exo-Tec Material, 20 Side-Loading Pages (Black)",
+      "title": "Vault X – Movilidad y Confort",
+      "shortTitle": "Vault X artículo deportivo",
+      "confidence": 0.65
+    },
+    {
+      "id": "ofic-004",
+      "category": "oficina",
+      "amazonTitle": "HP 952 Cyan, Magenta, Yellow Ink Cartridges (3-Pack) | Works with Printer Series: OfficeJet 8702, OfficeJet Pro 7720, 7740, 8210, 8710, 8720, 8730, 8740 | Eligible for Instant Ink | N9K27AN",
+      "title": "HP – Rendimiento Profesional",
+      "shortTitle": "HP artículo de oficina",
+      "confidence": 0.65
+    },
+    {
+      "id": "ofic-006",
+      "category": "oficina",
+      "amazonTitle": "HP 962 Cyan, Magenta, Yellow Ink Cartridges | Works with OfficeJet 9010, 9020 | Eligible for Instant Ink | 3YP00AN",
+      "title": "HP – Rendimiento Profesional",
+      "shortTitle": "HP artículo de oficina",
+      "confidence": 0.65
+    },
+    {
+      "id": "elec-004",
+      "category": "electronica",
+      "amazonTitle": "iBirdie Outdoor TV Cover 52 to 55 inch Weatherproof, Cover Size 52''L x 31''H, Waterproof for Outside Flat Screen 52 to 55 inch TV, Black, 600D Thick Fabric Screen Protector with Bottom",
+      "title": "iBirdie Outdoor TV 55 inch – Tecnología Avanzada",
+      "shortTitle": "iBirdie Outdoor TV",
+      "confidence": 0.8
+    },
+    {
+      "id": "hogar-006",
+      "category": "hogar",
+      "amazonTitle": "American Flag Made in USA | American Flags for Outside 3X5 | Premium US Flag 3X5 Heavy Duty Outdoor with Embroidered Stars and Sewn Stripes",
+      "title": "American Flag American Flags – Calidad que Perdura",
+      "shortTitle": "American Flag American Flags",
+      "confidence": 0.8
+    },
+    {
+      "id": "coci-005",
+      "category": "cocina",
+      "amazonTitle": "Tramontina Professional 10-Inch Non Stick Frying Pan, Heavy-Gauge Aluminum Skillet with Reinforced Nonstick Coating, Red Handle, Dishwasher and Oven Safe",
+      "title": "Tramontina Professional 10-Inch – Calidad para tu Mesa",
+      "shortTitle": "Tramontina Professional 10-Inch",
+      "confidence": 0.8
+    },
+    {
+      "id": "coci-007",
+      "category": "cocina",
+      "amazonTitle": "GORILLA GRIP powerGRIP Drawer Shelf and Cabinet Liner, Thick Strong Hold, Non-Adhesive Liners Protect Kitchen Cabinets and Cupboard, Bathroom Drawers, Easy Install Mat, 12\" x 20', Beige",
+      "title": "Gorilla Grip powerGRIP Drawer – Cocinado Fácil y Rápido",
+      "shortTitle": "Gorilla Grip powerGRIP Drawer",
+      "confidence": 0.8
+    },
+    {
+      "id": "coci-008",
+      "category": "cocina",
+      "amazonTitle": "Frost Buddy Universal Can Cooler - Fits All - For Regular 12 & 16 oz or Slim-Size Bottles - Insulated Double-Walled Stainless Steel (Matte Black)",
+      "title": "Frost Buddy Universal Can 16 oz – Eficiencia Culinaria",
+      "shortTitle": "Frost Buddy Universal Can",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-009",
+      "category": "deporte",
+      "amazonTitle": "Campus Colors NCAA Arch & Logo Gameday Hoodie - Officially Licensed College Hooded Sweatshirt - Cotton Blend - Unisex Adult",
+      "title": "Campus Colors NCAA Arch – Para tu Mejor Versión",
+      "shortTitle": "Campus Colors NCAA Arch",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-010",
+      "category": "deporte",
+      "amazonTitle": "WEKAPO Beach Blanket Sandproof Waterproof, Extra Large Beach Mat, Oversized & Compact Sand Free, Quick Drying Beach Essentials for Vacation, Cruise, Picnic & Camping with Stakes",
+      "title": "WEKAPO Beach Blanket – Movilidad y Confort",
+      "shortTitle": "WEKAPO Beach Blanket",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-011",
+      "category": "deporte",
+      "amazonTitle": "Campus Colors NCAA Adult Arch and Logo Gameday Crewneck Sweatshirt Fleece Lined Pullover - Officially Licensed",
+      "title": "Campus Colors NCAA Adult – Para tu Mejor Versión",
+      "shortTitle": "Campus Colors NCAA Adult",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-013",
+      "category": "deporte",
+      "amazonTitle": "ZELUS Weighted Vest, 6lb/8lb/12lb/16lb/20lb/25lb/30lb Weight Vest with Reflective Stripe for Workout, Strength Training, Running, Fitness, Muscle Building, Weight Loss, Weightlifting",
+      "title": "ZELUS Weighted Vest 6lb – Equipo para el Deportista",
+      "shortTitle": "ZELUS Weighted Vest",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-014",
+      "category": "deporte",
+      "amazonTitle": "Callaway Golf Supersoft Golf Balls (2025)",
+      "title": "Callaway Golf Supersoft – Supera tus Límites",
+      "shortTitle": "Callaway Golf Supersoft",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-015",
+      "category": "deporte",
+      "amazonTitle": "400 Pack Card Sleeves Hard Plastic, 3\"x4\" Baseball Cards Protectors Plastic, Premium Card Holder for Trading Sports Baseball Football Game Cards (200 Rigid + 200 Clear)",
+      "title": "400 Pack Card – Calidad para el Movimiento",
+      "shortTitle": "400 Pack Card",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-016",
+      "category": "deporte",
+      "amazonTitle": "Ally Peaks Pull Up Bar for Doorway | Thickened Steel Max Limit 440 lbs Upper Body Fitness Workout Bar | Multi-Grip Strength for Doorway | Indoor Chin-Up Bar Fitness Trainer for Home Gym Portable",
+      "title": "Ally Peaks Pull Up 440 lbs – Supera tus Límites",
+      "shortTitle": "Ally Peaks Pull Up",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-018",
+      "category": "deporte",
+      "amazonTitle": "HERCULES Cost-Effective Super Cast 8 Strands Braided Fishing Line 10LB to 300LB Test for Salt-Water, 109/328/547/1094 Yards, Hi-Grade Performance, Variety Colors",
+      "title": "HERCULES 10LB – Para tu Mejor Versión",
+      "shortTitle": "HERCULES 10LB",
+      "confidence": 0.8
+    },
+    {
+      "id": "dep-019",
+      "category": "deporte",
+      "amazonTitle": "Gorich Beach Tent Sun Shelter for 3/4/6/8/10 Person with UPF 50+ UV Protection, Lightweight & Easy Setup Beach Shade Canopy, Portable Beach Shade Tent Beach Cabana",
+      "title": "Gorich Beach Tent – Rendimiento Activo",
+      "shortTitle": "Gorich Beach Tent",
+      "confidence": 0.8
+    },
+    {
+      "id": "bel-004",
+      "category": "belleza",
+      "amazonTitle": "Colorescience Total Protection Face Shield Flex SPF 50, 1.8 fl. oz.",
+      "title": "Colorescience Total Protection – Piel Saludable y Radiante",
+      "shortTitle": "Colorescience Total Protection",
+      "confidence": 0.8
+    },
+    {
+      "id": "masc-014",
+      "category": "mascotas",
+      "amazonTitle": "PUPIBOO Washable Pee Pads for Dogs and Cats - Super Absorbent Reusable Puppy Training Pads - 100% Waterproof, Leak-Proof & Non-Slip Whelping Pads for Pet Housebreaking",
+      "title": "PUPIBOO Washable Pee – Calidad para tu Compañero",
+      "shortTitle": "PUPIBOO Washable Pee",
+      "confidence": 0.8
+    },
+    {
+      "id": "beb-004",
+      "category": "bebes",
+      "amazonTitle": "Philips Avent Natural Baby Bottles with Natural Response Nipples (Medium Flow, Flow 3), 9oz, 4-Pack, SCY903/04",
+      "title": "Philips Avent SCY903 9oz – Cuidado Esencial",
+      "shortTitle": "Philips Avent SCY903",
+      "confidence": 0.8
+    }
+  ]
+}

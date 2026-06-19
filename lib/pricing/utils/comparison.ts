@@ -79,7 +79,7 @@ export interface OfferComparisonRow {
 export function buildOfferComparisonTable(
   offers: RetailerOffer[],
   retailerNames: Record<string, string>,
-  localRetailerIds: Set<string> = new Set(['mercadolibre', 'alkosto', 'falabella', 'exito']),
+  localRetailerIds: Set<string> = new Set(['alkosto', 'falabella', 'exito']),
 ): OfferComparisonRow[] {
   const sorted = sortOffersByLandedCost(offers)
   if (sorted.length === 0) return []
@@ -196,7 +196,7 @@ export function generateSnapshotId(
  */
 export function isAmazonCheaperThanLocal(
   offers: RetailerOffer[],
-  localIds: Set<string> = new Set(['mercadolibre', 'alkosto', 'falabella', 'exito']),
+  localIds: Set<string> = new Set(['alkosto', 'falabella', 'exito']),
   shippingUSD = 12,
 ): boolean {
   const amazonOffer = offers.find(o => o.retailerId === 'amazon')
@@ -224,7 +224,7 @@ export function averageAmazonSavingsVsLocal(
 ): number {
   const amazonOffer  = offers.find(o => o.retailerId === 'amazon')
   const localOffers  = offers.filter(o =>
-    ['mercadolibre', 'alkosto', 'falabella', 'exito'].includes(o.retailerId),
+    ['alkosto', 'falabella', 'exito'].includes(o.retailerId),
   )
 
   if (!amazonOffer || localOffers.length === 0) return 0

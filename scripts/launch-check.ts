@@ -381,7 +381,7 @@ function checkCrons() {
   }
 
   const expected: Array<{ path: string; desc: string }> = [
-    { path: '/api/pricing/check', desc: 'Pricing check (MercadoLibre)' },
+    { path: '/api/pricing/check', desc: 'Pricing check (Amazon)' },
     { path: '/api/alerts/detect', desc: 'Alert detection' },
     { path: '/api/audit/run',     desc: 'Monthly catalog audit' },
     { path: '/api/paapi/sync',    desc: 'Weekly PA-API image sync' },

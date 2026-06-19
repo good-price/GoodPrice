@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-06-19T05:05:39.564Z",
+  "passed": 13,
+  "failed": 0,
+  "total": 13,
+  "status": "PASS",
+  "results": [
+    {
+      "name": "100 parallel reads — all valid, scores consistent",
+      "status": "PASS"
+    },
+    {
+      "name": "100 parallel reads — unknown ASIN, all score 0",
+      "status": "PASS"
+    },
+    {
+      "name": "100 parallel calls — all return array, 0 throws",
+      "status": "PASS"
+    },
+    {
+      "name": "50 rapid triggerAutoFill() — execution state valid after settling",
+      "status": "PASS"
+    },
+    {
+      "name": "readCatalogExecution() — 10 reads after stress — consistent isRunning",
+      "status": "PASS"
+    },
+    {
+      "name": "20 runLifecycleScan() — returns valid result each time",
+      "status": "PASS"
+    },
+    {
+      "name": "20 runRecommendationScan() — returns valid result each time",
+      "status": "PASS"
+    },
+    {
+      "name": "readRecommendations() — consistent across 10 reads after scans",
+      "status": "PASS"
+    },
+    {
+      "name": "20 runAlertScan() — returns valid result each time",
+      "status": "PASS"
+    },
+    {
+      "name": "readAlerts() — consistent alerts object after scans",
+      "status": "PASS"
+    },
+    {
+      "name": "20 runPricingScan() — returns valid result each time",
+      "status": "PASS"
+    },
+    {
+      "name": "20 readDiscoveryState() — consistent categories object",
+      "status": "PASS"
+    },
+    {
+      "name": "20 parallel mixed reads — all stores consistent, 0 throws",
+      "status": "PASS"
+    }
+  ]
+}

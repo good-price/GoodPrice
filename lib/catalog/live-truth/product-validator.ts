@@ -21,6 +21,7 @@ import { validateAvailability } from './availability-validator'
 import { validateImage } from './image-validator'
 import { computeTruthScore, classifyStatus } from './truth-score'
 import { evaluateForQuarantine } from './quarantine-engine'
+import { updatePriceHistory }    from '@/lib/catalog/pricing-memory/state'
 
 // ── Issue collector ───────────────────────────────────────────────────────────
 
@@ -106,6 +107,11 @@ export async function validateProduct(
     asin,
     extracted.imageUrl,
   )
+
+  // ── Sprint 4E: record live price observation ──────────────────────────────
+  if (extracted.priceUSD != null && extracted.priceUSD > 0) {
+    updatePriceHistory(asin, extracted.priceUSD)
+  }
 
   // ── Composite truth score ─────────────────────────────────────────────────
   const truthScore = computeTruthScore(title, pricing, availability, image, previousCheckAt)

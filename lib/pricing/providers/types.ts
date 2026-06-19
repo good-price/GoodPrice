@@ -84,9 +84,9 @@ export interface RetailerProvider {
    *
    * Each retailer uses different availability text. This method knows the
    * retailer-specific strings:
-   *   Amazon:       "In Stock", "Only 3 left in stock", "Currently unavailable"
-   *   MercadoLibre: "Disponible", "Sin stock", "Últimas unidades"
-   *   Alkosto:      "Disponible", "Agotado", "Próximamente"
+   *   Amazon:   "In Stock", "Only 3 left in stock", "Currently unavailable"
+   *   Alkosto:  "Disponible", "Agotado", "Próximamente"
+   *   Falabella/Éxito: "Disponible", "Agotado", quantity indicator
    *
    * @param rawStatus - Raw availability string from retailer
    * @returns Normalized AvailabilityStatus
@@ -97,9 +97,8 @@ export interface RetailerProvider {
    * Parse and normalize a raw price value from this retailer.
    *
    * Handles retailer-specific formatting quirks:
-   *   - MercadoLibre/Colombia: "1.299.000" (dot as thousands separator)
    *   - Amazon: "$1,299.00" or numeric 1299.0
-   *   - Falabella/Éxito: "$1.299.000" (COP with dot separator)
+   *   - Alkosto/Falabella/Éxito: "$1.299.000" (COP with dot separator)
    *
    * @param rawPrice - Raw price string or number from retailer
    * @param rawCurrency - Optional raw currency string for validation
@@ -221,9 +220,8 @@ export interface FetchConfig {
  * @deferred Phase N+2
  */
 export const DEFAULT_FETCH_CONFIGS: Record<string, Partial<FetchConfig>> = {
-  amazon:       { timeoutMs: 10_000, retries: 2, retryDelayMs: 1_000, rateLimitMs: 2_000 },
-  mercadolibre: { timeoutMs: 8_000,  retries: 3, retryDelayMs: 500,   rateLimitMs: 500  },
-  alkosto:      { timeoutMs: 8_000,  retries: 2, retryDelayMs: 1_000, rateLimitMs: 3_000 },
-  falabella:    { timeoutMs: 8_000,  retries: 2, retryDelayMs: 1_000, rateLimitMs: 3_000 },
-  exito:        { timeoutMs: 8_000,  retries: 2, retryDelayMs: 1_000, rateLimitMs: 3_000 },
+  amazon:   { timeoutMs: 10_000, retries: 2, retryDelayMs: 1_000, rateLimitMs: 2_000 },
+  alkosto:  { timeoutMs: 8_000,  retries: 2, retryDelayMs: 1_000, rateLimitMs: 3_000 },
+  falabella: { timeoutMs: 8_000, retries: 2, retryDelayMs: 1_000, rateLimitMs: 3_000 },
+  exito:    { timeoutMs: 8_000,  retries: 2, retryDelayMs: 1_000, rateLimitMs: 3_000 },
 }

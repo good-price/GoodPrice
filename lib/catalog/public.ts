@@ -38,7 +38,7 @@
 
 import { existsSync, readFileSync, readdirSync } from 'fs'
 import { join } from 'path'
-import { getColombiaProducts, getAllProducts } from '@/data/catalog'
+import { getCatalogProducts, getCatalogAllProducts } from '@/lib/catalog/source'
 import { getDeletedProductIds } from '@/lib/catalog/deleted-products'
 import { getSuppressedProductIds } from '@/lib/catalog/status-overrides'
 import { isValidAsinFormat } from './validator'
@@ -208,7 +208,7 @@ export function isPublicSafeProduct(product: Product): boolean {
 export function getPublicProducts(): Product[] {
   const deletedIds    = getDeletedProductIds()
   const suppressedIds = getSuppressedProductIds()
-  const filtered = getColombiaProducts()
+  const filtered = getCatalogProducts()
     .filter(p => !deletedIds.has(p.id ?? ''))
     .filter(p => !suppressedIds.has(p.id ?? ''))
     .filter(isPublicSafeProduct)
@@ -232,7 +232,7 @@ export function getPublicProducts(): Product[] {
  */
 export function getPublicProductByAsin(asin: string): Product | null {
   if (!asin || !isValidAsinFormat(asin)) return null
-  const product = getColombiaProducts().find(p => p.asin === asin)
+  const product = getCatalogProducts().find(p => p.asin === asin)
   if (!product) return null
   if (!isPublicSafeProduct(product)) return null
   return product
@@ -296,8 +296,8 @@ export interface PublicCatalogStats {
 }
 
 export function getPublicCatalogStats(): PublicCatalogStats {
-  const all       = getAllProducts()
-  const colombia  = getColombiaProducts()
+  const all       = getCatalogAllProducts()
+  const colombia  = getCatalogProducts()
   const pub       = getPublicProducts()
 
   // Count products with known-broken image URLs (deprecated images-na CDN)
