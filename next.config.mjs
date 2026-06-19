@@ -12,6 +12,8 @@ const nextConfig = {
   experimental: {
     outputFileTracingIncludes: {
       '/api/tpe/evaluate-local': ['./data/tpe/**'],
+      // Health check reads runtime-catalog.json and audit/ at runtime
+      '/api/health': ['./data/catalog/runtime-catalog.json', './data/audit/**', './data/ops/**'],
       // MDX editorial content — needed for ISR re-renders on Vercel
       '/reviews/[slug]':     ['./content/reviews/**'],
       '/comparar/[slug]':    ['./content/comparisons/**'],

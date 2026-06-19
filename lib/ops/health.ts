@@ -138,14 +138,14 @@ function formatAge(ms: number): string {
 
 function checkCatalog(): SubsystemHealth {
   try {
-    const catalogIndex = join(process.cwd(), 'data', 'catalog', 'index.ts')
-    if (!existsSync(catalogIndex)) {
-      return { name: 'Catálogo', status: 'critical', message: 'data/catalog/index.ts no encontrado' }
+    const catalogFile = join(process.cwd(), 'data', 'catalog', 'runtime-catalog.json')
+    if (!existsSync(catalogFile)) {
+      return { name: 'Catálogo', status: 'critical', message: 'data/catalog/runtime-catalog.json no encontrado' }
     }
     return {
       name: 'Catálogo',
       status: 'ok',
-      message: 'Archivos de catálogo presentes',
+      message: 'Catálogo presente',
     }
   } catch {
     return { name: 'Catálogo', status: 'unknown', message: 'Error verificando catálogo' }
@@ -250,9 +250,10 @@ function checkPaapi(): SubsystemHealth {
 
 function checkDataFiles(): SubsystemHealth {
   try {
+    // Only directories that must exist from the initial deploy.
+    // data/pricing is created lazily by the pricing cron — not required at startup.
     const required = [
       'data/catalog',
-      'data/pricing',
       'data/audit',
     ]
     const missing = required.filter(p => !existsSync(join(process.cwd(), p)))
@@ -266,7 +267,7 @@ function checkDataFiles(): SubsystemHealth {
     return {
       name: 'Archivos de datos',
       status: 'ok',
-      message: 'Todos los directorios de datos presentes',
+      message: 'Directorios de datos presentes',
     }
   } catch {
     return { name: 'Archivos de datos', status: 'unknown', message: 'Error verificando archivos' }
