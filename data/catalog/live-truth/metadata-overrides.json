@@ -1,4 +1,69 @@
 {
-  "updatedAt": "2026-06-15T00:00:00.000Z",
-  "overrides": {}
+  "updatedAt": "2026-06-19T06:24:49.230Z",
+  "overrides": {
+    "coci-007": {
+      "productId": "coci-007",
+      "asin": "B07773PQG7",
+      "price": 19.99,
+      "oldPrice": 1,
+      "reason": "Amazon live $19.99 (catalog $20.99, Δ -4.8%)",
+      "appliedAt": "2026-06-19T06:22:19.829Z"
+    },
+    "dep-002": {
+      "productId": "dep-002",
+      "asin": "B0DR9GN2PM",
+      "price": 23.99,
+      "oldPrice": 29.99,
+      "reason": "Amazon live $23.99 (catalog $25.38, Δ -5.5%)",
+      "appliedAt": "2026-06-19T06:22:32.248Z"
+    },
+    "dep-014": {
+      "productId": "dep-014",
+      "asin": "B0DHT5XZR1",
+      "price": 26.97,
+      "oldPrice": 2.25,
+      "reason": "Amazon live $26.97 (catalog $24.99, Δ +7.9%)",
+      "appliedAt": "2026-06-19T06:22:58.287Z"
+    },
+    "dep-016": {
+      "productId": "dep-016",
+      "asin": "B08MY13HYC",
+      "price": 36.51,
+      "oldPrice": 24.99,
+      "reason": "Amazon live $36.51 (catalog $27.99, Δ +30.4%)",
+      "appliedAt": "2026-06-19T06:23:04.057Z"
+    },
+    "beb-009": {
+      "productId": "beb-009",
+      "asin": "B0GT6Z19FS",
+      "price": 49.99,
+      "oldPrice": 4.63,
+      "reason": "Amazon live $49.99 (catalog $38.99, Δ +28.2%)",
+      "appliedAt": "2026-06-19T06:24:28.335Z"
+    },
+    "herr-003": {
+      "productId": "herr-003",
+      "asin": "B087279HM1",
+      "price": 49.95,
+      "oldPrice": 79.99,
+      "reason": "Amazon live $49.95 (catalog $79.99, Δ -37.6%)",
+      "appliedAt": "2026-06-19T06:24:35.359Z"
+    },
+    "herr-007": {
+      "productId": "herr-007",
+      "asin": "B09TGQYRYT",
+      "price": 21.99,
+      "oldPrice": 23.99,
+      "reason": "Amazon live $21.99 (catalog $20.99, Δ +4.8%)",
+      "appliedAt": "2026-06-19T06:24:45.852Z"
+    },
+    "herr-008": {
+      "productId": "herr-008",
+      "asin": "B099WTN2TR",
+      "price": 69.99,
+      "oldPrice": 99.99,
+      "reason": "Amazon live $69.99 (catalog $64.6, Δ +8.3%)",
+      "appliedAt": "2026-06-19T06:24:49.229Z"
+    }
+  }
 }

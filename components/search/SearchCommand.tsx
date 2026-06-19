@@ -53,8 +53,8 @@ export function SearchCommand() {
 
   return (
     <>
-      {/* Desktop: full-width fake search bar — shown md+ */}
-      <div className="hidden md:flex flex-1 mx-4 max-w-xl">
+      {/* Desktop: full-width fake search bar — shown lg+ */}
+      <div className="hidden lg:flex flex-1 mx-4 max-w-xl">
         <SearchTrigger onClick={openSearch} className="w-full" />
       </div>
 
@@ -64,7 +64,7 @@ export function SearchCommand() {
         onClick={openSearch}
         aria-label="Abrir búsqueda (⌘K)"
         className={[
-          'md:hidden flex-shrink-0',
+          'lg:hidden flex-shrink-0',
           'flex items-center justify-center',
           'h-9 w-9 rounded-lg',
           'text-gray-300 hover:text-white',

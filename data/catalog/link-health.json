@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-18T01:57:19.317Z",
+  "generatedAt": "2026-06-19T06:34:49.219Z",
   "entries": {
     "elec-001": {
       "productId": "elec-001",
       "asin": "B00SFSU53G",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:14.963Z",
+      "checkedAt": "2026-06-19T06:34:44.775Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -16,7 +16,7 @@
       "asin": "B09DT48V16",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:15.059Z",
+      "checkedAt": "2026-06-19T06:34:44.666Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -26,7 +26,7 @@
       "asin": "B07S8DZ1T5",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:15.065Z",
+      "checkedAt": "2026-06-19T06:34:44.668Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -36,7 +36,7 @@
       "asin": "B0CRTYZG5C",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:15.993Z",
+      "checkedAt": "2026-06-19T06:34:45.694Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -44,11 +44,11 @@
     "elec-004": {
       "productId": "elec-004",
       "asin": "B075ZRJ263",
-      "status": "alive",
+      "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:16.083Z",
+      "checkedAt": "2026-06-19T06:34:45.692Z",
       "consecutiveFails": 0,
-      "failureReason": null,
+      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
     },
     "elec-006": {
@@ -56,7 +56,7 @@
       "asin": "B0DXXYS4BJ",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:15.997Z",
+      "checkedAt": "2026-06-19T06:34:45.692Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -66,7 +66,7 @@
       "asin": "B07VHR4Y8G",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:17.044Z",
+      "checkedAt": "2026-06-19T06:34:46.868Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -76,7 +76,7 @@
       "asin": "B0CQKKHT5J",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:17.016Z",
+      "checkedAt": "2026-06-19T06:34:46.868Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -86,7 +86,7 @@
       "asin": "B0CJTCQRNL",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:17.064Z",
+      "checkedAt": "2026-06-19T06:34:46.615Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -96,7 +96,7 @@
       "asin": "B01M16WBW1",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:17.998Z",
+      "checkedAt": "2026-06-19T06:34:47.788Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -106,7 +106,7 @@
       "asin": "B0C8VHZR14",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:18.037Z",
+      "checkedAt": "2026-06-19T06:34:47.920Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -114,11 +114,11 @@
     "hogar-002": {
       "productId": "hogar-002",
       "asin": "B0BZYCJK89",
-      "status": "rate-limited",
+      "status": "alive",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:18.001Z",
+      "checkedAt": "2026-06-19T06:34:47.875Z",
       "consecutiveFails": 0,
-      "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
+      "failureReason": null,
       "redirectTarget": null
     },
     "hogar-004": {
@@ -126,7 +126,7 @@
       "asin": "B07F97MPYT",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:19.006Z",
+      "checkedAt": "2026-06-19T06:34:48.833Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -136,7 +136,7 @@
       "asin": "B01LYNW421",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:19.316Z",
+      "checkedAt": "2026-06-19T06:34:49.219Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null
@@ -146,7 +146,7 @@
       "asin": "B07Q8RTRW3",
       "status": "rate-limited",
       "httpStatus": 200,
-      "checkedAt": "2026-06-18T01:57:19.046Z",
+      "checkedAt": "2026-06-19T06:34:48.834Z",
       "consecutiveFails": 0,
       "failureReason": "CAPTCHA detectado — Amazon verificó bot, estado no confirmado",
       "redirectTarget": null

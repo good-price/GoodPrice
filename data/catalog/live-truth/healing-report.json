@@ -1,57 +1,12 @@
 {
-  "generatedAt": "2026-06-18T01:56:58.563Z",
-  "cycleCount": 3,
-  "lastCycleAt": "2026-06-18T01:56:58.525Z",
+  "generatedAt": "2026-06-19T06:34:28.355Z",
+  "cycleCount": 4,
+  "lastCycleAt": "2026-06-19T06:34:28.320Z",
   "newlySuppressed": [],
   "newlyRecovered": [],
   "driftRepairs": [],
   "replacements": [],
   "staleProducts": [
-    {
-      "productId": "hogar-001",
-      "asin": "B01M16WBW1",
-      "title": "Queen Size – Suavidad y Confort para tu Cama",
-      "lastCheckedAt": null,
-      "truthScore": 0,
-      "staleDays": -1,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-002",
-      "asin": "B0BZYCJK89",
-      "title": "Owala FreeSip Insulated 24 Oz – Hidratación para tu Día a Día",
-      "lastCheckedAt": null,
-      "truthScore": 0,
-      "staleDays": -1,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-003",
-      "asin": "B01LYNW421",
-      "title": "Beckham Hotel Collection Bed Pillows – Soporte Perfecto para tu Descanso",
-      "lastCheckedAt": null,
-      "truthScore": 0,
-      "staleDays": -1,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-004",
-      "asin": "B07F97MPYT",
-      "title": "Extra Deep Queen Sheet Set – Suavidad y Confort para tu Cama",
-      "lastCheckedAt": null,
-      "truthScore": 0,
-      "staleDays": -1,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-005",
-      "asin": "B07Q8RTRW3",
-      "title": "Deconovo Blackout Curtains 84L – Oscuridad Total para Dormir Mejor",
-      "lastCheckedAt": null,
-      "truthScore": 0,
-      "staleDays": -1,
-      "reason": "never_checked"
-    },
     {
       "productId": "hogar-006",
       "asin": "B01HMWWLCI",
@@ -803,6 +758,501 @@
       "productId": "herr-011",
       "asin": "B07TQKT16K",
       "title": "Go Hang It! Pro – Decoración Precisa y sin Complicaciones",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-007",
+      "asin": "B0DZ75TN5F",
+      "title": "Apple iPad 11-inch: A16 chip, 11-inch Model, Liquid Retina Display, 128GB, Wi-Fi 6, 12MP Front/12MP Back Camera, Touch ID, Al",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-012",
+      "asin": "B07G2KT7FN",
+      "title": "Simply 20x20x1 Air Filter, Merv 8, MPR 600, 6 Pack, Furnace Air Filter for HVAC (Actual Size: 19.75&quot;x19.75&quot;x0.75&quot;) DUST, Pet,",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-013",
+      "asin": "B0B27HX6P7",
+      "title": "TESSAN 2 Pack European Travel Plug Adapter, Europe Power Converter 4 Outlets 3 USB(1 USB C PD 20W), Type C International Adap",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-014",
+      "asin": "B004Q69HIU",
+      "title": "Filtrete 20x25x1 AC Furnace Air Filter, MERV 11, MPR 1000, Micro Allergen Defense, 3-Month Pleated 1-Inch Electrostatic Air C",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-015",
+      "asin": "B00CJZ8LAK",
+      "title": "Filterbuy 20x20x1 Air Filter MERV 8 Essential Dust &amp; Allergy Defense (4-Pack), Electrostatic Pleated HVAC AC Furnace Filters",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-016",
+      "asin": "B07FP5X3JH",
+      "title": "Filtrete 20x30x1 Air Filter MERV 5, 6-Pack AC Furnace HVAC Filters for Home, MPR 300 Basic Dust Defense, Pleated Electrostati",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-017",
+      "asin": "B071NFVVNG",
+      "title": "Samsung HAF-QIN/EXP Genuine Refrigerator Water Filter, Reduces 99% of Harmful Contaminants for Clean, Clear Drinking Water, 6",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-018",
+      "asin": "B00VBP8QPO",
+      "title": "everydrop by Whirlpool Ice and Water Refrigerator Filter 2, EDR2RXD1, Single-Pack",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-019",
+      "asin": "B00CK01P2A",
+      "title": "Filterbuy 16x25x1 Air Filter MERV 8 Essential Dust &amp; Allergy Defense (6-Pack), Electrostatic Pleated HVAC AC Furnace Filters",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-020",
+      "asin": "B00C7N7L1E",
+      "title": "ZeroWater Official Replacement Filter - 5-Stage 0 TDS Water Filter Replacement IAPMO Certified to Reduce Lead, Chromium, and",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-008",
+      "asin": "B0CQMRKRV5",
+      "title": "Amazon Fire TV Stick HD, free and live TV, Alexa Voice Remote, smart home controls, HD streaming",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-009",
+      "asin": "B0CFPJYX7P",
+      "title": "Amazon Kindle Paperwhite 16GB (newest model) – 20% faster, with new 7&quot; glare-free display and weeks of battery life – Black",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-010",
+      "asin": "B09B8V1LZ3",
+      "title": "Amazon Echo Dot (newest model) - Vibrant sounding speaker, Designed for Alexa+, Great for bedrooms, dining rooms and offices,",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-011",
+      "asin": "B08KW1KR5H",
+      "title": "JBL Go 3 - Portable Mini Bluetooth Speaker, big audio and punchy bass, IP67 waterproof and dustproof, 5 hours of playtime, sp",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-012",
+      "asin": "B0CTNWBT1Z",
+      "title": "JBL Go 4 - Ultra-Portable, Waterproof and Dustproof Bluetooth Speaker, Big JBL Pro Sound with Punchy bass, 7-Hour Built-in Ba",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-013",
+      "asin": "B0FQFB8FMG",
+      "title": "Apple AirPods Pro 3 Wireless Earbuds, Active Noise Cancellation, Live Translation, Heart Rate Sensing, Hearing Aid Feature, B",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-014",
+      "asin": "B0DGHMNQ5Z",
+      "title": "Apple AirPods 4 Wireless Earbuds, Bluetooth Headphones, Personalized Spatial Audio, Sweat and Water Resistant, USB-C Charging",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-015",
+      "asin": "B0F7Z4QZTT",
+      "title": "Amazon Fire TV Stick 4K Plus (newest model) with AI-powered Fire TV Search, Wi-Fi 6, stream hundreds of thousands of movies a",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-008",
+      "asin": "B00L1G7K50",
+      "title": "HP 62 Black Ink Cartridge | Works with Envy 5540, 5640, 5660, 7640, OfficeJet 5740, 8040, OfficeJet Mobile 200, 250 | Instant",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-009",
+      "asin": "B08412HXK9",
+      "title": "HP 67 Black/Tri-Color Ink Cartridges (2-Pack) | Works with DeskJet 1255, 2700, 4100, Envy 6000, 6400 | Instant Ink Eligible |",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-010",
+      "asin": "B06ZY9LP74",
+      "title": "HP 64 Black &amp; Tri-Color Ink Cartridges Printers (Combo Pack) | Works with Printer Series: Inspire 7950e; Envy Photo 6200, 710",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-014",
+      "asin": "B0DR9S2DQR",
+      "title": "STANLEY Quencher ProTour Flip Straw Tumbler with Leakproof Lid 40 oz | Built-In Straw and Handle | Cup Holder Compatible for",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-015",
+      "asin": "B0764HS4SL",
+      "title": "Fullstar The Original Pro Chopper - Vegetable Chopper and Spiralizer, Food Chopper with Container, Fruit Slicer, Kitchen Gadg",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-020",
+      "asin": "B0FK1C3GDW",
+      "title": "Owala FreeSip Sway Insulated Stainless Steel Water Bottle with Two-Way Spout, Built-In Straw and Bucket Handle, Made for Trav",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-021",
+      "asin": "B0FGFPLQFH",
+      "title": "goodr Polarized Sunglasses, Medium Sized (OG), UV400 Protection, No Slip, No Bounce",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-005",
+      "asin": "B07TFP7JFH",
+      "title": "XBOX Game Pass Ultimate | 1 Month Membership | Console, PC, Cloud Gaming Devices | Digital Code",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-006",
+      "asin": "B07CMS5Q6P",
+      "title": "Logitech G305 Lightspeed Wireless Gaming Mouse, Hero Sensor, 12,000 DPI, Lightweight, 6 Programmable Buttons, 250h Battery, O",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-007",
+      "asin": "B07GBZ4Q68",
+      "title": "Logitech G502 Hero High Performance Wired Gaming Mouse, Hero 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-008",
+      "asin": "B0CXGTGPZQ",
+      "title": "Razer BlackShark V2 X Xbox Gaming Headset: 50mm Drivers - Cardioid Mic - Lightweight - Comfortable, Noise Isolating Earcups -",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-009",
+      "asin": "B0C3BV19Q3",
+      "title": "HyperX Cloud III – Wired Gaming Headset, PC, PS5, Xbox Series X|S, Angled 53mm Drivers, DTS Spatial Audio, Memory Foam, Durab",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-010",
+      "asin": "B0CYWFH5Y9",
+      "title": "Turtle Beach Stealth 600 Wireless Multiplatform Amplified Gaming Headset for Xbox Series X|S, Xbox One, PC, PS5, PS4, &amp; Mobil",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-015",
+      "asin": "B07D323MFZ",
+      "title": "INABA Churu Cat Treats, Lickable, Squeezable Creamy Purée Cat Treat with Green Tea Extract &amp; Taurine, 0.5 Ounces Each Tube, 5",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-016",
+      "asin": "B005OB3E30",
+      "title": "Purina Fancy Feast Gravy Lovers Poultry and Beef Grilled Gourmet Wet Cat Food Variety Pack - (Pack of 24) 3 oz. Cans",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-017",
+      "asin": "B001650NNW",
+      "title": "Purina Pro Plan Veterinary Supplements FortiFlora Daily Probiotics for Dogs, Helps Digestive Gut Health and Diarrhea - 30 ct.",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-018",
+      "asin": "B072DTFZHL",
+      "title": "Sheba Perfect Portions Wet Cat Food Cuts in Gravy, Cat Food Wet Recipe, Roasted Chicken Entree, with Sustainable Salmon, Tend",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-019",
+      "asin": "B00CU2CMOI",
+      "title": "Pedigree Dentastix Large Dog Treats, Original, Beef &amp; Fresh, 2.73 lb. Variety Pack (51 Treats Total)",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-020",
+      "asin": "B001STX13U",
+      "title": "Purina Fancy Feast Grilled Wet Cat Food Seafood Collection in Wet Cat Food Variety Pack - (Pack of 24) 3 oz. Cans",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-006",
+      "asin": "B09541P9WH",
+      "title": "4.7 out of 5 stars, 76,199 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-007",
+      "asin": "B08KT2Z93D",
+      "title": "4.7 out of 5 stars, 74,236 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-008",
+      "asin": "B071914GGL",
+      "title": "4.7 out of 5 stars, 52,932 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-009",
+      "asin": "B00U2VQZDS",
+      "title": "4.8 out of 5 stars, 119,674 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-010",
+      "asin": "B07PBXXNCY",
+      "title": "4.8 out of 5 stars, 43,897 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-011",
+      "asin": "B01FV0F8H8",
+      "title": "4.8 out of 5 stars, 222,154 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-012",
+      "asin": "B00006IFHD",
+      "title": "4.8 out of 5 stars, 57,520 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-013",
+      "asin": "B000J07BRQ",
+      "title": "4.8 out of 5 stars, 108,191 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-014",
+      "asin": "B001AFL8GY",
+      "title": "4.8 out of 5 stars, 101,465 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-015",
+      "asin": "B07R8D1RHS",
+      "title": "4.7 out of 5 stars, 55,126 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-012",
+      "asin": "B0CRMYHY1B",
+      "title": "4.7 out of 5 stars, 100,362 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-013",
+      "asin": "B00S93EQUK",
+      "title": "4.8 out of 5 stars, 89,581 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-014",
+      "asin": "B08J8GZXKZ",
+      "title": "4.7 out of 5 stars, 12,873 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-015",
+      "asin": "B0DR9PJNSK",
+      "title": "4.7 out of 5 stars, 17,793 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-022",
+      "asin": "B00ITWI0VC",
+      "title": "4.7 out of 5 stars, 15,598 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-023",
+      "asin": "B0GFBC33B9",
+      "title": "4.7 out of 5 stars, 9,411 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-024",
+      "asin": "B00E632SZW",
+      "title": "4.7 out of 5 stars, 7,249 ratings",
+      "lastCheckedAt": null,
+      "truthScore": 0,
+      "staleDays": -1,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-025",
+      "asin": "B076FKWJSL",
+      "title": "4.8 out of 5 stars, 5,099 ratings",
       "lastCheckedAt": null,
       "truthScore": 0,
       "staleDays": -1,

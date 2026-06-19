@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T05:05:47.947Z",
+  "generatedAt": "2026-06-19T06:39:03.575Z",
   "passed": 9,
   "failed": 0,
   "total": 9,
@@ -8,20 +8,20 @@
     {
       "name": "readRuntimeCatalog() × 50",
       "status": "PASS",
-      "medianMs": 0.6675000000000182,
-      "maxMs": 2.046500000000009
+      "medianMs": 1.058300000000031,
+      "maxMs": 3.208500000000015
     },
     {
       "name": "getProductIntelligence() × 50",
       "status": "PASS",
-      "medianMs": 0.8930000000000007,
-      "maxMs": 1.929300000000012
+      "medianMs": 2.6240000000000236,
+      "maxMs": 4.690999999999974
     },
     {
       "name": "getRelatedProducts() × 50",
       "status": "PASS",
-      "medianMs": 7.191500000000019,
-      "maxMs": 22.3116
+      "medianMs": 20.027000000000044,
+      "maxMs": 75.53179999999998
     },
     {
       "name": "runLifecycleScan() × 3",

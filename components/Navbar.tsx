@@ -29,7 +29,7 @@ export function Navbar() {
         <SearchCommand />
 
         {/* Desktop nav links — pushed right by SearchCommand's flex-1 */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden lg:flex items-center gap-1">
           <Link href="/categorias">
             <Button variant="ghost" size="sm" className="text-white hover:text-[#F7A823] hover:bg-white/10 gap-1.5">
               <Grid3X3 className="h-4 w-4" />
@@ -63,7 +63,7 @@ export function Navbar() {
         </nav>
 
         {/* Mobile hamburger — ml-auto pushes it to the far right */}
-        <div className="md:hidden ml-auto">
+        <div className="lg:hidden ml-auto">
           <Sheet>
             <SheetTrigger asChild>
               <Button

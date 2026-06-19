@@ -1,41 +1,6 @@
 {
-  "updatedAt": "2026-06-18T01:57:14.794Z",
+  "updatedAt": "2026-06-19T06:34:44.448Z",
   "items": [
-    {
-      "productId": "hogar-006",
-      "asin": "B01HMWWLCI",
-      "priority": 50,
-      "lastCheckedAt": null,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-007",
-      "asin": "B0D6C6GS58",
-      "priority": 50,
-      "lastCheckedAt": null,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-008",
-      "asin": "B09PQF39PG",
-      "priority": 50,
-      "lastCheckedAt": null,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-009",
-      "asin": "B0C3PDTYYX",
-      "priority": 50,
-      "lastCheckedAt": null,
-      "reason": "never_checked"
-    },
-    {
-      "productId": "hogar-010",
-      "asin": "B088BZTYFP",
-      "priority": 50,
-      "lastCheckedAt": null,
-      "reason": "never_checked"
-    },
     {
       "productId": "hogar-011",
       "asin": "B07H76BZW8",
@@ -590,108 +555,528 @@
       "reason": "never_checked"
     },
     {
+      "productId": "elec-007",
+      "asin": "B0DZ75TN5F",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-012",
+      "asin": "B07G2KT7FN",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-013",
+      "asin": "B0B27HX6P7",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-014",
+      "asin": "B004Q69HIU",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-015",
+      "asin": "B00CJZ8LAK",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-016",
+      "asin": "B07FP5X3JH",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-017",
+      "asin": "B071NFVVNG",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-018",
+      "asin": "B00VBP8QPO",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-019",
+      "asin": "B00CK01P2A",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "herr-020",
+      "asin": "B00C7N7L1E",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-008",
+      "asin": "B0CQMRKRV5",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-009",
+      "asin": "B0CFPJYX7P",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-010",
+      "asin": "B09B8V1LZ3",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-011",
+      "asin": "B08KW1KR5H",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-012",
+      "asin": "B0CTNWBT1Z",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-013",
+      "asin": "B0FQFB8FMG",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-014",
+      "asin": "B0DGHMNQ5Z",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "elec-015",
+      "asin": "B0F7Z4QZTT",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-008",
+      "asin": "B00L1G7K50",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-009",
+      "asin": "B08412HXK9",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-010",
+      "asin": "B06ZY9LP74",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-014",
+      "asin": "B0DR9S2DQR",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "hogar-015",
+      "asin": "B0764HS4SL",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-020",
+      "asin": "B0FK1C3GDW",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-021",
+      "asin": "B0FGFPLQFH",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-005",
+      "asin": "B07TFP7JFH",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-006",
+      "asin": "B07CMS5Q6P",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-007",
+      "asin": "B07GBZ4Q68",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-008",
+      "asin": "B0CXGTGPZQ",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-009",
+      "asin": "B0C3BV19Q3",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "game-010",
+      "asin": "B0CYWFH5Y9",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-015",
+      "asin": "B07D323MFZ",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-016",
+      "asin": "B005OB3E30",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-017",
+      "asin": "B001650NNW",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-018",
+      "asin": "B072DTFZHL",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-019",
+      "asin": "B00CU2CMOI",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "masc-020",
+      "asin": "B001STX13U",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-006",
+      "asin": "B09541P9WH",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-007",
+      "asin": "B08KT2Z93D",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-008",
+      "asin": "B071914GGL",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-009",
+      "asin": "B00U2VQZDS",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "bel-010",
+      "asin": "B07PBXXNCY",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-011",
+      "asin": "B01FV0F8H8",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-012",
+      "asin": "B00006IFHD",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-013",
+      "asin": "B000J07BRQ",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-014",
+      "asin": "B001AFL8GY",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "ofic-015",
+      "asin": "B07R8D1RHS",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-012",
+      "asin": "B0CRMYHY1B",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-013",
+      "asin": "B00S93EQUK",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-014",
+      "asin": "B08J8GZXKZ",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "coci-015",
+      "asin": "B0DR9PJNSK",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-022",
+      "asin": "B00ITWI0VC",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-023",
+      "asin": "B0GFBC33B9",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-024",
+      "asin": "B00E632SZW",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
+      "productId": "dep-025",
+      "asin": "B076FKWJSL",
+      "priority": 50,
+      "lastCheckedAt": null,
+      "reason": "never_checked"
+    },
+    {
       "productId": "elec-002",
       "asin": "B09DT48V16",
-      "priority": 7,
+      "priority": 15,
       "lastCheckedAt": "2026-06-18T01:29:48.315Z",
       "reason": "routine"
     },
     {
       "productId": "game-001",
       "asin": "B07VHR4Y8G",
-      "priority": 4,
+      "priority": 12,
       "lastCheckedAt": "2026-06-18T01:43:14.204Z",
       "reason": "routine"
     },
     {
       "productId": "elec-001",
       "asin": "B00SFSU53G",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:29:45.082Z",
       "reason": "routine"
     },
     {
       "productId": "elec-003",
       "asin": "B07S8DZ1T5",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:29:51.843Z",
       "reason": "routine"
     },
     {
       "productId": "elec-004",
       "asin": "B075ZRJ263",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:29:55.003Z",
       "reason": "routine"
     },
     {
       "productId": "elec-005",
       "asin": "B0CRTYZG5C",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:29:58.677Z",
       "reason": "routine"
     },
     {
       "productId": "elec-006",
       "asin": "B0DXXYS4BJ",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:43:10.913Z",
       "reason": "routine"
     },
     {
       "productId": "game-002",
       "asin": "B0CQKKHT5J",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:43:17.354Z",
       "reason": "routine"
     },
     {
       "productId": "game-003",
       "asin": "B0CJTCQRNL",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:43:20.654Z",
       "reason": "routine"
     },
     {
       "productId": "game-004",
       "asin": "B0C8VHZR14",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:43:24.090Z",
       "reason": "routine"
     },
     {
       "productId": "hogar-001",
       "asin": "B01M16WBW1",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:57:00.593Z",
       "reason": "routine"
     },
     {
       "productId": "hogar-002",
       "asin": "B0BZYCJK89",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:57:03.897Z",
       "reason": "routine"
     },
     {
       "productId": "hogar-003",
       "asin": "B01LYNW421",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:57:08.120Z",
       "reason": "routine"
     },
     {
       "productId": "hogar-004",
       "asin": "B07F97MPYT",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:57:11.333Z",
       "reason": "routine"
     },
     {
       "productId": "hogar-005",
       "asin": "B07Q8RTRW3",
-      "priority": 0,
+      "priority": 8,
       "lastCheckedAt": "2026-06-18T01:57:14.780Z",
+      "reason": "routine"
+    },
+    {
+      "productId": "hogar-006",
+      "asin": "B01HMWWLCI",
+      "priority": 0,
+      "lastCheckedAt": "2026-06-19T06:34:30.262Z",
+      "reason": "routine"
+    },
+    {
+      "productId": "hogar-007",
+      "asin": "B0D6C6GS58",
+      "priority": 0,
+      "lastCheckedAt": "2026-06-19T06:34:34.034Z",
+      "reason": "routine"
+    },
+    {
+      "productId": "hogar-008",
+      "asin": "B09PQF39PG",
+      "priority": 0,
+      "lastCheckedAt": "2026-06-19T06:34:37.597Z",
+      "reason": "routine"
+    },
+    {
+      "productId": "hogar-009",
+      "asin": "B0C3PDTYYX",
+      "priority": 0,
+      "lastCheckedAt": "2026-06-19T06:34:41.510Z",
+      "reason": "routine"
+    },
+    {
+      "productId": "hogar-010",
+      "asin": "B088BZTYFP",
+      "priority": 0,
+      "lastCheckedAt": "2026-06-19T06:34:44.440Z",
       "reason": "routine"
     }
   ]

@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-06-14T12:59:44.175Z",
+  "updatedAt": "2026-06-19T06:24:55.920Z",
   "jobs": {
     "price-check": [
+      {
+        "runId": "price-check-1781850071478",
+        "jobId": "price-check",
+        "startedAt": "2026-06-19T06:21:11.478Z",
+        "completedAt": "2026-06-19T06:24:55.919Z",
+        "durationMs": 224441,
+        "status": "success",
+        "summary": "[price-check] 99 processed, 8 overridden, 87 ok, 4 no_match — 224.4s",
+        "meta": {
+          "forceSearch": false,
+          "processed": 99,
+          "errors": 0
+        }
+      },
       {
         "runId": "price-check-1781441938769",
         "jobId": "price-check",
@@ -188,6 +202,18 @@
           "processed": 20,
           "errors": 10
         }
+      }
+    ],
+    "alert-detect": [
+      {
+        "runId": "alert-detect-1781850101946",
+        "jobId": "alert-detect",
+        "startedAt": "2026-06-19T06:21:41.947Z",
+        "completedAt": "2026-06-19T06:21:41.954Z",
+        "durationMs": 7,
+        "status": "success",
+        "summary": "0 suscripciones activas",
+        "meta": {}
       }
     ]
   }

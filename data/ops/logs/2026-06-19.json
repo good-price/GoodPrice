@@ -1,7 +1,5578 @@
 {
   "date": "2026-06-19",
-  "updatedAt": "2026-06-19T05:05:47.766Z",
+  "updatedAt": "2026-06-19T06:39:03.138Z",
   "logs": [
+    {
+      "id": "pricing-scan-1781851143135",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:03.131Z",
+      "completedAt": "2026-06-19T06:39:03.135Z",
+      "durationMs": 4,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 4"
+    },
+    {
+      "id": "pricing-scan-1781851143112",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:03.110Z",
+      "completedAt": "2026-06-19T06:39:03.112Z",
+      "durationMs": 2,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 2"
+    },
+    {
+      "id": "pricing-scan-1781851143091",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:03.088Z",
+      "completedAt": "2026-06-19T06:39:03.091Z",
+      "durationMs": 3,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 3"
+    },
+    {
+      "id": "alert-scan-1781851143069",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:03.064Z",
+      "completedAt": "2026-06-19T06:39:03.069Z",
+      "durationMs": 5,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 5"
+    },
+    {
+      "id": "alert-scan-1781851143056",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:03.051Z",
+      "completedAt": "2026-06-19T06:39:03.056Z",
+      "durationMs": 5,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 5"
+    },
+    {
+      "id": "alert-scan-1781851143036",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:03.031Z",
+      "completedAt": "2026-06-19T06:39:03.036Z",
+      "durationMs": 5,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 5"
+    },
+    {
+      "id": "rec-scan-1781851143008",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:03.001Z",
+      "completedAt": "2026-06-19T06:39:03.008Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 7"
+    },
+    {
+      "id": "rec-scan-1781851142990",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:02.984Z",
+      "completedAt": "2026-06-19T06:39:02.989Z",
+      "durationMs": 5,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 5"
+    },
+    {
+      "id": "rec-scan-1781851142974",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:02.969Z",
+      "completedAt": "2026-06-19T06:39:02.974Z",
+      "durationMs": 5,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 5"
+    },
+    {
+      "id": "lc-1781851142937",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:02.937Z",
+      "completedAt": "2026-06-19T06:39:02.941Z",
+      "durationMs": 4,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851142902",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:02.902Z",
+      "completedAt": "2026-06-19T06:39:02.913Z",
+      "durationMs": 11,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851142835",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:39:02.835Z",
+      "completedAt": "2026-06-19T06:39:02.847Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "alert-scan-1781851138262",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:58.256Z",
+      "completedAt": "2026-06-19T06:38:58.262Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 6"
+    },
+    {
+      "id": "rec-scan-1781851138235",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:58.226Z",
+      "completedAt": "2026-06-19T06:38:58.235Z",
+      "durationMs": 9,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 9"
+    },
+    {
+      "id": "pricing-scan-1781851138168",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:58.162Z",
+      "completedAt": "2026-06-19T06:38:58.168Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "mcf-1781851120089",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.089Z",
+      "completedAt": "2026-06-19T06:38:55.403Z",
+      "durationMs": 15314,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851120089",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851135308",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.457Z",
+      "completedAt": "2026-06-19T06:38:55.308Z",
+      "durationMs": 14851,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 14851ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851120797",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.797Z",
+      "completedAt": "2026-06-19T06:38:55.256Z",
+      "durationMs": 14459,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851120797",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851135181",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.148Z",
+      "completedAt": "2026-06-19T06:38:55.181Z",
+      "durationMs": 14033,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 14033ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851122536",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.536Z",
+      "completedAt": "2026-06-19T06:38:55.136Z",
+      "durationMs": 12600,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851122536",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851135054",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.883Z",
+      "completedAt": "2026-06-19T06:38:55.054Z",
+      "durationMs": 12171,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 12171ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851122187",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.187Z",
+      "completedAt": "2026-06-19T06:38:54.997Z",
+      "durationMs": 12810,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851122187",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134924",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.528Z",
+      "completedAt": "2026-06-19T06:38:54.924Z",
+      "durationMs": 12396,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 12396ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851121504",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.504Z",
+      "completedAt": "2026-06-19T06:38:54.862Z",
+      "durationMs": 13358,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851121504",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134783",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.833Z",
+      "completedAt": "2026-06-19T06:38:54.783Z",
+      "durationMs": 12950,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 12950ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851120466",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.466Z",
+      "completedAt": "2026-06-19T06:38:54.736Z",
+      "durationMs": 14270,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851120466",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134661",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.788Z",
+      "completedAt": "2026-06-19T06:38:54.661Z",
+      "durationMs": 13873,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 13873ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851121157",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.157Z",
+      "completedAt": "2026-06-19T06:38:54.611Z",
+      "durationMs": 13454,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851121157",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134535",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.496Z",
+      "completedAt": "2026-06-19T06:38:54.535Z",
+      "durationMs": 13039,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 13039ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851121842",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.842Z",
+      "completedAt": "2026-06-19T06:38:54.480Z",
+      "durationMs": 12638,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851121842",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134408",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.178Z",
+      "completedAt": "2026-06-19T06:38:54.408Z",
+      "durationMs": 12230,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 12230ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851118739",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.739Z",
+      "completedAt": "2026-06-19T06:38:54.320Z",
+      "durationMs": 15581,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851118739",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134242",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.063Z",
+      "completedAt": "2026-06-19T06:38:54.242Z",
+      "durationMs": 15179,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 15179ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851119411",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.411Z",
+      "completedAt": "2026-06-19T06:38:54.195Z",
+      "durationMs": 14784,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851119411",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134121",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.737Z",
+      "completedAt": "2026-06-19T06:38:54.121Z",
+      "durationMs": 14384,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 14384ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851119747",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.747Z",
+      "completedAt": "2026-06-19T06:38:54.075Z",
+      "durationMs": 14328,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851119747",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851134004",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.079Z",
+      "completedAt": "2026-06-19T06:38:54.004Z",
+      "durationMs": 13925,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 13925ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851118404",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.404Z",
+      "completedAt": "2026-06-19T06:38:53.938Z",
+      "durationMs": 15534,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851118404",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851133866",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.731Z",
+      "completedAt": "2026-06-19T06:38:53.866Z",
+      "durationMs": 15135,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 3, parsed: 0, validated: 0, saved: 0, duration: 15135ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851119072",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.072Z",
+      "completedAt": "2026-06-19T06:38:53.807Z",
+      "durationMs": 14735,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851119072",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851133729",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.406Z",
+      "completedAt": "2026-06-19T06:38:53.729Z",
+      "durationMs": 14323,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 14323ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851118035",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.035Z",
+      "completedAt": "2026-06-19T06:38:53.674Z",
+      "durationMs": 15639,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851118035",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851133597",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.396Z",
+      "completedAt": "2026-06-19T06:38:53.597Z",
+      "durationMs": 15201,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 3, parsed: 0, validated: 0, saved: 0, duration: 15201ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851122893",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.893Z",
+      "completedAt": "2026-06-19T06:38:53.518Z",
+      "durationMs": 10625,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851122893",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851133438",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:43.214Z",
+      "completedAt": "2026-06-19T06:38:53.438Z",
+      "durationMs": 10224,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 4, parsed: 0, validated: 0, saved: 0, duration: 10224ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851117686",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:37.686Z",
+      "completedAt": "2026-06-19T06:38:53.145Z",
+      "durationMs": 15459,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851117686",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851133065",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.026Z",
+      "completedAt": "2026-06-19T06:38:53.065Z",
+      "durationMs": 15039,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15039ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851117346",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:37.346Z",
+      "completedAt": "2026-06-19T06:38:52.787Z",
+      "durationMs": 15441,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851117346",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851132707",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:37.678Z",
+      "completedAt": "2026-06-19T06:38:52.707Z",
+      "durationMs": 15029,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15029ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851116983",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.983Z",
+      "completedAt": "2026-06-19T06:38:52.484Z",
+      "durationMs": 15501,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851116983",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851132415",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:37.335Z",
+      "completedAt": "2026-06-19T06:38:52.415Z",
+      "durationMs": 15080,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15080ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851116645",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.645Z",
+      "completedAt": "2026-06-19T06:38:52.304Z",
+      "durationMs": 15659,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851116645",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851132225",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.975Z",
+      "completedAt": "2026-06-19T06:38:52.225Z",
+      "durationMs": 15250,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15250ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851116277",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.277Z",
+      "completedAt": "2026-06-19T06:38:52.130Z",
+      "durationMs": 15853,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851116277",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851132057",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.636Z",
+      "completedAt": "2026-06-19T06:38:52.057Z",
+      "durationMs": 15421,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15421ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851115919",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.919Z",
+      "completedAt": "2026-06-19T06:38:52.008Z",
+      "durationMs": 16089,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851115919",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851131933",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.268Z",
+      "completedAt": "2026-06-19T06:38:51.933Z",
+      "durationMs": 15665,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15665ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851115585",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.585Z",
+      "completedAt": "2026-06-19T06:38:51.497Z",
+      "durationMs": 15912,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851115585",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851131406",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.911Z",
+      "completedAt": "2026-06-19T06:38:51.406Z",
+      "durationMs": 15495,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15495ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851115195",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.195Z",
+      "completedAt": "2026-06-19T06:38:51.364Z",
+      "durationMs": 16169,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851115195",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851131283",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.577Z",
+      "completedAt": "2026-06-19T06:38:51.283Z",
+      "durationMs": 15706,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15706ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851114815",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.815Z",
+      "completedAt": "2026-06-19T06:38:51.239Z",
+      "durationMs": 16424,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851114815",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851131155",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.186Z",
+      "completedAt": "2026-06-19T06:38:51.155Z",
+      "durationMs": 15969,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15969ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851114414",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.414Z",
+      "completedAt": "2026-06-19T06:38:50.546Z",
+      "durationMs": 16132,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851114414",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851130472",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.805Z",
+      "completedAt": "2026-06-19T06:38:50.472Z",
+      "durationMs": 15667,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15667ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851114033",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.033Z",
+      "completedAt": "2026-06-19T06:38:50.433Z",
+      "durationMs": 16400,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851114033",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851130361",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.404Z",
+      "completedAt": "2026-06-19T06:38:50.361Z",
+      "durationMs": 15956,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15956ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851113630",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:33.630Z",
+      "completedAt": "2026-06-19T06:38:50.312Z",
+      "durationMs": 16682,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851113630",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851130223",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.023Z",
+      "completedAt": "2026-06-19T06:38:50.222Z",
+      "durationMs": 16199,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 16199ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851113251",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:33.251Z",
+      "completedAt": "2026-06-19T06:38:50.181Z",
+      "durationMs": 16930,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851113251",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851130104",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:33.621Z",
+      "completedAt": "2026-06-19T06:38:50.104Z",
+      "durationMs": 16483,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 16483ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851112848",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.848Z",
+      "completedAt": "2026-06-19T06:38:49.585Z",
+      "durationMs": 16737,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851112848",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851129517",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:33.240Z",
+      "completedAt": "2026-06-19T06:38:49.517Z",
+      "durationMs": 16277,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 16277ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851112454",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.454Z",
+      "completedAt": "2026-06-19T06:38:49.484Z",
+      "durationMs": 17030,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851112454",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851129416",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.837Z",
+      "completedAt": "2026-06-19T06:38:49.416Z",
+      "durationMs": 16579,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 16579ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851112064",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.064Z",
+      "completedAt": "2026-06-19T06:38:49.379Z",
+      "durationMs": 17315,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851112064",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851129306",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.443Z",
+      "completedAt": "2026-06-19T06:38:49.306Z",
+      "durationMs": 16863,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 16863ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851111666",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:31.666Z",
+      "completedAt": "2026-06-19T06:38:49.264Z",
+      "durationMs": 17598,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851111666",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851129187",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.053Z",
+      "completedAt": "2026-06-19T06:38:49.187Z",
+      "durationMs": 17134,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 17134ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851111257",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:31.257Z",
+      "completedAt": "2026-06-19T06:38:49.147Z",
+      "durationMs": 17890,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851111257",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851129075",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:31.657Z",
+      "completedAt": "2026-06-19T06:38:49.075Z",
+      "durationMs": 17418,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 17418ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851110853",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:30.853Z",
+      "completedAt": "2026-06-19T06:38:49.038Z",
+      "durationMs": 18185,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851110853",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851128967",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:31.248Z",
+      "completedAt": "2026-06-19T06:38:48.967Z",
+      "durationMs": 17719,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 17719ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851110403",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:30.403Z",
+      "completedAt": "2026-06-19T06:38:48.932Z",
+      "durationMs": 18529,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851110403",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851128858",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:30.840Z",
+      "completedAt": "2026-06-19T06:38:48.858Z",
+      "durationMs": 18018,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 18018ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851109967",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.967Z",
+      "completedAt": "2026-06-19T06:38:48.820Z",
+      "durationMs": 18853,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851109967",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851128749",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:30.390Z",
+      "completedAt": "2026-06-19T06:38:48.748Z",
+      "durationMs": 18358,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 18358ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851109527",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.527Z",
+      "completedAt": "2026-06-19T06:38:48.712Z",
+      "durationMs": 19185,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851109527",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851128629",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.956Z",
+      "completedAt": "2026-06-19T06:38:48.629Z",
+      "durationMs": 18673,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 18673ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851109098",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.098Z",
+      "completedAt": "2026-06-19T06:38:48.584Z",
+      "durationMs": 19486,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851109098",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851128515",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.516Z",
+      "completedAt": "2026-06-19T06:38:48.515Z",
+      "durationMs": 18999,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 18999ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851108646",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:28.646Z",
+      "completedAt": "2026-06-19T06:38:48.473Z",
+      "durationMs": 19827,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851108646",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851128410",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.087Z",
+      "completedAt": "2026-06-19T06:38:48.410Z",
+      "durationMs": 19323,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 19323ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851108218",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:28.218Z",
+      "completedAt": "2026-06-19T06:38:48.234Z",
+      "durationMs": 20016,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851108218",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851128171",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:28.636Z",
+      "completedAt": "2026-06-19T06:38:48.170Z",
+      "durationMs": 19534,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 19534ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "pricing-scan-1781851127920",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.913Z",
+      "completedAt": "2026-06-19T06:38:47.920Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 7"
+    },
+    {
+      "id": "pricing-scan-1781851127873",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.866Z",
+      "completedAt": "2026-06-19T06:38:47.873Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 7"
+    },
+    {
+      "id": "pricing-scan-1781851127824",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.816Z",
+      "completedAt": "2026-06-19T06:38:47.824Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 7"
+    },
+    {
+      "id": "pricing-scan-1781851127773",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.767Z",
+      "completedAt": "2026-06-19T06:38:47.773Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127713",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.707Z",
+      "completedAt": "2026-06-19T06:38:47.713Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127663",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.657Z",
+      "completedAt": "2026-06-19T06:38:47.663Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127616",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.610Z",
+      "completedAt": "2026-06-19T06:38:47.616Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127565",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.559Z",
+      "completedAt": "2026-06-19T06:38:47.565Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127513",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.506Z",
+      "completedAt": "2026-06-19T06:38:47.513Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 7"
+    },
+    {
+      "id": "pricing-scan-1781851127462",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.456Z",
+      "completedAt": "2026-06-19T06:38:47.462Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127413",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.406Z",
+      "completedAt": "2026-06-19T06:38:47.413Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 7"
+    },
+    {
+      "id": "pricing-scan-1781851127361",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.355Z",
+      "completedAt": "2026-06-19T06:38:47.361Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127309",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.303Z",
+      "completedAt": "2026-06-19T06:38:47.309Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127260",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.252Z",
+      "completedAt": "2026-06-19T06:38:47.260Z",
+      "durationMs": 8,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 8"
+    },
+    {
+      "id": "pricing-scan-1781851127207",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.200Z",
+      "completedAt": "2026-06-19T06:38:47.207Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 7"
+    },
+    {
+      "id": "pricing-scan-1781851127152",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.144Z",
+      "completedAt": "2026-06-19T06:38:47.152Z",
+      "durationMs": 8,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 8"
+    },
+    {
+      "id": "pricing-scan-1781851127099",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.093Z",
+      "completedAt": "2026-06-19T06:38:47.099Z",
+      "durationMs": 6,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 6"
+    },
+    {
+      "id": "pricing-scan-1781851127049",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:47.041Z",
+      "completedAt": "2026-06-19T06:38:47.049Z",
+      "durationMs": 7,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 7"
+    },
+    {
+      "id": "pricing-scan-1781851126996",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.988Z",
+      "completedAt": "2026-06-19T06:38:46.996Z",
+      "durationMs": 8,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 8"
+    },
+    {
+      "id": "pricing-scan-1781851126935",
+      "jobType": "catalog-pricing",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.927Z",
+      "completedAt": "2026-06-19T06:38:46.935Z",
+      "durationMs": 8,
+      "status": "success",
+      "summary": "Pricing: 5 products scanned, 5 updated, 0 opportunities",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "scanned: 5 | updated: 5 | rising: 0 | falling: 0 | stable: 5 | opportunities: 0 | avgVolatility: 0 | avgOpportunity: 0 | durationMs: 8"
+    },
+    {
+      "id": "alert-scan-1781851126865",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.852Z",
+      "completedAt": "2026-06-19T06:38:46.865Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 13"
+    },
+    {
+      "id": "alert-scan-1781851126831",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.818Z",
+      "completedAt": "2026-06-19T06:38:46.830Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 12"
+    },
+    {
+      "id": "alert-scan-1781851126796",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.784Z",
+      "completedAt": "2026-06-19T06:38:46.796Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 12"
+    },
+    {
+      "id": "alert-scan-1781851126755",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.744Z",
+      "completedAt": "2026-06-19T06:38:46.755Z",
+      "durationMs": 11,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 11"
+    },
+    {
+      "id": "alert-scan-1781851126722",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.711Z",
+      "completedAt": "2026-06-19T06:38:46.722Z",
+      "durationMs": 11,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 11"
+    },
+    {
+      "id": "alert-scan-1781851126685",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.668Z",
+      "completedAt": "2026-06-19T06:38:46.685Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 17"
+    },
+    {
+      "id": "alert-scan-1781851126645",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.631Z",
+      "completedAt": "2026-06-19T06:38:46.645Z",
+      "durationMs": 14,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 14"
+    },
+    {
+      "id": "alert-scan-1781851126610",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.599Z",
+      "completedAt": "2026-06-19T06:38:46.610Z",
+      "durationMs": 11,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 11"
+    },
+    {
+      "id": "alert-scan-1781851126577",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.563Z",
+      "completedAt": "2026-06-19T06:38:46.577Z",
+      "durationMs": 14,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 14"
+    },
+    {
+      "id": "alert-scan-1781851126540",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.525Z",
+      "completedAt": "2026-06-19T06:38:46.540Z",
+      "durationMs": 15,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 15"
+    },
+    {
+      "id": "alert-scan-1781851126504",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.488Z",
+      "completedAt": "2026-06-19T06:38:46.504Z",
+      "durationMs": 15,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 15"
+    },
+    {
+      "id": "alert-scan-1781851126466",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.455Z",
+      "completedAt": "2026-06-19T06:38:46.466Z",
+      "durationMs": 11,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 11"
+    },
+    {
+      "id": "alert-scan-1781851126435",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.419Z",
+      "completedAt": "2026-06-19T06:38:46.435Z",
+      "durationMs": 15,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 15"
+    },
+    {
+      "id": "alert-scan-1781851126395",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.382Z",
+      "completedAt": "2026-06-19T06:38:46.395Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 13"
+    },
+    {
+      "id": "alert-scan-1781851126359",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.346Z",
+      "completedAt": "2026-06-19T06:38:46.359Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 13"
+    },
+    {
+      "id": "alert-scan-1781851126321",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.305Z",
+      "completedAt": "2026-06-19T06:38:46.321Z",
+      "durationMs": 16,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 16"
+    },
+    {
+      "id": "alert-scan-1781851126279",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.267Z",
+      "completedAt": "2026-06-19T06:38:46.279Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 12"
+    },
+    {
+      "id": "alert-scan-1781851126245",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.233Z",
+      "completedAt": "2026-06-19T06:38:46.245Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 12"
+    },
+    {
+      "id": "alert-scan-1781851126210",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.197Z",
+      "completedAt": "2026-06-19T06:38:46.210Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 13"
+    },
+    {
+      "id": "alert-scan-1781851126174",
+      "jobType": "catalog-alerts",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.160Z",
+      "completedAt": "2026-06-19T06:38:46.174Z",
+      "durationMs": 14,
+      "status": "success",
+      "summary": "Alerts: 0 new, 0 unresolved (0 high)",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "newAlerts: 0 | total: 0 | unresolved: 0 | high: 0 | medium: 0 | low: 0 | durationMs: 14"
+    },
+    {
+      "id": "rec-scan-1781851126082",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.069Z",
+      "completedAt": "2026-06-19T06:38:46.082Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 13"
+    },
+    {
+      "id": "rec-scan-1781851126049",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:46.037Z",
+      "completedAt": "2026-06-19T06:38:46.049Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 12"
+    },
+    {
+      "id": "rec-scan-1781851126015",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.999Z",
+      "completedAt": "2026-06-19T06:38:46.015Z",
+      "durationMs": 16,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 16"
+    },
+    {
+      "id": "rec-scan-1781851125978",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.965Z",
+      "completedAt": "2026-06-19T06:38:45.978Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 13"
+    },
+    {
+      "id": "rec-scan-1781851125942",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.926Z",
+      "completedAt": "2026-06-19T06:38:45.942Z",
+      "durationMs": 16,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 16"
+    },
+    {
+      "id": "rec-scan-1781851125903",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.889Z",
+      "completedAt": "2026-06-19T06:38:45.903Z",
+      "durationMs": 14,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 14"
+    },
+    {
+      "id": "rec-scan-1781851125864",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.841Z",
+      "completedAt": "2026-06-19T06:38:45.864Z",
+      "durationMs": 23,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 23"
+    },
+    {
+      "id": "rec-scan-1781851125821",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.808Z",
+      "completedAt": "2026-06-19T06:38:45.821Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 13"
+    },
+    {
+      "id": "rec-scan-1781851125785",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.771Z",
+      "completedAt": "2026-06-19T06:38:45.785Z",
+      "durationMs": 14,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 14"
+    },
+    {
+      "id": "rec-scan-1781851125748",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.733Z",
+      "completedAt": "2026-06-19T06:38:45.748Z",
+      "durationMs": 15,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 15"
+    },
+    {
+      "id": "rec-scan-1781851125714",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.700Z",
+      "completedAt": "2026-06-19T06:38:45.714Z",
+      "durationMs": 14,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 14"
+    },
+    {
+      "id": "rec-scan-1781851125675",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.659Z",
+      "completedAt": "2026-06-19T06:38:45.675Z",
+      "durationMs": 16,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 16"
+    },
+    {
+      "id": "rec-scan-1781851125639",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.626Z",
+      "completedAt": "2026-06-19T06:38:45.638Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 12"
+    },
+    {
+      "id": "rec-scan-1781851125608",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.598Z",
+      "completedAt": "2026-06-19T06:38:45.608Z",
+      "durationMs": 10,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 10"
+    },
+    {
+      "id": "rec-scan-1781851125584",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.572Z",
+      "completedAt": "2026-06-19T06:38:45.584Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 12"
+    },
+    {
+      "id": "rec-scan-1781851125544",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.527Z",
+      "completedAt": "2026-06-19T06:38:45.544Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 17"
+    },
+    {
+      "id": "rec-scan-1781851125505",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.492Z",
+      "completedAt": "2026-06-19T06:38:45.505Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 13"
+    },
+    {
+      "id": "rec-scan-1781851125467",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.451Z",
+      "completedAt": "2026-06-19T06:38:45.466Z",
+      "durationMs": 15,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 15"
+    },
+    {
+      "id": "rec-scan-1781851125429",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.415Z",
+      "completedAt": "2026-06-19T06:38:45.429Z",
+      "durationMs": 14,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 14"
+    },
+    {
+      "id": "rec-scan-1781851125391",
+      "jobType": "catalog-recommendations",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.378Z",
+      "completedAt": "2026-06-19T06:38:45.391Z",
+      "durationMs": 13,
+      "status": "success",
+      "summary": "Recommendations: 154 processed, 0 excellent, 0 good",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "total: 154 | excellent: 0 | good: 0 | average: 154 | weak: 0 | avgScore: 35 | durationMs: 13"
+    },
+    {
+      "id": "lc-1781851125284",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.284Z",
+      "completedAt": "2026-06-19T06:38:45.303Z",
+      "durationMs": 19,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851125214",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.214Z",
+      "completedAt": "2026-06-19T06:38:45.230Z",
+      "durationMs": 16,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851125146",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.146Z",
+      "completedAt": "2026-06-19T06:38:45.163Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851125082",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.082Z",
+      "completedAt": "2026-06-19T06:38:45.100Z",
+      "durationMs": 18,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851125016",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:45.016Z",
+      "completedAt": "2026-06-19T06:38:45.035Z",
+      "durationMs": 19,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124948",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.948Z",
+      "completedAt": "2026-06-19T06:38:44.965Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124881",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.882Z",
+      "completedAt": "2026-06-19T06:38:44.898Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124807",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.807Z",
+      "completedAt": "2026-06-19T06:38:44.825Z",
+      "durationMs": 18,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124745",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.745Z",
+      "completedAt": "2026-06-19T06:38:44.763Z",
+      "durationMs": 18,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124676",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.676Z",
+      "completedAt": "2026-06-19T06:38:44.694Z",
+      "durationMs": 18,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124604",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.604Z",
+      "completedAt": "2026-06-19T06:38:44.623Z",
+      "durationMs": 19,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124540",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.540Z",
+      "completedAt": "2026-06-19T06:38:44.557Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124472",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.472Z",
+      "completedAt": "2026-06-19T06:38:44.489Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124405",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.405Z",
+      "completedAt": "2026-06-19T06:38:44.423Z",
+      "durationMs": 18,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124336",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.336Z",
+      "completedAt": "2026-06-19T06:38:44.354Z",
+      "durationMs": 18,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124263",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.263Z",
+      "completedAt": "2026-06-19T06:38:44.280Z",
+      "durationMs": 17,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124194",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.194Z",
+      "completedAt": "2026-06-19T06:38:44.214Z",
+      "durationMs": 20,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124122",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.122Z",
+      "completedAt": "2026-06-19T06:38:44.141Z",
+      "durationMs": 19,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851124060",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:44.060Z",
+      "completedAt": "2026-06-19T06:38:44.079Z",
+      "durationMs": 19,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "lc-1781851123978",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "startedAt": "2026-06-19T06:38:43.978Z",
+      "completedAt": "2026-06-19T06:38:44.003Z",
+      "durationMs": 25,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "mcf-1781851107798",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:27.798Z",
+      "completedAt": "2026-06-19T06:38:43.775Z",
+      "durationMs": 15977,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851107798",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851123701",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:28.208Z",
+      "completedAt": "2026-06-19T06:38:43.701Z",
+      "durationMs": 15493,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15493ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851107370",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:27.370Z",
+      "completedAt": "2026-06-19T06:38:43.661Z",
+      "durationMs": 16291,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851107370",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851123595",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:27.789Z",
+      "completedAt": "2026-06-19T06:38:43.595Z",
+      "durationMs": 15806,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 15806ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851106921",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:26.921Z",
+      "completedAt": "2026-06-19T06:38:43.557Z",
+      "durationMs": 16636,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851106921",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851123487",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:27.355Z",
+      "completedAt": "2026-06-19T06:38:43.487Z",
+      "durationMs": 16132,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 16132ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851106496",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:26.496Z",
+      "completedAt": "2026-06-19T06:38:43.451Z",
+      "durationMs": 16955,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851106496",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851123383",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:26.906Z",
+      "completedAt": "2026-06-19T06:38:43.383Z",
+      "durationMs": 16476,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 16476ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "mcf-1781851105721",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:25.721Z",
+      "completedAt": "2026-06-19T06:38:43.336Z",
+      "durationMs": 17615,
+      "status": "failed",
+      "summary": "Multi-Category Fill: 2 categorías, 0 productos admitidos.",
+      "notes": "categoriesProcessed: 2, categoriesResolved: 0, totalAdmitted: 0, remainingDeficits: 16, refreshedPools: hogar, warnings: 0, pipelineId: mcf-1781851105721",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "id": "cd-hogar-1781851123257",
+      "jobType": "catalog-discovery",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:26.244Z",
+      "completedAt": "2026-06-19T06:38:43.257Z",
+      "durationMs": 17013,
+      "status": "partial",
+      "summary": "Amazon Discovery completado — hogar: 0 candidatos guardados.",
+      "notes": "category: hogar, sources: 4, scraped: 0, parsed: 0, validated: 0, saved: 0, duration: 17013ms, qualityAverage: 0, confidenceAverage: 0, conversionRate: 0.0%",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "best-sellers (https://www.amazon.com/Best-Sellers/zgbs/home/) — Timeout after 15000ms",
+        "new-releases (https://www.amazon.com/gp/new-releases/home/) — Timeout after 15000ms",
+        "most-wished (https://www.amazon.com/gp/most-wished-for/home/) — Timeout after 15000ms",
+        "movers-shakers (https://www.amazon.com/gp/movers-and-shakers/home/) — Timeout after 15000ms",
+        "All sources blocked or failed — no HTML to parse",
+        "Candidatos críticos: solo 0 candidatos en hogar"
+      ]
+    },
+    {
+      "id": "cf-1781851122984",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.984Z",
+      "completedAt": "2026-06-19T06:38:43.160Z",
+      "durationMs": 176,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851122984",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851122625",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.625Z",
+      "completedAt": "2026-06-19T06:38:42.824Z",
+      "durationMs": 199,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851122625",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851122289",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:42.289Z",
+      "completedAt": "2026-06-19T06:38:42.467Z",
+      "durationMs": 178,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851122289",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851121929",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.929Z",
+      "completedAt": "2026-06-19T06:38:42.118Z",
+      "durationMs": 189,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851121929",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851121587",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.587Z",
+      "completedAt": "2026-06-19T06:38:41.775Z",
+      "durationMs": 188,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851121587",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851121254",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:41.254Z",
+      "completedAt": "2026-06-19T06:38:41.438Z",
+      "durationMs": 184,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851121254",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851120885",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.885Z",
+      "completedAt": "2026-06-19T06:38:41.085Z",
+      "durationMs": 200,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851120885",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851120551",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.551Z",
+      "completedAt": "2026-06-19T06:38:40.729Z",
+      "durationMs": 178,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851120551",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851120188",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:40.188Z",
+      "completedAt": "2026-06-19T06:38:40.387Z",
+      "durationMs": 199,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851120188",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851119850",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.850Z",
+      "completedAt": "2026-06-19T06:38:40.019Z",
+      "durationMs": 169,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851119850",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851119499",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.499Z",
+      "completedAt": "2026-06-19T06:38:39.681Z",
+      "durationMs": 182,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851119499",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851119166",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:39.166Z",
+      "completedAt": "2026-06-19T06:38:39.361Z",
+      "durationMs": 195,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851119166",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851118826",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.826Z",
+      "completedAt": "2026-06-19T06:38:39.003Z",
+      "durationMs": 177,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851118826",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851118494",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.494Z",
+      "completedAt": "2026-06-19T06:38:38.669Z",
+      "durationMs": 175,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851118494",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851118138",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:38.138Z",
+      "completedAt": "2026-06-19T06:38:38.339Z",
+      "durationMs": 201,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851118138",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851117784",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:37.784Z",
+      "completedAt": "2026-06-19T06:38:37.968Z",
+      "durationMs": 184,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851117784",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851117435",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:37.435Z",
+      "completedAt": "2026-06-19T06:38:37.619Z",
+      "durationMs": 184,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851117435",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851117075",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:37.075Z",
+      "completedAt": "2026-06-19T06:38:37.270Z",
+      "durationMs": 195,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851117075",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851116742",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.742Z",
+      "completedAt": "2026-06-19T06:38:36.910Z",
+      "durationMs": 168,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851116742",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851116388",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.388Z",
+      "completedAt": "2026-06-19T06:38:36.581Z",
+      "durationMs": 193,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851116388",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851116005",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:36.005Z",
+      "completedAt": "2026-06-19T06:38:36.204Z",
+      "durationMs": 199,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851116005",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851115672",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.672Z",
+      "completedAt": "2026-06-19T06:38:35.851Z",
+      "durationMs": 179,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851115672",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851115298",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:35.298Z",
+      "completedAt": "2026-06-19T06:38:35.522Z",
+      "durationMs": 224,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851115298",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851114921",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.921Z",
+      "completedAt": "2026-06-19T06:38:35.123Z",
+      "durationMs": 202,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851114921",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851114521",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.521Z",
+      "completedAt": "2026-06-19T06:38:34.736Z",
+      "durationMs": 215,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851114521",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851114129",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:34.129Z",
+      "completedAt": "2026-06-19T06:38:34.345Z",
+      "durationMs": 216,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851114129",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851113736",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:33.736Z",
+      "completedAt": "2026-06-19T06:38:33.959Z",
+      "durationMs": 223,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851113736",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851113355",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:33.355Z",
+      "completedAt": "2026-06-19T06:38:33.565Z",
+      "durationMs": 210,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851113355",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851112957",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.957Z",
+      "completedAt": "2026-06-19T06:38:33.173Z",
+      "durationMs": 216,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851112957",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851112579",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.579Z",
+      "completedAt": "2026-06-19T06:38:32.780Z",
+      "durationMs": 201,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851112579",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851112157",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:32.157Z",
+      "completedAt": "2026-06-19T06:38:32.376Z",
+      "durationMs": 219,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851112157",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851111765",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:31.765Z",
+      "completedAt": "2026-06-19T06:38:31.988Z",
+      "durationMs": 223,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851111765",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851111373",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:31.373Z",
+      "completedAt": "2026-06-19T06:38:31.595Z",
+      "durationMs": 222,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851111373",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851110957",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:30.957Z",
+      "completedAt": "2026-06-19T06:38:31.166Z",
+      "durationMs": 209,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851110957",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851110537",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:30.537Z",
+      "completedAt": "2026-06-19T06:38:30.772Z",
+      "durationMs": 235,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851110537",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851110090",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:30.090Z",
+      "completedAt": "2026-06-19T06:38:30.324Z",
+      "durationMs": 234,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851110090",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851109648",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.648Z",
+      "completedAt": "2026-06-19T06:38:29.890Z",
+      "durationMs": 242,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851109648",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851109210",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:29.210Z",
+      "completedAt": "2026-06-19T06:38:29.438Z",
+      "durationMs": 228,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851109210",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851108776",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:28.776Z",
+      "completedAt": "2026-06-19T06:38:29.022Z",
+      "durationMs": 246,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851108776",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851108322",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:28.322Z",
+      "completedAt": "2026-06-19T06:38:28.565Z",
+      "durationMs": 243,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851108322",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851107914",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:27.914Z",
+      "completedAt": "2026-06-19T06:38:28.144Z",
+      "durationMs": 230,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851107914",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851107488",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:27.488Z",
+      "completedAt": "2026-06-19T06:38:27.714Z",
+      "durationMs": 226,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851107488",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851107035",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:27.035Z",
+      "completedAt": "2026-06-19T06:38:27.290Z",
+      "durationMs": 255,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851107035",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851106617",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:26.617Z",
+      "completedAt": "2026-06-19T06:38:26.835Z",
+      "durationMs": 218,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851106617",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cf-1781851105898",
+      "jobType": "catalog-fill",
+      "trigger": "manual",
+      "startedAt": "2026-06-19T06:38:25.898Z",
+      "completedAt": "2026-06-19T06:38:26.125Z",
+      "durationMs": 227,
+      "status": "failed",
+      "summary": "Catalog Fill completado.",
+      "notes": "category: bebes, minimum: 20, current: 9, initialDeficit: 11, found: 74, validated: 0, admitted: 0, remainingDeficit: 11, iterations: 1, pipelineId: cf-1781851105898",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [
+          "B076FKWJSL"
+        ],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "Déficit no resuelto: 11 productos faltantes en bebes."
+      ]
+    },
+    {
+      "id": "cycle-mqkk0184-nc884t",
+      "jobType": "cycle-3am",
+      "trigger": "scheduled",
+      "pipelineId": "cycle-mqkk0184-nc884t",
+      "startedAt": "2026-06-19T06:34:28.276Z",
+      "completedAt": "2026-06-19T06:34:49.287Z",
+      "durationMs": 21011,
+      "status": "success",
+      "summary": "Ciclo 3AM: 6/6 stages ejecutadas, 6 exitosas.",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": [
+          "B01HMWWLCI",
+          "B0D6C6GS58",
+          "B09PQF39PG",
+          "B0C3PDTYYX",
+          "B088BZTYFP",
+          "B07H76BZW8",
+          "B0D89V1RX1",
+          "B0BVZFQ4DF",
+          "B073WJMKHN",
+          "B0GC8SZL6Y",
+          "B0CGRGRXPY",
+          "B08N9Q24M9",
+          "B009HBKQ16",
+          "B0F2WPH4PF",
+          "B07773PQG7",
+          "B08C7YS3YW",
+          "B0FK1MWXCW",
+          "B08QXJ31WR",
+          "B0BJV68C17",
+          "B017AGGBTU",
+          "B0DR9GN2PM",
+          "B01LP0U5X0",
+          "B0731DWW5K",
+          "B0DR9ML5X9",
+          "B07P95K1ZT",
+          "B07N6ZL6J3",
+          "B0BZZSC2J2",
+          "B00ITWI74W",
+          "B08X6VQBGJ",
+          "B0167U8H9W",
+          "B071V91LGC",
+          "B07518RBH2",
+          "B0DHT5XZR1",
+          "B0B7CJT5SP",
+          "B08MY13HYC",
+          "B0DGHBV6XS",
+          "B0791F4VC2",
+          "B079MFSX6Z",
+          "B08412PTS8",
+          "B072FVQNWM",
+          "B01EBDV9BU",
+          "B01AV8PPOQ",
+          "B07N3FYTW5",
+          "B07MCYDD62",
+          "B0B1M6ML2J",
+          "B01N9SPQHQ",
+          "B071RCMQNG",
+          "B09ZKYQMVD",
+          "B093W7CDWD",
+          "B00GDIL0AM",
+          "B00BAGTNAQ",
+          "B08N6VLJKV",
+          "B004IEH6RY",
+          "B089RGDQBB",
+          "B07GL8SLKY",
+          "B01I3DIWDM",
+          "B08QV42S5F",
+          "B0CBVTKP97",
+          "B0CGJG25PV",
+          "B07JHG13WP",
+          "B0BDLGZCTY",
+          "B0C3HYJCWB",
+          "B00O8SZTKQ",
+          "B0BTTNPLF5",
+          "B0BJ13K7FR",
+          "B010OVZO64",
+          "B01845QH7M",
+          "B0964CHD65",
+          "B0081GJ038",
+          "B0GN3G5S58",
+          "B09GM8JZM9",
+          "B09X1CV5SS",
+          "B0GT6Z19FS",
+          "B00UXG4WR8",
+          "B00UB38V2A",
+          "B087279HM1",
+          "B074HLRXMP",
+          "B0882ZJ48W",
+          "B075NS8YXG",
+          "B09TGQYRYT",
+          "B099WTN2TR",
+          "B0757TX3VX",
+          "B0DQHFG94H",
+          "B07TQKT16K",
+          "B0DZ75TN5F",
+          "B07G2KT7FN",
+          "B0B27HX6P7",
+          "B004Q69HIU",
+          "B00CJZ8LAK",
+          "B07FP5X3JH",
+          "B071NFVVNG",
+          "B00VBP8QPO",
+          "B00CK01P2A",
+          "B00C7N7L1E",
+          "B0CQMRKRV5",
+          "B0CFPJYX7P",
+          "B09B8V1LZ3",
+          "B08KW1KR5H",
+          "B0CTNWBT1Z",
+          "B0FQFB8FMG",
+          "B0DGHMNQ5Z",
+          "B0F7Z4QZTT",
+          "B00L1G7K50",
+          "B08412HXK9",
+          "B06ZY9LP74",
+          "B0DR9S2DQR",
+          "B0764HS4SL",
+          "B0FK1C3GDW",
+          "B0FGFPLQFH",
+          "B07TFP7JFH",
+          "B07CMS5Q6P",
+          "B07GBZ4Q68",
+          "B0CXGTGPZQ",
+          "B0C3BV19Q3",
+          "B0CYWFH5Y9",
+          "B07D323MFZ",
+          "B005OB3E30",
+          "B001650NNW",
+          "B072DTFZHL",
+          "B00CU2CMOI",
+          "B001STX13U",
+          "B09541P9WH",
+          "B08KT2Z93D",
+          "B071914GGL",
+          "B00U2VQZDS",
+          "B07PBXXNCY",
+          "B01FV0F8H8",
+          "B00006IFHD",
+          "B000J07BRQ",
+          "B001AFL8GY",
+          "B07R8D1RHS",
+          "B0CRMYHY1B",
+          "B00S93EQUK",
+          "B08J8GZXKZ",
+          "B0DR9PJNSK",
+          "B00ITWI0VC",
+          "B0GFBC33B9",
+          "B00E632SZW",
+          "B076FKWJSL",
+          "B01HMWWLCI",
+          "B0D6C6GS58",
+          "B09PQF39PG",
+          "B0C3PDTYYX"
+        ]
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": ""
+    },
+    {
+      "id": "stage-6-mqkk0hfd-yu5x",
+      "jobType": "repair",
+      "trigger": "pipeline",
+      "pipelineId": "cycle-mqkk0184-nc884t",
+      "startedAt": "2026-06-19T06:34:49.269Z",
+      "completedAt": "2026-06-19T06:34:49.273Z",
+      "durationMs": 4,
+      "status": "success",
+      "summary": "Repair: 0 processed, 0 auto-repaired, 0 manual-review, 0 no-candidate, 0 needs-paapi. durationMs=1.",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": ""
+    },
+    {
+      "id": "stage-5-mqkk0hes-dr0x",
+      "jobType": "colombia-audit",
+      "trigger": "pipeline",
+      "pipelineId": "cycle-mqkk0184-nc884t",
+      "startedAt": "2026-06-19T06:34:49.244Z",
+      "completedAt": "2026-06-19T06:34:49.252Z",
+      "durationMs": 8,
+      "status": "success",
+      "summary": "Colombia-audit: 99 resolved from catalog, 0 live-checked, 99 available, 0 unavailable. autoQuarantined=0. durationMs=5.",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": ""
+    },
+    {
+      "id": "stage-4-mqkk0hdy-dtjs",
+      "jobType": "link-audit",
+      "trigger": "pipeline",
+      "pipelineId": "cycle-mqkk0184-nc884t",
+      "startedAt": "2026-06-19T06:34:44.461Z",
+      "completedAt": "2026-06-19T06:34:49.222Z",
+      "durationMs": 4761,
+      "status": "success",
+      "summary": "Link-audit: 15 checked, 1 alive, 0 dead, 14 rate-limited. autoQuarantined=0. durationMs=4757.",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [
+        "14 products rate-limited by Amazon — not suppressed"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "stage-3-mqkk0dpe-amrw",
+      "jobType": "live-truth",
+      "trigger": "pipeline",
+      "pipelineId": "cycle-mqkk0184-nc884t",
+      "startedAt": "2026-06-19T06:34:28.408Z",
+      "completedAt": "2026-06-19T06:34:44.450Z",
+      "durationMs": 16042,
+      "status": "success",
+      "summary": "Live-truth: 5/5 validated, 4 flagged. avgScore=63. queueSize=154. durationMs=16041.",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": [
+          "B01HMWWLCI",
+          "B0D6C6GS58",
+          "B09PQF39PG",
+          "B0C3PDTYYX"
+        ]
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": ""
+    },
+    {
+      "id": "stage-2-mqkk01bl-ompw",
+      "jobType": "self-healing",
+      "trigger": "pipeline",
+      "pipelineId": "cycle-mqkk0184-nc884t",
+      "startedAt": "2026-06-19T06:34:28.317Z",
+      "completedAt": "2026-06-19T06:34:28.401Z",
+      "durationMs": 84,
+      "status": "success",
+      "summary": "Self-healing: 0 suppressed, 0 recovered, 0 drift-repaired, 139 stale flagged. durationMs=80.",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": [
+          "B01HMWWLCI",
+          "B0D6C6GS58",
+          "B09PQF39PG",
+          "B0C3PDTYYX",
+          "B088BZTYFP",
+          "B07H76BZW8",
+          "B0D89V1RX1",
+          "B0BVZFQ4DF",
+          "B073WJMKHN",
+          "B0GC8SZL6Y",
+          "B0CGRGRXPY",
+          "B08N9Q24M9",
+          "B009HBKQ16",
+          "B0F2WPH4PF",
+          "B07773PQG7",
+          "B08C7YS3YW",
+          "B0FK1MWXCW",
+          "B08QXJ31WR",
+          "B0BJV68C17",
+          "B017AGGBTU",
+          "B0DR9GN2PM",
+          "B01LP0U5X0",
+          "B0731DWW5K",
+          "B0DR9ML5X9",
+          "B07P95K1ZT",
+          "B07N6ZL6J3",
+          "B0BZZSC2J2",
+          "B00ITWI74W",
+          "B08X6VQBGJ",
+          "B0167U8H9W",
+          "B071V91LGC",
+          "B07518RBH2",
+          "B0DHT5XZR1",
+          "B0B7CJT5SP",
+          "B08MY13HYC",
+          "B0DGHBV6XS",
+          "B0791F4VC2",
+          "B079MFSX6Z",
+          "B08412PTS8",
+          "B072FVQNWM",
+          "B01EBDV9BU",
+          "B01AV8PPOQ",
+          "B07N3FYTW5",
+          "B07MCYDD62",
+          "B0B1M6ML2J",
+          "B01N9SPQHQ",
+          "B071RCMQNG",
+          "B09ZKYQMVD",
+          "B093W7CDWD",
+          "B00GDIL0AM",
+          "B00BAGTNAQ",
+          "B08N6VLJKV",
+          "B004IEH6RY",
+          "B089RGDQBB",
+          "B07GL8SLKY",
+          "B01I3DIWDM",
+          "B08QV42S5F",
+          "B0CBVTKP97",
+          "B0CGJG25PV",
+          "B07JHG13WP",
+          "B0BDLGZCTY",
+          "B0C3HYJCWB",
+          "B00O8SZTKQ",
+          "B0BTTNPLF5",
+          "B0BJ13K7FR",
+          "B010OVZO64",
+          "B01845QH7M",
+          "B0964CHD65",
+          "B0081GJ038",
+          "B0GN3G5S58",
+          "B09GM8JZM9",
+          "B09X1CV5SS",
+          "B0GT6Z19FS",
+          "B00UXG4WR8",
+          "B00UB38V2A",
+          "B087279HM1",
+          "B074HLRXMP",
+          "B0882ZJ48W",
+          "B075NS8YXG",
+          "B09TGQYRYT",
+          "B099WTN2TR",
+          "B0757TX3VX",
+          "B0DQHFG94H",
+          "B07TQKT16K",
+          "B0DZ75TN5F",
+          "B07G2KT7FN",
+          "B0B27HX6P7",
+          "B004Q69HIU",
+          "B00CJZ8LAK",
+          "B07FP5X3JH",
+          "B071NFVVNG",
+          "B00VBP8QPO",
+          "B00CK01P2A",
+          "B00C7N7L1E",
+          "B0CQMRKRV5",
+          "B0CFPJYX7P",
+          "B09B8V1LZ3",
+          "B08KW1KR5H",
+          "B0CTNWBT1Z",
+          "B0FQFB8FMG",
+          "B0DGHMNQ5Z",
+          "B0F7Z4QZTT",
+          "B00L1G7K50",
+          "B08412HXK9",
+          "B06ZY9LP74",
+          "B0DR9S2DQR",
+          "B0764HS4SL",
+          "B0FK1C3GDW",
+          "B0FGFPLQFH",
+          "B07TFP7JFH",
+          "B07CMS5Q6P",
+          "B07GBZ4Q68",
+          "B0CXGTGPZQ",
+          "B0C3BV19Q3",
+          "B0CYWFH5Y9",
+          "B07D323MFZ",
+          "B005OB3E30",
+          "B001650NNW",
+          "B072DTFZHL",
+          "B00CU2CMOI",
+          "B001STX13U",
+          "B09541P9WH",
+          "B08KT2Z93D",
+          "B071914GGL",
+          "B00U2VQZDS",
+          "B07PBXXNCY",
+          "B01FV0F8H8",
+          "B00006IFHD",
+          "B000J07BRQ",
+          "B001AFL8GY",
+          "B07R8D1RHS",
+          "B0CRMYHY1B",
+          "B00S93EQUK",
+          "B08J8GZXKZ",
+          "B0DR9PJNSK",
+          "B00ITWI0VC",
+          "B0GFBC33B9",
+          "B00E632SZW",
+          "B076FKWJSL"
+        ]
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": ""
+    },
+    {
+      "id": "heal-1781850868357",
+      "jobType": "catalog-lifecycle",
+      "trigger": "pipeline",
+      "pipelineId": "heal-1781850868357",
+      "startedAt": "2026-06-19T06:34:28.357Z",
+      "completedAt": "2026-06-19T06:34:28.369Z",
+      "durationMs": 12,
+      "status": "success",
+      "summary": "Lifecycle: 154 OK, 0 aging, 0 stale, 0 critical",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": "healthy: 154 | aging: 0 | stale: 0 | critical: 0 | refreshNeeded: 0 | replacementNeeded: 0"
+    },
+    {
+      "id": "stage-1-mqkk018y-tbd8",
+      "jobType": "trust-recompute",
+      "trigger": "pipeline",
+      "pipelineId": "cycle-mqkk0184-nc884t",
+      "startedAt": "2026-06-19T06:34:28.288Z",
+      "completedAt": "2026-06-19T06:34:28.306Z",
+      "durationMs": 18,
+      "status": "success",
+      "summary": "Trust recomputed: 99 active, 0 warning, 0 degraded, 0 suppressed. avgScore=89. recoveryCandidates=0.",
+      "actions": {
+        "removed": [],
+        "repaired": [],
+        "suppressed": [],
+        "recovered": [],
+        "flagged": []
+      },
+      "errors": [],
+      "warnings": [],
+      "notes": ""
+    },
     {
       "id": "pricing-scan-1781845547765",
       "jobType": "catalog-pricing",

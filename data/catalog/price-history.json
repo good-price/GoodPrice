@@ -1,0 +1,75 @@
+{
+  "updatedAt": "2026-06-19T06:34:44.438Z",
+  "products": {
+    "B01HMWWLCI": {
+      "asin": "B01HMWWLCI",
+      "firstPrice": 39.98,
+      "latestPrice": 39.98,
+      "lowestPrice": 39.98,
+      "highestPrice": 39.98,
+      "averagePrice": 39.98,
+      "snapshots": [
+        {
+          "price": 39.98,
+          "timestamp": "2026-06-19T06:34:30.259Z"
+        }
+      ]
+    },
+    "B0D6C6GS58": {
+      "asin": "B0D6C6GS58",
+      "firstPrice": 29.74,
+      "latestPrice": 29.74,
+      "lowestPrice": 29.74,
+      "highestPrice": 29.74,
+      "averagePrice": 29.74,
+      "snapshots": [
+        {
+          "price": 29.74,
+          "timestamp": "2026-06-19T06:34:34.032Z"
+        }
+      ]
+    },
+    "B09PQF39PG": {
+      "asin": "B09PQF39PG",
+      "firstPrice": 39.99,
+      "latestPrice": 39.99,
+      "lowestPrice": 39.99,
+      "highestPrice": 39.99,
+      "averagePrice": 39.99,
+      "snapshots": [
+        {
+          "price": 39.99,
+          "timestamp": "2026-06-19T06:34:37.595Z"
+        }
+      ]
+    },
+    "B0C3PDTYYX": {
+      "asin": "B0C3PDTYYX",
+      "firstPrice": 37.47,
+      "latestPrice": 37.47,
+      "lowestPrice": 37.47,
+      "highestPrice": 37.47,
+      "averagePrice": 37.47,
+      "snapshots": [
+        {
+          "price": 37.47,
+          "timestamp": "2026-06-19T06:34:41.509Z"
+        }
+      ]
+    },
+    "B088BZTYFP": {
+      "asin": "B088BZTYFP",
+      "firstPrice": 27.86,
+      "latestPrice": 27.86,
+      "lowestPrice": 27.86,
+      "highestPrice": 27.86,
+      "averagePrice": 27.86,
+      "snapshots": [
+        {
+          "price": 27.86,
+          "timestamp": "2026-06-19T06:34:44.438Z"
+        }
+      ]
+    }
+  }
+}

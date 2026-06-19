@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-06-19T05:05:43.903Z",
+  "updatedAt": "2026-06-19T06:38:55.338Z",
   "categories": {
     "hogar": {
       "category": "hogar",
-      "lastRunAt": "2026-06-19T05:05:43.903Z",
+      "lastRunAt": "2026-06-19T06:38:55.338Z",
       "lastStatus": "failed",
-      "lastDurationMs": 6570,
+      "lastDurationMs": 14851,
       "lastParsed": 0,
       "lastValidated": 0,
       "lastSaved": 0,

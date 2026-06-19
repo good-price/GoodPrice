@@ -1,4 +1,45 @@
 {
-  "updatedAt": "2026-06-19T05:05:47.764Z",
-  "products": {}
+  "updatedAt": "2026-06-19T06:39:03.132Z",
+  "products": {
+    "B01HMWWLCI": {
+      "asin": "B01HMWWLCI",
+      "volatilityScore": 0,
+      "opportunityScore": 0,
+      "trend": "stable",
+      "lastPriceDropAt": null,
+      "totalPriceChanges": 0
+    },
+    "B0D6C6GS58": {
+      "asin": "B0D6C6GS58",
+      "volatilityScore": 0,
+      "opportunityScore": 0,
+      "trend": "stable",
+      "lastPriceDropAt": null,
+      "totalPriceChanges": 0
+    },
+    "B09PQF39PG": {
+      "asin": "B09PQF39PG",
+      "volatilityScore": 0,
+      "opportunityScore": 0,
+      "trend": "stable",
+      "lastPriceDropAt": null,
+      "totalPriceChanges": 0
+    },
+    "B0C3PDTYYX": {
+      "asin": "B0C3PDTYYX",
+      "volatilityScore": 0,
+      "opportunityScore": 0,
+      "trend": "stable",
+      "lastPriceDropAt": null,
+      "totalPriceChanges": 0
+    },
+    "B088BZTYFP": {
+      "asin": "B088BZTYFP",
+      "volatilityScore": 0,
+      "opportunityScore": 0,
+      "trend": "stable",
+      "lastPriceDropAt": null,
+      "totalPriceChanges": 0
+    }
+  }
 }
